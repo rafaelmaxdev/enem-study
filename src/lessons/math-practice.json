@@ -1,0 +1,303 @@
+[
+  {
+    "id": "journey-math-1",
+    "subject": "Matemática",
+    "topic": "Pitágoras e trigonometria",
+    "difficulty": "Fácil",
+    "prompt": "Um pátio retangular mede 6 m por 8 m. Um cabo será instalado em linha reta ligando dois cantos opostos, sem sobras. Qual deve ser o comprimento desse cabo?",
+    "options": [
+      "7 m",
+      "10 m",
+      "12 m",
+      "14 m",
+      "48 m"
+    ],
+    "answer": 1,
+    "source": "author",
+    "sourceName": "Autoral · Jornada ENEM Study",
+    "hint": "A diagonal do retângulo é a hipotenusa de um triângulo formado pelos dois lados do pátio.",
+    "steps": [
+      {
+        "title": "Identificar o triângulo",
+        "text": "Os lados perpendiculares de 6 m e 8 m são catetos; o cabo é a diagonal."
+      },
+      {
+        "title": "Aplicar Pitágoras",
+        "text": "Some os quadrados dos catetos.",
+        "math": "d^2=6^2+8^2=36+64=100"
+      },
+      {
+        "title": "Conferir",
+        "text": "A raiz principal é 10 m. É maior que cada lado e menor que o caminho de 14 m contornando dois lados. Alternativa B."
+      }
+    ],
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "journey-math-2",
+    "subject": "Matemática",
+    "topic": "Pitágoras e trigonometria",
+    "difficulty": "Média",
+    "prompt": "Em um terreno horizontal, uma pessoa está a 20 m da base de uma torre vertical. Seus olhos estão a 1,6 m do chão e o ângulo de elevação até o topo é 45°. Qual é a altura da torre? Considere tan 45°=1.",
+    "options": [
+      "18,4 m",
+      "20,0 m",
+      "21,6 m",
+      "22,0 m",
+      "40,0 m"
+    ],
+    "answer": 2,
+    "source": "author",
+    "sourceName": "Autoral · Jornada ENEM Study",
+    "hint": "Separe a diferença de altura entre os olhos e o topo da altura total da torre.",
+    "steps": [
+      {
+        "title": "Definir a diferença de altura",
+        "text": "Se H é a altura total, o cateto vertical acima dos olhos vale H−1,6."
+      },
+      {
+        "title": "Usar tangente",
+        "text": "O cateto adjacente mede 20 m.",
+        "math": "\\tan45^\\circ=\\frac{H-1,6}{20}=1"
+      },
+      {
+        "title": "Recuperar a altura total",
+        "text": "H−1,6=20, logo H=21,6 m. A resposta 20 m omite a altura dos olhos. Alternativa C."
+      }
+    ],
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "journey-math-3",
+    "subject": "Matemática",
+    "topic": "Pitágoras e trigonometria",
+    "difficulty": "Difícil",
+    "prompt": "Um instrumento de medida, a 1,5 m de altura em um terreno horizontal, observa o topo de uma torre vertical sob ângulo de elevação de 30°. Ele é deslocado 20 m em linha reta em direção à base da torre, sem ultrapassá-la, mantendo a altura de 1,5 m. O novo ângulo de elevação é 60°. Qual a altura da torre, em metros? Considere tan 30°=1/√3 e tan 60°=√3.",
+    "options": [
+      "10√3",
+      "20√3",
+      "10√3+1,5",
+      "21,5",
+      "5√3+1,5"
+    ],
+    "answer": 2,
+    "source": "author",
+    "sourceName": "Autoral · Jornada ENEM Study",
+    "hint": "Represente por d a distância da posição mais próxima à base e use a mesma diferença vertical nas duas observações.",
+    "steps": [
+      {
+        "title": "Montar as duas razões",
+        "text": "Se z é a altura acima do instrumento e d a distância mais próxima, a distância inicial é d+20.",
+        "math": "\\frac{z}{d}=\\sqrt3\\qquad\\frac{z}{d+20}=\\frac1{\\sqrt3}"
+      },
+      {
+        "title": "Igualar z",
+        "text": "d√3=(d+20)/√3. Multiplicando por √3: 3d=d+20, logo d=10 e z=10√3."
+      },
+      {
+        "title": "Conferir e somar a referência",
+        "text": "A posição inicial fica a 30 m e z/30=1/√3. A torre tem H=z+1,5=10√3+1,5 m. Alternativa C."
+      }
+    ],
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "journey-math-4",
+    "subject": "Matemática",
+    "topic": "Geometria analítica",
+    "difficulty": "Fácil",
+    "prompt": "Em um mapa cartesiano de um parque, cada unidade representa 1 km. A entrada fica em A(2,1) e um posto de apoio em B(5,5). Qual é a distância em linha reta entre esses pontos?",
+    "options": [
+      "3 km",
+      "4 km",
+      "5 km",
+      "6 km",
+      "7 km"
+    ],
+    "answer": 2,
+    "source": "author",
+    "sourceName": "Autoral · Jornada ENEM Study",
+    "hint": "Use as diferenças entre coordenadas como catetos de um triângulo retângulo.",
+    "steps": [
+      {
+        "title": "Calcular os deslocamentos",
+        "text": "Δx=5−2=3 km e Δy=5−1=4 km."
+      },
+      {
+        "title": "Calcular a distância direta",
+        "text": "A soma dos quadrados é 9+16=25.",
+        "math": "d=\\sqrt{(5-2)^2+(5-1)^2}=\\sqrt{25}"
+      },
+      {
+        "title": "Interpretar",
+        "text": "A distância direta é 5 km. Somar 3+4 daria um percurso por dois segmentos perpendiculares, não a linha reta. Alternativa C."
+      }
+    ],
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "journey-math-5",
+    "subject": "Matemática",
+    "topic": "Geometria analítica",
+    "difficulty": "Média",
+    "prompt": "Três pontos de monitoramento estão em A(0,0), B(8,0) e C(0,6), em uma malha plana. Um transmissor deve ser colocado em um ponto P do mesmo plano cuja distância aos três pontos seja igual. Quais são as coordenadas de P?",
+    "options": [
+      "(3,4)",
+      "(4,3)",
+      "(4,0)",
+      "(0,3)",
+      "(8,6)"
+    ],
+    "answer": 1,
+    "source": "author",
+    "sourceName": "Autoral · Jornada ENEM Study",
+    "hint": "Iguale as distâncias ao quadrado de P a A e B; depois repita a comparação entre A e C.",
+    "steps": [
+      {
+        "title": "Equidistância de A e B",
+        "text": "Para P=(x,y), x²+y²=(x−8)²+y². Simplificando, 16x=64 e x=4."
+      },
+      {
+        "title": "Equidistância de A e C",
+        "text": "Agora x²+y²=x²+(y−6)². Simplificando, 12y=36 e y=3."
+      },
+      {
+        "title": "Conferir as três distâncias",
+        "text": "De (4,3), a distância a cada ponto é 5: √(16+9)=5. As duas equações determinaram x e y unicamente. Alternativa B."
+      }
+    ],
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "journey-math-6",
+    "subject": "Matemática",
+    "topic": "Geometria analítica",
+    "difficulty": "Difícil",
+    "prompt": "Uma trilha retilínea é representada pela equação y=x+1 em um plano cartesiano. Uma zona circular de proteção tem centro C(1,1) e raio 5 unidades. Um acesso será instalado em um ponto da trilha que esteja exatamente na borda dessa zona e tenha coordenada x positiva. Quais são as coordenadas desse acesso?",
+    "options": [
+      "(3,4)",
+      "(4,5)",
+      "(5,6)",
+      "(−3,−2)",
+      "(−4,−3)"
+    ],
+    "answer": 1,
+    "source": "author",
+    "sourceName": "Autoral · Jornada ENEM Study",
+    "hint": "Substitua a equação da reta na equação da circunferência e só depois aplique a restrição x>0.",
+    "steps": [
+      {
+        "title": "Montar a borda",
+        "text": "A circunferência é (x−1)²+(y−1)²=25. Como y=x+1, temos y−1=x."
+      },
+      {
+        "title": "Resolver",
+        "text": "(x−1)²+x²=25 leva a x²−x−12=0.",
+        "math": "(x-4)(x+3)=0"
+      },
+      {
+        "title": "Aplicar a condição e conferir",
+        "text": "x=4 ou x=−3; apenas 4 é positivo. Então y=5. O ponto (4,5) fica a √(3²+4²)=5 do centro. Alternativa B; (−3,−2) é a outra interseção, excluída pela condição."
+      }
+    ],
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "journey-math-7",
+    "subject": "Matemática",
+    "topic": "Equações e Sistemas",
+    "difficulty": "Fácil",
+    "prompt": "Uma oficina vendeu 15 canecas de dois modelos. A caneca simples custava R$ 12 e a estampada, R$ 18. O valor arrecadado foi de R$ 222. Quantas canecas estampadas foram vendidas?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "answer": 2,
+    "source": "author",
+    "sourceName": "Autoral · Jornada ENEM Study",
+    "hint": "Escreva uma equação para as quantidades e outra para os valores arrecadados, identificando qual variável representa a estampada.",
+    "steps": [
+      {
+        "title": "Definir as variáveis",
+        "text": "Se x conta simples e y conta estampadas, x+y=15 e 12x+18y=222."
+      },
+      {
+        "title": "Eliminar x",
+        "text": "Multiplique a primeira equação por 12 e subtraia da segunda.",
+        "math": "6y=222-180=42"
+      },
+      {
+        "title": "Conferir",
+        "text": "y=7 e x=8. São 15 canecas e 8×12+7×18=96+126=222 reais. Alternativa C."
+      }
+    ],
+    "status": "ready",
+    "verification": "math",
+    "certificate": {
+      "type": "system",
+      "a": 1,
+      "b": 1,
+      "c": 15,
+      "d": 12,
+      "e": 18,
+      "f": 222,
+      "target": "y",
+      "integer": true
+    }
+  },
+  {
+    "id": "journey-math-8",
+    "subject": "Matemática",
+    "topic": "Equações e Sistemas",
+    "difficulty": "Difícil",
+    "prompt": "Um laboratório didático monta apenas lotes inteiros dos tipos A e B. Cada lote A usa 4 frascos e 7 etiquetas; cada lote B usa 7 frascos e 3 etiquetas. Em um dia, foram utilizados exatamente 246 frascos e 264 etiquetas, sem sobra. Quantos lotes do tipo A foram montados?",
+    "options": [
+      "18",
+      "21",
+      "24",
+      "30",
+      "36"
+    ],
+    "answer": 3,
+    "source": "author",
+    "sourceName": "Autoral · Jornada ENEM Study",
+    "hint": "Traduza separadamente o consumo de frascos e etiquetas. Multiplique as equações para eliminar uma incógnita.",
+    "steps": [
+      {
+        "title": "Traduzir os consumos",
+        "text": "x conta lotes A e y conta lotes B. Cada equação representa um material.",
+        "math": "\\begin{cases}4x+7y=246\\\\7x+3y=264\\end{cases}"
+      },
+      {
+        "title": "Eliminar y",
+        "text": "Multiplique a primeira por 3 e a segunda por 7: 12x+21y=738 e 49x+21y=1848. Subtraindo, 37x=1110, portanto x=30."
+      },
+      {
+        "title": "Encontrar B e conferir",
+        "text": "4×30+7y=246 dá y=18. Conferindo: 4×30+7×18=246 frascos e 7×30+3×18=264 etiquetas. O determinante é −37, garantindo solução única; ambas as quantidades são inteiras. Alternativa D."
+      }
+    ],
+    "status": "ready",
+    "verification": "math",
+    "certificate": {
+      "type": "system",
+      "a": 4,
+      "b": 7,
+      "c": 246,
+      "d": 7,
+      "e": 3,
+      "f": 264,
+      "target": "x",
+      "integer": true
+    }
+  }
+]

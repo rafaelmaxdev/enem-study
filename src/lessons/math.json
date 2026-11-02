@@ -1,0 +1,1598 @@
+[
+  {
+    "subject": "Matemática",
+    "topic": "Equações e Sistemas",
+    "title": "Do enunciado às equações",
+    "minutes": 18,
+    "priority": "Fundamento",
+    "why": "Ferramenta para traduzir situações de quantidade, compra e mistura. A prioridade é pedagógica e prepara outros assuntos; não representa uma frequência isolada do levantamento.",
+    "goals": [
+      "Definir incógnitas com significado e unidade.",
+      "Montar equações independentes a partir dos dados.",
+      "Resolver e conferir as condições do problema."
+    ],
+    "sections": [
+      {
+        "title": "Dê nome ao que é desconhecido",
+        "text": "Uma equação expressa uma igualdade; um sistema exige que todas as igualdades sejam verdadeiras ao mesmo tempo. Defina x e y com uma frase: x é o número de pacotes pequenos, por exemplo. Separe os dados de quantidade, preço, massa ou volume. Cada termo de uma equação precisa ter a mesma unidade: não se soma preço com quantidade."
+      },
+      {
+        "title": "Traduza cada informação",
+        "text": "Se há 24 objetos de dois tipos, x+y=24 expressa a quantidade. Se os tipos custam 7 e 4 reais por unidade, 7x+4y expressa o valor arrecadado. Os coeficientes dizem quanto cada objeto contribui. Duas frases que repetem a mesma condição não determinam duas incógnitas."
+      },
+      {
+        "title": "Substituição ou eliminação",
+        "text": "Na substituição, isole uma incógnita na equação mais simples e coloque a expressão na outra. Na eliminação, multiplique equações completas para produzir coeficientes opostos e some, ou coeficientes iguais e subtraia. A operação deve atingir ambos os lados. Depois, volte a uma equação para achar a outra incógnita.",
+        "math": "\\begin{cases}ax+by=c\\\\dx+ey=f\\end{cases}"
+      },
+      {
+        "title": "A solução precisa caber no contexto",
+        "text": "Substitua os valores nas duas equações. Contagens de pessoas ou kits precisam ser inteiras e não negativas. Arredondar uma quantidade fracionária muda os totais. Em duas equações lineares, ae−bd diferente de zero garante uma única solução algébrica. Se for zero, compare as equações: pode não haver solução ou haver infinitas.",
+        "math": "\\Delta=ae-bd"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Pacotes para um evento",
+        "prompt": "Foram comprados 24 pacotes: pequenos com 3 copos e grandes com 5 copos. Ao todo são 94 copos. Quantos pacotes de cada tipo?",
+        "steps": [
+          {
+            "title": "Montar",
+            "text": "Defina x como pacotes pequenos e y como grandes.",
+            "math": "\\begin{cases}x+y=24\\\\3x+5y=94\\end{cases}"
+          },
+          {
+            "title": "Eliminar x",
+            "text": "Multiplique a primeira por 3 e subtraia da segunda: 2y=22. Logo y=11 e x=13."
+          },
+          {
+            "title": "Conferir",
+            "text": "13+11=24 pacotes e 3×13+5×11=94 copos. São inteiros não negativos e a solução é única."
+          }
+        ]
+      },
+      {
+        "title": "Porções pequenas e grandes",
+        "prompt": "Uma banca vendeu 18 porções: pequenas a R$ 7 e grandes a R$ 11. Recebeu R$ 162. Determine as quantidades.",
+        "steps": [
+          {
+            "title": "Isolar",
+            "text": "Se x conta pequenas e y grandes, x+y=18, portanto x=18−y.",
+            "math": "7x+11y=162"
+          },
+          {
+            "title": "Substituir",
+            "text": "7(18−y)+11y=162 dá 126+4y=162. Assim y=9 e x=9."
+          },
+          {
+            "title": "Validar",
+            "text": "9 porções de cada tamanho somam 18 e arrecadam 9×7+9×11=162 reais."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Incógnita tem significado e unidade.",
+      "Cada informação independente pode gerar uma equação.",
+      "Quantidade e contribuição por unidade são dados diferentes.",
+      "Substituição e eliminação devem preservar a igualdade.",
+      "Confira todas as equações e a integralidade de contagens."
+    ],
+    "pitfalls": [
+      "Multiplicar apenas um termo ao usar eliminação.",
+      "Aceitar quantidade fracionária de objetos ou conferir só um total."
+    ],
+    "recall": [
+      {
+        "question": "Uma solução que satisfaz só uma equação resolve o sistema?",
+        "answer": "Não. Precisa satisfazer simultaneamente todas as equações."
+      },
+      {
+        "question": "Se x conta pessoas e o cálculo dá 3,5, basta arredondar?",
+        "answer": "Não. Reveja os dados e o modelo: o arredondamento altera as condições."
+      }
+    ],
+    "practiceTarget": 4,
+    "visual": "system",
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — College Algebra 2e",
+        "url": "https://openstax.org/details/books/college-algebra-2e"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Operações e notação científica",
+    "title": "Organize os números antes de calcular",
+    "minutes": 14,
+    "priority": "Fundamento",
+    "why": "Frações, potências e aproximações atravessam os demais blocos quantitativos. É uma prioridade de base, sem frequência isolada atribuída.",
+    "goals": [
+      "Operar frações e respeitar a ordem das operações.",
+      "Usar potências, raízes e escrita científica.",
+      "Conferir a escala de um resultado."
+    ],
+    "sections": [
+      {
+        "title": "Frações representam divisões",
+        "text": "Uma fração pode ser parte de um todo, razão ou quociente. Para somar, use denominador comum. Na multiplicação, multiplique numeradores e denominadores; na divisão, multiplique pelo inverso da segunda fração, que não pode ser zero. Cancelar fatores de um produto é diferente de cancelar parcelas de uma soma.",
+        "math": "\\frac ab+\\frac cd=\\frac{ad+bc}{bd}"
+      },
+      {
+        "title": "Ordem e sinais",
+        "text": "Resolva agrupamentos, potências e raízes, multiplicações e divisões, depois somas e subtrações. Operações no mesmo nível seguem da esquerda para a direita. −3² vale −9; (−3)² vale 9. A raiz quadrada principal de 9 é 3, embora a equação x²=9 tenha duas soluções."
+      },
+      {
+        "title": "Potências e notação científica",
+        "text": "Produtos de potências de mesma base somam expoentes; quocientes subtraem. A escrita científica é a×10ⁿ, com 1≤|a|<10 para número não nulo. Se o coeficiente não estiver nesse intervalo, ajuste a potência na direção oposta ao ajuste do coeficiente.",
+        "math": "10^m\\cdot10^n=10^{m+n}"
+      },
+      {
+        "title": "Estime antes de calcular",
+        "text": "Se milhões são divididos por milhares, o resultado deve ser da ordem de milhares. Essa previsão detecta erro de vírgula. Não confunda arredondar um número com pedir a potência de dez mais próxima: para esta última convenção, o limiar da mantissa é √10."
+      },
+      {
+        "title": "Divisibilidade e fatoração",
+        "text": "Um número inteiro a divide b quando b/a é inteiro. Decompor um natural em fatores primos ajuda a obter MDC e MMC: no MDC entram fatores comuns com menores expoentes; no MMC,os fatores necessários com maiores expoentes. Por exemplo,12=2²×3 e18=2×3²,logoMDC=6 e MMC=36. Frações podem ser simplificadas por fatores comuns,não por cancelar parcelas de uma soma."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Fração de um tanque",
+        "prompt": "O tanque estava com 3/4 da capacidade. Retiraram 2/5 da capacidade total. Que fração ficou?",
+        "steps": [
+          {
+            "title": "Fixar a referência",
+            "text": "Ambas as frações se referem à capacidade total, não ao volume que estava presente."
+          },
+          {
+            "title": "Subtrair",
+            "text": "Use denominador 20.",
+            "math": "\\frac34-\\frac25=\\frac{15}{20}-\\frac8{20}=\\frac7{20}"
+          },
+          {
+            "title": "Interpretar",
+            "text": "Restam 7/20 da capacidade, ou 35%. Retirar 2/5 do volume presente seria outro problema."
+          }
+        ]
+      },
+      {
+        "title": "Células por volume",
+        "prompt": "Há 2,4×10⁶ células distribuídas igualmente em 3×10² mL. Quantas células há por mL?",
+        "steps": [
+          {
+            "title": "Montar a taxa",
+            "text": "Divida o número de células pelo volume."
+          },
+          {
+            "title": "Separar fatores",
+            "text": "2,4÷3=0,8; a divisão das potências dá 10⁴.",
+            "math": "\\frac{2,4\\times10^6}{3\\times10^2}=0,8\\times10^4"
+          },
+          {
+            "title": "Normalizar",
+            "text": "0,8×10⁴=8×10³ células/mL. Multiplicar 8.000 por 300 recupera 2.400.000."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Soma de frações exige denominador comum.",
+      "Divisão por fração não nula usa o inverso.",
+      "Parênteses definem a base da potência.",
+      "A mantissa normalizada tem módulo entre 1 e 10.",
+      "Estimativa e unidade ajudam a detectar erros."
+    ],
+    "pitfalls": [
+      "Subtrair expoentes ao multiplicar potências de mesma base.",
+      "Confundir fração do total com fração do que sobrou."
+    ],
+    "recall": [
+      {
+        "question": "Quanto valem (−2)² e −2²?",
+        "answer": "Respectivamente, 4 e −4."
+      },
+      {
+        "question": "Como normalizar 0,45×10⁶?",
+        "answer": "4,5×10⁵: o coeficiente aumenta dez vezes e a potência diminui dez vezes."
+      }
+    ],
+    "practiceTarget": 8,
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — Contemporary Mathematics",
+        "url": "https://openstax.org/details/books/contemporary-mathematics"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Razão, proporção e escalas",
+    "title": "Compare grandezas com uma referência",
+    "minutes": 17,
+    "priority": "Alta",
+    "why": "Proporcionalidade direta e indireta lidera o recorte de Matemática do SAS 2009–2025. A ordem também considera os pré-requisitos.",
+    "goals": [
+      "Distinguir proporcionalidade direta e inversa.",
+      "Resolver por taxa unitária e regra de três.",
+      "Relacionar escala linear, áreas e volumes."
+    ],
+    "sections": [
+      {
+        "title": "Razão é comparação por divisão",
+        "text": "Uma razão compara grandezas na ordem informada. Velocidade e preço por quilograma são taxas com unidade. Verifique compatibilidade antes de montar a proporção. Uma razão 2:3 significa duas partes para cada três, não uma diferença fixa de uma unidade."
+      },
+      {
+        "title": "Direta e inversa precisam de justificativa",
+        "text": "Na direta, y/x é constante: dobrar x dobra y. Na inversa, xy é constante: dobrar x reduz y à metade. Mais trabalhadores não garantem proporção inversa com o tempo: isso exige produtividade igual e trabalho divisível, sem gargalos.",
+        "math": "y=kx\\quad\\text{ou}\\quad y=\\frac{k}{x}"
+      },
+      {
+        "title": "Taxa unitária é um caminho seguro",
+        "text": "Descubra o valor correspondente a uma unidade e reconstrua o total. Se 4 kg custam R$ 28, cada kg custa R$ 7 e 6 kg custam R$ 42, mantendo o preço. Em problemas compostos, pense em produção por máquina e por hora, sem decorar setas."
+      },
+      {
+        "title": "Escala não muda área como muda comprimento",
+        "text": "Na escala 1:n, uma unidade no desenho representa n unidades reais, ambas na mesma unidade. Um fator linear k gera área k² e volume k³. Um mapa de denominador menor representa mais detalhe da mesma região.",
+        "math": "E=\\frac{d_{\\text{desenho}}}{d_{\\text{real}}}"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Distância no mapa",
+        "prompt": "Na escala 1:50.000, uma trilha mede 7,2 cm. Qual a distância real?",
+        "steps": [
+          {
+            "title": "Interpretar",
+            "text": "Cada centímetro representa 50.000 cm reais."
+          },
+          {
+            "title": "Multiplicar",
+            "text": "7,2×50.000=360.000 cm."
+          },
+          {
+            "title": "Converter",
+            "text": "360.000 cm=3.600 m=3,6 km. Aplicamos escala de comprimento, não de área."
+          }
+        ]
+      },
+      {
+        "title": "Máquinas iguais",
+        "prompt": "Três máquinas iguais fazem um lote em 8 horas. Cinco máquinas iguais, sem perda de produtividade, levam quanto tempo?",
+        "steps": [
+          {
+            "title": "Fixar o trabalho",
+            "text": "O mesmo lote exige 3×8=24 máquina-horas."
+          },
+          {
+            "title": "Distribuir",
+            "text": "Com cinco máquinas, 5t=24.",
+            "math": "t=\\frac{24}{5}=4,8\\text{ h}"
+          },
+          {
+            "title": "Converter",
+            "text": "0,8 hora corresponde a 48 minutos. O tempo é 4 h 48 min, menor que o inicial."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Razão depende da ordem e da unidade.",
+      "Direta: y/x constante; inversa: xy constante.",
+      "Taxa unitária evita proporções sem sentido.",
+      "Escala usa desenho e realidade na mesma unidade.",
+      "Semelhança: fator k no comprimento, k² na área e k³ no volume."
+    ],
+    "pitfalls": [
+      "Tratar toda relação como diretamente proporcional.",
+      "Ler 4,8 horas como 4 horas e 8 minutos."
+    ],
+    "recall": [
+      {
+        "question": "Se um sólido semelhante dobra todas as dimensões, quanto muda o volume?",
+        "answer": "Multiplica por 2³=8."
+      },
+      {
+        "question": "Mais máquinas e menos tempo sempre são inversamente proporcionais?",
+        "answer": "Só sob hipóteses como mesma produtividade, mesmo trabalho e ausência de gargalos."
+      }
+    ],
+    "practiceTarget": 10,
+    "visual": "proportion",
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — Contemporary Mathematics",
+        "url": "https://openstax.org/details/books/contemporary-mathematics"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Porcentagem e juros",
+    "title": "Percentuais, descontos e crescimento",
+    "minutes": 16,
+    "priority": "Fundamento",
+    "why": "Porcentagens se conectam à proporcionalidade, aos dados e à matemática financeira. A prioridade de base não é um percentual isolado do Raio X.",
+    "goals": [
+      "Identificar a base de cada percentual.",
+      "Compor mudanças por fatores multiplicativos.",
+      "Distinguir juros simples e compostos."
+    ],
+    "sections": [
+      {
+        "title": "A base faz parte da informação",
+        "text": "p% significa p/100 de uma referência. De 80 para 100, o aumento é 20/80=25%; de 100 para 80, a redução é 20/100=20%. De 30% para 40% há 10 pontos percentuais de diferença, mas crescimento relativo de cerca de 33,3% da taxa."
+      },
+      {
+        "title": "Mudanças sucessivas se multiplicam",
+        "text": "Aumento de 12% usa fator 1,12; desconto de 12%, 0,88. Não some taxas se a base muda em cada etapa. Para recuperar o preço anterior a um desconto, divida o preço final pelo fator, em vez de aumentar pela mesma taxa.",
+        "math": "V_f=V_i(1+i_1)(1+i_2)"
+      },
+      {
+        "title": "Juros simples",
+        "text": "A base de cada juro é o capital inicial C. O acréscimo por período é C×i. Taxa mensal pede tempo em meses, e uma taxa anual pede tempo em anos. J é o juro e M é o montante, isto é, capital mais juros.",
+        "math": "J=Cit\\qquad M=C(1+it)"
+      },
+      {
+        "title": "Juros compostos",
+        "text": "A taxa incide sobre o saldo acumulado, que vira a nova base a cada período. Isso produz crescimento exponencial se a taxa é constante. Compare propostas no mesmo prazo e confira taxas adicionais: taxas com períodos diferentes não podem ser comparadas apenas pelo número.",
+        "math": "M=C(1+i)^t"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Aumento seguido de desconto",
+        "prompt": "Um produto de R$ 250 recebe aumento de 20% e depois desconto de 20%. Qual o preço final?",
+        "steps": [
+          {
+            "title": "Aumento",
+            "text": "250×1,20=300 reais."
+          },
+          {
+            "title": "Nova base",
+            "text": "O desconto de 20% agora incide sobre 300.",
+            "math": "V_f=250\\cdot1,2\\cdot0,8=240"
+          },
+          {
+            "title": "Comparar",
+            "text": "Termina R$ 10 abaixo do início, queda de 4%. As mesmas taxas não se anulam."
+          }
+        ]
+      },
+      {
+        "title": "Dois regimes",
+        "prompt": "R$ 1.000 ficam por três meses a 2% ao mês, sem taxas. Compare juros simples e compostos.",
+        "steps": [
+          {
+            "title": "Simples",
+            "text": "O juro mensal é R$ 20; em três meses, R$ 60.",
+            "math": "M_s=1000(1+0,02\\cdot3)=1060"
+          },
+          {
+            "title": "Compostos",
+            "text": "Aplique fator 1,02 três vezes.",
+            "math": "M_c=1000(1,02)^3=1061,208"
+          },
+          {
+            "title": "Arredondar",
+            "text": "O montante composto é aproximadamente R$ 1.061,21. Arredonde no final; a diferença é R$ 1,21."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Identifique a base antes da taxa.",
+      "Aumento p% usa 1+p/100; desconto usa 1−p/100.",
+      "Percentuais sucessivos se multiplicam.",
+      "Juros simples usam capital inicial.",
+      "Juros compostos usam saldo acumulado."
+    ],
+    "pitfalls": [
+      "Somar taxas sucessivas quando a base muda.",
+      "Usar taxa mensal com tempo em anos sem conversão."
+    ],
+    "recall": [
+      {
+        "question": "De 20% para 25%, qual a diferença em pontos percentuais?",
+        "answer": "5 pontos percentuais; o aumento relativo da taxa é 25%."
+      },
+      {
+        "question": "O preço após desconto de 20% é R$ 160. Qual o original?",
+        "answer": "160÷0,8=R$ 200."
+      }
+    ],
+    "practiceTarget": 8,
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — Contemporary Mathematics",
+        "url": "https://openstax.org/details/books/contemporary-mathematics"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Grandezas e unidades",
+    "title": "As unidades também entram na conta",
+    "minutes": 14,
+    "priority": "Alta",
+    "why": "Unidades de medida estão entre os principais temas de Matemática no levantamento SAS e são pré-requisito em Física e Química.",
+    "goals": [
+      "Converter comprimento, área, volume e tempo.",
+      "Conferir fórmulas pela análise dimensional.",
+      "Distinguir medida, capacidade e taxa."
+    ],
+    "sections": [
+      {
+        "title": "Unidade identifica o tipo de medida",
+        "text": "Uma medida tem número e unidade. Só some grandezas compatíveis. Distância dividida por tempo produz velocidade; velocidade vezes tempo produz distância. Coerência dimensional não prova uma fórmula, mas incompatibilidade de unidades denuncia um erro."
+      },
+      {
+        "title": "Áreas e volumes exigem potências",
+        "text": "Cada passo decimal em comprimento tem fator 10; em área, 100; em volume, 1.000. A unidade precisa ser elevada à potência da dimensão. Converter m² para cm² não é aplicar a mesma conversão de m para cm.",
+        "math": "1\\text{ m}^2=10^4\\text{ cm}^2\\qquad1\\text{ m}^3=10^6\\text{ cm}^3"
+      },
+      {
+        "title": "Capacidade e volume",
+        "text": "1 L corresponde a 1 dm³; 1 mL a 1 cm³; 1 m³ a 1.000 L. Se um reservatório está parcialmente ocupado, converta a capacidade total e aplique a fração pedida. Atenção à espessura da parede quando as dimensões fornecidas forem externas."
+      },
+      {
+        "title": "Tempo não é decimal",
+        "text": "Uma hora tem 60 minutos. Para converter km/h para m/s, divida por 3,6; no sentido oposto, multiplique. Escrever os fatores como frações iguais a um permite cancelar unidades e também ajuda em densidade ou consumo.",
+        "math": "1\\text{ km/h}=\\frac{1000}{3600}\\text{ m/s}"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Reservatório",
+        "prompt": "O espaço interno de um reservatório mede 1,2 m×0,5 m×0,4 m. Está com 75% da capacidade. Quantos litros há?",
+        "steps": [
+          {
+            "title": "Volume",
+            "text": "Multiplique as três dimensões.",
+            "math": "V=1,2\\cdot0,5\\cdot0,4=0,24\\text{ m}^3"
+          },
+          {
+            "title": "Capacidade",
+            "text": "0,24 m³=240 L."
+          },
+          {
+            "title": "Ocupação",
+            "text": "75% de 240 L são 180 L. Não confunda conteúdo atual com capacidade total."
+          }
+        ]
+      },
+      {
+        "title": "Distância em segundos",
+        "prompt": "Um veículo mantém 72 km/h durante 25 s. Qual distância percorre?",
+        "steps": [
+          {
+            "title": "Compatibilizar",
+            "text": "72÷3,6=20 m/s."
+          },
+          {
+            "title": "Relacionar",
+            "text": "Velocidade constante vezes tempo dá distância.",
+            "math": "d=20\\cdot25=500\\text{ m}"
+          },
+          {
+            "title": "Conferir",
+            "text": "20 metros por segundo durante 25 segundos correspondem a 500 metros."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Toda medida precisa de unidade.",
+      "1 m²=10.000 cm² e 1 m³=1.000.000 cm³.",
+      "1 L=1 dm³ e 1 mL=1 cm³.",
+      "1 m³=1.000 L.",
+      "km/h para m/s: dividir por 3,6; 1 h=60 min."
+    ],
+    "pitfalls": [
+      "Não elevar o fator de conversão ao quadrado ou ao cubo.",
+      "Somar litros e metros cúbicos antes de converter."
+    ],
+    "recall": [
+      {
+        "question": "Quantos litros há em 0,035 m³?",
+        "answer": "35 litros."
+      },
+      {
+        "question": "Por que 1 m² não são 100 cm²?",
+        "answer": "Porque (100 cm)²=10.000 cm²: a área tem duas dimensões."
+      }
+    ],
+    "practiceTarget": 8,
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — Contemporary Mathematics",
+        "url": "https://openstax.org/details/books/contemporary-mathematics"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Estatística",
+    "title": "Leia os dados e escolha a medida certa",
+    "minutes": 18,
+    "priority": "Alta",
+    "why": "Estatística é o segundo tema do recorte SAS 2009–2025 em Matemática. A leitura de dados também aparece integrada a outros conteúdos.",
+    "goals": [
+      "Calcular média, mediana e moda.",
+      "Ler frequências e gráficos com referência correta.",
+      "Comparar tendência central e dispersão."
+    ],
+    "sections": [
+      {
+        "title": "Gráfico também é texto",
+        "text": "Leia título, eixos, unidade, legenda e período antes dos valores. Barras comparam categorias; linhas mostram variações; setores representam partes de um total. Um eixo vertical que começa acima de zero pode ampliar visualmente diferenças. Frequência absoluta é contagem; relativa é a contagem dividida pelo total."
+      },
+      {
+        "title": "Média simples e ponderada",
+        "text": "Some os valores e divida pela quantidade. Se há pesos ou frequências, cada valor contribui multiplicado pelo peso. Divida pela soma dos pesos. Não tire média simples de médias de grupos de tamanhos diferentes.",
+        "math": "\\bar{x}=\\frac{\\sum x_iw_i}{\\sum w_i}"
+      },
+      {
+        "title": "Mediana e moda",
+        "text": "Ordene os dados. Com quantidade ímpar, a mediana é o termo central; com quantidade par, a média dos dois centrais. Moda é o valor mais frequente: pode haver duas, mais de duas ou nenhuma moda. Um extremo pode alterar muito a média e pouco a mediana."
+      },
+      {
+        "title": "Dispersão",
+        "text": "Duas turmas podem ter média 7 e resultados muito diferentes. Amplitude é máximo menos mínimo. Variância e desvio padrão avaliam espalhamento em torno da média; o desvio padrão tem a mesma unidade dos dados. Estabilidade não é sinônimo de resultado alto."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Salário e valor extremo",
+        "prompt": "Cinco salários, em milhares de reais, são 2,2,3,3 e 15. Determine média, mediana, modas e amplitude.",
+        "steps": [
+          {
+            "title": "Média",
+            "text": "A soma é 25 para cinco pessoas; a média é 5 mil reais."
+          },
+          {
+            "title": "Posição e frequência",
+            "text": "A lista já está ordenada. A mediana é 3; 2 e 3 aparecem duas vezes cada e são as duas modas."
+          },
+          {
+            "title": "Dispersão",
+            "text": "A amplitude é 15−2=13 mil reais. A média é puxada pelo extremo e não representa o salário da maioria."
+          }
+        ]
+      },
+      {
+        "title": "Média entre turmas",
+        "prompt": "Uma turma de 20 alunos teve média 6; outra de 30 teve média 8. Qual a média dos 50 alunos?",
+        "steps": [
+          {
+            "title": "Totais",
+            "text": "As somas de notas são 20×6=120 e 30×8=240."
+          },
+          {
+            "title": "Ponderar",
+            "text": "Use os tamanhos como pesos.",
+            "math": "\\bar{x}=\\frac{20\\cdot6+30\\cdot8}{50}=7,2"
+          },
+          {
+            "title": "Interpretar",
+            "text": "A média fica mais próxima de 8 porque o grupo com média 8 tem mais alunos; a média simples 7 ignoraria isso."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Leia escala, unidade, legenda e base do gráfico.",
+      "Média ponderada usa pesos e divide pela soma deles.",
+      "Mediana exige dados ordenados.",
+      "Moda é frequência, não o maior valor.",
+      "Mesma média não garante mesma dispersão."
+    ],
+    "pitfalls": [
+      "Fazer média de médias sem ponderar pelos tamanhos.",
+      "Encontrar a mediana sem ordenar os dados."
+    ],
+    "recall": [
+      {
+        "question": "Qual a mediana de 1,2,2,9?",
+        "answer": "(2+2)/2=2."
+      },
+      {
+        "question": "Médias iguais implicam desvios padrão iguais?",
+        "answer": "Não. O espalhamento dos valores pode ser diferente."
+      }
+    ],
+    "practiceTarget": 10,
+    "visual": "statistics",
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — Contemporary Mathematics",
+        "url": "https://openstax.org/details/books/contemporary-mathematics"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Probabilidade",
+    "title": "Conte sem inventar independência",
+    "minutes": 18,
+    "priority": "Alta",
+    "why": "Probabilidade está entre os principais temas de Matemática no SAS e se conecta à combinatória e à leitura de dados.",
+    "goals": [
+      "Definir evento e espaço amostral.",
+      "Distinguir união, interseção e condicionamento.",
+      "Reconhecer quando usar independência."
+    ],
+    "sections": [
+      {
+        "title": "Defina os resultados",
+        "text": "Em um espaço equiprovável, a probabilidade é casos favoráveis divididos pelos possíveis. Sem equiprobabilidade, a simples contagem falha: uma moeda viciada tem dois resultados, mas eles não precisam ter a mesma chance.",
+        "math": "P(A)=\\frac{n(A)}{n(\\Omega)}"
+      },
+      {
+        "title": "Complemento e união",
+        "text": "O evento contrário tem chance 1−P(A). Para A ou B, some as probabilidades e subtraia a interseção para não contar duas vezes. Eventos mutuamente exclusivos têm interseção vazia; isso não é o mesmo que independência.",
+        "math": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
+      },
+      {
+        "title": "Condicionar muda o universo",
+        "text": "Quando sabemos que B aconteceu, consideramos somente os casos de B. P(A|B)=P(A∩B)/P(B), para P(B)>0. Em retirada sem reposição, a composição da urna muda, logo a próxima chance depende do que saiu."
+      },
+      {
+        "title": "A regra geral da multiplicação",
+        "text": "P(A∩B)=P(A)×P(B|A). Apenas em eventos independentes podemos usar P(A)P(B). Duas taxas isoladas de falha não determinam a chance de falha simultânea. Em “pelo menos um”, calcular o complemento costuma ser mais curto.",
+        "math": "P(A\\cap B)=P(A)P(B\\mid A)"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Bolas sem reposição",
+        "prompt": "Uma urna contém 3 bolas azuis e 2 vermelhas. Duas saem sem reposição. Qual a chance de ambas serem azuis?",
+        "steps": [
+          {
+            "title": "Primeira chance",
+            "text": "Há 3 azuis entre 5 bolas: 3/5."
+          },
+          {
+            "title": "Atualizar",
+            "text": "Após uma azul sair, restam 2 azuis entre 4 bolas.",
+            "math": "P=\\frac35\\cdot\\frac24=\\frac3{10}"
+          },
+          {
+            "title": "Interpretar",
+            "text": "A chance é 30%. Usar 3/5 duas vezes representaria reposição."
+          }
+        ]
+      },
+      {
+        "title": "Pelo menos uma falha",
+        "prompt": "Cada uma de duas peças independentes tem chance de falha de 10%. Qual a chance de pelo menos uma falhar?",
+        "steps": [
+          {
+            "title": "Complemento",
+            "text": "O contrário de pelo menos uma falha é nenhuma falha."
+          },
+          {
+            "title": "Nenhuma falha",
+            "text": "Cada peça funciona com chance 0,9; a independência permite multiplicar: 0,9²=0,81."
+          },
+          {
+            "title": "Subtrair",
+            "text": "1−0,81=0,19, ou 19%. Somar 10%+10% contaria duas falhas duas vezes."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Contar casos exige equiprobabilidade.",
+      "Complemento: 1−P(A).",
+      "União: some e retire a interseção.",
+      "Condicionamento restringe o universo.",
+      "Use P(A)P(B) só quando houver independência."
+    ],
+    "pitfalls": [
+      "Confundir independência com exclusão mútua.",
+      "Manter a mesma chance em retirada sem reposição."
+    ],
+    "recall": [
+      {
+        "question": "Duas probabilidades marginais determinam a chance conjunta?",
+        "answer": "Não. É necessária uma informação sobre dependência ou probabilidade condicional."
+      },
+      {
+        "question": "Qual o complemento de “pelo menos um acerto”?",
+        "answer": "Nenhum acerto; não é pelo menos um erro."
+      }
+    ],
+    "practiceTarget": 10,
+    "visual": "probability",
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — Contemporary Mathematics",
+        "url": "https://openstax.org/details/books/contemporary-mathematics"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Análise Combinatória",
+    "title": "Escolha a contagem antes da fórmula",
+    "minutes": 18,
+    "priority": "Alta",
+    "why": "Análise combinatória figura entre os principais temas de Matemática do SAS e fornece ferramentas para probabilidade.",
+    "goals": [
+      "Usar princípios multiplicativo e aditivo.",
+      "Distinguir escolhas com e sem ordem.",
+      "Tratar restrições e repetições."
+    ],
+    "sections": [
+      {
+        "title": "Etapas sucessivas se multiplicam",
+        "text": "Se uma escolha tem 3 opções e cada uma admite 4 continuações, há 12 caminhos. Casos separados que não ocorrem juntos podem ser somados. Escreva posições ou etapas antes da conta, sobretudo quando cada posição tem uma restrição diferente."
+      },
+      {
+        "title": "A ordem muda o resultado?",
+        "text": "Se trocar os escolhidos de posição cria um resultado novo, conte arranjos; se o grupo permanece o mesmo, combinações. Escolher presidente e vice é diferente de escolher dois membros sem cargos. Sem repetição, o número de opções cai a cada escolha.",
+        "math": "A_{n,p}=\\frac{n!}{(n-p)!}\\qquad C_{n,p}=\\frac{n!}{p!(n-p)!}"
+      },
+      {
+        "title": "Permutações e objetos iguais",
+        "text": "Ordenar n objetos distintos dá n!. Havendo objetos indistinguíveis repetidos, divida pelos fatoriais das repetições. Não aplique essa regra automaticamente a senhas com repetição livre: escolhas independentes por posição geralmente levam a uma potência.",
+        "math": "P=\\frac{n!}{r_1!r_2!\\cdots r_k!}"
+      },
+      {
+        "title": "Comece pelas restrições",
+        "text": "Zero não pode iniciar um número de três algarismos, mas pode iniciar um código se permitido. Paridade restringe a última posição. Se uma escolha muda as opções das demais, separe em casos e confira se eles não se sobrepõem."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Comissão sem cargos",
+        "prompt": "Escolha uma comissão de 3 pessoas entre 7 voluntários. Não há cargos. Quantas comissões existem?",
+        "steps": [
+          {
+            "title": "Identificar a ordem",
+            "text": "A mesma comissão pode ser listada em seis ordens; essas listas não são grupos diferentes."
+          },
+          {
+            "title": "Contar",
+            "text": "Há 7×6×5 listas, divididas por 3!.",
+            "math": "C_{7,3}=\\frac{7\\cdot6\\cdot5}{6}=35"
+          },
+          {
+            "title": "Comparar",
+            "text": "São 35 comissões. Com três cargos distintos, seriam 210 escolhas, pois a ordem importaria."
+          }
+        ]
+      },
+      {
+        "title": "Código numérico",
+        "prompt": "Um código tem três algarismos distintos de 0 a 9, e zero pode aparecer no início. Quantos códigos há?",
+        "steps": [
+          {
+            "title": "Primeira posição",
+            "text": "São 10 escolhas, inclusive zero."
+          },
+          {
+            "title": "Continuar",
+            "text": "Sem repetição, a segunda tem 9 opções e a terceira, 8.",
+            "math": "N=10\\cdot9\\cdot8=720"
+          },
+          {
+            "title": "Interpretar",
+            "text": "São 720 códigos. Se fosse um número de três algarismos, seriam 9×9×8=648 por causa do zero inicial."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Etapas sucessivas usam multiplicação.",
+      "Casos separados podem usar soma, sem duplicações.",
+      "Pergunte se a ordem altera o resultado.",
+      "Combinação remove a ordem dividindo por p!.",
+      "Zero inicial depende de ser código ou número."
+    ],
+    "pitfalls": [
+      "Usar combinação para cargos diferentes.",
+      "Somar casos sobrepostos sem descontar interseção."
+    ],
+    "recall": [
+      {
+        "question": "Capitão e vice entre 5 pessoas: combinação?",
+        "answer": "Não. São cargos distintos: 5×4=20."
+      },
+      {
+        "question": "Quantos anagramas distintos tem ARARA?",
+        "answer": "5!/(3!2!)=10, pelas três letras A e duas R iguais."
+      }
+    ],
+    "practiceTarget": 10,
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — Contemporary Mathematics",
+        "url": "https://openstax.org/details/books/contemporary-mathematics"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Funções e Gráficos",
+    "title": "Conecte expressão, tabela e gráfico",
+    "minutes": 20,
+    "priority": "Alta",
+    "why": "Funções estão entre os principais temas do SAS. Ler gráficos também sustenta Estatística e a modelagem em Natureza.",
+    "goals": [
+      "Interpretar domínio, imagem e variação.",
+      "Reconhecer modelos afins e quadráticos.",
+      "Relacionar taxas, interceptos e extremos ao enunciado."
+    ],
+    "sections": [
+      {
+        "title": "Função tem entradas permitidas",
+        "text": "Cada entrada do domínio deve ter uma única saída. O domínio depende da expressão e do contexto: quantidade de produtos pode admitir só inteiros não negativos. Leia os eixos e as unidades; não presuma que o eixo horizontal representa tempo."
+      },
+      {
+        "title": "Afim: taxa e valor inicial",
+        "text": "Em f(x)=ax+b, a é a variação por unidade de x e b é o valor em x=0, se esse ponto fizer parte do domínio. a>0 indica crescimento e a<0, decréscimo. A interseção de dois gráficos indica igualdade das saídas na mesma entrada.",
+        "math": "a=\\frac{f(x_2)-f(x_1)}{x_2-x_1}"
+      },
+      {
+        "title": "Quadrática: concavidade e vértice",
+        "text": "Em f(x)=ax²+bx+c, a≠0, o gráfico é uma parábola. Se a>0 há mínimo; se a<0 há máximo. O eixo de simetria passa pelo x do vértice. Raízes são entradas com saída zero; elas podem não existir no domínio do problema.",
+        "math": "x_v=-\\frac{b}{2a}\\qquad y_v=f(x_v)"
+      },
+      {
+        "title": "Não extrapole sem justificativa",
+        "text": "Uma função pode modelar uma situação apenas num intervalo. Um vértice fora do intervalo não dá o máximo ou mínimo naquele trecho: compare as fronteiras. Distinga a altura do gráfico de sua inclinação; uma informa o valor e a outra, a taxa de mudança."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Planos de entrega",
+        "prompt": "O plano A custa R$ 18 fixos mais R$ 4 por entrega. O B cobra R$ 6 por entrega. Quando custam o mesmo?",
+        "steps": [
+          {
+            "title": "Modelar",
+            "text": "Para n entregas, A(n)=18+4n e B(n)=6n."
+          },
+          {
+            "title": "Igualar",
+            "text": "18+4n=6n leva a n=9."
+          },
+          {
+            "title": "Comparar",
+            "text": "Ambos custam R$ 54 em 9 entregas. Acima disso, A fica mais barato por ter menor taxa por entrega."
+          }
+        ]
+      },
+      {
+        "title": "Altura máxima",
+        "prompt": "A altura de um objeto é h(t)=−5t²+20t, em metros, de 0 a 4 s. Qual a altura máxima?",
+        "steps": [
+          {
+            "title": "Concavidade",
+            "text": "a=−5, então o vértice é um máximo."
+          },
+          {
+            "title": "Instante",
+            "text": "t=−20/(2×−5)=2 s, que pertence ao intervalo.",
+            "math": "t_v=-\\frac{20}{-10}=2"
+          },
+          {
+            "title": "Altura",
+            "text": "h(2)=−5×4+20×2=20 m. h(0)=h(4)=0 confirma a simetria."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Domínio são as entradas permitidas.",
+      "Função afim tem taxa constante a e intercepto b.",
+      "Raiz é onde a saída é zero.",
+      "Quadrática: o sinal de a define concavidade.",
+      "Confira intervalo e unidades antes de interpretar."
+    ],
+    "pitfalls": [
+      "Confundir maior x com maior saída.",
+      "Usar o vértice sem conferir o domínio."
+    ],
+    "recall": [
+      {
+        "question": "Qual a taxa de uma reta horizontal?",
+        "answer": "Zero: a saída não muda."
+      },
+      {
+        "question": "Em uma parábola com a>0, o vértice é máximo?",
+        "answer": "Não. É mínimo; com a<0, é máximo."
+      }
+    ],
+    "practiceTarget": 12,
+    "visual": "graph",
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — College Algebra 2e",
+        "url": "https://openstax.org/details/books/college-algebra-2e"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Geometria plana",
+    "title": "Desenhe e decomponha as áreas",
+    "minutes": 19,
+    "priority": "Alta",
+    "why": "Geometria plana é o terceiro tema de Matemática no recorte SAS, com problemas de áreas, medidas e figuras compostas.",
+    "goals": [
+      "Distinguir perímetro e área.",
+      "Calcular áreas simples e compostas.",
+      "Usar semelhança e propriedades angulares."
+    ],
+    "sections": [
+      {
+        "title": "Perímetro não é área",
+        "text": "Perímetro é comprimento da fronteira; área mede superfície. Usam unidades lineares e quadradas, respectivamente. Mesmo perímetro não garante mesma área. Em regiões vazadas, subtraia áreas, mas confira quais fronteiras contam para cerca ou acabamento."
+      },
+      {
+        "title": "A altura é perpendicular",
+        "text": "Retângulo e paralelogramo têm área base×altura. Triângulo tem metade desse produto; trapézio usa a média das bases paralelas vezes a altura. Um lado inclinado não é necessariamente altura.",
+        "math": "A_\\triangle=\\frac{bh}{2}\\qquad A_{\\text{trap}}=\\frac{(B+b)h}{2}"
+      },
+      {
+        "title": "Círculo e setor",
+        "text": "Raio r dá área πr² e circunferência 2πr; diâmetro é 2r. Um setor central de θ graus ocupa θ/360 do círculo. Dobrar o raio quadruplica a área, não apenas dobra.",
+        "math": "A_{\\text{setor}}=\\frac{\\theta}{360^\\circ}\\pi r^2"
+      },
+      {
+        "title": "Decomposição e semelhança",
+        "text": "Divida figuras em partes conhecidas, sem sobrepor contagens. Figuras semelhantes têm ângulos correspondentes iguais e lados proporcionais; a razão entre áreas é o quadrado da razão entre lados. Os ângulos internos de um triângulo somam 180°; os de um polígono simples de n lados somam (n−2)×180°."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Calçada ao redor do jardim",
+        "prompt": "Um jardim de 8 m×5 m recebe calçada de 1 m por fora em todos os lados. Qual a área da calçada?",
+        "steps": [
+          {
+            "title": "Dimensões externas",
+            "text": "A largura aumenta nos dois lados: o contorno externo mede 10 m×7 m."
+          },
+          {
+            "title": "Áreas",
+            "text": "A área externa é 70 m² e o jardim, 40 m²."
+          },
+          {
+            "title": "Subtrair",
+            "text": "A calçada ocupa 30 m².",
+            "math": "A=10\\cdot7-8\\cdot5=30\\text{ m}^2"
+          }
+        ]
+      },
+      {
+        "title": "Setor circular",
+        "prompt": "Um canteiro ocupa setor de raio 6 m e ângulo central de 120°. Qual sua área?",
+        "steps": [
+          {
+            "title": "Fração do círculo",
+            "text": "120/360=1/3."
+          },
+          {
+            "title": "Círculo completo",
+            "text": "π×6²=36π m²."
+          },
+          {
+            "title": "Setor",
+            "text": "Um terço vale 12π m², aproximadamente 37,68 m² se π=3,14.",
+            "math": "A=\\frac13\\cdot36\\pi=12\\pi\\text{ m}^2"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Perímetro usa unidade linear; área, quadrada.",
+      "Altura é perpendicular à base.",
+      "Decomponha sem contar regiões duas vezes.",
+      "Círculo: πr²; circunferência: 2πr.",
+      "Semelhança linear k implica área k²."
+    ],
+    "pitfalls": [
+      "Usar diâmetro como raio.",
+      "Aplicar razão linear diretamente à área."
+    ],
+    "recall": [
+      {
+        "question": "Se os lados do quadrado triplicam, a área muda como?",
+        "answer": "Multiplica por 9; o perímetro, por 3."
+      },
+      {
+        "question": "Triângulo de base 10 e altura 6: área?",
+        "answer": "10×6/2=30 unidades quadradas."
+      }
+    ],
+    "practiceTarget": 12,
+    "visual": "geometry",
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — Contemporary Mathematics",
+        "url": "https://openstax.org/details/books/contemporary-mathematics"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Geometria espacial",
+    "title": "Volume, superfície e capacidade",
+    "minutes": 19,
+    "priority": "Alta",
+    "why": "Geometria espacial e volume são destaques do SAS. São categorias relacionadas: não somamos suas frequências como se fossem independentes.",
+    "goals": [
+      "Reconhecer sólidos e planificações.",
+      "Calcular volume e área conforme a pergunta.",
+      "Relacionar capacidade e semelhança."
+    ],
+    "sections": [
+      {
+        "title": "O que a pergunta quer medir?",
+        "text": "Volume mede espaço ocupado; área mede a superfície. Tinta ou chapa costuma pedir área, capacidade pede volume. A pergunta pode excluir uma tampa ou pedir somente a lateral: nomeie as faces antes de aplicar a fórmula."
+      },
+      {
+        "title": "Prismas e cilindros",
+        "text": "Volume é área da base vezes altura perpendicular. Paralelepípedo retangular: V=abc; cilindro circular: V=πr²h. A lateral do cilindro planificada é retângulo de lados 2πr e h.",
+        "math": "V=A_bh\\qquad A_{\\text{lat cilindro}}=2\\pi rh"
+      },
+      {
+        "title": "Cone, pirâmide e esfera",
+        "text": "Cone e pirâmide têm um terço do volume do cilindro ou prisma com mesma base e altura. Esfera de raio r tem volume 4πr³/3 e área 4πr². Em cone reto, raio, altura e geratriz formam triângulo retângulo.",
+        "math": "V_{\\text{cone}}=\\frac{\\pi r^2h}{3}\\qquad V_{\\text{esfera}}=\\frac{4\\pi r^3}{3}"
+      },
+      {
+        "title": "Escala e preenchimento",
+        "text": "Dobrar todas as dimensões multiplica área por 4 e volume por 8. Para contar caixas que cabem num recipiente, não basta dividir volumes: cada dimensão pode impor sobra. Em transbordamento, o deslocamento de líquido depende do volume efetivamente imerso."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Cilindro sem tampa",
+        "prompt": "Um cilindro tem raio interno 2 cm e altura interna 10 cm. Qual a capacidade e a área de chapa sem tampa, desprezando espessura?",
+        "steps": [
+          {
+            "title": "Capacidade",
+            "text": "π×2²×10=40π cm³, ou 40π mL."
+          },
+          {
+            "title": "Lateral",
+            "text": "2π×2×10=40π cm²."
+          },
+          {
+            "title": "Uma base",
+            "text": "A base é 4π cm². O total sem tampa é 44π cm².",
+            "math": "A=2\\pi rh+\\pi r^2=44\\pi\\text{ cm}^2"
+          }
+        ]
+      },
+      {
+        "title": "Cone comparado ao cilindro",
+        "prompt": "Um cone tem raio 3 cm e altura 8 cm. Compare seu volume ao de um cilindro com mesma base e altura.",
+        "steps": [
+          {
+            "title": "Base",
+            "text": "A área da base é 9π cm²."
+          },
+          {
+            "title": "Cone",
+            "text": "O volume é 9π×8/3=24π cm³.",
+            "math": "V=\\frac{9\\pi\\cdot8}{3}=24\\pi\\text{ cm}^3"
+          },
+          {
+            "title": "Comparar",
+            "text": "O cilindro tem 72π cm³; o cone ocupa um terço desse volume."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Revestimento pede área; capacidade pede volume.",
+      "Prisma e cilindro: V=A_bh.",
+      "Cone e pirâmide: V=A_bh/3.",
+      "Esfera: V=4πr³/3 e A=4πr².",
+      "Semelhança: área k² e volume k³."
+    ],
+    "pitfalls": [
+      "Contar tampa em recipiente aberto.",
+      "Confundir altura com geratriz do cone."
+    ],
+    "recall": [
+      {
+        "question": "Dimensões multiplicadas por 1/2 dão qual volume?",
+        "answer": "1/8 do original."
+      },
+      {
+        "question": "25 cm³ equivalem a quantos mL?",
+        "answer": "25 mL."
+      }
+    ],
+    "practiceTarget": 12,
+    "visual": "geometry",
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — Contemporary Mathematics",
+        "url": "https://openstax.org/details/books/contemporary-mathematics"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Pitágoras e trigonometria",
+    "title": "Meça o que não consegue alcançar",
+    "minutes": 18,
+    "priority": "Fundamento",
+    "why": "Pré-requisito para geometria, medidas indiretas e decomposição de forças. Não atribuímos frequência isolada ao agrupamento.",
+    "goals": [
+      "Aplicar Pitágoras em triângulos retângulos.",
+      "Identificar catetos em relação ao ângulo.",
+      "Modelar alturas e distâncias."
+    ],
+    "sections": [
+      {
+        "title": "Primeiro, reconheça o ângulo reto",
+        "text": "A hipotenusa fica oposta ao ângulo de 90° e é o maior lado. Os outros lados são catetos. A soma dos quadrados dos catetos é o quadrado da hipotenusa. Não aplique diretamente essa relação a triângulo sem ângulo reto.",
+        "math": "a^2+b^2=c^2"
+      },
+      {
+        "title": "Oposto e adjacente dependem de θ",
+        "text": "Seno é cateto oposto/hipotenusa; cosseno é adjacente/hipotenusa; tangente é oposto/adjacente. O mesmo cateto é oposto a um ângulo e adjacente ao outro.",
+        "math": "\\sin\\theta=\\frac{CO}{H}\\quad\\cos\\theta=\\frac{CA}{H}\\quad\\tan\\theta=\\frac{CO}{CA}"
+      },
+      {
+        "title": "Transforme texto em desenho",
+        "text": "Marque chão, vertical, observador e ângulo. Ângulo de elevação parte da horizontal. Uma altura calculada a partir dos olhos ainda precisa da altura dos olhos ao chão. Se o ângulo for dado em relação à vertical, reidentifique os catetos."
+      },
+      {
+        "title": "Semelhança e ângulos úteis",
+        "text": "Triângulos retângulos com o mesmo ângulo agudo são semelhantes. Razões de 30°,45° e 60° ajudam, mas use aproximações fornecidas pelo enunciado quando houver. Em triângulo não retângulo, pode ser necessário usar leis dos senos ou cossenos, sem inventar perpendicularidade."
+      },
+      {
+        "title": "Ciclo e funções trigonométricas",
+        "text": "No círculo unitário,um ângulo θ corresponde às coordenadas(cosθ,senθ). Uma volta é360° ou2π radianos. Seno e cosseno têm período2π e assumem valores entre−1 e1. Em y=A·sen(Bx+C)+D,comB não nulo,a amplitude é|A|,a linha média éD e o período é2π/|B|. O fatorB muda o período,não a amplitude."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Escada apoiada",
+        "prompt": "Uma escada de 5 m toca parede vertical. Seu pé está a 3 m da parede em chão horizontal. A que altura toca?",
+        "steps": [
+          {
+            "title": "Identificar",
+            "text": "A escada é a hipotenusa; o chão e a parede formam o ângulo reto."
+          },
+          {
+            "title": "Aplicar",
+            "text": "3²+h²=5².",
+            "math": "h=\\sqrt{25-9}=4\\text{ m}"
+          },
+          {
+            "title": "Conferir",
+            "text": "A altura 4 m é menor que a escada 5 m. Os lados 3,4,5 formam triângulo retângulo."
+          }
+        ]
+      },
+      {
+        "title": "Altura de um poste",
+        "prompt": "A 12 m da base, uma pessoa mede elevação de 30° para o topo. Os olhos estão a 1,5 m do chão. Qual a altura?",
+        "steps": [
+          {
+            "title": "Diferença vertical",
+            "text": "Δh é a altura entre olhos e topo; 12 m é o cateto adjacente."
+          },
+          {
+            "title": "Tangente",
+            "text": "Δh=12×tan30°=12/√3=4√3 m.",
+            "math": "\\frac{\\Delta h}{12}=\\frac1{\\sqrt3}"
+          },
+          {
+            "title": "Altura total",
+            "text": "H=1,5+4√3 m≈8,43 m. Esquecer 1,5 m dá apenas a diferença dos olhos até o topo."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Hipotenusa fica oposta ao ângulo reto.",
+      "Pitágoras: a²+b²=c².",
+      "Seno: oposto/hipotenusa; cosseno: adjacente/hipotenusa.",
+      "Tangente: oposto/adjacente.",
+      "Confira a referência vertical do resultado."
+    ],
+    "pitfalls": [
+      "Aplicar Pitágoras sem ângulo reto.",
+      "Esquecer a altura dos olhos na medida indireta."
+    ],
+    "recall": [
+      {
+        "question": "Quanto vale tan45°?",
+        "answer": "1, pois os catetos são iguais."
+      },
+      {
+        "question": "5,12,13 formam triângulo retângulo?",
+        "answer": "Sim: 25+144=169."
+      }
+    ],
+    "practiceTarget": 8,
+    "visual": "triangle",
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — Contemporary Mathematics",
+        "url": "https://openstax.org/details/books/contemporary-mathematics"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Geometria analítica",
+    "title": "Use coordenadas para medir e localizar",
+    "minutes": 17,
+    "priority": "Complementar",
+    "why": "Conecta álgebra e geometria. Neste roteiro é aprofundamento, sem percentual que o recorte não fornece para este agrupamento.",
+    "goals": [
+      "Calcular distância e ponto médio.",
+      "Interpretar inclinação e reta.",
+      "Reconhecer equação de circunferência."
+    ],
+    "sections": [
+      {
+        "title": "Coordenadas e deslocamentos",
+        "text": "(x,y) localiza um ponto em dois eixos perpendiculares. Diferenças das coordenadas dão deslocamentos; a distância direta exige Pitágoras. Ela não pode ser negativa; a ordem da subtração desaparece nos quadrados.",
+        "math": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}"
+      },
+      {
+        "title": "Ponto médio",
+        "text": "Faça a média das coordenadas x e, separadamente, das y. Não é a média das distâncias até a origem. Conhecer uma extremidade e o ponto médio permite recuperar a outra por equação.",
+        "math": "M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)"
+      },
+      {
+        "title": "Equação de reta",
+        "text": "Uma reta não vertical pode ser escrita y=mx+b, com m=Δy/Δx. Paralelas não verticais têm mesmo m. Perpendiculares com coeficientes definidos e não nulos têm produto −1. Retas verticais são x=constante e não possuem coeficiente angular real definido."
+      },
+      {
+        "title": "Circunferência",
+        "text": "Pontos a distância r do centro (a,b) satisfazem a equação padrão. Atenção aos sinais: (x−2)²+(y+3)²=16 tem centro (2,−3) e raio 4. A região interna usa ≤ no lugar de =.",
+        "math": "(x-a)^2+(y-b)^2=r^2"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Dois locais no plano",
+        "prompt": "A(1,2) e B(7,10) estão em malha com unidade de 1 km. Calcule a distância direta e o ponto médio.",
+        "steps": [
+          {
+            "title": "Deslocamentos",
+            "text": "Δx=6 e Δy=8."
+          },
+          {
+            "title": "Distância",
+            "text": "d=√(36+64)=10 km.",
+            "math": "d=\\sqrt{6^2+8^2}=10"
+          },
+          {
+            "title": "Ponto médio",
+            "text": "M=(4,6). Seguir apenas trajetos horizontais e verticais daria 14 km, não a distância direta."
+          }
+        ]
+      },
+      {
+        "title": "Reta por dois pontos",
+        "prompt": "Uma reta passa por (2,5) e (6,13). Qual sua equação?",
+        "steps": [
+          {
+            "title": "Inclinação",
+            "text": "m=(13−5)/(6−2)=2."
+          },
+          {
+            "title": "Intercepto",
+            "text": "Em y=2x+b, use (2,5): b=1.",
+            "math": "y=2x+1"
+          },
+          {
+            "title": "Validar",
+            "text": "Em x=6, y=13. Dois pontos distintos determinam uma única reta."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Distância direta usa Pitágoras nas diferenças.",
+      "Ponto médio usa médias das coordenadas.",
+      "Coeficiente angular é Δy/Δx.",
+      "Vertical: x constante; horizontal: y constante.",
+      "Circunferência: centro (a,b), raio r na forma padrão."
+    ],
+    "pitfalls": [
+      "Somar deslocamentos como se fossem distância direta.",
+      "Ler o centro com os mesmos sinais dentro dos parênteses."
+    ],
+    "recall": [
+      {
+        "question": "Centro de (x+1)²+(y−4)²=9?",
+        "answer": "(−1,4), com raio 3."
+      },
+      {
+        "question": "Reta vertical por (3,8)?",
+        "answer": "x=3."
+      }
+    ],
+    "practiceTarget": 6,
+    "visual": "graph",
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — College Algebra 2e",
+        "url": "https://openstax.org/details/books/college-algebra-2e"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "PA e PG",
+    "title": "Reconheça como uma sequência muda",
+    "minutes": 17,
+    "priority": "Complementar",
+    "why": "Consolida padrões lineares e multiplicativos. A prioridade do roteiro não atribui percentual isolado a este agrupamento.",
+    "goals": [
+      "Distinguir diferença constante de razão constante.",
+      "Encontrar termos e somas de PA e PG.",
+      "Controlar índices e interpretar crescimento."
+    ],
+    "sections": [
+      {
+        "title": "PA soma uma diferença fixa",
+        "text": "Na progressão aritmética, a diferença r entre termos consecutivos é constante. Do primeiro ao enésimo existem n−1 intervalos. r>0 dá crescimento; r=0 dá sequência constante; r<0 dá decréscimo.",
+        "math": "a_n=a_1+(n-1)r"
+      },
+      {
+        "title": "Soma de PA",
+        "text": "Termos equidistantes dos extremos têm a mesma soma. A fórmula usa o número de termos e a média entre primeiro e último. Atenção à contagem inclusiva: de 1 a 10 existem dez termos, não nove.",
+        "math": "S_n=\\frac{n(a_1+a_n)}2"
+      },
+      {
+        "title": "PG multiplica por uma razão fixa",
+        "text": "Na progressão geométrica, cada termo é o anterior vezes q. Com primeiro termo positivo, q>1 dá crescimento; 0<q<1 dá decaimento. q negativo alterna sinais. Uma sequência crescente não é necessariamente PA.",
+        "math": "a_n=a_1q^{n-1}"
+      },
+      {
+        "title": "Soma de PG",
+        "text": "Para q≠1, use a soma finita. Se q=1, os termos são iguais e Sₙ=na₁. A soma infinita usual só converge se |q|<1; calcular um termo distante é diferente de somar todos os termos.",
+        "math": "S_n=\\frac{a_1(q^n-1)}{q-1}"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Lugares do auditório",
+        "prompt": "Há 12 fileiras: a primeira tem 18 lugares e cada próxima tem 2 a mais. Quantos lugares tem a última e qual o total?",
+        "steps": [
+          {
+            "title": "Identificar",
+            "text": "a₁=18, r=2 e n=12."
+          },
+          {
+            "title": "Última",
+            "text": "18+11×2=40 lugares."
+          },
+          {
+            "title": "Somar",
+            "text": "A média dos extremos é 29, multiplicada por 12.",
+            "math": "S_{12}=\\frac{12(18+40)}2=348"
+          }
+        ]
+      },
+      {
+        "title": "Campanha em etapas",
+        "prompt": "Uma campanha alcança 100 pessoas na primeira etapa e triplica a cada etapa, sem repetir pessoas. Quantas alcança na quarta e nas quatro juntas?",
+        "steps": [
+          {
+            "title": "PG",
+            "text": "Os alcances são 100,300,900,2700."
+          },
+          {
+            "title": "Quarta",
+            "text": "São três multiplicações a partir da primeira.",
+            "math": "a_4=100\\cdot3^3=2700"
+          },
+          {
+            "title": "Total",
+            "text": "A soma é 4.000 pessoas. Sem a hipótese de públicos distintos, não poderíamos concluir pessoas únicas pela soma."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "PA: diferença constante; PG: razão multiplicativa constante.",
+      "Do termo 1 ao n há n−1 intervalos.",
+      "PA: aₙ=a₁+(n−1)r e Sₙ=n(a₁+aₙ)/2.",
+      "PG: aₙ=a₁qⁿ⁻¹.",
+      "Somar alcances exige controlar sobreposição."
+    ],
+    "pitfalls": [
+      "Usar n no lugar de n−1.",
+      "Tratar qualquer sequência crescente como PA."
+    ],
+    "recall": [
+      {
+        "question": "2,6,18,54 é o quê?",
+        "answer": "PG de razão 3."
+      },
+      {
+        "question": "PA pode ser decrescente?",
+        "answer": "Sim, quando r<0."
+      }
+    ],
+    "practiceTarget": 8,
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — College Algebra 2e",
+        "url": "https://openstax.org/details/books/college-algebra-2e"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Exponenciais e logaritmos",
+    "title": "Crescimento multiplicativo e tempo desconhecido",
+    "minutes": 19,
+    "priority": "Complementar",
+    "why": "Aprofunda funções e juros compostos. Não atribuímos uma frequência isolada que o recorte não fornece para este agrupamento.",
+    "goals": [
+      "Reconhecer crescimento e decaimento exponencial.",
+      "Interpretar logaritmo como expoente.",
+      "Resolver tempos respeitando domínio e unidades."
+    ],
+    "sections": [
+      {
+        "title": "Taxa relativa constante",
+        "text": "Em f(t)=A×bᵗ, A é o valor inicial e b o fator por período. Para A>0, b>1 cresce e 0<b<1 decai. Acrescentar valor fixo é linear; aplicar percentual fixo é multiplicativo. O período da taxa precisa coincidir com a unidade do tempo.",
+        "math": "f(t)=Ab^t\\quad(A>0,\\ b>0,\\ b\\ne1)"
+      },
+      {
+        "title": "Duplicação e meia-vida",
+        "text": "Se duplica a cada T períodos, use A×2^(t/T). Se cai à metade, use A×(1/2)^(t/T). A cada meia-vida é retirada metade do que restou, não metade do valor inicial. A aplicação pressupõe o mesmo comportamento no intervalo.",
+        "math": "N(t)=N_0\\left(\\frac12\\right)^{t/T}"
+      },
+      {
+        "title": "Logaritmo é o expoente procurado",
+        "text": "log_b(x)=y significa bʸ=x. Para logaritmo real, x>0, b>0 e b≠1. Produtos viram somas e potências viram multiplicações; não existe identidade log(a+b)=loga+logb.",
+        "math": "\\log_b(x)=y\\iff b^y=x"
+      },
+      {
+        "title": "Tempo real ou período inteiro?",
+        "text": "Se não for possível igualar bases, isole o fator e use logaritmos. Um tempo calculado como 3,53 anos exige o quarto ano completo para ultrapassar uma meta anual. Não arredonde automaticamente para o inteiro mais próximo. Em desigualdades, bases entre zero e um são decrescentes.",
+        "math": "t=\\frac{\\log(M/A)}{\\log b}"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Três meias-vidas",
+        "prompt": "Um material tem massa inicial 640 g e meia-vida de 3 horas. Qual a massa após 9 horas?",
+        "steps": [
+          {
+            "title": "Contar intervalos",
+            "text": "9/3=3 meias-vidas."
+          },
+          {
+            "title": "Aplicar",
+            "text": "640→320→160→80.",
+            "math": "M=640\\left(\\frac12\\right)^3=80\\text{ g}"
+          },
+          {
+            "title": "Interpretar",
+            "text": "Restam 80 g ou 12,5% da massa inicial."
+          }
+        ]
+      },
+      {
+        "title": "Ultrapassar uma meta",
+        "prompt": "R$ 1.000 crescem 10% ao ano, sem taxas ou retiradas. Qual o primeiro ano completo com saldo acima de R$ 1.400?",
+        "steps": [
+          {
+            "title": "Modelar",
+            "text": "1000×1,1ᵗ>1400, então 1,1ᵗ>1,4."
+          },
+          {
+            "title": "Tempo real",
+            "text": "Use logaritmos.",
+            "math": "t>\\frac{\\log1,4}{\\log1,1}\\approx3,53"
+          },
+          {
+            "title": "Inteiros",
+            "text": "Após três anos há R$ 1.331; após quatro, R$ 1.464,10. O primeiro ano completo é o quarto."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Linear soma valor fixo; exponencial multiplica por fator fixo.",
+      "Aumento p% usa base 1+p/100.",
+      "Meia-vida usa (1/2)^(t/T).",
+      "Logaritmo é um expoente e tem restrições de domínio.",
+      "Arredonde conforme a pergunta, não automaticamente."
+    ],
+    "pitfalls": [
+      "Usar log(a+b)=loga+logb.",
+      "Arredondar para baixo o primeiro período que deve superar uma meta."
+    ],
+    "recall": [
+      {
+        "question": "Quanto vale log₂32?",
+        "answer": "5, porque 2⁵=32."
+      },
+      {
+        "question": "Depois de duas meias-vidas resta metade?",
+        "answer": "Não. Resta um quarto: (1/2)²=1/4."
+      }
+    ],
+    "practiceTarget": 8,
+    "visual": "exponential",
+    "sources": [
+      {
+        "title": "SAS Educação — Raio X ENEM 2009–2025",
+        "url": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf"
+      },
+      {
+        "title": "OpenStax — College Algebra 2e",
+        "url": "https://openstax.org/details/books/college-algebra-2e"
+      }
+    ]
+  }
+]

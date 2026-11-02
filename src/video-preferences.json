@@ -1,0 +1,29 @@
+{
+  "Matemática": [
+    "Sandro Curió"
+  ],
+  "Biologia": [
+    "Samuel Cunha",
+    "Guilherme Goulart"
+  ],
+  "Física": [
+    "Boaro"
+  ],
+  "Química": [
+    "Café com Química"
+  ],
+  "História": [
+    "Parabólica"
+  ],
+  "Filosofia": [
+    "Parabólica"
+  ],
+  "Sociologia": [
+    "Parabólica"
+  ],
+  "Português": [
+    "Professor Noslen",
+    "Português com Letícia"
+  ],
+  "fallbackPlaylist": "https://www.youtube.com/playlist?list=PLrZe9p7Ii564k52GBRVkn0tQFbMFzCOQo"
+}

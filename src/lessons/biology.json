@@ -1,0 +1,599 @@
+[
+  {
+    "subject": "Biologia",
+    "topic": "Citologia e metabolismo",
+    "title": "Da membrana à energia da célula",
+    "minutes": 22,
+    "priority": "Fundamento",
+    "why": "Células e bioquímica aparecem entre os temas recorrentes no levantamento SAS e sustentam genética, fisiologia e ecologia.",
+    "goals": [
+      "Relacionar estruturas celulares às suas funções",
+      "Prever a direção dos transportes pela membrana",
+      "Comparar fotossíntese, respiração e fermentação"
+    ],
+    "sections": [
+      {
+        "title": "Uma célula é um sistema organizado",
+        "text": "Uma célula típica possui membrana, material genético e ribossomos. Células muito especializadas podem perder estruturas durante a maturação, como as hemácias maduras de mamíferos, que não possuem núcleo nem ribossomos. Nas procarióticas, o DNA não está envolvido por um núcleo; nas eucarióticas, há núcleo e compartimentos membranosos. Ribossomos sintetizam proteínas; o retículo rugoso e o complexo golgiense participam da produção e do encaminhamento de proteínas de secreção. Mitocôndrias e cloroplastos transformam energia. Não conclua que uma bactéria é incapaz de respirar apenas porque não possui mitocôndria: nela, etapas da respiração podem ocorrer na membrana plasmática."
+      },
+      {
+        "title": "Membrana: direção e gasto energético",
+        "text": "Na difusão, partículas se deslocam a favor de seu gradiente; proteínas podem facilitar a passagem sem torná-la transporte ativo. Transporte ativo exige uma fonte de energia para mover substâncias contra o gradiente ou acoplá-las a outro transporte. Na osmose, a água atravessa uma membrana seletiva em direção ao lado com maior concentração efetiva de solutos que não atravessam livremente a membrana. Uma célula animal pode inchar em meio hipotônico; a parede celular muda a resposta mecânica de uma célula vegetal."
+      },
+      {
+        "title": "Respiração e fermentação",
+        "text": "A glicólise ocorre no citosol, quebra uma glicose em dois piruvatos e produz saldo de dois ATP. Na respiração aeróbia de eucariontes, outras etapas ocorrem na mitocôndria, e o oxigênio recebe elétrons ao final da cadeia respiratória. Fermentação regenera NAD⁺, permitindo que a glicólise continue quando essa rota é utilizada. Não precisa de oxigênio e seu rendimento energético total por glicose fica limitado ao saldo da glicólise. ATP é uma forma de acoplar reações, não um estoque ilimitado de energia."
+      },
+      {
+        "title": "Fotossíntese e balanço de matéria",
+        "text": "Na fotossíntese, a luz alimenta a produção de ATP e NADPH; depois, a fixação de carbono permite formar compostos orgânicos a partir de CO₂. O O₂ liberado vem da água, e não do CO₂. Plantas também respiram: de dia, os dois processos podem ocorrer; sem luz, as reações que dependem diretamente dela deixam de funcionar. Em gráficos, diferencie a taxa bruta de fotossíntese do saldo líquido depois de descontada a respiração. Enzimas aceleram reações sem serem consumidas; temperatura extrema ou pH inadequado pode alterar sua atividade."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Osmose em um experimento",
+        "prompt": "Duas bolsas com membrana permeável apenas à água contêm soluções de sacarose. A bolsa A tem 10 g/L e a B, 30 g/L. Elas se comunicam pela membrana. Qual é a tendência inicial?",
+        "steps": [
+          {
+            "title": "Identificar o que atravessa",
+            "text": "A sacarose está retida, mas a água pode atravessar. Compare a concentração do mesmo soluto nos dois lados."
+          },
+          {
+            "title": "Prever o deslocamento",
+            "text": "A tendência inicial é passagem de água de A para B, o lado mais concentrado. Diferenças de pressão que se formem depois podem limitar o fluxo; a conclusão descreve o instante inicial."
+          }
+        ]
+      },
+      {
+        "title": "Saldo em uma planta",
+        "prompt": "Em condições estáveis, uma planta fixa 18 unidades de CO₂ por hora na fotossíntese e libera 5 na respiração. Qual é a retirada líquida de CO₂ nesse intervalo?",
+        "steps": [
+          {
+            "title": "Separar os sentidos",
+            "text": "A fixação retira CO₂ do meio; a respiração o devolve. Os valores estão na mesma unidade e referem-se ao mesmo intervalo."
+          },
+          {
+            "title": "Encontrar o saldo",
+            "text": "A retirada líquida é 18 − 5 = 13 unidades por hora. Isso não significa que a respiração parou durante o dia."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Procariontes têm ribossomos e membrana, mas não núcleo delimitado.",
+      "Difusão facilitada continua sendo passiva; presença de proteína não implica gasto de ATP.",
+      "Osmose envolve movimento de água e depende da seletividade da membrana.",
+      "Glicólise: citosol e saldo de dois ATP por glicose; fermentação regenera NAD⁺.",
+      "Na respiração aeróbia, O₂ é aceptor final de elétrons; na fotossíntese, o O₂ liberado vem da água.",
+      "Plantas fazem fotossíntese e respiração; saldo líquido é a diferença entre processos opostos."
+    ],
+    "pitfalls": [
+      "Confundir ausência de mitocôndria com ausência de metabolismo energético.",
+      "Dizer que a fermentação gera o ATP da cadeia respiratória.",
+      "Interpretar atividade enzimática como algo que cresce indefinidamente com a temperatura."
+    ],
+    "recall": [
+      {
+        "question": "Uma proteína na membrana torna qualquer transporte ativo?",
+        "answer": "Não. Canais e carreadores também participam da difusão facilitada, que ocorre a favor do gradiente sem consumo direto de ATP."
+      },
+      {
+        "question": "De qual molécula vem o oxigênio liberado na fotossíntese?",
+        "answer": "Da água, oxidada nas reações dependentes de luz."
+      }
+    ],
+    "practiceTarget": 10,
+    "visual": "cell",
+    "sources": [
+      {
+        "title": "OpenStax Biology 2e — metabolismo",
+        "url": "https://openstax.org/books/biology-2e/pages/6-1-energy-and-metabolism"
+      },
+      {
+        "title": "OpenStax Biology 2e — glicólise",
+        "url": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis"
+      },
+      {
+        "title": "OpenStax Biology 2e — reações da fotossíntese",
+        "url": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis"
+      }
+    ]
+  },
+  {
+    "subject": "Biologia",
+    "topic": "Genética e evolução",
+    "title": "Herança, DNA e mudança nas populações",
+    "minutes": 25,
+    "priority": "Alta",
+    "why": "DNA e funcionamento dos genes aparecem entre os temas recorrentes de Biologia no SAS. Herança e evolução também conectam interpretação de experimentos e problemas de probabilidade.",
+    "goals": [
+      "Montar cruzamentos com hipóteses explícitas",
+      "Distinguir informação genética de sua expressão",
+      "Explicar seleção natural sem atribuir intenção aos organismos"
+    ],
+    "sections": [
+      {
+        "title": "Do DNA à característica",
+        "text": "O DNA armazena sequências que participam da produção de RNAs; parte desses RNAs orienta a síntese de proteínas. Transcrição produz RNA a partir de uma sequência de DNA; tradução usa o RNA mensageiro para organizar aminoácidos. Nem toda mudança no DNA altera uma proteína, e nem toda característica depende de um único gene. Genótipo descreve a constituição genética; fenótipo resulta de sua expressão em interação com o ambiente. Dominante não significa mais frequente, mais forte nem melhor para a sobrevivência."
+      },
+      {
+        "title": "Meiose e cruzamentos",
+        "text": "Em um indivíduo diploide Aa, os alelos se separam na formação dos gametas; sob segregação mendeliana, metade recebe A e metade recebe a. Para calcular uma chance, determine primeiro os gametas possíveis e depois combine-os. O quadro de Punnett representa probabilidades, não garante uma quantidade exata de descendentes em cada família. Em problemas com dois genes, multiplique probabilidades apenas se a segregação independente ou outra condição de independência estiver assegurada. Genes ligados podem exigir dados de recombinação."
+      },
+      {
+        "title": "Variação e seleção natural",
+        "text": "Mutações originam variantes; recombinação reorganiza combinações existentes. A seleção natural favorece, em determinado ambiente, variantes hereditárias associadas a maior contribuição reprodutiva. O ambiente não produz uma mutação específica porque o organismo precisa dela. Quem muda de frequência ao longo das gerações é a população. Deriva genética é uma alteração aleatória dessas frequências, especialmente importante em populações pequenas; fluxo gênico ocorre quando há troca de alelos entre populações."
+      },
+      {
+        "title": "Como ler evidências evolutivas",
+        "text": "Em árvores filogenéticas, procure o ancestral comum mais recente: proximidade no desenho, sozinha, não mede parentesco. Estruturas homólogas têm origem evolutiva compartilhada e podem exercer funções diferentes. Semelhanças funcionais também podem surgir por convergência, sem indicar parentesco próximo. Na biotecnologia, compare o objetivo de cada técnica: PCR amplifica uma região de DNA; transgenia introduz material genético; clonagem produz cópias de células ou organismos. Essas técnicas não são sinônimas."
+      },
+      {
+        "title": "Origem da vida e evidência experimental",
+        "text": "Biogênese descreve a origem de seres vivos a partir de outros nas condições observadas atualmente. Experimentos como os de Pasteur contestaram a geração espontânea nos contextos testados;não reproduziram todas as condições da Terra primitiva. Hipóteses de evolução química investigam formação e organização de moléculas antes das primeiras células. A endossimbiose explica a origem evolutiva de mitocôndrias e cloroplastos,apoiada por evidências como material genético próprio e divisão associada à linhagem dessas organelas."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Probabilidade de um fenótipo recessivo",
+        "prompt": "Em uma planta diploide, A apresenta dominância completa sobre a. Duas plantas Aa são cruzadas, com segregação mendeliana e mesma viabilidade dos genótipos. Qual é a chance de um descendente aa?",
+        "steps": [
+          {
+            "title": "Determinar os gametas",
+            "text": "Cada progenitor produz A e a com probabilidade de 1/2 para cada um."
+          },
+          {
+            "title": "Combinar os eventos",
+            "text": "Para aa, o descendente precisa receber a dos dois progenitores: (1/2) × (1/2) = 1/4 = 25%. A chance é a mesma em cada novo descendente, nessas condições."
+          }
+        ]
+      },
+      {
+        "title": "Uma população sob seleção",
+        "prompt": "Antes de uma mudança ambiental, 20 de 200 insetos de uma população são resistentes a um inseticida. Após várias gerações de exposição, 120 de 200 são resistentes. O que os dados sustentam?",
+        "steps": [
+          {
+            "title": "Comparar frequências",
+            "text": "A frequência observada de resistentes passou de 20/200 = 10% para 120/200 = 60%. Já havia indivíduos resistentes antes da exposição."
+          },
+          {
+            "title": "Interpretar com cuidado",
+            "text": "O padrão é compatível com seleção favorecendo resistência hereditária nesse ambiente. Não demonstra que cada inseto aprendeu a resistir, nem que o inseticida criou uma mutação direcionada."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Transcrição produz RNA; tradução organiza aminoácidos em proteínas.",
+      "Dominância descreve expressão no heterozigoto, não frequência populacional.",
+      "Aa produz A e a em proporções iguais sob segregação mendeliana.",
+      "Seleção atua sobre diferenças existentes; mutações não surgem com finalidade adaptativa.",
+      "Populações evoluem; indivíduos sobrevivem e se reproduzem de maneira diferente.",
+      "Parentesco em cladogramas depende de ancestralidade comum, não da posição gráfica."
+    ],
+    "pitfalls": [
+      "Multiplicar chances de genes ligados sem verificar independência.",
+      "Tratar uma probabilidade como quantidade obrigatória em uma família pequena.",
+      "Explicar resistência afirmando que os indivíduos mudaram por necessidade."
+    ],
+    "recall": [
+      {
+        "question": "Um alelo dominante precisa ser o mais frequente?",
+        "answer": "Não. Dominância e frequência são propriedades diferentes. Um alelo dominante pode ser raro."
+      },
+      {
+        "question": "Por que a seleção natural não cria uma característica por vontade do organismo?",
+        "answer": "Ela altera o sucesso reprodutivo relativo de variantes hereditárias; não antecipa necessidades nem dirige mutações específicas."
+      }
+    ],
+    "practiceTarget": 12,
+    "visual": "genetics",
+    "sources": [
+      {
+        "title": "OpenStax Biology 2e — características e herança",
+        "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+      },
+      {
+        "title": "OpenStax Biology 2e — evolução",
+        "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution"
+      }
+    ]
+  },
+  {
+    "subject": "Biologia",
+    "topic": "Ecologia",
+    "title": "Ecossistemas: relações, ciclos e impactos",
+    "minutes": 24,
+    "priority": "Alta",
+    "why": "Desequilíbrio em ecossistemas é o tema de maior frequência de Biologia no recorte SAS 2009–2025. O bloco reúne também ciclos, relações ecológicas e cadeias alimentares.",
+    "goals": [
+      "Seguir matéria e energia em cadeias alimentares",
+      "Ligar impactos ambientais a mecanismos biológicos",
+      "Interpretar populações, relações e ciclos"
+    ],
+    "sections": [
+      {
+        "title": "Organizar o nível de análise",
+        "text": "População é um conjunto de indivíduos da mesma espécie em uma área e período; comunidade reúne populações de espécies diferentes. Ecossistema inclui a comunidade e os fatores físicos e químicos com os quais ela interage. Habitat indica onde um organismo vive; nicho descreve como ele utiliza recursos e participa das relações. Em gráficos populacionais, crescimento não depende só de natalidade: mortalidade, imigração e emigração também alteram o número de indivíduos. Recursos e interações podem limitar o crescimento."
+      },
+      {
+        "title": "Energia passa; matéria circula",
+        "text": "Em uma cadeia, a seta usual aponta do alimento para quem o consome. Produtores incorporam energia e carbono; consumidores obtêm matéria e energia por alimentação. Parte da energia usada em cada nível é dissipada como calor, por isso a energia disponível diminui ao longo dos níveis tróficos. Decompositores atuam sobre restos de vários níveis e devolvem nutrientes ao ambiente. Não existe uma eficiência universal de 10%: use esse percentual apenas quando o enunciado o fornecer ou pedir explicitamente essa aproximação."
+      },
+      {
+        "title": "Ciclos e desequilíbrios",
+        "text": "Fotossíntese retira CO₂ e respiração o devolve; queima de combustíveis e mudanças de uso do solo também alteram os fluxos de carbono. No ciclo do nitrogênio, fixação transforma N₂ em compostos utilizáveis por organismos; nitrificação e desnitrificação são processos diferentes realizados por grupos de microrganismos. Excesso de nutrientes na água pode favorecer crescimento de algas, seguido de decomposição intensa e queda do oxigênio dissolvido: esse encadeamento ajuda a explicar a eutrofização."
+      },
+      {
+        "title": "Relações e poluentes",
+        "text": "Competição envolve disputa por recursos; predação e parasitismo têm efeitos diferentes sobre suas populações, embora ambos beneficiem um participante e prejudiquem outro. Relações podem mudar conforme o contexto, então interprete o caso descrito. Bioacumulação é aumento de uma substância no organismo ao longo do tempo. Biomagnificação é aumento de sua concentração ao comparar níveis tróficos; exige características do contaminante, como persistência e baixa eliminação. Concentração maior no topo não significa maior massa total de poluente em todo o nível."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Eficiência de transferência",
+        "prompt": "Uma cadeia capim → gafanhoto → sapo recebe 20.000 kJ disponíveis nos produtores. Um modelo do exercício estabelece transferência de 10% a cada nível. Quanto fica disponível aos sapos?",
+        "steps": [
+          {
+            "title": "Contar transferências",
+            "text": "Há duas transferências: produtor para consumidor primário, depois para consumidor secundário."
+          },
+          {
+            "title": "Aplicar o modelo fornecido",
+            "text": "20.000 × 0,10 × 0,10 = 200 kJ. O valor de 10% pertence ao modelo deste exercício, não a todos os ecossistemas."
+          }
+        ]
+      },
+      {
+        "title": "Mortandade após lançamento de esgoto",
+        "prompt": "Um lago recebe esgoto rico em matéria orgânica e, depois, apresenta menos oxigênio dissolvido e morte de peixes. Qual mecanismo conecta os eventos?",
+        "steps": [
+          {
+            "title": "Identificar quem usa o oxigênio",
+            "text": "A matéria orgânica alimenta microrganismos decompositores. A respiração aeróbia desses organismos pode aumentar a demanda por oxigênio."
+          },
+          {
+            "title": "Explicar a consequência",
+            "text": "Se o consumo superar a reposição de oxigênio, sua concentração cai e a respiração dos peixes é prejudicada. O efeito não exige que o esgoto contenha um veneno diretamente letal."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "População: uma espécie; comunidade: várias; ecossistema: organismos e ambiente.",
+      "Energia percorre níveis e se dissipa; elementos químicos participam de ciclos.",
+      "Decompositores utilizam restos de vários níveis tróficos.",
+      "Eutrofização pode conectar nutrientes, proliferação, decomposição e hipóxia.",
+      "Bioacumulação ocorre no organismo; biomagnificação compara níveis tróficos.",
+      "Para explicar um impacto, conecte causa, processo biológico e consequência."
+    ],
+    "pitfalls": [
+      "Dizer que a energia é reciclada pelos decompositores.",
+      "Aplicar 10% de transferência sem hipótese fornecida.",
+      "Confundir a massa de poluente com sua concentração ou biomagnificação com bioacumulação."
+    ],
+    "recall": [
+      {
+        "question": "Qual é a diferença entre ciclagem de matéria e fluxo de energia?",
+        "answer": "Elementos podem ser reutilizados em ciclos; a energia transferida pelos organismos acaba dissipada como calor e exige novas entradas."
+      },
+      {
+        "question": "Por que decomposição intensa pode matar peixes sem um tóxico específico?",
+        "answer": "A respiração dos decompositores pode consumir o oxigênio dissolvido mais rapidamente que sua reposição, causando hipóxia."
+      }
+    ],
+    "practiceTarget": 12,
+    "visual": "ecosystem",
+    "sources": [
+      {
+        "title": "OpenStax Biology 2e — energia nos ecossistemas",
+        "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems"
+      },
+      {
+        "title": "OpenStax Biology 2e — ciclos biogeoquímicos",
+        "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles"
+      }
+    ]
+  },
+  {
+    "subject": "Biologia",
+    "topic": "Fisiologia e saúde",
+    "title": "Como os sistemas mantêm o equilíbrio interno",
+    "minutes": 24,
+    "priority": "Alta",
+    "why": "Saúde integra os assuntos recorrentes do levantamento SAS. Fisiologia permite interpretar situações de alimentação, exercício, hormônios e equilíbrio de água.",
+    "goals": [
+      "Conectar diferentes sistemas do corpo",
+      "Reconhecer a lógica da retroalimentação negativa",
+      "Interpretar transporte, absorção e excreção"
+    ],
+    "sections": [
+      {
+        "title": "Homeostase é regulação, não imobilidade",
+        "text": "O organismo mantém variáveis em faixas compatíveis com seu funcionamento. Um estímulo é detectado, uma resposta é coordenada e os efetores alteram a condição inicial. Na retroalimentação negativa, a resposta reduz o desvio que a provocou. Em um modelo de controle glicêmico, aumento de glicose favorece secreção de insulina e seu armazenamento ou uso pelos tecidos; o glucagon participa da mobilização de reservas em outras condições. Não confunda a variável regulada com o hormônio que a regula."
+      },
+      {
+        "title": "Alimento não entra pronto nas células",
+        "text": "Digestão transforma alimentos em moléculas que podem ser absorvidas; absorção é a passagem dessas moléculas para o meio interno. Enzimas têm substratos e condições de atuação; a bile participa da emulsificação de gorduras, mas não é uma enzima. O intestino delgado apresenta grande superfície de absorção. Depois de absorvidos, nutrientes seguem por vias de transporte e podem ser utilizados, transformados ou armazenados. A presença de uma substância no alimento não garante sua absorção integral."
+      },
+      {
+        "title": "Respiração e circulação trabalham juntas",
+        "text": "A ventilação renova o ar dos pulmões, enquanto as trocas gasosas dependem de difusão entre os alvéolos e o sangue. A circulação leva oxigênio aos tecidos e transporta produtos do metabolismo. Artéria é vaso que sai do coração; veia é vaso que retorna. Portanto, o nome do vaso não determina se o sangue é mais ou menos oxigenado. Na circulação pulmonar, artérias transportam sangue em direção aos pulmões e veias o trazem de volta ao coração."
+      },
+      {
+        "title": "Rins e balanço de água",
+        "text": "Os rins filtram parte do plasma e depois modificam esse filtrado por reabsorção e secreção. Filtrar uma substância não significa que ela será toda eliminada. Em um modelo de desidratação, o aumento da ação do ADH favorece reabsorção de água, reduzindo o volume urinário e aumentando sua concentração. Diferencie excreção de eliminação de fezes: excreção retira resíduos metabólicos, enquanto fezes contêm materiais que não foram absorvidos e outros componentes do trato digestório."
+      },
+      {
+        "title": "Coordenação nervosa e endócrina",
+        "text": "Neurônios transmitem sinais e se comunicam por sinapses;em muitas delas,há liberação de neurotransmissores. Hormônios alcançam tecidos pelo meio interno e agem em células com receptores apropriados. A resposta depende do sinal e do receptor,não apenas da presença de uma molécula no sangue. Reflexos podem ser integrados por circuitos da medula sem exigir decisão consciente prévia."
+      },
+      {
+        "title": "Reprodução e ciclos",
+        "text": "Na reprodução humana,meiose participa da formação dos gametas e fecundação restabelece a diploidia. Hormônios comoFSH,LH,estrogênios e progesterona participam de regulação com retroalimentação. Ovulação é liberação do ovócito,não sinônimo de fecundação. Métodos que previnem gestação atuam em etapas diferentes;barreiras também podem reduzir transmissão de infecções,sem que todos os métodos contraceptivos tenham essa mesma função."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Um gráfico de glicose",
+        "prompt": "Após uma refeição, um gráfico mostra aumento temporário da glicemia, seguido de retorno à faixa anterior. Como explicar esse retorno em um modelo normal de regulação?",
+        "steps": [
+          {
+            "title": "Localizar o desvio",
+            "text": "O evento inicial é aumento da glicose no sangue, e não aumento obrigatório da glicose em todos os tecidos."
+          },
+          {
+            "title": "Conectar resposta e efeito",
+            "text": "A secreção de insulina favorece captação de glicose em tecidos sensíveis e armazenamento. O efeito reduz o estímulo inicial, caracterizando retroalimentação negativa."
+          }
+        ]
+      },
+      {
+        "title": "Um modelo de balanço renal",
+        "prompt": "Em um experimento simplificado, 170 L de água por dia são filtrados pelos rins e 168,5 L são reabsorvidos. Desconsidere secreção de água e outras entradas nesse modelo. Qual é o volume urinário?",
+        "steps": [
+          {
+            "title": "Distinguir filtração de eliminação",
+            "text": "Parte da água filtrada retorna ao sangue por reabsorção. O filtrado inicial não é o mesmo que a urina final."
+          },
+          {
+            "title": "Calcular o saldo",
+            "text": "170 − 168,5 = 1,5 L por dia. Os valores são dados do modelo didático, não uma avaliação individual de saúde."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Retroalimentação negativa reduz o desvio inicial de uma variável.",
+      "Digestão transforma moléculas; absorção as leva ao meio interno.",
+      "Ventilação, difusão e transporte sanguíneo são etapas diferentes.",
+      "Artérias saem do coração; veias retornam, independentemente da oxigenação.",
+      "Urina final depende de filtração, reabsorção e secreção.",
+      "ADH favorece conservação de água no modelo fisiológico de desidratação."
+    ],
+    "pitfalls": [
+      "Afirmar que toda artéria leva sangue rico em oxigênio.",
+      "Tratar tudo que foi filtrado pelos rins como material obrigatoriamente eliminado.",
+      "Chamar a bile de enzima ou confundir digestão com absorção."
+    ],
+    "recall": [
+      {
+        "question": "Por que o controle da glicemia pode ser exemplo de feedback negativo?",
+        "answer": "Porque a resposta hormonal reduz a alteração da glicemia que desencadeou a resposta."
+      },
+      {
+        "question": "O que costuma acontecer com o volume de urina quando o ADH aumenta sua ação?",
+        "answer": "A reabsorção de água aumenta e, mantidas as demais condições do modelo, o volume urinário diminui."
+      }
+    ],
+    "practiceTarget": 10,
+    "sources": [
+      {
+        "title": "OpenStax Biology 2e — homeostase",
+        "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis"
+      },
+      {
+        "title": "OpenStax Biology 2e — equilíbrio osmótico",
+        "url": "https://openstax.org/books/biology-2e/pages/41-1-osmoregulation-and-osmotic-balance"
+      }
+    ]
+  },
+  {
+    "subject": "Biologia",
+    "topic": "Microbiologia e imunologia",
+    "title": "Agentes infecciosos, transmissão e defesa",
+    "minutes": 23,
+    "priority": "Alta",
+    "why": "Viroses estão entre os temas de maior incidência em Biologia no recorte SAS. Protozooses, bacterioses e saúde também aparecem no levantamento.",
+    "goals": [
+      "Diferenciar os principais agentes e formas de transmissão",
+      "Escolher medidas que interrompem uma etapa do ciclo",
+      "Distinguir defesa inata, adaptativa, vacina e anticorpos prontos"
+    ],
+    "sections": [
+      {
+        "title": "Agente não é vetor",
+        "text": "Vírus são entidades acelulares cuja multiplicação depende da célula hospedeira. Bactérias são organismos procariontes; fungos e protozoários são eucariontes. Nem todo microrganismo causa doença: muitos participam da decomposição, da produção de alimentos e de associações com outros seres. Em um ciclo infeccioso, o agente causa a infecção, o hospedeiro abriga etapas do ciclo e o vetor participa da transmissão. Confundir esses papéis leva a escolher uma medida que atua no lugar errado."
+      },
+      {
+        "title": "Ler a via de transmissão",
+        "text": "A prevenção precisa interromper uma rota real. Em uma infecção fecal-oral, água tratada, saneamento e higiene podem limitar o contato com o agente. Em transmissão vetorial, reduzir criadouros e contato com o vetor atua em outra etapa. Doenças diferentes podem compartilhar vetor sem ter o mesmo agente. Dengue é uma virose e malária é causada por protozoários; a esquistossomose envolve um verme e um caramujo no ciclo, mas não é adquirida pela picada de um inseto."
+      },
+      {
+        "title": "Defesa inata e defesa adaptativa",
+        "text": "Barreiras físicas e químicas, inflamação e células fagocitárias integram a defesa inata. A resposta adaptativa reconhece alvos de forma específica e envolve linfócitos. Linfócitos B podem originar células produtoras de anticorpos; linfócitos T desempenham funções como coordenação e destruição de células infectadas. Parte dessas respostas forma memória. Anticorpo é uma molécula de reconhecimento, não uma célula que engole microrganismos. A defesa depende da interação entre vários componentes."
+      },
+      {
+        "title": "Vacina, anticorpos e seleção",
+        "text": "Vacinas apresentam antígenos ou instruções para sua produção, estimulando uma resposta ativa e memória; não precisam conter o microrganismo inteiro vivo. A transferência de anticorpos prontos é imunização passiva, de efeito geralmente mais imediato e temporário, sem gerar por si só a mesma memória ativa. Antibióticos atuam contra alvos bacterianos e não são uma classe de tratamento para vírus. Resistência bacteriana pode aumentar quando variantes resistentes deixam mais descendentes sob seleção. Essa é uma aplicação de evolução, não uma adaptação consciente."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Comparar duas curvas de anticorpos",
+        "prompt": "Em um estudo didático, a segunda exposição ao mesmo antígeno provoca resposta mais rápida e intensa que a primeira. Qual mecanismo explica o padrão?",
+        "steps": [
+          {
+            "title": "Identificar o que permaneceu",
+            "text": "A primeira exposição pode formar células de memória específicas para aquele antígeno."
+          },
+          {
+            "title": "Explicar a nova resposta",
+            "text": "Na nova exposição, essas células permitem mobilizar uma resposta adaptativa mais eficiente. O gráfico não demonstra que anticorpos produzem novos anticorpos nem que qualquer antígeno terá a mesma resposta."
+          }
+        ]
+      },
+      {
+        "title": "Escolher a etapa da prevenção",
+        "prompt": "Um enunciado descreve transmissão de um protozoário pela ingestão de cistos presentes em água contaminada por fezes. Qual ação atinge diretamente a rota descrita?",
+        "steps": [
+          {
+            "title": "Localizar a entrada do agente",
+            "text": "A infecção ocorre por ingestão de água contaminada; não foi descrito vetor que pica ou hospedeiro que penetra a pele."
+          },
+          {
+            "title": "Relacionar ação ao mecanismo",
+            "text": "Tratamento adequado da água e do esgoto reduz a contaminação e a ingestão de cistos. Combater mosquitos não interrompe diretamente essa rota fecal-oral."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Vírus são acelulares; bactérias são procariontes; protozoários e fungos são eucariontes.",
+      "Agente, vetor e hospedeiro são papéis diferentes em um ciclo.",
+      "A prevenção eficaz precisa atuar sobre a forma de transmissão descrita.",
+      "Defesa adaptativa envolve especificidade e pode formar memória.",
+      "Vacina estimula resposta ativa; transferência de anticorpos é imunização passiva.",
+      "A seleção pode favorecer bactérias resistentes; antibiótico não é uma categoria de tratamento para vírus."
+    ],
+    "pitfalls": [
+      "Chamar mosquito de agente causador de dengue ou de malária.",
+      "Dizer que vacina e anticorpos prontos produzem o mesmo tipo de memória.",
+      "Escolher uma prevenção genérica sem verificar como o agente entra no hospedeiro."
+    ],
+    "recall": [
+      {
+        "question": "Por que uma vacina pode reduzir a gravidade de uma infecção futura?",
+        "answer": "Ela pode preparar uma resposta específica com memória, permitindo reação mais rápida ou eficaz em exposição posterior."
+      },
+      {
+        "question": "Qual diferença separa vírus e bactéria na organização biológica?",
+        "answer": "A bactéria é uma célula procariótica; o vírus não tem organização celular e depende da célula hospedeira para se multiplicar."
+      }
+    ],
+    "practiceTarget": 10,
+    "sources": [
+      {
+        "title": "OpenStax Biology 2e — estrutura dos vírus",
+        "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification"
+      },
+      {
+        "title": "OpenStax Biology 2e — diversidade procariótica",
+        "url": "https://openstax.org/books/biology-2e/pages/22-1-prokaryotic-diversity"
+      },
+      {
+        "title": "OpenStax Biology 2e — imunidade adaptativa",
+        "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response"
+      }
+    ]
+  },
+  {
+    "subject": "Biologia",
+    "topic": "Botânica e zoologia",
+    "title": "Estrutura, reprodução e diversidade dos seres vivos",
+    "minutes": 25,
+    "priority": "Complementar",
+    "why": "Este bloco completa a base para interpretar adaptações e ciclos. A prioridade é uma escolha editorial do roteiro, não ausência de cobrança em provas.",
+    "goals": [
+      "Relacionar estruturas vegetais a transporte e reprodução",
+      "Comparar grupos sem tratá-los como uma escala de progresso",
+      "Interpretar adaptações e ciclos de vida"
+    ],
+    "sections": [
+      {
+        "title": "Transporte nas plantas",
+        "text": "O xilema conduz principalmente água e sais minerais; o floema transporta substâncias orgânicas de regiões produtoras ou de reserva para regiões que as utilizam. A transpiração pelas folhas ajuda a manter o fluxo de água no xilema, associado à coesão entre moléculas de água e à diferença de potencial hídrico. Estômatos regulam trocas gasosas e perda de água. Fechá-los pode conservar água, mas também limitar a entrada de CO₂, reduzindo a fotossíntese nas condições em que esse gás se torna limitante."
+      },
+      {
+        "title": "Reprodução e ocupação do ambiente terrestre",
+        "text": "Briófitas não possuem vasos condutores verdadeiros, enquanto pteridófitas são vasculares; ambas dependem de água para o deslocamento dos gametas masculinos na fecundação. Nas plantas com sementes, grão de pólen e tubo polínico permitem transportar o gameta sem exigir uma película externa de água. Gimnospermas formam sementes sem frutos; angiospermas formam flores e frutos. Na alternância de gerações, o esporófito produz esporos por meiose, e o gametófito produz gametas por mitose."
+      },
+      {
+        "title": "Comparar animais pela organização",
+        "text": "O estudo dos animais utiliza características como tecidos, simetria, segmentação, cavidades corporais e desenvolvimento. Poríferos filtram água e não possuem tecidos verdadeiros organizados como os dos demais grupos animais. Cnidários apresentam cnidócitos; artrópodes têm apêndices articulados e exoesqueleto, cujo crescimento exige mudas. Essas características permitem reconhecer relações e funções, mas não montam uma fila de animais inferiores e superiores. Cada grupo atual tem sua história evolutiva."
+      },
+      {
+        "title": "Adaptação depende do problema ambiental",
+        "text": "Brânquias permitem trocas gasosas na água; pulmões e sistemas traqueais são soluções distintas em ambientes aéreos. O ovo amniótico reduz a dependência de água externa durante o desenvolvimento embrionário em grupos de amniotas; a relação com reprodução e ambiente é mais útil que decorar uma lista isolada. Também diferencie endotermia, ligada principalmente à produção metabólica de calor, de ectotermia, com maior dependência de fontes externas. Nenhuma dessas estratégias implica que a temperatura nunca varie."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Uma planta sob déficit hídrico",
+        "prompt": "Em um modelo de planta C₃, a falta de água leva ao fechamento dos estômatos. Por que essa resposta pode limitar a fixação de carbono?",
+        "steps": [
+          {
+            "title": "Reconhecer o benefício imediato",
+            "text": "Com os estômatos mais fechados, a perda de água por transpiração pode diminuir."
+          },
+          {
+            "title": "Identificar o custo funcional",
+            "text": "A entrada de CO₂ também fica limitada. Se sua disponibilidade cair, a fixação de carbono pode diminuir. A relação liga estrutura, economia de água e metabolismo."
+          }
+        ]
+      },
+      {
+        "title": "Seguir a ploidia no ciclo vegetal",
+        "prompt": "Um esporófito vegetal diploide tem 2n = 20 cromossomos. Quantos cromossomos são esperados em um esporo normal e em um gameta normal desse ciclo?",
+        "steps": [
+          {
+            "title": "Localizar a meiose",
+            "text": "O esporófito produz esporos por meiose. Cada esporo normal tem n = 10 cromossomos e origina o gametófito haploide."
+          },
+          {
+            "title": "Localizar a formação dos gametas",
+            "text": "O gametófito produz gametas por mitose. Assim, os gametas também têm n = 10; a fecundação reúne dois conjuntos e restaura 2n = 20."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Xilema: água e sais; floema: transporte de compostos orgânicos entre fontes e drenos.",
+      "Estômatos conectam conservação de água e entrada de CO₂.",
+      "Sementes e pólen mudam a relação da reprodução vegetal com o ambiente.",
+      "Esporófito produz esporos por meiose; gametófito produz gametas por mitose.",
+      "Características animais indicam organização e parentesco, sem uma escala de superioridade.",
+      "Adaptações têm funções e custos que dependem das condições ambientais."
+    ],
+    "pitfalls": [
+      "Dizer que o floema só conduz substâncias de cima para baixo.",
+      "Afirmar que os gametas de todas as plantas se formam por meiose.",
+      "Interpretar a evolução como transformação obrigatória de um grupo atual em outro."
+    ],
+    "recall": [
+      {
+        "question": "Que troca acompanha o fechamento dos estômatos?",
+        "answer": "A planta pode reduzir a perda de água, mas também restringir a entrada de CO₂ e a fixação de carbono."
+      },
+      {
+        "question": "Por que um gametófito haploide forma gametas por mitose?",
+        "answer": "Ele já possui um conjunto de cromossomos; a mitose conserva essa ploidia nos gametas."
+      }
+    ],
+    "practiceTarget": 8,
+    "sources": [
+      {
+        "title": "OpenStax Biology 2e — transporte nas plantas",
+        "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants"
+      },
+      {
+        "title": "OpenStax Biology 2e — ciclo reprodutivo vegetal",
+        "url": "https://openstax.org/books/biology-2e/pages/32-1-reproductive-development-and-structure"
+      },
+      {
+        "title": "OpenStax Biology 2e — poríferos",
+        "url": "https://openstax.org/books/biology-2e/pages/28-1-phylum-porifera"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "name": "enem-study",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --import tsx --env-file-if-exists=.env server.mjs --dev",
+    "build": "tsc --noEmit && vite build",
+    "start": "node --import tsx --env-file-if-exists=.env server.mjs",
+    "test": "tsx --test tests/*.test.ts",
+    "build:pages": "tsc --noEmit && vite build --mode pages"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.0",
+    "@radix-ui/react-slot": "^1.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "katex": "^0.16.22",
+    "lucide-react": "^0.468.0",
+    "pdfjs-dist": "^5.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/katex": "^0.16.7",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "fake-indexeddb": "^6.2.7",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.1.0"
+  }
+}

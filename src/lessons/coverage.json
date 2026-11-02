@@ -1,0 +1,1013 @@
+[
+  {
+    "subject": "Matemática",
+    "topic": "Inequações e domínio de funções",
+    "title": "Resolver também pode significar encontrar um intervalo",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "Inequações descrevem conjuntos de valores.",
+      "Domínio reúne os valores permitidos para a expressão.",
+      "Número negativo invertendo uma desigualdade exige trocar seu sentido."
+    ],
+    "sections": [
+      {
+        "title": "Resolver também pode significar encontrar um intervalo",
+        "text": "Uma equação procura igualdade; uma inequação seleciona valores que tornam uma comparação verdadeira. Somar a mesma quantidade aos dois lados preserva a desigualdade. Multiplicar ou dividir por número negativo inverte seu sentido. Registre o conjunto final, incluindo ou excluindo extremos conforme o sinal."
+      },
+      {
+        "title": "Domínio vem antes da conta",
+        "text": "Em funções reais, denominadores não podem ser zero; radicandos de raízes de índice par devem ser não negativos; argumentos de logaritmos devem ser positivos. Cancelar fatores pode simplificar uma expressão, mas não devolve valores proibidos no domínio original."
+      },
+      {
+        "title": "Estudo de sinais",
+        "text": "Para um produto ou quociente, localize os zeros de cada fator e os pontos proibidos. Eles dividem a reta em intervalos. Teste o sinal em cada intervalo e depois analise os extremos. Em uma inequação racional, não multiplique diretamente por um denominador de sinal desconhecido."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Um limite de custo",
+        "prompt": "Um serviço custa 12 reais fixos mais 4 reais por unidade. Quantas unidades inteiras podem ser adquiridas com até 52 reais?",
+        "steps": [
+          {
+            "title": "Montar",
+            "text": "12+4x≤52, com x inteiro não negativo."
+          },
+          {
+            "title": "Resolver",
+            "text": "4x≤40, logo 0≤x≤10. O máximo é10 unidades."
+          }
+        ]
+      },
+      {
+        "title": "Domínio de uma raiz",
+        "prompt": "Qual o domínio real de f(x)=√(x−2)/(x−5)?",
+        "steps": [
+          {
+            "title": "Impor condições",
+            "text": "x−2≥0 e x−5≠0."
+          },
+          {
+            "title": "Combinar",
+            "text": "x≥2, exceto x=5. O denominador restringe mesmo quando a raiz existe."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Inequações descrevem conjuntos de valores.",
+      "Domínio reúne os valores permitidos para a expressão.",
+      "Número negativo invertendo uma desigualdade exige trocar seu sentido.",
+      "Em quocientes, zeros do denominador nunca entram na solução."
+    ],
+    "pitfalls": [
+      "Multiplicar por um denominador sem conhecer seu sinal.",
+      "Esquecer uma restrição depois de cancelar fatores."
+    ],
+    "recall": [
+      {
+        "question": "x<3 implica −x<−3?",
+        "answer": "Não. Multiplicar por−1 produz−x>−3."
+      },
+      {
+        "question": "Todo zero de um numerador é permitido?",
+        "answer": "Não. O denominador original também precisa estar definido."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ]
+  },
+  {
+    "subject": "Matemática",
+    "topic": "Simetrias e transformações",
+    "title": "Reconhecer o que permanece igual",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "Translação soma o mesmo vetor a todos os pontos.",
+      "Rotações exigem centro, ângulo e sentido.",
+      "Reflexões preservam distâncias e invertem orientação."
+    ],
+    "sections": [
+      {
+        "title": "Reconhecer o que permanece igual",
+        "text": "Translação desloca todos os pontos pelo mesmo vetor. Rotação gira a figura em torno de um centro por um ângulo definido. Reflexão espelha em uma reta. Essas isometrias preservam comprimentos e ângulos; a reflexão inverte a orientação, enquanto translação e rotação a preservam."
+      },
+      {
+        "title": "Coordenadas ajudam a conferir",
+        "text": "Refletir no eixo x transforma (x, y) em (x, −y); no eixo y, em (−x, y). Girar90° no sentido anti-horário em torno da origem produz (−y, x). A regra depende do centro e do sentido; girar a folha não é uma justificativa suficiente."
+      },
+      {
+        "title": "Semelhança não é necessariamente congruência",
+        "text": "Uma homotetia de razão positiva k multiplica distâncias ao centro por k e preserva ângulos. Comprimentos mudam por k e áreas por k². Figuras semelhantes podem ter tamanhos diferentes; figuras congruentes têm as mesmas medidas correspondentes."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Espelhar um ponto",
+        "prompt": "Qual a imagem de P=(−3,2) pela reflexão no eixo x?",
+        "steps": [
+          {
+            "title": "Fixar a referência",
+            "text": "O eixo x permanece imóvel; só a coordenada vertical troca de sinal."
+          },
+          {
+            "title": "Conferir",
+            "text": "P′=(−3, −2), à mesma distância do eixo."
+          }
+        ]
+      },
+      {
+        "title": "Ampliar uma área",
+        "prompt": "Uma figura de área12 cm² é ampliada por uma homotetia de razão3. Qual a área nova?",
+        "steps": [
+          {
+            "title": "Usar dimensão correta",
+            "text": "A área multiplica por3²=9."
+          },
+          {
+            "title": "Calcular",
+            "text": "12×9=108 cm². Multiplicar por3 valeria para comprimentos."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Translação soma o mesmo vetor a todos os pontos.",
+      "Rotações exigem centro, ângulo e sentido.",
+      "Reflexões preservam distâncias e invertem orientação.",
+      "Homotetia de razão k multiplica áreas por k²."
+    ],
+    "pitfalls": [
+      "Confundir refletir no eixo x com mudar o sinal de x.",
+      "Multiplicar áreas pelo fator linear."
+    ],
+    "recall": [
+      {
+        "question": "Uma reflexão muda o perímetro?",
+        "answer": "Não. Ela preserva comprimentos."
+      },
+      {
+        "question": "Semelhança implica congruência?",
+        "answer": "Somente se a razão de semelhança em módulo for1."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ]
+  },
+  {
+    "subject": "Física",
+    "topic": "Estática e equilíbrio",
+    "title": "Equilíbrio translacional e rotacional",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "Equilíbrio exige resultante e torque resultante nulos.",
+      "O braço do torque é perpendicular à linha de ação.",
+      "Força aplicada no pivô não gera torque em torno dele."
+    ],
+    "sections": [
+      {
+        "title": "Equilíbrio translacional e rotacional",
+        "text": "Um corpo rígido em equilíbrio estático tem resultante de forças nula e resultante dos torques nula. Forças equilibradas não bastam se ainda houver tendência de rotação. Desenhe o corpo e as forças externas; forças de ação e reação atuam em corpos diferentes."
+      },
+      {
+        "title": "Torque depende do braço perpendicular",
+        "text": "O módulo do momento de uma força em relação a um ponto é força vezes distância perpendicular entre o ponto e a linha de ação. Quanto maior esse braço, maior o efeito de rotação para a mesma força. Uma força cuja linha passa pelo pivô tem torque nulo em relação a ele."
+      },
+      {
+        "title": "Apoios e centro de massa",
+        "text": "O peso resultante de um corpo extenso atua em seu centro de massa no modelo de campo uniforme. Escolher um apoio como referência dos torques pode eliminar forças desconhecidas desse apoio. Considere também o peso da barra quando o problema não o desprezar."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Uma alavanca",
+        "prompt": "Uma carga de200 N está a0,3 m do pivô. Qual força perpendicular aplicada do outro lado, a1,2 m, equilibra uma barra sem peso?",
+        "steps": [
+          {
+            "title": "Equilibrar torques",
+            "text": "200×0,3=F×1,2."
+          },
+          {
+            "title": "Conferir",
+            "text": "F=50 N. O apoio fornece a força restante para equilibrar a translação."
+          }
+        ]
+      },
+      {
+        "title": "Dois apoios iguais",
+        "prompt": "Uma barra uniforme pesa80 N e está apoiada nas extremidades, sem outras cargas. Qual a reação de cada apoio?",
+        "steps": [
+          {
+            "title": "Simetria",
+            "text": "O peso atua no centro e a situação é simétrica."
+          },
+          {
+            "title": "Somar forças",
+            "text": "R1+R2=80 eR1=R2, logo40 N em cada apoio."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Equilíbrio exige resultante e torque resultante nulos.",
+      "O braço do torque é perpendicular à linha de ação.",
+      "Força aplicada no pivô não gera torque em torno dele.",
+      "O peso de uma barra uniforme atua no centro geométrico."
+    ],
+    "pitfalls": [
+      "Usar a distância até a mão sem considerar a direção da força.",
+      "Desprezar o peso da barra sem autorização."
+    ],
+    "recall": [
+      {
+        "question": "Resultante zero garante que um corpo rígido não gire?",
+        "answer": "Não. É preciso verificar o torque resultante."
+      },
+      {
+        "question": "Por que uma chave longa ajuda?",
+        "answer": "Ela pode aumentar o braço perpendicular da força."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ]
+  },
+  {
+    "subject": "Física",
+    "topic": "Gravitação e órbitas",
+    "title": "Distância medida a partir do centro",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "Força gravitacional varia com 1/r².",
+      "A distância da fórmula é ao centro do corpo.",
+      "Massa e peso são grandezas diferentes."
+    ],
+    "sections": [
+      {
+        "title": "Distância medida a partir do centro",
+        "text": "A lei da gravitação relaciona duas massas e a distância entre seus centros. O módulo da força é proporcional ao produto das massas e inversamente proporcional ao quadrado da distância. Dobrar a distância reduz a força a um quarto, se as massas permanecem constantes."
+      },
+      {
+        "title": "Peso varia com o campo",
+        "text": "Massa não muda por levar o objeto a outro planeta. Peso é força gravitacional e depende de g. Acima da superfície de um planeta aproximadamente esférico, g=GM/r²; para altura h, r=R+h. Ausência de apoio em queda livre não significa ausência de gravidade."
+      },
+      {
+        "title": "Órbitas e leis de Kepler",
+        "text": "Na órbita circular ideal, a gravidade fornece a força centrípeta. Satélites mais afastados de um mesmo corpo central têm menor rapidez orbital e maior período. Para órbitas em torno da mesma massa central, T² é proporcional ao cubo do semieixo maior; em órbitas circulares, ele é o raio."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Campo em dobro do raio",
+        "prompt": "Um satélite está a uma distância2R do centro de um planeta. Como seu g se compara ao da superfície de raio R?",
+        "steps": [
+          {
+            "title": "Comparar distâncias",
+            "text": "g/g0=R²/(2R)²."
+          },
+          {
+            "title": "Concluir",
+            "text": "g=g0/4; a altura acima da superfície éR, não2R."
+          }
+        ]
+      },
+      {
+        "title": "Período orbital",
+        "prompt": "Dois satélites orbitam a mesma massa central com raiosr e9r. Qual a razão dos períodos?",
+        "steps": [
+          {
+            "title": "Aplicar Kepler",
+            "text": "(T2/T1)²=9³."
+          },
+          {
+            "title": "Extrair a raiz",
+            "text": "T2/T1=27."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Força gravitacional varia com 1/r².",
+      "A distância da fórmula é ao centro do corpo.",
+      "Massa e peso são grandezas diferentes.",
+      "Para mesma massa central, T²/r³ é constante em órbitas circulares."
+    ],
+    "pitfalls": [
+      "Trocar altura pela distância ao centro.",
+      "Interpretar flutuação em órbita como ausência de gravidade."
+    ],
+    "recall": [
+      {
+        "question": "Dobrar a massa do satélite muda g no mesmo ponto?",
+        "answer": "Não. g depende do corpo central e da distância no modelo utilizado."
+      },
+      {
+        "question": "Satélite mais distante tem período menor?",
+        "answer": "Não. Para mesma massa central, o período cresce com o raio."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ]
+  },
+  {
+    "subject": "Física",
+    "topic": "Óptica geométrica",
+    "title": "Raios e referências",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "Ângulos de reflexão são medidos pela normal.",
+      "Imagem real pode ser projetada num anteparo.",
+      "Espelho plano produz imagem virtual de mesmo tamanho."
+    ],
+    "sections": [
+      {
+        "title": "Raios e referências",
+        "text": "Raios luminosos representam direções de propagação. Na reflexão, o ângulo de incidência é igual ao de reflexão, ambos medidos em relação à normal. Na refração, a frequência se conserva; a velocidade e o comprimento de onda podem mudar entre os meios."
+      },
+      {
+        "title": "Imagens reais e virtuais",
+        "text": "Uma imagem real é formada pelo encontro efetivo de raios e pode ser projetada num anteparo. Uma virtual é formada pelo encontro de prolongamentos e não é projetada diretamente assim. Espelhos planos formam imagem virtual, direita e de mesmo tamanho, simétrica em relação ao plano do espelho."
+      },
+      {
+        "title": "Lentes e instrumentos",
+        "text": "Para uma lente delgada em modelo gaussiano,1/f=1/p+1/q. Use a convenção explicitada: lente convergente f>0, objeto real p>0 e imagem real q>0. O aumento transversal é−q/p; sinal negativo indica inversão. Miopia é corrigida em modelo usual por lente divergente; hipermetropia, por convergente."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Espelho plano",
+        "prompt": "Uma pessoa está a1,5 m do espelho plano. A que distância dela fica sua imagem?",
+        "steps": [
+          {
+            "title": "Posicionar a imagem",
+            "text": "Ela se forma virtualmente1,5 m atrás do espelho."
+          },
+          {
+            "title": "Somar",
+            "text": "A distância pessoa–imagem é3,0 m."
+          }
+        ]
+      },
+      {
+        "title": "Lente convergente",
+        "prompt": "Uma lente tem f=12 cm e um objeto real está a36 cm. Onde fica a imagem?",
+        "steps": [
+          {
+            "title": "Equação",
+            "text": "1/q=1/12−1/36=2/36."
+          },
+          {
+            "title": "Interpretar",
+            "text": "q=18 cm, imagem real, invertida e de metade do tamanho."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Ângulos de reflexão são medidos pela normal.",
+      "Imagem real pode ser projetada num anteparo.",
+      "Espelho plano produz imagem virtual de mesmo tamanho.",
+      "A equação da lente exige uma convenção consistente de sinais."
+    ],
+    "pitfalls": [
+      "Usar ângulo medido pela superfície como se fosse pela normal.",
+      "Achar que lente convergente sempre forma imagem real."
+    ],
+    "recall": [
+      {
+        "question": "Objeto entre o foco e uma lente convergente gera imagem real?",
+        "answer": "No modelo de lente delgada, gera imagem virtual, direita e ampliada."
+      },
+      {
+        "question": "O que muda na refração: frequência ou comprimento?",
+        "answer": "A frequência se conserva na interface estacionária; o comprimento pode mudar."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ],
+    "visual": "lens"
+  },
+  {
+    "subject": "Física",
+    "topic": "Eletrostática e campo elétrico",
+    "title": "Cargas e eletrização",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "A carga total se conserva em sistema isolado.",
+      "A força de Coulomb depende do inverso de r².",
+      "Campo é vetorial; potencial é escalar."
+    ],
+    "sections": [
+      {
+        "title": "Cargas e eletrização",
+        "text": "A carga total de um sistema isolado se conserva. Eletrização por atrito, contato ou indução redistribui elétrons; não transforma prótons de um material em elétrons. Cargas de mesmo sinal se repelem e de sinais opostos se atraem, mas um corpo neutro também pode ser atraído por polarização."
+      },
+      {
+        "title": "Força e campo",
+        "text": "Para cargas puntiformes, F=k|q1q2|/r². Campo elétrico é força por unidade de carga de prova positiva e tem direção e sentido. Campos de várias cargas se somam vetorialmente. Potencial elétrico é escalar; seu valor não deve ser confundido com a intensidade do campo."
+      },
+      {
+        "title": "Condutores e capacitores",
+        "text": "Em equilíbrio eletrostático, o campo dentro do material de um condutor é nulo e sua superfície é equipotencial. Pontas podem concentrar cargas. Um capacitor armazena cargas separadas e energia; no modelo ideal, Q=CU eE=CU²/2. A situação muda conforme o capacitor esteja ou não conectado à fonte."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Força ao afastar",
+        "prompt": "Duas cargas puntiformes se repelem com8 N. O que ocorre ao triplicar a distância?",
+        "steps": [
+          {
+            "title": "Quadrado da distância",
+            "text": "A força se divide por3²=9."
+          },
+          {
+            "title": "Resultado",
+            "text": "F=8/9 N, com as mesmas cargas."
+          }
+        ]
+      },
+      {
+        "title": "Carga armazenada",
+        "prompt": "Um capacitor de4 μF está submetido a5 V. Qual sua carga?",
+        "steps": [
+          {
+            "title": "Converter",
+            "text": "4 μF=4×10⁻⁶ F."
+          },
+          {
+            "title": "Aplicar",
+            "text": "Q=CU=20 μC."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "A carga total se conserva em sistema isolado.",
+      "A força de Coulomb depende do inverso de r².",
+      "Campo é vetorial; potencial é escalar.",
+      "Em capacitor ideal, Q=CU."
+    ],
+    "pitfalls": [
+      "Confundir atração com prova de que ambos os corpos têm carga líquida.",
+      "Somar campos como escalares sem considerar direções."
+    ],
+    "recall": [
+      {
+        "question": "Um neutro pode ser atraído?",
+        "answer": "Sim, por polarização."
+      },
+      {
+        "question": "Campo nulo dentro do metal significa potencial necessariamente zero?",
+        "answer": "Não. O potencial é constante, mas depende da referência."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Gases",
+    "title": "Modelo ideal e temperatura absoluta",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "Gases ideais obedecem aPV=nRT no modelo.",
+      "Use kelvin em razões de temperatura.",
+      "Quantidade fixa permite comparar PV/T."
+    ],
+    "sections": [
+      {
+        "title": "Modelo ideal e temperatura absoluta",
+        "text": "Um gás ideal é um modelo que despreza o volume próprio das partículas e suas interações fora das colisões. É útil em condições adequadas de pressão e temperatura. Na equação PV=nRT, a temperatura deve ser absoluta, em kelvin, e as unidades de R precisam combinar com pressão e volume."
+      },
+      {
+        "title": "Transformações e condições mantidas",
+        "text": "Para quantidade fixa de gás, PV/T permanece constante no modelo ideal. Temperatura fixa dá PV constante; pressão fixa dá V/T constante; volume fixo dá P/T constante. Antes de usar uma proporção, identifique o que permanece fixo."
+      },
+      {
+        "title": "Misturas gasosas",
+        "text": "Na mistura ideal, cada gás contribui com uma pressão parcial. A pressão total é a soma dessas contribuições e a pressão parcial de cada espécie vale sua fração molar vezes a pressão total. Mesmo volume não significa mesma massa; em iguais P, V, T, quantidades em mol são iguais."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Compressão isotérmica",
+        "prompt": "Uma amostra ocupa6 L a2 atm. É comprimida a3 L, com temperatura constante. Qual a pressão?",
+        "steps": [
+          {
+            "title": "Conservar PV",
+            "text": "2×6=P2×3."
+          },
+          {
+            "title": "Calcular",
+            "text": "P2=4 atm."
+          }
+        ]
+      },
+      {
+        "title": "Pressão parcial",
+        "prompt": "Uma mistura ideal contém1 mol de A e3 mol de B, totalizando8 atm. Qual a pressão parcial de A?",
+        "steps": [
+          {
+            "title": "Fração molar",
+            "text": "xA=1/(1+3)=1/4."
+          },
+          {
+            "title": "Pressão",
+            "text": "pA=(1/4)×8=2 atm."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Gases ideais obedecem aPV=nRT no modelo.",
+      "Use kelvin em razões de temperatura.",
+      "Quantidade fixa permite comparar PV/T.",
+      "Pressões parciais somam a pressão total na mistura ideal."
+    ],
+    "pitfalls": [
+      "Tratar20°C como o dobro da temperatura absoluta de10°C.",
+      "UsarR em unidades incompatíveis com os dados."
+    ],
+    "recall": [
+      {
+        "question": "ComT constante, reduzir V à metade faz o quê?",
+        "answer": "DobraP, para quantidade fixa de gás ideal."
+      },
+      {
+        "question": "Mesmo número de mols implica mesma massa?",
+        "answer": "Não. Depende da massa molar."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Radioatividade",
+    "title": "Transformações no núcleo",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "Radioatividade altera o núcleo.",
+      "Na emissão alfa, A diminui4 eZ diminui2.",
+      "Após n meias-vidas, resta a fração(1/2)ⁿ."
+    ],
+    "sections": [
+      {
+        "title": "Transformações no núcleo",
+        "text": "Radioatividade envolve núcleos instáveis, não apenas transições de elétrons. Na emissão alfa, o núcleo perde dois prótons e dois nêutrons: A diminui4 eZ diminui2. Na emissão beta menos, um nêutron se converte em próton eZ aumenta1, sem mudar A no balanço nuclear usual."
+      },
+      {
+        "title": "Meia-vida e atividade",
+        "text": "Meia-vida é o tempo para reduzir à metade o número de núcleos radioativos de uma amostra em um modelo de decaimento exponencial. Após n meias-vidas, a fração restante é(1/2)ⁿ. A atividade está ligada ao número de desintegrações por tempo e não deve ser confundida com massa total de todo material da amostra."
+      },
+      {
+        "title": "Fissão, fusão e aplicações",
+        "text": "Na fissão, um núcleo pesado origina núcleos menores; na fusão, núcleos leves formam um mais pesado. Processos nucleares podem liberar energia associada à diferença de massa. Radioisótopos têm aplicações de rastreamento e datação; seus usos exigem controle de exposição e tratamento adequado dos resíduos."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Decaimento de uma amostra",
+        "prompt": "Uma amostra de80 mg tem meia-vida de5 dias. Quanto resta do radionuclídeo após15 dias?",
+        "steps": [
+          {
+            "title": "Contar intervalos",
+            "text": "15/5=3 meias-vidas."
+          },
+          {
+            "title": "Reduzir",
+            "text": "80/2³=10 mg."
+          }
+        ]
+      },
+      {
+        "title": "Emissão alfa",
+        "prompt": "Um núcleo com A=226 eZ=88 emite uma partícula alfa. Quais são A eZ do produto?",
+        "steps": [
+          {
+            "title": "Conservar números",
+            "text": "A′=226−4 eZ′=88−2."
+          },
+          {
+            "title": "Resultado",
+            "text": "A′=222 eZ′=86; não se conserva a identidade do elemento."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Radioatividade altera o núcleo.",
+      "Na emissão alfa, A diminui4 eZ diminui2.",
+      "Após n meias-vidas, resta a fração(1/2)ⁿ.",
+      "Fissão divide um núcleo pesado; fusão reúne núcleos leves."
+    ],
+    "pitfalls": [
+      "Subtrair a mesma massa em cada meia-vida.",
+      "Confundir emissão nuclear com eletrização."
+    ],
+    "recall": [
+      {
+        "question": "Após duas meias-vidas resta metade?",
+        "answer": "Resta1/4."
+      },
+      {
+        "question": "A emissão alfa mantém o elemento?",
+        "answer": "Não. O número atômico muda."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Funções inorgânicas",
+    "title": "Classificar sem decorar apenas a fórmula",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "Ácidos e bases precisam ser definidos pelo modelo adotado.",
+      "Força não é o mesmo que concentração.",
+      "Soluções de sais podem terp H ácido, básico ou próximo do neutro."
+    ],
+    "sections": [
+      {
+        "title": "Classificar sem decorar apenas a fórmula",
+        "text": "Na abordagem de Arrhenius em água, ácidos aumentam a concentração de H₃O⁺ e bases aumentam a de OH⁻. A presença de H ou OH em uma fórmula não basta: é preciso considerar o comportamento químico. Força de ácido ou base não é sinônimo de concentração da solução."
+      },
+      {
+        "title": "Sais e óxidos",
+        "text": "Sais são compostos iônicos formados por cátions e ânions; suas soluções não são necessariamente neutras por causa da hidrólise. Óxidos são compostos binários do oxigênio com outro elemento, com as exceções de classificação pertinentes. Muitos óxidos metálicos são básicos e muitos de não metais são ácidos, mas há óxidos anfóteros e neutros."
+      },
+      {
+        "title": "Reações e aplicações",
+        "text": "Neutralização entre ácido e base pode formar sal e água. Carbonatos com ácidos podem liberar CO₂. Óxidos ácidos como SO₃ podem formar ácidos com água; CaO reage com água formando Ca(OH)₂. Use o balanceamento e o contexto para reconhecer o processo, não apenas o nome comercial da substância."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Neutralizar",
+        "prompt": "Quantos mol de NaOH neutralizam completamente1 mol de H₂SO₄?",
+        "steps": [
+          {
+            "title": "Balancear",
+            "text": "H₂SO₄+2NaOH→Na₂SO₄+2H₂O."
+          },
+          {
+            "title": "Proporção",
+            "text": "São2 mol de NaOH por mol deácido."
+          }
+        ]
+      },
+      {
+        "title": "Óxido básico",
+        "prompt": "Qual produto resulta de CaO com água?",
+        "steps": [
+          {
+            "title": "Identificar",
+            "text": "É um óxido metálico básico."
+          },
+          {
+            "title": "Representar",
+            "text": "CaO+H₂O→Ca(OH)₂, hidróxido de cálcio."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Ácidos e bases precisam ser definidos pelo modelo adotado.",
+      "Força não é o mesmo que concentração.",
+      "Soluções de sais podem terp H ácido, básico ou próximo do neutro.",
+      "Neutralização e reações de óxidos devem ser balanceadas."
+    ],
+    "pitfalls": [
+      "Concluir que todo composto com H é ácido.",
+      "Afirmar que todo sal dissolvido produzp H7."
+    ],
+    "recall": [
+      {
+        "question": "NaCl sólido é uma molécula isolada?",
+        "answer": "É um sólido iônico organizado em rede, sem moléculas discretas de NaCl no modelo usual."
+      },
+      {
+        "question": "Uma base fraca pode ter solução concentrada?",
+        "answer": "Sim. Força e concentração descrevem propriedades diferentes."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Propriedades coligativas",
+    "title": "Importa a quantidade de partículas",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "Efeito coligativo relaciona-se à quantidade de partículas.",
+      "Soluto não volátil reduz a pressão de vapor no modelo ideal.",
+      "A solução pode ferver acima e congelar abaixo do solvente puro."
+    ],
+    "sections": [
+      {
+        "title": "Importa a quantidade de partículas",
+        "text": "Em soluções suficientemente diluídas e ideais, os efeitos coligativos dependem principalmente da quantidade de partículas de soluto, relativa à de solvente. Um eletrólito que se dissocia pode produzir mais partículas por mol que um não eletrólito. O modelo precisa informar se a dissociação é completa."
+      },
+      {
+        "title": "Vapor, ebulição e congelamento",
+        "text": "Adicionar soluto não volátil reduz a pressão de vapor do solvente no modelo ideal. Para ferver à mesma pressão externa, a solução costuma precisar de temperatura maior; seu congelamento ocorre a temperatura menor que o do solvente puro. Compare sempre o mesmo solvente e a mesma pressão."
+      },
+      {
+        "title": "Osmose e pressão osmótica",
+        "text": "Osmose é o fluxo de solvente por membrana seletiva em direção ao lado de maior concentração efetiva de partículas não permeantes, antes de outros efeitos de pressão equilibrarem o sistema. Pressão osmótica é a pressão necessária para impedir esse fluxo. Na osmose reversa, pressão aplicada à solução força solvente no sentido contrário ao osmótico espontâneo."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Comparar partículas",
+        "prompt": "Soluções aquosas ideais têm mesma molalidade de glicose eNaCl, dissociação completa. Qual tende a congelar mais abaixo?",
+        "steps": [
+          {
+            "title": "Contar partículas",
+            "text": "Glicose permanece molecular; cada NaCl gera Na⁺ eCl⁻."
+          },
+          {
+            "title": "Comparar",
+            "text": "O modelo prevê mais partículas no NaCl e maior abaixamento do congelamento."
+          }
+        ]
+      },
+      {
+        "title": "Crioscopia",
+        "prompt": "Para um não eletrólito ideal, ΔT=Kf·m. SeKf=2°C·kg/mol em=0,3 mol/kg, qual o abaixamento?",
+        "steps": [
+          {
+            "title": "Aplicar",
+            "text": "ΔT=2×0,3."
+          },
+          {
+            "title": "Interpretar",
+            "text": "O abaixamento é0,6°C, subtraído do ponto de congelamento do solvente."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Efeito coligativo relaciona-se à quantidade de partículas.",
+      "Soluto não volátil reduz a pressão de vapor no modelo ideal.",
+      "A solução pode ferver acima e congelar abaixo do solvente puro.",
+      "Osmose reversa exige pressão externa adequada."
+    ],
+    "pitfalls": [
+      "Comparar apenas massas de solutos diferentes.",
+      "Aplicar fator de dissociação sem verificar o modelo."
+    ],
+    "recall": [
+      {
+        "question": "Soluto não volátil aumenta a pressão de vapor?",
+        "answer": "No modelo ideal, ele a reduz."
+      },
+      {
+        "question": "Água sempre atravessa uma membrana do lado mais concentrado para o menos?",
+        "answer": "Não. Na osmose espontânea inicial, ela tende ao lado de maior concentração efetiva de solutos retidos."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ]
+  },
+  {
+    "subject": "Biologia",
+    "topic": "Divisão celular e desenvolvimento",
+    "title": "Cromossomos e duplicação",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "DuplicarDNA não dobra imediatamente o número de cromossomos.",
+      "Mitose preserva a ploidia no modelo normal.",
+      "MeioseI separa homólogos; meiose II separa cromátides."
+    ],
+    "sections": [
+      {
+        "title": "Cromossomos e duplicação",
+        "text": "Antes de uma divisão típica, oDNA é duplicado na fase S. A quantidade de DNA dobra, mas o número de cromossomos, contados pelos centrômeros, ainda não. Cromátides irmãs são cópias de um cromossomo duplicado; cromossomos homólogos têm genes correspondentes e podem portar alelos diferentes."
+      },
+      {
+        "title": "Mitose e meiose",
+        "text": "Mitose mantém o número de conjuntos cromossômicos das células-filhas no modelo sem erros. Meiose envolve uma duplicação de DNA e duas divisões:na I, separam-se homólogos; na II, cromátides irmãs. A redução de ploidia e a recombinação contribuem para a reprodução sexuada e a diversidade genética."
+      },
+      {
+        "title": "Embrião, tecidos e reprodução",
+        "text": "Fecundação une gametas e forma o zigoto. Segmentação aumenta o número de células sem exigir aumento proporcional do volume embrionário. A gastrulação estabelece folhetos embrionários. No modelo dos vertebrados, ectoderma origina sistema nervoso e epiderme; mesoderma, músculos e vários tecidos de sustentação; endoderma, epitélios de partes do tubo digestório e órgãos associados. Não confunda todos os tecidos de um órgão com a origem de um único folheto."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Número cromossômico",
+        "prompt": "Uma célula2n=8 realiza mitose normal. Quantos cromossomos tem cada célula-filha?",
+        "steps": [
+          {
+            "title": "Tipo de divisão",
+            "text": "Mitose preserva a ploidia."
+          },
+          {
+            "title": "Resultado",
+            "text": "Cada filha possui8 cromossomos, sem somar os dois núcleos."
+          }
+        ]
+      },
+      {
+        "title": "Redução meiótica",
+        "prompt": "Uma célula germinativa2n=12 inicia meiose normal. Qual a ploidia das células resultantes?",
+        "steps": [
+          {
+            "title": "Separação de homólogos",
+            "text": "A meiose I reduz o número de conjuntos à metade."
+          },
+          {
+            "title": "Resultado",
+            "text": "As quatro células finais são haploides, n=6, no modelo sem erros."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "DuplicarDNA não dobra imediatamente o número de cromossomos.",
+      "Mitose preserva a ploidia no modelo normal.",
+      "MeioseI separa homólogos; meiose II separa cromátides.",
+      "Fecundação e desenvolvimento envolvem etapas distintas."
+    ],
+    "pitfalls": [
+      "Confundir homólogos com cromátides irmãs.",
+      "Dizer que todo tecido de um órgão tem necessariamente o mesmo folheto de origem."
+    ],
+    "recall": [
+      {
+        "question": "Quando ocorre a redução da ploidia na meiose?",
+        "answer": "Na primeira divisão, pela separação de homólogos."
+      },
+      {
+        "question": "A segmentação precisa aumentar muito o volume total do embrião?",
+        "answer": "Não necessariamente. Ela subdivide o material em células menores."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ],
+    "visual": "division"
+  },
+  {
+    "subject": "Biologia",
+    "topic": "Biomas e sucessão ecológica",
+    "title": "Bioma não é uma espécie de árvore",
+    "minutes": 16,
+    "priority": "Complementar",
+    "why": "Bloco ampliado após comparar as aulas com os objetos de conhecimento da matriz do ENEM. A prioridade é de cobertura, não uma previsão de frequência.",
+    "goals": [
+      "Biomas reúnem ecossistemas em escala ampla.",
+      "Adaptações precisam ser relacionadas ao ambiente.",
+      "Sucessão primária começa sem solo desenvolvido; secundária preserva legados."
+    ],
+    "sections": [
+      {
+        "title": "Bioma não é uma espécie de árvore",
+        "text": "Biomas são grandes conjuntos de ecossistemas relacionados a clima, vegetação e outros fatores. O Brasil tem Amazônia, Cerrado, Caatinga, Mata Atlântica, Pampa ePantanal na classificação terrestre usual do IBGE. Há variações e transições dentro dessas regiões; um nome não descreve todos os ambientes de modo idêntico."
+      },
+      {
+        "title": "Adaptações e limites ambientais",
+        "text": "Na Caatinga, queda de folhas e armazenamento de água podem ajudar a enfrentar estiagens. No Cerrado, sazonalidade, solos e história do fogo se relacionam às estratégias das espécies. Fogo fora do regime ecológico adequado pode causar danos severos; dizer que um bioma tem espécies adaptadas ao fogo não torna toda queimada benéfica."
+      },
+      {
+        "title": "Sucessão e recuperação",
+        "text": "Na sucessão primária, o processo começa em substrato inicialmente sem solo desenvolvido; na secundária, há solo ou outros legados de uma comunidade anterior. Colonizadores modificam condições e alteram interações ao longo do tempo. Não há obrigação de a biomassa, diversidade ou composição crescerem sempre de modo linear, ou de todo lugar terminar numa floresta idêntica."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Qual sucessão?",
+        "prompt": "Vegetação volta a ocupar um campo abandonado onde o solo e sementes permaneceram. Como classificar?",
+        "steps": [
+          {
+            "title": "Legados",
+            "text": "O solo já existe e há remanescentes biológicos."
+          },
+          {
+            "title": "Classificar",
+            "text": "É sucessão secundária, não primária."
+          }
+        ]
+      },
+      {
+        "title": "Conservar paisagens",
+        "prompt": "Por que um corredor ecológico pode ajudar populações isoladas?",
+        "steps": [
+          {
+            "title": "Conectividade",
+            "text": "Pode favorecer deslocamento de indivíduos entre fragmentos."
+          },
+          {
+            "title": "Efeito",
+            "text": "Isso pode facilitar fluxo gênico, sem garantir automaticamente a conservação de toda espécie."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Biomas reúnem ecossistemas em escala ampla.",
+      "Adaptações precisam ser relacionadas ao ambiente.",
+      "Sucessão primária começa sem solo desenvolvido; secundária preserva legados.",
+      "Recuperação depende de condições e história do ambiente."
+    ],
+    "pitfalls": [
+      "Tratar toda vegetação brasileira como floresta tropical úmida.",
+      "Afirmar que qualquer fogo beneficia oCerrado ou que sucessão sempre é linear."
+    ],
+    "recall": [
+      {
+        "question": "Uma lavoura abandonada com solo existente inicia sucessão primária?",
+        "answer": "Em geral, secundária."
+      },
+      {
+        "question": "Um corredor garante sucesso para toda espécie?",
+        "answer": "Não. Seus efeitos dependem do organismo e da paisagem."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "Inep — matriz do ENEM, escopo do conteúdo",
+        "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf"
+      }
+    ],
+    "visual": "ecosystem"
+  }
+]

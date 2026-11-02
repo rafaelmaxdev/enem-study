@@ -1,0 +1,50 @@
+[
+  {
+    "id":"journey-nature-1","subject":"Física","topic":"Eletricidade e magnetismo","difficulty":"Fácil",
+    "prompt":"Uma luminária portátil possui uma lâmpada que, em funcionamento normal, recebe tensão de 6,0 V e é percorrida por corrente de 0,50 A. Qual é a potência elétrica recebida pela lâmpada nessa condição?",
+    "options":["0,083 W","0,50 W","3,0 W","6,5 W","12 W"],"answer":2,
+    "source":"author","sourceName":"Autoral · ENEM Study","hint":"Potência elétrica relaciona a diferença de potencial à corrente que atravessa o componente.",
+    "steps":[{"title":"Identificar as grandezas","text":"A tensão é U=6,0 V e a corrente é i=0,50 A. Elas se referem à mesma lâmpada e à mesma condição de funcionamento."},{"title":"Calcular a potência","text":"Use P=Ui. O produto das unidades volt e ampère é watt.","math":"P=6{,}0\\times0{,}50=3{,}0"},{"title":"Conferir a alternativa","text":"A potência recebida é 3,0 W, alternativa C. Dividir U por i daria a resistência, 12 Ω, e não a potência."}],
+    "status":"ready","verification":"manual"
+  },
+  {
+    "id":"journey-nature-2","subject":"Física","topic":"Eletricidade e magnetismo","difficulty":"Média",
+    "prompt":"Para um teste de bancada, um técnico liga dois resistores ôhmicos, de 4,0 Ω e 8,0 Ω, em série a uma fonte ideal de 12 V. Fios ideais e temperatura constante são adotados. Qual é a potência dissipada somente no resistor de 8,0 Ω?",
+    "options":["1,0 W","4,0 W","8,0 W","12 W","18 W"],"answer":2,
+    "source":"author","sourceName":"Autoral · ENEM Study","hint":"Primeiro descubra a corrente comum aos dois resistores em série. Depois calcule a potência no componente solicitado.",
+    "steps":[{"title":"Reduzir a associação","text":"Em série, as resistências somam: Req=4+8=12 Ω. A corrente é i=12/12=1,0 A."},{"title":"Usar apenas o resistor pedido","text":"No resistor de 8 Ω, P=Ri²=8×1²=8,0 W. A tensão nele vale 8 V, e não os 12 V da fonte."},{"title":"Conferir energia e resposta","text":"O resistor de 4 Ω dissipa 4 W; juntos dissipam 12 W, igual a Ufonte×i. A parcela pedida é 8,0 W, alternativa C."}],
+    "status":"ready","verification":"manual"
+  },
+  {
+    "id":"journey-nature-3","subject":"Física","topic":"Eletricidade e magnetismo","difficulty":"Difícil",
+    "prompt":"Um dispositivo experimental de aquecimento tem dois resistores idênticos, cada um de resistência constante R. Uma chave ideal permite ligá-los em série ou em paralelo, sempre à mesma fonte ideal de tensão constante U. O calor útil representa a mesma fração da energia elétrica nos dois modos. Para fornecer a mesma quantidade de calor útil, o modo série leva um tempo tₛ e o modo paralelo leva um tempo tₚ. Desprezando aquecimento inicial e qualquer variação de resistência, qual é a razão tₛ/tₚ?",
+    "options":["1/4","1/2","1","2","4"],"answer":4,
+    "source":"author","sourceName":"Autoral · ENEM Study","hint":"Compare as resistências equivalentes e use a tensão constante para obter as potências. Para uma energia fixa, maior potência significa menor tempo.",
+    "steps":[{"title":"Comparar os circuitos","text":"Em série, Req=2R. Em paralelo, Req=R/2. A tensão total U permanece a mesma nos dois modos."},{"title":"Obter a razão das potências","text":"Pₛ=U²/(2R) e Pₚ=U²/(R/2)=2U²/R. Portanto, Pₚ/Pₛ=4."},{"title":"Relacionar ao tempo","text":"Como o calor útil e o rendimento são iguais, a energia elétrica necessária também é igual. E=Pₛtₛ=Pₚtₚ, logo tₛ/tₚ=Pₚ/Pₛ=4. Alternativa E."}],
+    "status":"ready","verification":"manual"
+  },
+  {
+    "id":"journey-nature-4","subject":"Química","topic":"Termoquímica e cinética","difficulty":"Fácil",
+    "prompt":"Em uma demonstração, a dissolução de um sal em água ocorre em um recipiente termicamente isolado do ambiente. A temperatura da solução diminui durante a dissolução. O processo ocorre sob pressão constante. Considere que não ocorre mudança de estado e que a queda de temperatura se deve somente ao processo de dissolução. Como esse processo é classificado quanto à troca de energia térmica e ao sinal de sua variação de entalpia?",
+    "options":["Exotérmico, com ΔH negativo.","Exotérmico, com ΔH positivo.","Endotérmico, com ΔH negativo.","Endotérmico, com ΔH positivo.","Atérmico, com ΔH nulo."],"answer":3,
+    "source":"author","sourceName":"Autoral · ENEM Study","hint":"Pergunte se a dissolução retira energia térmica da água e do conjunto ou se libera energia para eles.",
+    "steps":[{"title":"Interpretar a temperatura","text":"Pelas condições dadas, o processo de dissolução absorve energia térmica do restante da solução, que esfria."},{"title":"Classificar a troca","text":"Absorção de calor pelo processo corresponde a dissolução endotérmica, na descrição termoquímica usual."},{"title":"Usar o sinal de ΔH","text":"Em processo endotérmico, a entalpia final é maior que a inicial: ΔH>0. A única combinação correta é D."}],
+    "status":"ready","verification":"manual"
+  },
+  {
+    "id":"journey-nature-5","subject":"Química","topic":"Termoquímica e cinética","difficulty":"Média",
+    "prompt":"Para estimar a energia envolvida na transformação do carbono, considere as equações termoquímicas, com todas as substâncias em seus estados indicados e sob as mesmas condições: C(s, grafite)+O₂(g)→CO₂(g), ΔH=−394 kJ; CO(g)+(1/2)O₂(g)→CO₂(g), ΔH=−283 kJ. Qual é o ΔH para C(s, grafite)+(1/2)O₂(g)→CO(g), conforme a equação escrita?",
+    "options":["−677 kJ","−394 kJ","−111 kJ","+111 kJ","+677 kJ"],"answer":2,
+    "source":"author","sourceName":"Autoral · ENEM Study","hint":"Inverta a reação em que o CO aparece como reagente e some-a à primeira, cancelando as espécies iguais.",
+    "steps":[{"title":"Inverter a segunda equação","text":"CO₂(g)→CO(g)+(1/2)O₂(g) passa a ter ΔH=+283 kJ."},{"title":"Somar e cancelar","text":"Ao somar com C+O₂→CO₂, o CO₂ cancela. Resta C+(1/2)O₂→CO, exatamente a equação solicitada."},{"title":"Somar as entalpias","text":"ΔH=−394+283=−111 kJ, alternativa C. A equação escrita corresponde à formação de 1 mol de CO."}],
+    "status":"ready","verification":"manual"
+  },
+  {
+    "id":"journey-nature-6","subject":"Química","topic":"Termoquímica e cinética","difficulty":"Difícil",
+    "prompt":"Dois experimentos da mesma reação reversível são realizados em sistemas fechados, a igual temperatura e volume, com as mesmas quantidades iniciais de reagentes. No experimento II, adiciona-se um catalisador ideal que não altera o volume e não participa do balanço global da reação. Ambos os sistemas são acompanhados até o equilíbrio. Qual comparação é correta?",
+    "options":["II apresenta maior constante de equilíbrio porque sua energia de ativação é menor.","II apresenta maior quantidade final de produtos porque o catalisador favorece apenas a reação direta.","II pode atingir o equilíbrio mais rapidamente, mas possui a mesma constante e a mesma composição final de equilíbrio que I.","II apresenta ΔH menor porque o catalisador reduz a diferença entre as entalpias de reagentes e produtos.","II só tem a reação direta acelerada, enquanto a reação inversa permanece com a mesma rapidez para todas as composições."],"answer":2,
+    "source":"author","sourceName":"Autoral · ENEM Study","hint":"Separe propriedades do caminho de reação das propriedades dos estados inicial e final. Lembre que o catalisador afeta os dois sentidos.",
+    "steps":[{"title":"Identificar o que o catalisador altera","text":"Ele oferece um caminho alternativo com menor barreira de ativação e acelera a aproximação ao equilíbrio, sem modificar o balanço global."},{"title":"Comparar o equilíbrio","text":"A temperatura e as condições iniciais são iguais. A constante K e a composição final de equilíbrio não são alteradas pelo catalisador ideal."},{"title":"Eliminar as confusões","text":"ΔH também não muda, pois depende das entalpias dos estados, não da barreira. O catalisador não favorece exclusivamente um sentido. Apenas C reúne as afirmações corretas."}],
+    "status":"ready","verification":"manual"
+  }
+]

@@ -1,0 +1,1407 @@
+[
+  {
+    "subject": "Física",
+    "topic": "Cinemática e dinâmica",
+    "title": "Descrever o movimento e descobrir suas causas",
+    "minutes": 24,
+    "priority": "Alta",
+    "why": "Forças e movimento aparecem entre os temas frequentes do levantamento SAS. Gráficos e vetores também preparam energia e eletricidade.",
+    "goals": [
+      "Distinguir posição, velocidade e aceleração.",
+      "Interpretar inclinações e áreas dos gráficos.",
+      "Montar a força resultante com direção e sentido."
+    ],
+    "sections": [
+      {
+        "title": "Escolher o referencial",
+        "text": "Posição localiza um corpo em relação à origem. Deslocamento é posição final menos inicial; distância acompanha todo o caminho. A velocidade média vetorial usa deslocamento, enquanto a rapidez média usa distância total. Uma ida e volta pode ter deslocamento zero e distância diferente de zero.",
+        "math": "v_m=\\frac{\\Delta s}{\\Delta t}"
+      },
+      {
+        "title": "Descrever a variação",
+        "text": "No movimento uniforme, a posição varia linearmente. Com aceleração constante, a velocidade varia linearmente. Aceleração descreve mudança de velocidade, inclusive de direção: um corpo pode acelerar mesmo com rapidez constante em uma curva. Divida km/h por 3,6 para obter m/s.",
+        "math": "s=s_0+v_0t+\\frac{at^2}{2},\\qquad v=v_0+at"
+      },
+      {
+        "title": "Ler os gráficos",
+        "text": "A inclinação de posição por tempo fornece velocidade. A área algébrica sob velocidade por tempo fornece deslocamento; áreas negativas indicam deslocamento no sentido negativo. No gráfico aceleração por tempo, a área fornece a variação de velocidade. Confira eixos e unidades antes de calcular."
+      },
+      {
+        "title": "Somar forças sobre o mesmo corpo",
+        "text": "Escolha o corpo e desenhe apenas as forças que atuam nele. Peso é a atração gravitacional; normal é contato perpendicular; atrito se opõe ao deslizamento ou à sua tendência relativa. A resultante determina a aceleração. Velocidade constante implica resultante zero, mas pode haver várias forças equilibradas.",
+        "math": "\\sum\\vec F=m\\vec a,\\qquad P=mg"
+      },
+      {
+        "title": "Vetores e movimento circular",
+        "text": "Vetores exigem módulo,direção e sentido; suas componentes podem ser somadas por eixo. Em uma curva,a velocidade muda de direção mesmo com rapidez constante. No movimento circular uniforme,a aceleração centrípeta tem módulo v²/r e aponta para o centro; a força centrípeta é a resultante radial das forças reais,não uma força adicional independente."
+      },
+      {
+        "title": "Impulso e quantidade de movimento",
+        "text": "Quantidade de movimento é vetorial:p=mv. Impulso da força resultante é a variação de p. Para um sistema com impulso externo desprezível,o momento linear total se conserva; em colisões,a energia cinética só se conserva quando a colisão é elástica. Dois corpos que passam a se mover juntos realizam uma colisão perfeitamente inelástica,com dissipação de energia cinética."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Área no gráfico de velocidade",
+        "prompt": "A velocidade aumenta linearmente de 2 m/s a 8 m/s em 3 s. Qual é o deslocamento?",
+        "steps": [
+          {
+            "title": "Interpretar a figura",
+            "text": "A região sob v×t é um trapézio. Com aceleração constante, a velocidade média é (2+8)/2=5 m/s."
+          },
+          {
+            "title": "Calcular e conferir",
+            "text": "Deslocamento=5×3=15 m. A aceleração é (8−2)/3=2 m/s²; substituir em 2×3+2×3²/2 também produz 15 m."
+          }
+        ]
+      },
+      {
+        "title": "A resultante da caixa",
+        "prompt": "Uma caixa de 6 kg recebe força horizontal de 24 N e atrito contrário de 6 N. Qual é sua aceleração horizontal?",
+        "steps": [
+          {
+            "title": "Usar os sinais",
+            "text": "Escolhendo a força aplicada como positiva, a resultante é 24−6=18 N. Peso e normal se equilibram verticalmente."
+          },
+          {
+            "title": "Aplicar Newton",
+            "text": "a=18/6=3 m/s² no sentido da força aplicada. Usar 24/6 ignoraria o atrito."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Escolha origem, sentido positivo e unidades.",
+      "Distância e deslocamento podem diferir.",
+      "Inclinação de s×t dá velocidade; área de v×t dá deslocamento.",
+      "A força resultante, não uma força isolada, determina a aceleração.",
+      "Ação e reação atuam em corpos diferentes."
+    ],
+    "pitfalls": [
+      "Somar ida e volta e chamar o total de deslocamento.",
+      "Confundir peso com massa ou normal com reação ao peso.",
+      "Usar equações de aceleração constante quando ela varia."
+    ],
+    "recall": [
+      {
+        "question": "Um carro em linha reta com velocidade constante precisa de resultante para a frente?",
+        "answer": "Não. A força motora pode equilibrar as resistências, resultando em força total zero."
+      },
+      {
+        "question": "Uma área negativa sob v×t é distância negativa?",
+        "answer": "Ela é deslocamento negativo. Para a distância percorrida, somam-se os módulos das áreas."
+      }
+    ],
+    "practiceTarget": 10,
+    "sources": [
+      {
+        "title": "OpenStax — Physics",
+        "url": "https://openstax.org/details/books/physics"
+      }
+    ]
+  },
+  {
+    "subject": "Física",
+    "topic": "Trabalho, energia e potência",
+    "title": "Acompanhar transformações de energia",
+    "minutes": 22,
+    "priority": "Alta",
+    "why": "Trabalho e energia conectam mecânica, consumo e rendimento, com presença recorrente no levantamento SAS.",
+    "goals": [
+      "Relacionar trabalho à transferência de energia.",
+      "Escolher conservação com hipóteses explícitas.",
+      "Distinguir energia, potência e rendimento."
+    ],
+    "sections": [
+      {
+        "title": "Trabalho depende do deslocamento",
+        "text": "Uma força transfere energia mecanicamente quando tem componente na direção do deslocamento. Força perpendicular não realiza trabalho sobre esse deslocamento. O trabalho é positivo quando favorece o movimento e negativo quando retira energia cinética.",
+        "math": "W=Fd\\cos\\theta"
+      },
+      {
+        "title": "Cinética e potencial",
+        "text": "A energia cinética depende da rapidez ao quadrado. A potencial gravitacional depende da altura em relação a um nível escolhido. Sem dissipação, a soma dessas energias pode se conservar. Com atrito, energia mecânica diminui, mas energia total não desaparece: parte se transforma em energia interna.",
+        "math": "E_c=\\frac{mv^2}{2},\\quad E_p=mgh,\\quad W_{\\rm resultante}=\\Delta E_c"
+      },
+      {
+        "title": "Potência é o ritmo",
+        "text": "Dois motores podem realizar o mesmo trabalho em tempos diferentes. O mais rápido tem maior potência média. Watt é joule por segundo. Para energia em kWh, multiplique potência em kW pelo tempo em horas.",
+        "math": "P=\\frac{E}{\\Delta t}"
+      },
+      {
+        "title": "A saída útil",
+        "text": "Rendimento compara a energia útil à energia recebida. Um motor recebe energia elétrica e pode entregar trabalho mecânico, dissipando parte como energia térmica. Compare entrada e saída no mesmo intervalo. A mesma razão pode ser calculada entre potências.",
+        "math": "\\eta=\\frac{E_{\\text{útil}}}{E_{\\rm entrada}}"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Queda sem dissipação",
+        "prompt": "Um corpo parte do repouso a 5 m do solo. Despreze o ar e adote g=10 m/s². Qual é a rapidez antes do impacto?",
+        "steps": [
+          {
+            "title": "Relacionar estados",
+            "text": "A energia potencial inicial se transforma em cinética: m×10×5=mv²/2."
+          },
+          {
+            "title": "Resolver",
+            "text": "A massa cancela, v²=100 e v=10 m/s. O resultado depende das hipóteses de partida do repouso e ausência de dissipação."
+          }
+        ]
+      },
+      {
+        "title": "Motor elevando uma carga",
+        "prompt": "Um motor recebe 500 W com rendimento de 80% e eleva 40 kg por 6 m. Use g=10 m/s² e potência útil constante. Quanto tempo leva?",
+        "steps": [
+          {
+            "title": "Separar entrada e saída",
+            "text": "Energia útil=mgh=2400 J. Potência útil=0,80×500=400 W."
+          },
+          {
+            "title": "Calcular o tempo",
+            "text": "t=2400/400=6 s. Conferência: 500×6=3000 J recebidos; 80% correspondem aos 2400 J úteis."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Trabalho resultante é a variação da energia cinética.",
+      "Energia mecânica não precisa se conservar quando há dissipação.",
+      "Potência é energia por tempo.",
+      "1 kWh equivale a 3,6 milhões de joules.",
+      "Rendimento é saída útil dividida pela entrada."
+    ],
+    "pitfalls": [
+      "Tratar potência como energia acumulada.",
+      "Ignorar atrito ao conservar energia mecânica.",
+      "Inverter a fração do rendimento."
+    ],
+    "recall": [
+      {
+        "question": "Dobrar a rapidez dobra a energia cinética?",
+        "answer": "Não. Para a mesma massa, ela quadruplica porque depende de v²."
+      },
+      {
+        "question": "Um aparelho de 2 kW ligado por meia hora consome quanto?",
+        "answer": "1 kWh: 2×0,5=1."
+      }
+    ],
+    "practiceTarget": 8,
+    "visual": "energy",
+    "sources": [
+      {
+        "title": "OpenStax — Physics",
+        "url": "https://openstax.org/details/books/physics"
+      }
+    ]
+  },
+  {
+    "subject": "Física",
+    "topic": "Hidrostática",
+    "title": "Pressão e empuxo nos fluidos",
+    "minutes": 20,
+    "priority": "Complementar",
+    "why": "Pressão, densidade e flutuação conectam situações cotidianas, ambientais e análise de forças.",
+    "goals": [
+      "Calcular pressão pela profundidade.",
+      "Distinguir pressão absoluta e manométrica.",
+      "Relacionar empuxo ao volume deslocado."
+    ],
+    "sections": [
+      {
+        "title": "Força distribuída",
+        "text": "Pressão é força perpendicular por área. A mesma força produz mais pressão em área menor. Pascal equivale a N/m². Densidade é massa dividida por volume e permite comparar quanto espaço materiais de mesma massa ocupam.",
+        "math": "p=\\frac FA,\\qquad \\rho=\\frac mV"
+      },
+      {
+        "title": "A coluna de líquido",
+        "text": "Num líquido homogêneo em repouso, a pressão cresce linearmente com a profundidade medida da superfície. A pressão manométrica é o acréscimo da coluna; a absoluta inclui a pressão na superfície. Pontos à mesma profundidade no mesmo fluido conectado e estático têm a mesma pressão.",
+        "math": "p_{\\rm abs}=p_{\\text{superfície}}+\\rho gh"
+      },
+      {
+        "title": "Máquinas hidráulicas",
+        "text": "Uma variação de pressão aplicada a fluido ideal confinado se transmite por ele. Em pistões na mesma altura, F₁/A₁=F₂/A₂. A prensa aumenta força, mas o pistão maior percorre distância menor. O sistema não multiplica energia."
+      },
+      {
+        "title": "Por que surge empuxo?",
+        "text": "A pressão maior na parte inferior gera uma resultante para cima, igual ao peso do fluido deslocado. Para corpo flutuando livremente em repouso, empuxo e peso se equilibram. O volume deslocado é a parte submersa, não obrigatoriamente o corpo inteiro.",
+        "math": "E=\\rho_{\\rm fluido}gV_{\\rm deslocado}"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Pressão a 4 m",
+        "prompt": "Um ponto está a 4 m de profundidade em água de densidade 1000 kg/m³. Use g=10 m/s² e pressão superficial de 100000 Pa.",
+        "steps": [
+          {
+            "title": "Encontrar o acréscimo",
+            "text": "pmanométrica=1000×10×4=40000 Pa."
+          },
+          {
+            "title": "Incluir a superfície",
+            "text": "pabsoluta=100000+40000=140000 Pa. Pressão não é força: a unidade é Pa, não N."
+          }
+        ]
+      },
+      {
+        "title": "Fração submersa",
+        "prompt": "Um bloco homogêneo de densidade 600 kg/m³ flutua em água de 1000 kg/m³. Que fração fica submersa?",
+        "steps": [
+          {
+            "title": "Equilibrar",
+            "text": "ρbloco×Vtotal×g=ρágua×Vsubmerso×g."
+          },
+          {
+            "title": "Dividir",
+            "text": "Vsubmerso/Vtotal=600/1000=0,60: ficam submersos 60% e acima da superfície 40%."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Pressão é força perpendicular dividida por área.",
+      "A profundidade é medida a partir da superfície.",
+      "Pressão absoluta inclui pressão superficial.",
+      "Empuxo equivale ao peso do fluido deslocado.",
+      "Na flutuação estática livre, E=P."
+    ],
+    "pitfalls": [
+      "Medir profundidade a partir do fundo.",
+      "Usar volume total quando só parte está submersa.",
+      "Afirmar que pressão depende do formato do recipiente."
+    ],
+    "recall": [
+      {
+        "question": "Recipientes de larguras diferentes têm pressões diferentes à mesma profundidade?",
+        "answer": "Não, se contêm o mesmo líquido em repouso e têm a mesma pressão superficial."
+      },
+      {
+        "question": "Um barco de aço pode flutuar?",
+        "answer": "Sim. Sua densidade média considera massa total e volume externo, incluindo o espaço oco."
+      }
+    ],
+    "practiceTarget": 6,
+    "visual": "hydrostatic",
+    "sources": [
+      {
+        "title": "OpenStax — Physics",
+        "url": "https://openstax.org/details/books/physics"
+      }
+    ]
+  },
+  {
+    "subject": "Física",
+    "topic": "Termologia e termodinâmica",
+    "title": "Calor, temperatura e máquinas térmicas",
+    "minutes": 28,
+    "priority": "Alta",
+    "why": "Calorimetria e termodinâmica se destacam no levantamento SAS. O bloco integra trocas térmicas, gases e conservação de energia.",
+    "goals": [
+      "Escolher calor sensível ou latente por etapa.",
+      "Montar balanços térmicos.",
+      "Interpretar trabalho de gases e rendimento."
+    ],
+    "sections": [
+      {
+        "title": "Temperatura não é calor",
+        "text": "Temperatura descreve o estado térmico. Calor é energia transferida por diferença de temperatura, espontaneamente do quente para o frio. Um corpo possui energia interna, não um estoque de calor como substância. Em equações de gases, use kelvin: T=t°C+273,15."
+      },
+      {
+        "title": "Distinguir as etapas",
+        "text": "Sem mudança de estado e com calor específico constante, Q=mcΔT. Na mudança de fase de substância pura à pressão fixa, energia pode ser transferida sem variar a temperatura e Q=mL. Se o processo aquece e depois vaporiza, some os dois calores; não ignore a temperatura inicial.",
+        "math": "Q_s=mc\\Delta T,\\qquad Q_L=mL"
+      },
+      {
+        "title": "Troca e propagação",
+        "text": "Em sistema isolado, a soma dos calores trocados é zero. Um recipiente que absorve energia também entra no balanço. Condução envolve interações microscópicas; convecção envolve deslocamento de fluido; radiação pode atravessar o vácuo. Isolamento reduz transferência, sem criar frio."
+      },
+      {
+        "title": "Primeira lei e ciclos",
+        "text": "Adotando trabalho W positivo quando realizado pelo gás, ΔU=Q−W. Em expansão isobárica, W=pΔV. Num ciclo, ΔU=0. Uma máquina térmica cíclica recebe calor da fonte quente, entrega trabalho e rejeita parte para uma fonte fria. Rendimento é trabalho dividido pelo calor recebido.",
+        "math": "\\Delta U=Q-W,\\qquad \\eta=\\frac W{Q_q}"
+      },
+      {
+        "title": "Carnot e dilatação",
+        "text": "O rendimento máximo de uma máquina reversível entre fontes a temperaturas absolutasTq eTf é1−Tf/Tq. As temperaturas devem ser em kelvin; o limite não é automaticamente o rendimento de uma máquina real. Na dilatação linear em uma faixa adequada,ΔL=αL0ΔT. Juntas de expansão acomodam a mudança de comprimento e reduzem tensões na estrutura."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Aquecer água",
+        "prompt": "Aquecer 500 g de água de 20°C a 60°C, sem perdas, exige quanta energia? Use c=4,2 J/(g·°C).",
+        "steps": [
+          {
+            "title": "Identificar calor sensível",
+            "text": "Não há mudança de estado e ΔT=40°C."
+          },
+          {
+            "title": "Calcular",
+            "text": "Q=500×4,2×40=84000 J=84 kJ. Com potência útil de 700 W, isso leva 120 s."
+          }
+        ]
+      },
+      {
+        "title": "Máquina por ciclo",
+        "prompt": "Uma máquina recebe 1200 J e rejeita 900 J por ciclo. Qual é o rendimento?",
+        "steps": [
+          {
+            "title": "Usar o ciclo",
+            "text": "Como ΔU=0, W=1200−900=300 J."
+          },
+          {
+            "title": "Comparar com a entrada",
+            "text": "η=300/1200=0,25=25%. Os 75% restantes são rejeitados como calor."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Calor sensível: Q=mcΔT; latente: Q=mL.",
+      "Equilíbrio térmico significa temperaturas finais iguais.",
+      "Use kelvin em leis de gases.",
+      "Na convenção adotada, expansão gera trabalho positivo.",
+      "Em ciclo, ΔU=0.",
+      "Isolamento reduz a taxa de transferência."
+    ],
+    "pitfalls": [
+      "Calcular só calor latente quando também há aquecimento.",
+      "Confundir temperatura com energia total.",
+      "Mudar a convenção do sinal de W no meio da conta."
+    ],
+    "recall": [
+      {
+        "question": "Na ebulição de água pura à pressão fixa, a temperatura continua subindo?",
+        "answer": "Durante a mudança de fase, permanece aproximadamente constante enquanto energia contribui para vaporizar."
+      },
+      {
+        "question": "Um gás recebe 800 J e realiza 300 J de trabalho. Qual ΔU?",
+        "answer": "ΔU=800−300=500 J na convenção de trabalho realizado pelo gás."
+      }
+    ],
+    "practiceTarget": 12,
+    "visual": "energy",
+    "sources": [
+      {
+        "title": "OpenStax — primeira lei da termodinâmica",
+        "url": "https://openstax.org/books/physics/pages/12-2-first-law-of-thermodynamics-thermal-energy-and-work"
+      }
+    ]
+  },
+  {
+    "subject": "Física",
+    "topic": "Ondas e óptica",
+    "title": "Transportar energia, refletir e mudar de meio",
+    "minutes": 26,
+    "priority": "Alta",
+    "why": "Som, ondas e reflexão/refração aparecem no levantamento SAS. Reconhecer fenômenos é tão importante quanto calcular.",
+    "goals": [
+      "Relacionar velocidade, frequência e comprimento de onda.",
+      "Distinguir reflexão, refração, difração e interferência.",
+      "Explicar som, luz e imagens."
+    ],
+    "sections": [
+      {
+        "title": "O que se propaga",
+        "text": "Uma onda transporta energia sem exigir transporte líquido de matéria por todo o percurso. Som é mecânico e precisa de meio; luz é eletromagnética e pode viajar no vácuo. Frequência conta oscilações por segundo; período é o tempo de uma oscilação; amplitude está associada à intensidade.",
+        "math": "v=\\lambda f,\\qquad T=\\frac1f"
+      },
+      {
+        "title": "Mudar de meio",
+        "text": "A fonte determina a frequência. Ao atravessar uma interface em situação estacionária, frequência se conserva, enquanto velocidade e comprimento de onda podem mudar. Reflexão devolve a onda ao meio inicial. Refração pode mudar a direção, mas na incidência perpendicular ela pode se manter."
+      },
+      {
+        "title": "Contornar e sobrepor",
+        "text": "Difração é espalhamento em aberturas ou ao contornar obstáculos; é mais perceptível quando suas dimensões são comparáveis ao comprimento de onda. Na interferência, deslocamentos se somam, reforçando ou cancelando localmente. A energia não é destruída: sua distribuição se altera."
+      },
+      {
+        "title": "Som e imagens",
+        "text": "Altura sonora é frequência: agudo tem frequência maior. Volume envolve intensidade e amplitude. Na reflexão óptica, ângulos de incidência e reflexão são iguais e medidos pela normal. Lente convergente aproxima raios paralelos; divergente os espalha. A imagem depende da posição do objeto em relação ao foco."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Onda em região mais rápida",
+        "prompt": "Uma onda de 50 Hz passa de região onde v=100 m/s para outra com v=150 m/s. Qual é o novo λ?",
+        "steps": [
+          {
+            "title": "Preservar a frequência",
+            "text": "A fonte continua com 50 Hz; mudar de meio não muda f."
+          },
+          {
+            "title": "Aplicar v=λf",
+            "text": "λnovo=150/50=3 m. Antes, valia 2 m; aumentou na mesma razão da velocidade."
+          }
+        ]
+      },
+      {
+        "title": "Distância pelo eco",
+        "prompt": "O eco de um som é ouvido 0,8 s depois. Use velocidade do som de 340 m/s. A que distância está a parede?",
+        "steps": [
+          {
+            "title": "Interpretar o percurso",
+            "text": "O tempo inclui ida até a parede e volta."
+          },
+          {
+            "title": "Calcular a ida",
+            "text": "d=340×0,8/2=136 m. O percurso total é 272 m."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "A fonte determina f; meio altera v e λ.",
+      "Som precisa de meio; luz não precisa.",
+      "Agudo/grave é frequência; forte/fraco envolve intensidade.",
+      "Ângulos ópticos são medidos pela normal.",
+      "Eco envolve ida e volta."
+    ],
+    "pitfalls": [
+      "Afirmar que refração sempre muda a direção.",
+      "Confundir volume com frequência.",
+      "Usar o tempo total do eco como só ida."
+    ],
+    "recall": [
+      {
+        "question": "Luz entrando em meio mais lento diminui sua frequência?",
+        "answer": "Não. O comprimento de onda diminui, mantendo a frequência."
+      },
+      {
+        "question": "Por que podemos ouvir alguém atrás de uma porta?",
+        "answer": "Difração e reflexões do som podem levar energia sonora a regiões sem visão direta da fonte."
+      }
+    ],
+    "practiceTarget": 10,
+    "visual": "wave",
+    "sources": [
+      {
+        "title": "OpenStax — Physics",
+        "url": "https://openstax.org/details/books/physics"
+      }
+    ]
+  },
+  {
+    "subject": "Física",
+    "topic": "Eletricidade e magnetismo",
+    "title": "Circuitos: seguir cargas e energia",
+    "minutes": 30,
+    "priority": "Alta",
+    "why": "Circuitos e consumo elétrico têm destaque no levantamento SAS. Comece por corrente e associações antes da indução.",
+    "goals": [
+      "Ler associações em série e paralelo.",
+      "Calcular corrente, potência e consumo.",
+      "Relacionar variação de fluxo à indução."
+    ],
+    "sections": [
+      {
+        "title": "Corrente, tensão e resistência",
+        "text": "Corrente é carga que atravessa uma seção por tempo. Tensão é energia transferida por carga entre pontos. Em resistor ôhmico a condições constantes, U=Ri. Uma diferença de potencial não garante corrente sustentada sem caminho condutor fechado.",
+        "math": "i=\\frac{\\Delta q}{\\Delta t},\\qquad U=Ri"
+      },
+      {
+        "title": "Série ou paralelo?",
+        "text": "Em série há um caminho único: mesma corrente e tensões que somam. Em paralelo, componentes compartilham os mesmos dois nós: mesma tensão e correntes que somam. Reconheça conexões, não a aparência do desenho.",
+        "math": "R_s=R_1+R_2,\\qquad \\frac1{R_p}=\\frac1{R_1}+\\frac1{R_2}"
+      },
+      {
+        "title": "Potência e conta de luz",
+        "text": "Potência é o ritmo da transformação de energia. Em resistores, P=Ui=Ri²=U²/R. Antes de comparar resistências, veja se tensão ou corrente permanece fixa. Em kWh, use potência em kW e tempo em horas; multiplique pela tarifa para obter o custo de energia.",
+        "math": "P=Ui,\\qquad E=P\\Delta t"
+      },
+      {
+        "title": "Campo e indução",
+        "text": "Correntes produzem campos magnéticos. Uma carga em movimento pode sofrer força magnética perpendicular à velocidade e ao campo. Variação de fluxo através de uma espira induz força eletromotriz. Corrente exige circuito fechado; pela lei de Lenz, seu efeito se opõe à variação de fluxo que a originou."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Dois ramos em paralelo",
+        "prompt": "Resistores de 6 Ω e 3 Ω são ligados em paralelo a 12 V. Encontre as correntes e Req.",
+        "steps": [
+          {
+            "title": "Mesma tensão",
+            "text": "i₁=12/6=2 A e i₂=12/3=4 A. A corrente total é 6 A."
+          },
+          {
+            "title": "Conferir Req",
+            "text": "Req=12/6=2 Ω. Deve ser menor que 3 Ω, a menor resistência do conjunto."
+          }
+        ]
+      },
+      {
+        "title": "Custo do aquecedor",
+        "prompt": "Um aparelho de 1500 W funciona 2 h por dia por 20 dias. Tarifa de R$0,90/kWh, sem outras cobranças. Qual é o custo?",
+        "steps": [
+          {
+            "title": "Converter unidades",
+            "text": "1500 W=1,5 kW e tempo total=40 h."
+          },
+          {
+            "title": "Energia e custo",
+            "text": "E=1,5×40=60 kWh. Custo=60×0,90=R$54,00."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Série: mesma corrente; paralelo: mesma tensão.",
+      "P=Ui e E=PΔt.",
+      "kW é potência; kWh é energia.",
+      "No paralelo, Req é menor que a menor resistência.",
+      "Indução exige variação de fluxo; corrente exige circuito fechado.",
+      "Lenz se opõe à mudança, não necessariamente ao campo existente."
+    ],
+    "pitfalls": [
+      "Aplicar a tensão da fonte a cada resistor de uma série.",
+      "Somar resistências paralelas como série.",
+      "Supor que qualquer ímã parado ao lado de uma espira produz corrente."
+    ],
+    "recall": [
+      {
+        "question": "Por que aparelhos domésticos são ligados em paralelo?",
+        "answer": "Cada aparelho recebe a tensão da rede e pode funcionar independentemente dos demais ramos."
+      },
+      {
+        "question": "Aumentar R sempre reduz P?",
+        "answer": "Não. Com tensão fixa, P=U²/R diminui; com corrente fixa, P=Ri² aumenta."
+      }
+    ],
+    "practiceTarget": 12,
+    "visual": "circuit",
+    "sources": [
+      {
+        "title": "OpenStax — Physics",
+        "url": "https://openstax.org/details/books/physics"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Estrutura atômica e ligações",
+    "title": "Das partículas às propriedades dos materiais",
+    "minutes": 26,
+    "priority": "Fundamento",
+    "why": "Estrutura eletrônica explica ligações, solubilidade e condutividade, servindo de base a vários blocos de Química.",
+    "goals": [
+      "Distinguir elemento, isótopo e íon.",
+      "Relacionar ligação e estrutura às propriedades.",
+      "Comparar polaridade e interações intermoleculares."
+    ],
+    "sections": [
+      {
+        "title": "Identidade do átomo",
+        "text": "Z, número de prótons, define o elemento. A conta prótons e nêutrons, portanto n=A−Z. Isótopos têm mesmo Z e diferentes nêutrons. Íons resultam de ganho ou perda de elétrons sem mudar o elemento. Perda gera cátion; ganho gera ânion."
+      },
+      {
+        "title": "Tendências periódicas",
+        "text": "Elementos do mesmo grupo têm semelhanças ligadas aos elétrons de valência. Em tendências gerais, raio aumenta para baixo e esquerda; eletronegatividade e energia de ionização tendem a aumentar para cima e direita. Tendências têm exceções: observe os elementos e dados fornecidos."
+      },
+      {
+        "title": "Ligações e mobilidade",
+        "text": "Sais possuem cátions e ânions numa rede. Substâncias covalentes podem formar moléculas ou redes extensas; nem toda substância covalente tem baixa fusão. Metais possuem elétrons móveis, associados à condutividade. Sal sólido não conduz como sua solução, pois íons precisam de mobilidade."
+      },
+      {
+        "title": "Polaridade e interações",
+        "text": "Ligações polares podem formar molécula apolar se a geometria cancelar seus dipolos. Forças de dispersão existem em todas as partículas; moléculas polares também têm interações dipolo-dipolo. Ligações de hidrogênio são favorecidas por H ligado a F, O ou N interagindo com pares eletrônicos disponíveis. Ebulição depende também do tamanho e da forma das partículas."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Partículas do cálcio",
+        "prompt": "Ca²⁺ tem Z=20 e A=40. Quantos prótons, nêutrons e elétrons possui?",
+        "steps": [
+          {
+            "title": "Olhar o núcleo",
+            "text": "Prótons=20 e nêutrons=40−20=20."
+          },
+          {
+            "title": "Interpretar a carga",
+            "text": "Perdeu dois elétrons:20−2=18 elétrons. O núcleo continua com 20 prótons."
+          }
+        ]
+      },
+      {
+        "title": "Geometria e polaridade",
+        "prompt": "Compare CO₂ linear e H₂O angular quanto à polaridade.",
+        "steps": [
+          {
+            "title": "Direção dos dipolos",
+            "text": "CO₂ possui duas ligações C=O polares, mas os dipolos de mesmo módulo têm sentidos opostos na geometria linear."
+          },
+          {
+            "title": "Resultado vetorial",
+            "text": "CO₂ é apolar. Na água angular, os dipolos O−H não se cancelam e H₂O é polar."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Z define o elemento e A soma prótons e nêutrons.",
+      "Íons diferem em elétrons, não em prótons.",
+      "Sais conduzem quando seus íons se movem.",
+      "Polaridade molecular depende da geometria.",
+      "Interações ajudam a explicar solubilidade e ebulição."
+    ],
+    "pitfalls": [
+      "Confundir isótopo e íon.",
+      "Tratar todo composto covalente como molecular.",
+      "Decidir a polaridade molecular olhando só uma ligação."
+    ],
+    "recall": [
+      {
+        "question": "Um átomo de Z=17 ganha um elétron. Qual a carga?",
+        "answer": "−1: fica com 18 elétrons e 17 prótons."
+      },
+      {
+        "question": "Por que água e óleo tendem a formar fases?",
+        "answer": "A baixa miscibilidade se relaciona ao conjunto das interações entre as partículas e à diferença de polaridade."
+      }
+    ],
+    "practiceTarget": 8,
+    "visual": "matter",
+    "sources": [
+      {
+        "title": "OpenStax — Chemistry 2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Misturas e separação",
+    "title": "Escolher o método pela propriedade",
+    "minutes": 18,
+    "priority": "Alta",
+    "why": "Separação de misturas aparece no levantamento SAS e em contextos de água, petróleo e reciclagem.",
+    "goals": [
+      "Distinguir fase de componente.",
+      "Escolher técnicas pelas propriedades.",
+      "Ordenar etapas de separação."
+    ],
+    "sections": [
+      {
+        "title": "Fase e componente",
+        "text": "Mistura homogênea apresenta uma fase; heterogênea tem duas ou mais nas condições observadas. Água com sal dissolvido tem dois componentes e uma fase. Água líquida com gelo puro tem uma substância e duas fases: sistema heterogêneo nem sempre é mistura."
+      },
+      {
+        "title": "Métodos mecânicos",
+        "text": "Filtração retém sólido insolúvel, mas não sal dissolvido. Decantação usa fases com densidades diferentes; centrifugação acelera sedimentação. Peneiração diferencia tamanhos e imantação aproveita resposta magnética. Escolha pela propriedade, não pelo nome do material."
+      },
+      {
+        "title": "Dissolver e aquecer",
+        "text": "Dissolução fracionada usa solvente que dissolve preferencialmente um componente. Evaporação aberta recupera sólido, mas perde o solvente. Destilação vaporiza e condensa para recuperar componentes voláteis. A simples separa, por exemplo, água de sal não volátil; a fracionada melhora a separação de líquidos miscíveis por volatilidade."
+      },
+      {
+        "title": "Planejar várias etapas",
+        "text": "Desenhe quais materiais estão sólidos, dissolvidos ou em fases líquidas distintas. Depois de dissolver um sal, uma filtração comum já não o retira. Cromatografia explora afinidades diferentes pelas fases móvel e estacionária, gerando velocidades de deslocamento distintas."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Areia, sal e água",
+        "prompt": "Como recuperar separadamente os três componentes?",
+        "steps": [
+          {
+            "title": "Retirar o insolúvel",
+            "text": "Filtre a mistura para reter areia. O sal dissolvido acompanha a água no filtrado."
+          },
+          {
+            "title": "Recuperar água e sal",
+            "text": "Destile a solução: recolha o vapor condensado como água e mantenha o sal não volátil no recipiente. Evaporação aberta não recuperaria água."
+          }
+        ]
+      },
+      {
+        "title": "Água e óleo",
+        "prompt": "Qual procedimento simples separa esses líquidos imiscíveis?",
+        "steps": [
+          {
+            "title": "Reconhecer as fases",
+            "text": "Deixe em repouso para formar camadas por imiscibilidade e diferença de densidade."
+          },
+          {
+            "title": "Decantar",
+            "text": "Use funil de separação para retirar a camada inferior. Não é necessário usar aquecimento nesse caso."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Filtração retém sólido insolúvel.",
+      "Decantação usa fases separáveis e densidades.",
+      "Destilação inclui condensação.",
+      "Evaporação aberta não recupera solvente.",
+      "Fase é porção homogênea; componente é espécie presente."
+    ],
+    "pitfalls": [
+      "Filtrar para tirar sal dissolvido.",
+      "Chamar todo sistema de duas fases de mistura.",
+      "Confundir destilação com separação por densidade."
+    ],
+    "recall": [
+      {
+        "question": "Como separar ferro magnético de areia seca?",
+        "answer": "Imantação."
+      },
+      {
+        "question": "Por que peneira não separa sal dissolvido da água?",
+        "answer": "Os íons dissolvidos não são grãos retidos pela malha. É preciso explorar outra propriedade."
+      }
+    ],
+    "practiceTarget": 6,
+    "sources": [
+      {
+        "title": "OpenStax — Chemistry 2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Estequiometria",
+    "title": "A receita da reação: mol antes de massa",
+    "minutes": 26,
+    "priority": "Fundamento",
+    "why": "Estequiometria conecta reações, soluções e rendimento e sustenta vários temas frequentes.",
+    "goals": [
+      "Balancear sem mudar fórmulas.",
+      "Converter massa em mol e usar coeficientes.",
+      "Calcular limitante, pureza e rendimento."
+    ],
+    "sections": [
+      {
+        "title": "Conservar os átomos",
+        "text": "Balancear ajusta coeficientes até igualar os átomos de cada elemento nos dois lados. Alterar índice interno muda a substância e não é balancear. Em sistema fechado, massa total se conserva mesmo com formação de gás."
+      },
+      {
+        "title": "A ponte do mol",
+        "text": "Coeficientes dão proporções entre mols ou números de partículas, não diretamente entre massas. O caminho seguro é massa→mol→proporção→mol→massa. Massa molar M converte massa m em quantidade de matéria n.",
+        "math": "n=\\frac mM"
+      },
+      {
+        "title": "O limitante",
+        "text": "Converta cada reagente disponível em mol e compare n dividido pelo respectivo coeficiente. O menor valor define o limitante para a reação considerada. Não suponha que todo reagente acaba: calcule a parte consumida do excesso e subtraia do disponível."
+      },
+      {
+        "title": "Pureza e rendimento",
+        "text": "Pureza corrige a massa de substância reativa dentro da amostra. Rendimento compara produto real ao teórico. Aplique a pureza antes da proporção química e rendimento depois. Massa de minério não equivale automaticamente à massa do composto desejado.",
+        "math": "\\eta=\\frac{m_{\\rm real}}{m_{\\text{teórico}}}"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Qual reagente limita?",
+        "prompt": "Na reação N₂+3H₂→2NH₃, misturam-se 2 mol de N₂ e 3 mol de H₂. Quanto NH₃ se forma idealmente?",
+        "steps": [
+          {
+            "title": "Comparar",
+            "text": "N₂:2/1=2; H₂:3/3=1. H₂ é limitante."
+          },
+          {
+            "title": "Usar a razão",
+            "text": "3 mol de H₂ formam 2 mol de NH₃. Consome-se 1 mol de N₂ e sobra 1 mol."
+          }
+        ]
+      },
+      {
+        "title": "Pureza e rendimento juntos",
+        "prompt": "125 g de amostra contêm 80% de CaCO₃. Na reação CaCO₃→CaO+CO₂, use M(CaCO₃)=100 g/mol e M(CO₂)=44 g/mol. Rendimento de 75%. Qual massa de CO₂?",
+        "steps": [
+          {
+            "title": "Calcular o teórico",
+            "text": "Massa pura=125×0,80=100 g=1 mol. Pela razão 1:1, formariam-se 44 g de CO₂."
+          },
+          {
+            "title": "Corrigir o rendimento",
+            "text": "44×0,75=33 g. Pureza e rendimento são fatores distintos."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Balanceie sem alterar fórmulas.",
+      "Coeficientes comparam mols.",
+      "n=m/M.",
+      "Menor n/coeficiente identifica o limitante.",
+      "Pureza corrige reagente; rendimento corrige produto."
+    ],
+    "pitfalls": [
+      "Usar coeficientes como razão direta entre gramas.",
+      "Supor que todo reagente acaba.",
+      "Inverter rendimento e obter real maior que teórico no modelo dado."
+    ],
+    "recall": [
+      {
+        "question": "Em 2H₂+O₂→2H₂O, 1 mol de O₂ com H₂ em excesso forma quanto?",
+        "answer": "2 mol de água."
+      },
+      {
+        "question": "18 g reais para 24 g teóricos: qual rendimento?",
+        "answer": "18/24=75%."
+      }
+    ],
+    "practiceTarget": 10,
+    "visual": "reaction",
+    "sources": [
+      {
+        "title": "OpenStax — estequiometria das reações",
+        "url": "https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Soluções e concentrações",
+    "title": "Escolher o denominador da concentração",
+    "minutes": 22,
+    "priority": "Alta",
+    "why": "Concentração se destaca no levantamento SAS e aparece em alimentos, água e laboratório.",
+    "goals": [
+      "Distinguir massa por volume e molaridade.",
+      "Conservar soluto nas diluições.",
+      "Interpretar saturação e solubilidade."
+    ],
+    "sections": [
+      {
+        "title": "O que está sendo comparado?",
+        "text": "Concentração compara quantidade de soluto a uma referência. Em g/L, use massa e volume da solução; na molaridade, mol e litro. Volume final não é necessariamente o volume inicial de solvente.",
+        "math": "C=\\frac mV,\\qquad c=\\frac nV"
+      },
+      {
+        "title": "A base do percentual",
+        "text": "10% m/m significa 10 g de soluto por 100 g de solução. 10% m/V significa 10 g por 100 mL de solução. 10% V/V significa 10 mL por 100 mL. Densidade pode permitir converter massa em volume, mas precisa ser fornecida ou justificada."
+      },
+      {
+        "title": "Diluição sem perdas",
+        "text": "Ao adicionar solvente sem reação nem perda, conserva-se a quantidade de soluto. Use a mesma unidade de concentração nos dois lados de C₁V₁=C₂V₂. O solvente acrescentado não é o volume final; se foi retirada uma alíquota, só o soluto nela contido entra no cálculo.",
+        "math": "C_1V_1=C_2V_2"
+      },
+      {
+        "title": "Solubilidade e saturação",
+        "text": "A solubilidade é o limite dissolvido em condições especificadas. Solução saturada pode ter corpo de fundo, mas não precisa. Aumentar temperatura nem sempre aumenta solubilidade: leia a curva. Misturas do mesmo soluto sem reação exigem somar quantidades; aditividade dos volumes deve ser dada ou adotada pelo problema."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Preparo em volume final",
+        "prompt": "8 g de sal são dissolvidos e a solução é completada até 200 mL. Qual concentração em g/L?",
+        "steps": [
+          {
+            "title": "Converter volume",
+            "text": "200 mL=0,200 L, volume final da solução."
+          },
+          {
+            "title": "Dividir",
+            "text": "C=8/0,200=40 g/L. Os 8 g não estavam em um litro inteiro."
+          }
+        ]
+      },
+      {
+        "title": "Diluir uma alíquota",
+        "prompt": "50 mL de solução 0,60 mol/L são diluídos até 300 mL. Qual concentração final?",
+        "steps": [
+          {
+            "title": "Conservar mol",
+            "text": "n=0,60×0,050=0,030 mol."
+          },
+          {
+            "title": "Novo volume",
+            "text": "c=0,030/0,300=0,10 mol/L. Volume seis vezes maior, concentração seis vezes menor."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Confira base e unidade de concentração.",
+      "Use volume final da solução.",
+      "1 L=1000 mL.",
+      "Diluição sem perdas conserva soluto.",
+      "Mistura com reação exige estequiometria antes da concentração."
+    ],
+    "pitfalls": [
+      "Usar só o solvente acrescentado como Vfinal.",
+      "Confundir m/m e m/V.",
+      "Supor que saturada sempre tem sólido no fundo."
+    ],
+    "recall": [
+      {
+        "question": "Diluição reduz a massa de soluto?",
+        "answer": "Não, sem perdas ou reação. Reduz a quantidade por volume."
+      },
+      {
+        "question": "Quanto soluto há em 250 mL de solução 20 g/L?",
+        "answer": "20×0,250=5 g."
+      }
+    ],
+    "practiceTarget": 8,
+    "sources": [
+      {
+        "title": "OpenStax — Chemistry 2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Termoquímica e cinética",
+    "title": "Energia e rapidez são perguntas diferentes",
+    "minutes": 26,
+    "priority": "Alta",
+    "why": "Aplicações da cinética se destacam no levantamento SAS. Termoquímica explica combustíveis e processos industriais.",
+    "goals": [
+      "Distinguir exotérmica e endotérmica.",
+      "Calcular ΔH respeitando reação e estado físico.",
+      "Explicar fatores que afetam rapidez."
+    ],
+    "sections": [
+      {
+        "title": "Comparar entalpias",
+        "text": "Em pressão constante no modelo usual, ΔH corresponde ao calor trocado. Exotérmica libera calor e tem ΔH negativo; endotérmica absorve e tem ΔH positivo. A energia liberada vai à vizinhança: produtos não ficam com entalpia maior por isso. Estado físico faz parte da equação termoquímica."
+      },
+      {
+        "title": "Lei de Hess",
+        "text": "ΔH depende dos estados inicial e final. Somar reações soma ΔH; inverter troca o sinal; multiplicar coeficientes multiplica ΔH. Com entalpias de formação, calcule produtos menos reagentes incluindo coeficientes.",
+        "math": "\\Delta H=\\sum n\\Delta H_f(\\text{produtos})-\\sum n\\Delta H_f(\\text{reagentes})"
+      },
+      {
+        "title": "Colisões eficazes",
+        "text": "Partículas precisam colidir com orientação e energia adequadas. Aumentar temperatura geralmente aumenta a fração de colisões com energia suficiente. Maior concentração pode aumentar encontros. Fragmentar um sólido aumenta superfície disponível, sem mudar a massa total."
+      },
+      {
+        "title": "A barreira e o catalisador",
+        "text": "Catalisador oferece caminho alternativo com menor barreira de ativação. Acelera chegada ao equilíbrio sem mudar ΔH nem composição final na mesma temperatura. No gráfico de energia, Ea compara reagentes e estado de transição; ΔH compara produtos e reagentes."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Energia por quantidade",
+        "prompt": "Uma reação libera 880 kJ por mol de combustível. Quanto libera a reação de 0,25 mol?",
+        "steps": [
+          {
+            "title": "Escolher o sinal",
+            "text": "A reação é exotérmica: ΔH molar=−880 kJ/mol."
+          },
+          {
+            "title": "Ajustar",
+            "text": "ΔH=0,25×(−880)=−220 kJ. O sistema libera 220 kJ."
+          }
+        ]
+      },
+      {
+        "title": "Duas barreiras",
+        "prompt": "Reagentes estão a 40 kJ, produtos a 10 kJ e pico a 90 kJ. Catalisador reduz pico a 65 kJ. Compare Ea e ΔH.",
+        "steps": [
+          {
+            "title": "Calcular barreiras",
+            "text": "Ea original=90−40=50 kJ; catalisada=65−40=25 kJ."
+          },
+          {
+            "title": "Comparar estados",
+            "text": "ΔH=10−40=−30 kJ em ambos os caminhos. A reação continua exotérmica."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Exotérmica: ΔH<0; endotérmica: ΔH>0.",
+      "Inverter reação troca sinal de ΔH.",
+      "Ea e ΔH comparam alturas distintas.",
+      "Catalisador não muda o equilíbrio.",
+      "Superfície e concentração podem afetar a rapidez."
+    ],
+    "pitfalls": [
+      "Achar que toda exotérmica é instantânea.",
+      "Dizer que catalisador aumenta energia dos produtos.",
+      "Ler ΔH como energia de ativação."
+    ],
+    "recall": [
+      {
+        "question": "Exotérmica pode precisar de faísca?",
+        "answer": "Sim. O balanço total pode liberar energia e ainda existir uma barreira inicial."
+      },
+      {
+        "question": "Triturar um sólido altera sua massa?",
+        "answer": "Não. Aumenta a superfície de contato e pode acelerar sua reação com o meio."
+      }
+    ],
+    "practiceTarget": 10,
+    "visual": "reaction",
+    "sources": [
+      {
+        "title": "OpenStax — teoria das colisões",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Equilíbrio e pH",
+    "title": "Equilíbrio dinâmico e escala de acidez",
+    "minutes": 28,
+    "priority": "Complementar",
+    "why": "Equilíbrio e ácidos/bases explicam água, solos e processos industriais, exigindo condições e escalas bem interpretadas.",
+    "goals": [
+      "Reconhecer igualdade de velocidades.",
+      "Prever deslocamentos de equilíbrio.",
+      "Calcular pH em modelos simples."
+    ],
+    "sections": [
+      {
+        "title": "A reação não parou",
+        "text": "Em sistema fechado sob condições constantes, reações direta e inversa podem atingir velocidades iguais. Concentrações ficam constantes no tempo, mas não precisam ser iguais. A constante K depende da temperatura. Sólidos e líquidos puros não entram na expressão usual da constante baseada em atividades."
+      },
+      {
+        "title": "Responder a perturbações",
+        "text": "Adicionar reagente pode favorecer seu consumo. Reduzir volume em equilíbrio gasoso favorece o lado de menor número de mols gasosos, quando diferentes. Aquecer favorece o sentido endotérmico e muda K. Catalisador acelera os dois sentidos, sem deslocar equilíbrio."
+      },
+      {
+        "title": "Força não é concentração",
+        "text": "No modelo Brønsted-Lowry, ácido doa próton e base recebe. Força indica extensão de ionização, não concentração. Uma solução diluída de ácido forte não pode ser comparada a ácido fraco concentrado usando só o rótulo. Neutralização não garante sempre pH 7."
+      },
+      {
+        "title": "Escala logarítmica",
+        "text": "Em soluções diluídas, pH=−log[H₃O⁺]. A 25°C, pH+pOH=14 e pH neutro=7. Uma unidade de pH equivale a fator 10 na concentração de hidrônio. Em outra temperatura, o valor neutro e a soma 14 podem mudar.",
+        "math": "\\mathrm{pH}=-\\log[H_3O^+],\\qquad [H_3O^+]=10^{-\\mathrm{pH}}"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Ácido forte diluído",
+        "prompt": "HCl 0,0010 mol/L a 25°C, dissociação completa e contribuição da água desprezível: qual pH?",
+        "steps": [
+          {
+            "title": "Relacionar concentrações",
+            "text": "Cada HCl fornece um próton; [H₃O⁺]≈10⁻³ mol/L."
+          },
+          {
+            "title": "Aplicar logaritmo",
+            "text": "pH=−log10⁻³=3. Uma solução de pH 4 tem dez vezes menos hidrônio."
+          }
+        ]
+      },
+      {
+        "title": "Comprimir gases",
+        "prompt": "Em N₂(g)+3H₂(g)⇌2NH₃(g), reduza o volume mantendo a temperatura. Qual sentido é favorecido?",
+        "steps": [
+          {
+            "title": "Contar os gases",
+            "text": "Reagentes têm 1+3=4 mol gasosos na proporção; produtos têm 2."
+          },
+          {
+            "title": "Responder à compressão",
+            "text": "Favorece a formação de NH₃, lado com menos mols gasosos. K não muda porque T permanece igual."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Equilíbrio: velocidades iguais, não concentrações iguais.",
+      "K muda com temperatura.",
+      "Catalisador não altera composição de equilíbrio.",
+      "pH menor indica mais hidrônio no modelo.",
+      "Forte/fraco difere de concentrado/diluído.",
+      "A 25°C, pH+pOH=14 no modelo aquoso usual."
+    ],
+    "pitfalls": [
+      "Somar pHs ao misturar soluções.",
+      "Supor que neutralizar sempre dá pH 7.",
+      "Afirmar que compressão sempre favorece produtos."
+    ],
+    "recall": [
+      {
+        "question": "De pH 5 a pH 3, [H₃O⁺] aumenta quanto?",
+        "answer": "100 vezes: duas unidades na escala logarítmica."
+      },
+      {
+        "question": "Catalisador muda K?",
+        "answer": "Não na mesma temperatura; altera a rapidez até o equilíbrio."
+      }
+    ],
+    "practiceTarget": 8,
+    "sources": [
+      {
+        "title": "OpenStax — pH e pOH",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Eletroquímica",
+    "title": "Elétrons em trânsito: pilhas e eletrólise",
+    "minutes": 26,
+    "priority": "Alta",
+    "why": "Pilhas aparecem entre os destaques do levantamento SAS. Oxirredução conecta baterias, corrosão e proteção.",
+    "goals": [
+      "Identificar perda e ganho de elétrons.",
+      "Ler eletrodos sem trocar suas funções.",
+      "Comparar pilha e eletrólise."
+    ],
+    "sections": [
+      {
+        "title": "Perda e ganho juntos",
+        "text": "Oxidação perde elétrons e aumenta NOX; redução ganha e diminui NOX. Agente oxidante sofre redução; redutor sofre oxidação. Balanceie elétrons perdidos e recebidos antes de somar semirreações."
+      },
+      {
+        "title": "Função fixa, sinal variável",
+        "text": "Anodo oxida e catodo reduz em pilhas e eletrólise. Na pilha, anodo é negativo e catodo positivo. Elétrons percorrem o fio do anodo ao catodo. A ponte salina transporta íons para manter eletroneutralidade, não elétrons pelo circuito externo."
+      },
+      {
+        "title": "Potencial padrão",
+        "text": "Se a tabela fornece potenciais de redução, faça E°catodo−E°anodo. Valor positivo indica reação espontânea sob condições padrão. Potencial é intensivo: não multiplique por coeficientes ao balancear.",
+        "math": "E^\\circ_{\\rm pilha}=E^\\circ_{\\rm catodo}-E^\\circ_{\\rm anodo}"
+      },
+      {
+        "title": "Forçar ou proteger",
+        "text": "Na eletrólise, fonte externa força reação não espontânea; anodo é positivo e catodo negativo. A carga transferida e o número de elétrons por íon determinam a quantidade formada. Metal de sacrifício deve oxidar preferencialmente em relação ao objeto protegido."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Zinco e cobre",
+        "prompt": "E°(Cu²⁺/Cu)=+0,34 V e E°(Zn²⁺/Zn)=−0,76 V. Determine a pilha espontânea.",
+        "steps": [
+          {
+            "title": "Escolher redução",
+            "text": "Cu²⁺ é reduzido no catodo; Zn é oxidado no anodo: Zn→Zn²⁺+2e⁻."
+          },
+          {
+            "title": "Calcular",
+            "text": "E°=0,34−(−0,76)=1,10 V. Elétrons vão do zinco ao cobre no fio."
+          }
+        ]
+      },
+      {
+        "title": "Depositar prata",
+        "prompt": "Na eletrólise de Ag⁺ passam 965 C. Use F=96500 C/mol e M(Ag)=108 g/mol, rendimento 100%. Qual massa se deposita?",
+        "steps": [
+          {
+            "title": "Converter a carga",
+            "text": "Ag⁺+e⁻→Ag. n(e⁻)=965/96500=0,010 mol; razão elétron/prata é 1:1."
+          },
+          {
+            "title": "Calcular massa",
+            "text": "m=0,010×108=1,08 g. Um íon 2+ exigiria dois mols de elétrons por mol de metal."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Oxidação perde; redução ganha elétrons.",
+      "Anodo oxida e catodo reduz.",
+      "Na pilha, elétrons vão do anodo ao catodo pelo fio.",
+      "Ponte salina transporta íons.",
+      "Não multiplique potenciais por coeficientes.",
+      "Eletrólise demanda fonte externa."
+    ],
+    "pitfalls": [
+      "Definir anodo só pelo sinal.",
+      "Dizer que oxidante perde elétrons.",
+      "Multiplicar E° pelo coeficiente estequiométrico."
+    ],
+    "recall": [
+      {
+        "question": "Fe→Fe²⁺+2e⁻ é oxidação ou redução?",
+        "answer": "Oxidação: perde elétrons e NOX vai de 0 para +2."
+      },
+      {
+        "question": "Catodo é sempre positivo?",
+        "answer": "Não. É positivo numa pilha e negativo numa eletrólise; sempre ocorre redução."
+      }
+    ],
+    "practiceTarget": 10,
+    "visual": "battery",
+    "sources": [
+      {
+        "title": "OpenStax — Chemistry 2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Química orgânica",
+    "title": "Reconhecer funções e prever propriedades",
+    "minutes": 30,
+    "priority": "Alta",
+    "why": "Funções e reações orgânicas lideram os tópicos de Química no levantamento SAS, com aplicações cotidianas.",
+    "goals": [
+      "Localizar grupos funcionais.",
+      "Comparar polaridade e propriedades.",
+      "Reconhecer transformações e polímeros."
+    ],
+    "sections": [
+      {
+        "title": "Ler a estrutura",
+        "text": "Carbono forma cadeias com ligações simples, duplas e triplas. Em fórmulas de traços, vértices e extremidades sem símbolo representam carbonos e hidrogênios ligados a eles costumam ser implícitos. Localize heteroátomos e ligações múltiplas antes de nomear a função."
+      },
+      {
+        "title": "Funções pelo entorno",
+        "text": "Álcool tem OH em carbono saturado; fenol tem OH no anel aromático. Aldeído tem carbonila terminal ligada a H; cetona tem carbonila entre carbonos. Ácido carboxílico tem COOH; éster tem C(=O)−O−C; éter tem C−O−C sem carbonila adjacente. Amida tem N ligado à carbonila. Uma molécula pode reunir várias funções."
+      },
+      {
+        "title": "Estrutura e propriedades",
+        "text": "Grupos polares favorecem interação com água, mas cadeias apolares maiores podem reduzir solubilidade. Álcoois e ácidos podem formar ligações de hidrogênio. Isomeria estrutural muda conexões; geométrica exige restrição de rotação e substituintes adequados. Nem toda dupla gera isomeria geométrica."
+      },
+      {
+        "title": "Reações recorrentes",
+        "text": "Adição reduz insaturação ao ligar novos átomos aos carbonos da ligação múltipla. Esterificação reúne ácido e álcool formando éster e água em equilíbrio. Hidrólise quebra ligações com água; saponificação de gordura com base produz glicerol e sais de ácidos graxos. Polímeros contêm unidades repetidas, e suas propriedades dependem também de estrutura e interações entre cadeias."
+      },
+      {
+        "title": "Isomeria e reconhecimento estrutural",
+        "text": "Isômeros têm a mesma fórmula molecular e estruturas ou disposições espaciais diferentes. Na isomeria constitucional,muda a conectividade dos átomos. A geométrica requer restrição à rotação e substituintes adequados; a presença de dupla,sozinha,não garante isomeria geométrica. Um carbono com quatro substituintes diferentes pode ser centro estereogênico. Fórmulas iguais não implicam propriedades idênticas."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Identificar o grupo",
+        "prompt": "Classifique CH₃CH₂OH e CH₃COOCH₂CH₃ pela função principal.",
+        "steps": [
+          {
+            "title": "Localizar vizinhos",
+            "text": "No primeiro, OH está em carbono saturado: álcool. No segundo, há carbonila ligada a O que se liga a outro carbono."
+          },
+          {
+            "title": "Dar a função correta",
+            "text": "O segundo é éster, não éter. O grupo completo C(=O)−O−C decide a classificação."
+          }
+        ]
+      },
+      {
+        "title": "Hidrogenar eteno",
+        "prompt": "Qual produto resulta de adicionar 1 mol de H₂ a 1 mol de C₂H₄ sob condições catalíticas adequadas?",
+        "steps": [
+          {
+            "title": "Abrir a insaturação",
+            "text": "C=C passa a C−C e cada carbono recebe um H adicional."
+          },
+          {
+            "title": "Conferir a equação",
+            "text": "C₂H₄+H₂→C₂H₆. Forma-se etano, conservando dois carbonos e seis hidrogênios."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Classifique pelo grupo completo e seus vizinhos.",
+      "Carbonila aparece em várias funções diferentes.",
+      "Polaridade e tamanho da cadeia afetam solubilidade.",
+      "Adição em alceno reduz insaturação.",
+      "Esterificação e hidrólise são relacionadas.",
+      "Polímero não significa automaticamente biodegradável."
+    ],
+    "pitfalls": [
+      "Chamar qualquer OH de álcool.",
+      "Ignorar a carbonila e chamar éster de éter.",
+      "Achar que mesma fórmula molecular garante mesmas propriedades."
+    ],
+    "recall": [
+      {
+        "question": "CH₃COCH₃ é aldeído ou cetona?",
+        "answer": "Cetona, pois a carbonila está entre dois carbonos."
+      },
+      {
+        "question": "Por que cadeia maior pode reduzir solubilidade de um álcool?",
+        "answer": "A porção apolar se torna mais relevante, apesar da presença do OH."
+      }
+    ],
+    "practiceTarget": 12,
+    "visual": "reaction",
+    "sources": [
+      {
+        "title": "OpenStax — Chemistry 2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      }
+    ]
+  },
+  {
+    "subject": "Química",
+    "topic": "Química ambiental",
+    "title": "Transformação, impacto e tratamento",
+    "minutes": 24,
+    "priority": "Alta",
+    "why": "Tecnologias ambientais e poluição da água aparecem no levantamento SAS, integrando reações, soluções e ecologia.",
+    "goals": [
+      "Explicar mecanismos de poluição.",
+      "Escolher tratamento pelo contaminante.",
+      "Considerar o ciclo completo dos materiais."
+    ],
+    "sections": [
+      {
+        "title": "Seguir a matéria",
+        "text": "Uma substância pode mudar de meio e forma química. Diluir reduz concentração, mas não elimina massa. Adsorção em carvão transfere contaminantes à superfície e exige cuidar do material usado. Biodegradação depende da molécula, dos organismos e das condições, não de todo material que seja orgânico."
+      },
+      {
+        "title": "Nutrientes e oxigênio",
+        "text": "Matéria orgânica biodegradável pode elevar a demanda bioquímica de oxigênio: decompositores consomem O₂. Excesso de N e P pode favorecer algas; a decomposição posterior contribui para hipóxia na eutrofização. Não atribua toda queda de oxigênio a consumo direto pelos fertilizantes."
+      },
+      {
+        "title": "Fenômenos atmosféricos distintos",
+        "text": "Efeito estufa natural contribui para o balanço térmico terrestre; aumento de gases estufa pode intensificá-lo. Chuva ácida envolve especialmente óxidos de enxofre e nitrogênio formando espécies ácidas. Destruição de ozônio estratosférico envolve outras reações, como ciclos catalíticos de radicais de cloro. Não são o mesmo fenômeno."
+      },
+      {
+        "title": "Escolher e avaliar o tratamento",
+        "text": "Coagulação e floculação reúnem partículas; sedimentação e filtração retiram parte dos sólidos; desinfecção reduz microrganismos. Nenhuma etapa remove universalmente todo contaminante dissolvido. Avalie prevenção, reuso e recuperação considerando também energia, transporte e resíduos, sem confiar apenas em rótulos ambientais."
+      }
+    ],
+    "examples": [
+      {
+        "title": "Diluir não destrói",
+        "prompt": "100 mg de contaminante estável estão em 10 L. Adicionam-se 90 L de água pura, sem perda ou reação. O que muda?",
+        "steps": [
+          {
+            "title": "Calcular concentrações",
+            "text": "Antes:100/10=10 mg/L. Depois:100/100=1 mg/L."
+          },
+          {
+            "title": "Interpretar a massa",
+            "text": "A concentração caiu dez vezes; a massa continua 100 mg. Não houve remoção do contaminante."
+          }
+        ]
+      },
+      {
+        "title": "Partículas e moléculas dissolvidas",
+        "prompt": "Água tem partículas suspensas e um contaminante molecular adsorvível em carvão. Filtração comum resolve ambos?",
+        "steps": [
+          {
+            "title": "Separar formas de presença",
+            "text": "Partículas de tamanho adequado podem ser retidas. Moléculas dissolvidas podem atravessar o filtro comum."
+          },
+          {
+            "title": "Combinar técnicas",
+            "text": "Pode-se combinar separação dos sólidos com adsorção para o contaminante indicado. Eficiência precisa ser conhecida; desinfecção não substitui essas etapas."
+          }
+        ]
+      }
+    ],
+    "summary": [
+      "Diluição não elimina massa.",
+      "Eutrofização envolve excesso de nutrientes e desequilíbrio.",
+      "DBO reflete demanda de oxigênio nas condições do ensaio.",
+      "Estufa, chuva ácida e perda de ozônio têm mecanismos distintos.",
+      "Tratamento depende da espécie e da forma de presença.",
+      "Compare impactos do ciclo completo."
+    ],
+    "pitfalls": [
+      "Supor que filtração comum remove tudo que está dissolvido.",
+      "Confundir efeito estufa e perda de ozônio.",
+      "Tratar biodegradável como isento de impacto."
+    ],
+    "recall": [
+      {
+        "question": "Como nutrientes em excesso podem afetar peixes?",
+        "answer": "Podem aumentar algas; a decomposição consome oxigênio e pode gerar hipóxia."
+      },
+      {
+        "question": "Adsorção destrói o poluente?",
+        "answer": "Não necessariamente: concentra-o na superfície, exigindo destinação ou regeneração do adsorvente."
+      }
+    ],
+    "practiceTarget": 8,
+    "sources": [
+      {
+        "title": "OpenStax — Chemistry 2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      }
+    ]
+  }
+]

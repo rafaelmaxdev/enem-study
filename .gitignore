@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+*.log
+test-results/
+data/
+
+dist-pages/
+work/
+src/starting-progress.local.ts

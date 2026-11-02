@@ -1,0 +1,1598 @@
+[
+  {
+    "id": "inep-2022-d2-c7-139",
+    "subject": "Matemática",
+    "topic": "Razão, proporção e escalas",
+    "difficulty": "Fácil",
+    "prompt": "QUESTÃO 139\nUm casal está reformando a cozinha de casa e \ndecidiu comprar um refrigerador novo. Observando a \nplanta da nova cozinha, desenhada na escala de 1 : 50, \nnotaram que o espaço destinado ao refrigerador tinha \n3,8 cm de altura e 1,6 cm de largura. Eles sabem que \nos fabricantes de refrigeradores indicam que, para um \nbom funcionamento e fácil manejo na limpeza, esses \neletrodomésticos devem ser colocados em espaços que \npermitam uma distância de, pelo menos, 10 cm de outros \nmóveis ou paredes, tanto na parte superior quanto nas \nlaterais. O casal comprou um refrigerador que caberia \nno local a ele destinado na nova cozinha, seguindo as \ninstruções do fabricante.\nEsse refrigerador tem altura e largura máximas, em \nmetro, respectivamente, iguais a\nA 1,80 e 0,60.\nB 1,80 e 0,70.\nC 1,90 e 0,80.\nD 2,00 e 0,90.\nE 2,00 e 1,00.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 0,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 139,
+    "page": 18,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-139.webp"
+    ],
+    "hint": "Converta as medidas da planta e desconte as folgas em cada direção.",
+    "steps": [
+      {
+        "title": "Aplicar a escala",
+        "text": "Altura disponível: 3,8×50=190 cm. Largura: 1,6×50=80 cm."
+      },
+      {
+        "title": "Reservar as folgas",
+        "text": "Retire 10 cm na parte superior e 10 cm de cada uma das duas laterais: altura 180 cm, largura 60 cm."
+      },
+      {
+        "title": "Converter para metro",
+        "text": "As dimensões máximas são 1,80 m e 0,60 m, alternativa A. Não se desconta apenas uma folga lateral."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-140",
+    "subject": "Matemática",
+    "topic": "PA e PG",
+    "difficulty": "Média",
+    "prompt": "18 MT - 2° dia | Caderno \nQUESTÃO 140\nForam convidadas 32 equipes para um torneio de \nfutebol, que foram divididas em 8 grupos com 4 equipes, \nsendo que, dentro de um grupo, cada equipe disputa uma \núnica partida contra cada uma das demais equipes de \nseu grupo. A primeira e a segunda colocadas de cada \ngrupo seguem para realizar as 8 partidas da próxima \nfase do torneio, chamada oitavas de final. Os vencedores\ndas partidas das oitavas de final seguem para jogar\nas 4 partidas das quartas de final. Os vencedores das\nquartas de final disputam as 2 partidas das semifinais, e\nos vencedores avançam para a grande final, que define a\ncampeã do torneio.\nPelas regras do torneio, cada equipe deve ter um \nperíodo de descanso de, no mínimo, 3 dias entre dois \njogos por ela disputados, ou seja, se um time disputar \numa partida, por exemplo, num domingo, só poderá \ndisputar a partida seguinte a partir da quinta-feira da\nmesma semana.\nO número mínimo de dias necessários para a realização\ndesse torneio é\nA 22.\nB 25.\nC 28.\nD 48.\nE 64.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 1,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 140,
+    "page": 18,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-140.webp"
+    ],
+    "hint": "Siga o caminho de uma equipe que chegue à final e respeite os dias completos de descanso.",
+    "steps": [
+      {
+        "title": "Contar jogos por finalista",
+        "text": "São3 jogos no grupo e4 eliminatórios: oitavas,quartas,semifinal e final. Total 7."
+      },
+      {
+        "title": "Posicionar as datas",
+        "text": "Com3 dias completos entre jogos, as datas podem ser 1,5,9,13,17,21,25. Os jogos de equipes diferentes podem ocorrer em paralelo."
+      },
+      {
+        "title": "Conferir o mínimo",
+        "text": "O finalista precisa de6 intervalos de4 dias. Do primeiro ao último, contando o primeiro dia:1+6×4=25 dias. B."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-142",
+    "subject": "Matemática",
+    "topic": "Análise Combinatória",
+    "difficulty": "Média",
+    "prompt": "QUESTÃO 142\nUma montadora de automóveis divulgou que oferta a \nseus clientes mais de 1 000 configurações diferentes de\ncarro, variando o modelo, a motorização, os opcionais e\na cor do veículo. Atualmente, ela oferece 7 modelos de \ncarros com 2 tipos de motores: 1.0 e 1.6. Já em relação\naos opcionais, existem 3 escolhas possíveis: central \nmultimídia, rodas de liga leve e bancos de couro, podendo \no cliente optar por incluir um, dois, três ou nenhum dos \nopcionais disponíveis.\nPara ser fiel à divulgação feita, a quantidade mínima\nde cores que a montadora deverá disponibilizar a seus \nclientes é\nA 8.\nB 9.\nC 11.\nD 18.\nE 24.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 1,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 142,
+    "page": 19,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-142.webp"
+    ],
+    "hint": "Cada opcional pode ser incluído ou não. Depois aplique o princípio multiplicativo.",
+    "steps": [
+      {
+        "title": "Contar os opcionais",
+        "text": "As escolhas independentes dos 3 opcionais geram 2³=8 conjuntos, incluindo nenhum e todos."
+      },
+      {
+        "title": "Contar por cor",
+        "text": "Cada cor admite 7×2×8=112 configurações."
+      },
+      {
+        "title": "Resolver a desigualdade",
+        "text": "112c>1000. Com8 cores há896; com 9,1008. O menor inteiro é9, alternativa B."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-144",
+    "subject": "Matemática",
+    "topic": "Operações e notação científica",
+    "difficulty": "Fácil",
+    "prompt": " - AZUL - 1ª Aplicação 19 \nQUESTÃO 144\nCada número que identifica uma agência bancária tem\nquatro dígitos: N1\n, N2, N3, N4 mais um dígito verificador N5.\nN1 N2 N3 N4 N5\nTodos esses dígitos são números naturais\npertencentes ao conjunto {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. \nPara a determinação de N5, primeiramente multiplica-se\nordenadamente os quatro primeiros dígitos do número \nda agência por 5, 4, 3 e 2, respectivamente, somam-se\nos resultados e obtém-se S = 5 N1 + 4 N2 + 3 N3 + 2 N4\n.\nPosteriormente, encontra-se o resto da divisão de\nS por 11, denotando por R esse resto. Dessa forma, N5 é \na diferença 11 − R.\nConsidere o número de uma agência bancária cujos \nquatro primeiros dígitos são 0100.\nQual é o dígito verificador N5 dessa agência bancária?\nA 0\nB 6\nC 7\nD 8\nE 9",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 2,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 144,
+    "page": 19,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-144.webp"
+    ],
+    "hint": "Aplique os pesos aos dígitos na ordem informada e calcule o resto.",
+    "steps": [
+      {
+        "title": "Obter a soma",
+        "text": "Para 0100: S=5×0+4×1+3×0+2×0=4."
+      },
+      {
+        "title": "Dividir por11",
+        "text": "O resto de4 por 11 é4; não é necessário arredondar um quociente."
+      },
+      {
+        "title": "Calcular o verificador",
+        "text": "N5=11−4=7. Alternativa C."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-146",
+    "subject": "Matemática",
+    "topic": "Equações e Sistemas",
+    "difficulty": "Difícil",
+    "prompt": "20 MT - 2° dia | Caderno \nQUESTÃO 146\nUm parque tem dois circuitos de tamanhos \ndiferentes para corridas. Um corredor treina nesse \nparque e, no primeiro dia, inicia seu treino percorrendo \n3 voltas em torno do circuito maior e 2 voltas em torno \ndo menor, perfazendo um total de 1 800 m. Em seguida, \ndando continuidade a seu treino, corre mais 2 voltas \nem torno do circuito maior e 1 volta em torno do menor, \npercorrendo mais 1 100 m.\nNo segundo dia, ele pretende percorrer 5 000 m nos \ncircuitos do parque, fazendo um número inteiro de voltas \nem torno deles e de modo que o número de voltas seja o \nmaior possível.\nA soma do número de voltas em torno dos dois circuitos, \nno segundo dia, será\nA 10.\nB 13.\nC 14.\nD 15.\nE 16.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 4,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 146,
+    "page": 20,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-146.webp"
+    ],
+    "hint": "Primeiro descubra os comprimentos; depois maximize as voltas com uma soma exata de distâncias.",
+    "steps": [
+      {
+        "title": "Resolver os comprimentos",
+        "text": "3M+2m=1800 e2M+m=1100. Da segunda,m=1100−2M; substituindo,M=400 m e m=300 m."
+      },
+      {
+        "title": "Impor a distância",
+        "text": "400a+300b=5000,ou4a+3b=50,com a,b inteiros não negativos. Como cada volta tem pelo menos 300 m, cabem no máximo 16 voltas."
+      },
+      {
+        "title": "Mostrar que é possível",
+        "text": "a=2,b=14 produz 800+4200=5000 m e16 voltas. Assim o limite é atingido e a alternativa é E."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-148",
+    "subject": "Matemática",
+    "topic": "Operações e notação científica",
+    "difficulty": "Média",
+    "prompt": "QUESTÃO 148\nA luminosidade L de uma estrela está relacionada com \no raio R e com a temperatura T dessa estrela segundo a \nLei de Stefan-Boltzmann: L = c ⋅ R 2 ⋅ T 4\n, em que c é uma \nconstante igual para todas as estrelas.\nDisponível em: http://ciencia.hsw.uol.com.br. Acesso em: 22 nov. 2013 (adaptado).\nConsidere duas estrelas E e F, sendo que a estrela E\ntem metade do raio da estrela F e o dobro da temperatura \nde F.\nIndique por LE e LF suas respectivas luminosidades.\nA relação entre as luminosidades dessas duas estrelas é\ndada por\nA L L E\nF = 2\nB L L E\nF = 4\nC LE = LF\nD LE = 4LF\nE LE = 8LF",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 3,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 148,
+    "page": 21,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-148.webp"
+    ],
+    "hint": "Calcule separadamente o efeito de dividir o raio e multiplicar a temperatura.",
+    "steps": [
+      {
+        "title": "Formar a razão",
+        "text": "LE/LF=(RE/RF)²(TE/TF)⁴; a constante c cancela."
+      },
+      {
+        "title": "Substituir os fatores",
+        "text": "(1/2)²×2⁴=(1/4)×16=4."
+      },
+      {
+        "title": "Interpretar",
+        "text": "LE=4LF, alternativa D. O expoente 4 da temperatura é essencial."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-149",
+    "subject": "Matemática",
+    "topic": "Estatística",
+    "difficulty": "Média",
+    "prompt": "MT - 2° dia | Caderno \nQUESTÃO 149\nUma das informações que pode auxiliar no \ndimensionamento do número de pediatras que devem \natender em uma Unidade Básica de Saúde (UBS) é \no número que representa a mediana da quantidade \nde crianças por família existente na região sob sua\nresponsabilidade. O quadro mostra a distribuição das\nfrequências do número de crianças por família na região\nde responsabilidade de uma UBS.\nNúmero de crianças\npor família Frequência\n0 100\n1 400\n2 200\n3 150\n4 100\n5 50\nO número que representa a mediana da quantidade de \ncrianças por família nessa região é\nA 1,0.\nB 1,5.\nC 1,9.\nD 2,1.\nE 2,5.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 1,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 149,
+    "page": 21,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-149.webp"
+    ],
+    "hint": "As frequências representam quantas famílias possuem cada quantidade de crianças.",
+    "steps": [
+      {
+        "title": "Contar as famílias",
+        "text": "100+400+200+150+100+50=1000. A mediana depende das posições 500 e501."
+      },
+      {
+        "title": "Localizar as posições",
+        "text": "Famílias sem crianças ocupam 1–100; com 1 criança,101–500; com 2,501–700."
+      },
+      {
+        "title": "Calcular a mediana",
+        "text": "Os valores centrais são 1 e2. Mediana=(1+2)/2=1,5, alternativa B. Não é a média ponderada."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-153",
+    "subject": "Matemática",
+    "topic": "Geometria espacial",
+    "difficulty": "Média",
+    "prompt": "QUESTÃO 153\nUma empresa produz e vende um tipo de chocolate, \nmaciço, em formato de cone circular reto com as medidas \ndo diâmetro da base e da altura iguais a 8 cm e 10 cm, \nrespectivamente, como apresenta a figura.\n8 cm\n10 cm\nDevido a um aumento de preço dos ingredientes \nutilizados na produção desse chocolate, a empresa\ndecide produzir esse mesmo tipo de chocolate com um \nvolume 19% menor, no mesmo formato de cone circular \nreto com altura de 10 cm.\nPara isso, a empresa produzirá esses novos chocolates \ncom medida do raio da base, em centímetro, igual a\nA 1,52.\nB 3,24.\nC 3,60.\nD 6,48.\nE 7,20.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 2,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 153,
+    "page": 23,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-153.webp"
+    ],
+    "hint": "Com a altura fixa, o volume do cone é proporcional ao quadrado do raio.",
+    "steps": [
+      {
+        "title": "Identificar o raio inicial",
+        "text": "O diâmetro é8 cm,logo r=4 cm."
+      },
+      {
+        "title": "Relacionar os volumes",
+        "text": "O novo volume é81% do original. Como a altura não muda,rnovo²/4²=0,81."
+      },
+      {
+        "title": "Extrair a raiz positiva",
+        "text": "rnovo=4×0,9=3,60 cm. Alternativa C. Reduzir 19% diretamente do raio seria incorreto."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-154",
+    "subject": "Matemática",
+    "topic": "Porcentagem e juros",
+    "difficulty": "Fácil",
+    "prompt": "MT - 2° dia | Caderno \nQUESTÃO 154\nEm janeiro de 2013, foram declaradas 1 794 272 \nadmissões e 1 765 372 desligamentos no Brasil, ou seja, \nforam criadas 28 900 vagas de emprego, segundo dados \ndo Cadastro Geral de Empregados e Desempregados \n(Caged), divulgados pelo Ministério do Trabalho e \nEmprego (MTE). Segundo o Caged, o número de vagas \ncriadas em janeiro de 2013 sofreu uma queda de 75%, \nquando comparado com o mesmo período de 2012.\nDisponível em: http://portal.mte.gov.br. Acesso em: 23 fev. 2013 (adaptado).\nDe acordo com as informações dadas, o número de \nvagas criadas em janeiro de 2012 foi\nA 16 514.\nB 86 700.\nC 115 600.\nD 441 343.\nE 448 568.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 2,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 154,
+    "page": 23,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-154.webp"
+    ],
+    "hint": "Uma queda percentual deixa apenas uma fração do valor anterior.",
+    "steps": [
+      {
+        "title": "Identificar o saldo informado",
+        "text": "Em2013 foram criadas 28900 vagas, após a queda em relação a2012."
+      },
+      {
+        "title": "Relacionar os anos",
+        "text": "Uma queda de75% deixa 25%. Assim 0,25V=28900."
+      },
+      {
+        "title": "Recuperar o valor",
+        "text": "V=28900/0,25=115600 vagas. Alternativa C."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-163",
+    "subject": "Matemática",
+    "topic": "Porcentagem e juros",
+    "difficulty": "Difícil",
+    "prompt": "QUESTÃO 163\nEm uma universidade, atuam professores que estão\nenquadrados funcionalmente pela sua maior titulação:\nmestre ou doutor. Nela há, atualmente, 60 mestres e \n40 doutores. Os salários mensais dos professores mestres \ne dos doutores são, respectivamente, R$ 8 000,00 e\nR$ 12 000,00.\nA diretoria da instituição pretende proporcionar um\naumento salarial diferenciado para o ano seguinte, de tal \nforma que o salário médio mensal dos professores dessa \ninstituição não ultrapasse R$ 12 240,00. A universidade já\nestabeleceu que o aumento salarial será de 25% para os \nmestres e precisa ainda definir o percentual de reajuste\npara os doutores.\nMantido o número atual de professores com suas atuais \ntitulações, o aumento salarial, em porcentagem, a ser \nconcedido aos doutores deverá ser de, no máximo,\nA 14,4.\nB 20,7.\nC 22,0.\nD 30,0.\nE 37,5.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 3,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 163,
+    "page": 27,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-163.webp"
+    ],
+    "hint": "Use a folha salarial total permitida, e não uma média simples dos dois salários.",
+    "steps": [
+      {
+        "title": "Reajustar os mestres",
+        "text": "8000×1,25=10000 por mestre;60 mestres custam 600000 reais."
+      },
+      {
+        "title": "Usar a média máxima",
+        "text": "Há100 professores,então a folha pode chegar a100×12240=1224000 reais. Restam 624000 para 40 doutores:15600 por doutor."
+      },
+      {
+        "title": "Comparar ao salário anterior",
+        "text": "(15600−12000)/12000=0,30=30%. Alternativa D. A restrição é uma média ponderada pelas quantidades."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-164",
+    "subject": "Matemática",
+    "topic": "Grandezas e unidades",
+    "difficulty": "Média",
+    "prompt": "QUESTÃO 164\nUm borrifador de atuação automática libera, a cada\nacionamento, uma mesma quantidade de inseticida. \nO recipiente desse produto, quando cheio, contém 360 mL \nde inseticida, que duram 60 dias se o borrifador permanecer \nligado ininterruptamente e for acionado a cada 48 minutos.\nA quantidade de inseticida que é liberada a cada \nacionamento do borrifador, em mililitro, é\nA 0,125.\nB 0,200.\nC 4,800.\nD 6,000.\nE 12,000.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 1,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 164,
+    "page": 27,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-164.webp"
+    ],
+    "hint": "Converta os sessenta dias para minutos antes de contar os acionamentos.",
+    "steps": [
+      {
+        "title": "Obter o intervalo total",
+        "text": "60×24×60=86400 minutos."
+      },
+      {
+        "title": "Contar as liberações",
+        "text": "86400/48=1800 acionamentos no período."
+      },
+      {
+        "title": "Dividir o volume",
+        "text": "360/1800=0,200 mL por acionamento. Alternativa B."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-165",
+    "subject": "Matemática",
+    "topic": "Grandezas e unidades",
+    "difficulty": "Média",
+    "prompt": "MT - 2° dia | Caderno \nQUESTÃO 165\nDefinem-seodiaeoanodeumplanetadeumsistemasolar\ncomo sendo, respectivamente, o tempo que o planeta leva para \ndar 1 volta completa em torno de seu próprio eixo de rotação e o\ntempo para dar 1 volta completa em torno de seu Sol.\nSuponha que exista um planeta Z, em algum sistema\nsolar, onde um dia corresponda a 73 dias terrestres e \nque 2 de seus anos correspondam a 1 ano terrestre. \nConsidere que 1 ano terrestre tem 365 de seus dias.\nNo planeta Z, seu ano corresponderia a quantos de seus\ndias?\nA 2,5\nB 10,0\nC 730,0\nD 13 322,5\nE 53 290,0",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 0,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 165,
+    "page": 27,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-165.webp"
+    ],
+    "hint": "Expresse primeiro o ano do planeta em dias terrestres e depois use o dia do próprio planeta.",
+    "steps": [
+      {
+        "title": "Converter o ano",
+        "text": "Dois anos de Z equivalem a365 dias terrestres; um ano de Z equivale a182,5 dias terrestres."
+      },
+      {
+        "title": "Converter a unidade dia",
+        "text": "Cada dia de Z dura 73 dias terrestres."
+      },
+      {
+        "title": "Formar a razão",
+        "text": "182,5/73=2,5 dias de Z por ano de Z. Alternativa A."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-167",
+    "subject": "Matemática",
+    "topic": "Porcentagem e juros",
+    "difficulty": "Média",
+    "prompt": " - AZUL - 1ª Aplicação 27 \nQUESTÃO 167\nEm uma loja, o preço promocional de uma geladeira \né de R$ 1 000,00 para pagamento somente em dinheiro. \nSeu preço normal, fora da promoção, é 10% maior. Para\npagamento feito com o cartão de crédito da loja, é dado\num desconto de 2% sobre o preço normal.\nUma cliente decidiu comprar essa geladeira, optando \npelo pagamento com o cartão de crédito da loja. Ela\ncalculou que o valor a ser pago seria o preço promocional \nacrescido de 8%. Ao ser informada pela loja do valor a \npagar, segundo sua opção, percebeu uma diferença entre\nseu cálculo e o valor que lhe foi apresentado.\nO valor apresentado pela loja, comparado ao valor \ncalculado pela cliente, foi\nA R$ 2,00 menor.\nB R$ 100,00 menor.\nC R$ 200,00 menor.\nD R$ 42,00 maior.\nE R$ 80,00 maior.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 0,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 167,
+    "page": 27,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-167.webp"
+    ],
+    "hint": "A base do desconto é o preço normal, já reajustado.",
+    "steps": [
+      {
+        "title": "Preço normal",
+        "text": "1000×1,10=1100 reais."
+      },
+      {
+        "title": "Preço no cartão",
+        "text": "1100×0,98=1078 reais. A cliente calculou 1000×1,08=1080 reais."
+      },
+      {
+        "title": "Comparar",
+        "text": "O valor da loja é2 reais menor. Alternativa A. Percentuais sucessivos não são somados diretamente."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-169",
+    "subject": "Matemática",
+    "topic": "Geometria espacial",
+    "difficulty": "Média",
+    "prompt": "28 MT - 2° dia | Caderno \nQUESTÃO 169\nUma loja comercializa cinco modelos de \ncaixas-d’água (I, II, III, IV e V), todos em formato\nde cilindro reto de base circular. Os modelos II, III, IV e V \ntêm as especificações de suas dimensões dadas em\nrelação às dimensões do modelo I, cuja profundidade é P\ne área da base é Ab\n, como segue:\n• modelo II: o dobro da profundidade e a metade da \nárea da base do modelo I;\n• modelo III: o dobro da profundidade e a metade do \nraio da base do modelo I;\n• modelo IV: a metade da profundidade e o dobro da \nárea da base do modelo I;\n• modelo V: a metade da profundidade e o dobro do \nraio da base do modelo I.\nUma pessoa pretende comprar nessa loja o modelo \nde caixa-d’água que ofereça a maior capacidade\nvolumétrica.\nO modelo escolhido deve ser o\nA I.\nB II.\nC III.\nD IV.\nE V.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 4,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 169,
+    "page": 28,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-169.webp"
+    ],
+    "hint": "Diferencie mudar a área da base de mudar o raio.",
+    "steps": [
+      {
+        "title": "Adotar uma referência",
+        "text": "VI=Ab×P. NoII, o fator é(1/2)×2=1."
+      },
+      {
+        "title": "Comparar os outros modelos",
+        "text": "NoIII, metade do raio dá1/4 da área; com dobro da profundidade,fator 1/2. NoIV,fator 2×1/2=1."
+      },
+      {
+        "title": "Escolher o maior",
+        "text": "NoV,dobrar o raio multiplica a área por 4; metade da profundidade dá fator 2. Capacidades relativas 1,1,1/2,1,2. V, alternativa E."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-171",
+    "subject": "Matemática",
+    "topic": "Estatística",
+    "difficulty": "Fácil",
+    "prompt": "QUESTÃO 171\nNos cinco jogos finais da última temporada, com\numa média de 18 pontos por jogo, um jogador foi eleito o \nmelhor do campeonato de basquete. Na atual temporada, \ncinco jogadores têm a chance de igualar ou melhorar \nessa média. No quadro estão registradas as pontuações\ndesses cinco jogadores nos quatro primeiros jogos das \nfinais deste ano.\nJogadores Jogo 1 Jogo 2 Jogo 3 Jogo 4\nI 12 25 20 20\nII 12 12 27 20\nIII 14 14 17 26\nIV 15 18 21 21\nV 22 15 23 15\nO quinto e último jogo será realizado para decidir a \nequipe campeã e qual o melhor jogador da temporada.\nO jogador que precisa fazer a menor quantidade de \npontos no quinto jogo, para igualar a média de pontos do \nmelhor jogador da temporada passada, é o \nA I.\nB II.\nC III.\nD IV.\nE V.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 0,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 171,
+    "page": 29,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-171.webp"
+    ],
+    "hint": "Para a mesma média em cinco jogos, todos precisam atingir a mesma soma final.",
+    "steps": [
+      {
+        "title": "Obter a soma-alvo",
+        "text": "5×18=90 pontos."
+      },
+      {
+        "title": "Somar os quatro jogos",
+        "text": "As somas são 77,71,71,75,75 paraI–V."
+      },
+      {
+        "title": "Calcular o que falta",
+        "text": "Faltam 13,19,19,15,15 pontos. I precisa da menor quantidade, alternativa A."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-173",
+    "subject": "Matemática",
+    "topic": "Razão, proporção e escalas",
+    "difficulty": "Fácil",
+    "prompt": "QUESTÃO 173\nUma instituição de ensino superior ofereceu vagas\nem um processo seletivo de acesso a seus cursos. \nFinalizadas as inscrições, foi divulgada a relação do\nnúmero de candidatos por vaga em cada um dos cursos \noferecidos. Esses dados são apresentados no quadro.\nCurso\nNúmero \nde vagas \noferecidas\nNúmero \nde candidatos \npor vaga\nAdministração 30 6\nCiências Contábeis 40 6\nEngenharia Elétrica 50 7\nHistória 30 8\nLetras 25 4\nPedagogia 25 5\nQual foi o número total de candidatos inscritos nesse \nprocesso seletivo?\nA 200\nB 400\nC 1 200\nD 1 235\nE 7 200",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 3,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 173,
+    "page": 29,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-173.webp"
+    ],
+    "hint": "Número de candidatos por vaga é uma razão; multiplique pelo número de vagas de cada curso.",
+    "steps": [
+      {
+        "title": "Calcular por curso",
+        "text": "Administração 180; Contábeis 240; Elétrica 350; História 240; Letras 100; Pedagogia 125."
+      },
+      {
+        "title": "Somar as inscrições",
+        "text": "180+240+350+240+100+125=1235."
+      },
+      {
+        "title": "Conferir o pedido",
+        "text": "O total de vagas não é o total de candidatos. São1235 candidatos, alternativa D."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-174",
+    "subject": "Matemática",
+    "topic": "Geometria espacial",
+    "difficulty": "Média",
+    "prompt": " - AZUL - 1ª Aplicação 29 \nQUESTÃO 174\nPeças metálicas de aeronaves abandonadas em \naeroportos serão recicladas. Uma dessas peças é\nmaciça e tem o formato cilíndrico, com a medida do raio \nda base igual a 4 cm e a da altura igual a 50 cm. Ela será \nderretida, e o volume de metal resultante será utilizado \npara a fabricação de esferas maciças com diâmetro de\n1 cm, a serem usadas para confeccionar rolamentos. \nPara estimar a quantidade de esferas que poderão ser\nproduzidas a partir de cada uma das peças cilíndricas, \nadmite-se que não ocorre perda de material durante o\nprocesso de derretimento.\nQuantas dessas esferas poderão ser obtidas a partir de\ncada peça cilíndrica?\nA 800\nB 1 200\nC 2 400\nD 4 800\nE 6 400",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 3,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 174,
+    "page": 29,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-174.webp"
+    ],
+    "hint": "Conserve o volume e transforme o diâmetro de cada esfera em raio.",
+    "steps": [
+      {
+        "title": "Volume do cilindro",
+        "text": "V=π×4²×50=800π cm³."
+      },
+      {
+        "title": "Volume da esfera",
+        "text": "Diâmetro 1 cm implica raio 0,5 cm. Vesfera=(4/3)π×0,5³=π/6 cm³."
+      },
+      {
+        "title": "Contar sem perda",
+        "text": "800π/(π/6)=4800 esferas inteiras. Alternativa D."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-175",
+    "subject": "Matemática",
+    "topic": "Operações e notação científica",
+    "difficulty": "Fácil",
+    "prompt": "QUESTÃO 175\nAo escutar a notícia de que um filme recém-lançado\narrecadou, no primeiro mês de lançamento, R$ 1,35 bilhão\nem bilheteria, um estudante escreveu corretamente o \nnúmero que representa essa quantia, com todos os seus \nalgarismos.\nO número escrito pelo estudante foi\nA 135 000,00.\nB 1 350 000,00.\nC 13 500 000,00.\nD 135 000 000,00.\nE 1 350 000 000,00.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 4,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 175,
+    "page": 30,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-175.webp"
+    ],
+    "hint": "Um bilhão corresponde a dez elevado a nove.",
+    "steps": [
+      {
+        "title": "Representar a unidade",
+        "text": "1 bilhão=1000000000."
+      },
+      {
+        "title": "Multiplicar",
+        "text": "1,35×1000000000=1350000000."
+      },
+      {
+        "title": "Localizar os algarismos",
+        "text": "R$1.350.000.000,00, alternativa E. O separador de milhar não muda a quantidade."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-178",
+    "subject": "Matemática",
+    "topic": "Geometria espacial",
+    "difficulty": "Média",
+    "prompt": " - AZUL - 1ª Aplicação \nQUESTÃO 178\nUma cozinheira produz docinhos especiais por \nencomenda. Usando uma receita-base de massa, ela\nprepara uma porção, com a qual produz 50 docinhos\nmaciços de formato esférico, com 2 cm de diâmetro. \nUm cliente encomenda 150 desses docinhos, mas pede \nque cada um tenha formato esférico com 4 cm de diâmetro. \nA cozinheira pretende preparar o número exato de \nporções da receita-base de massa necessário para\nproduzir os docinhos dessa encomenda.\nQuantas porções da receita-base de massa ela deve\npreparar para atender esse cliente?\nA 2\nB 3\nC 6\nD 12\nE 24",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 4,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 178,
+    "page": 30,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-178.webp"
+    ],
+    "hint": "Compare os volumes por docinho e depois a quantidade encomendada.",
+    "steps": [
+      {
+        "title": "Efeito no volume unitário",
+        "text": "O diâmetro dobra de2 para 4 cm. O raio também dobra,logo o volume fica 2³=8 vezes maior."
+      },
+      {
+        "title": "Efeito na quantidade",
+        "text": "A encomenda tem 150/50=3 vezes a quantidade de uma receita-base."
+      },
+      {
+        "title": "Multiplicar os fatores",
+        "text": "São8×3=24 receitas. Alternativa E. Usar só o fator de quantidade ignoraria o tamanho dos doces."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-180",
+    "subject": "Matemática",
+    "topic": "Projeção ortogonal",
+    "difficulty": "Difícil",
+    "prompt": " - AZUL - 1ª Aplicação 31 \nQUESTÃO 180\nNa figura estão destacadas duas trajetórias sobre a\nsuperfície do globo terrestre, descritas ao se percorrer \nparte dos meridianos 1, 2 e da Linha do Equador, sendo \nque os meridianos 1 e 2 estão contidos em planos\nperpendiculares entre si. O plano α é paralelo ao que \ncontém a Linha do Equador.\nMeridiano 2\nMeridiano 1\nLinha do Equador\nα\nN\nS\nA vista superior da projeção ortogonal sobre o plano α \ndessas duas trajetórias é\nA\nB\nC\nD\nE",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 4,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 180,
+    "page": 31,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-180.webp"
+    ],
+    "hint": "Projete separadamente os trechos de meridianos e os arcos destacados do Equador.",
+    "steps": [
+      {
+        "title": "Escolher a direção",
+        "text": "O plano α é paralelo ao Equador. Na vista superior, as projetantes seguem a direção do eixo norte–sul; ambos os polos se projetam no centro."
+      },
+      {
+        "title": "Projetar cada tipo de arco",
+        "text": "Os trechos de meridianos viram segmentos radiais. Como os planos desses meridianos são perpendiculares, os raios projetados são perpendiculares. Os trechos do Equador mantêm os arcos circulares."
+      },
+      {
+        "title": "Reunir só as trajetórias destacadas",
+        "text": "O resultado contém dois quartos de circunferência em quadrantes opostos, unidos aos segmentos radiais. Não são curvas internas nem uma circunferência completa. Apenas E corresponde à união."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-93",
+    "subject": "Física",
+    "topic": "Trabalho, energia e potência",
+    "difficulty": "Média",
+    "prompt": "QUESTÃO 93\nEm 2017, foi inaugurado, no estado da Bahia, o \nParque Solar Lapa, composto por duas usinas (Bom Jesus \nda Lapa e Lapa) e capaz de gerar cerca de 300 GWh de \nenergia por ano. Considere que cada usina apresente \npotência igual a 75 MW, com o parque totalizando uma \npotência instalada de 150 MW. Considere ainda que a \nirradiância solar média é de 1 500 W\nm2 e que a eficiência\ndos painéis é de 20%.\nParque Solar Lapa entra em operação. Disponível em: www.canalbioenergia.com.br. \nAcesso em: 9 jun. 2022 (adaptado).\nNessas condições, a área total dos painéis solares que \ncompõem o Parque Solar Lapa é mais próxima de:\nA 1 000 000 m2\nB 500 000 m2\nC 250 000 m2\nD 100 000 m2\nE 20 000 m2",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 1,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 93,
+    "page": 2,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-93.webp"
+    ],
+    "hint": "Use a potência instalada total e a parcela útil da irradiância por metro quadrado.",
+    "steps": [
+      {
+        "title": "Potência por área",
+        "text": "1500×0,20=300 W/m² de potência elétrica útil."
+      },
+      {
+        "title": "Converter a potência",
+        "text": "150 MW=150000000 W."
+      },
+      {
+        "title": "Calcular a área",
+        "text": "A=150000000/300=500000 m². Alternativa B. A energia anual não é necessária neste cálculo."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-96",
+    "subject": "Física",
+    "topic": "Eletricidade e magnetismo",
+    "difficulty": "Média",
+    "prompt": "4 CN - 2° dia | Caderno \nQUESTÃO 96\nO quadro mostra valores de corrente elétrica e seus \nefeitos sobre o corpo humano.\nCorrente elétrica Dano físico\nAté 10 mA Dor\te\tcontração\tmuscular\nDe 10 mA até 20 mA Aumento das contrações \nmusculares\nDe 20 mA até 100 mA Parada respiratória\nDe 100 mA até 3 A Fibrilação\tventricular\nAcima de 3 A Parada cardíaca e queimaduras\nA corrente elétrica que percorrerá o corpo de um \nindivíduo depende da tensão aplicada e da resistência\nelétrica média do corpo humano. Esse último fator está \nintimamente relacionado com a umidade da pele, que \nseca apresenta resistência elétrica da ordem de 500 kΩ,\nmas, se molhada, pode chegar a apenas 1 kΩ.\nApesar de incomum, é possível sofrer um acidente \nutilizando baterias de 12 V. Considere que um indivíduo \ncom a pele molhada sofreu uma parada respiratória \nao tocar simultaneamente nos pontos A e B de uma \nassociação de duas dessas baterias.\nDURAN, J. E. R. Biofísica: fundamentos e aplicações.\nSão Paulo: Pearson Prentice Hall, 2003 (adaptado).\nQual associação de baterias foi responsável pelo acidente?\nA + - A B\n+ -\nB + - A B\n- +\nC A B\n- + - +\nD +\nA B\n- + -\nE A\nB\n+ -\n- +",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 0,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 96,
+    "page": 4,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-96.webp"
+    ],
+    "hint": "Calcule a corrente para cada associação considerando a resistência da pele fornecida.",
+    "steps": [
+      {
+        "title": "Corrente com24 V",
+        "text": "Duas baterias de12 V em série com forças somadas geram 24 V. ComR=1000 Ω,i=24/1000=24 mA."
+      },
+      {
+        "title": "Comparar às outras tensões",
+        "text": "12 V geram 12 mA; fontes opostas iguais podem resultar em tensão nula. Apenas 24 mA pertence à faixa 20–100 mA indicada no quadro."
+      },
+      {
+        "title": "Identificar o esquema",
+        "text": "A associação em série concordante entreA eB é a alternativa A, compatível com a faixa pedida no modelo da questão."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-97",
+    "subject": "Química",
+    "topic": "Misturas e separação",
+    "difficulty": "Média",
+    "prompt": "QUESTÃO 97\nO urânio é empregado como fonte de energia em \nreatores nucleares. Para tanto, o seu mineral deve \nser refinado, convertido a hexafluoreto de urânio e\nposteriormente enriquecido, para aumentar de 0,7% a 3% \na abundância de um isótopo específico — o urânio-235.\nUma das formas de enriquecimento utiliza a pequena \ndiferença de massa entre os hexafluoretos de urânio-235 e\nde urânio-238 para separá-los por efusão, precedida pela\nvaporização. Esses vapores devem efundir repetidamente\nmilhares de vezes através de barreiras porosas formadas por \ntelas com grande número de pequenos orifícios. No entanto, \ndevido à complexidade e à grande quantidade de energia \nenvolvida, cientistas e engenheiros continuam a pesquisar \nprocedimentos alternativos de enriquecimento.\nATKINS, P.; JONES, L. Princípios de química: questionando a vida moderna e \no meio ambiente. Porto Alegre: Bookman, 2006 (adaptado).\nConsiderando a diferença de massa mencionada entre os \ndois isótopos, que tipo de procedimento alternativo ao da \nefusão pode ser empregado para tal finalidade?\nA Peneiração.\nB Centrifugação.\nC Extração por solvente.\nD Destilação fracionada.\nE Separação magnética.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 1,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 97,
+    "page": 4,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-97.webp"
+    ],
+    "hint": "A alternativa deve explorar a diferença de massa das partículas, sem depender de reações químicas.",
+    "steps": [
+      {
+        "title": "Identificar a propriedade",
+        "text": "As espécies descritas diferem ligeiramente em massa e têm propriedades químicas muito próximas."
+      },
+      {
+        "title": "Escolher o processo",
+        "text": "A centrifugação permite separação associada à distribuição de espécies de massas diferentes sob rotação."
+      },
+      {
+        "title": "Eliminar outras técnicas",
+        "text": "Peneiração não separa essas moléculas por massa; extração,destilação e separação magnética não exploram a diferença informada da maneira pedida. B."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-98",
+    "subject": "Biologia",
+    "topic": "Genética e evolução",
+    "difficulty": "Média",
+    "prompt": " - AZUL - 1ª Aplicação \nQUESTÃO 98\nA Agência Nacional de Vigilância Sanitária (Anvisa) \naprovou um produto de terapia gênica no país, indicado \npara o tratamento da distrofia hereditária da retina. O\nprocedimento é recomendado para crianças acima de \n12 meses e adultos com perda de visão causada pela\nmutação do gene humano RPE65. O produto, elaborado\npor engenharia genética, é composto por um vírus, no qual \nfoi inserida uma cópia do gene normal humano RPE65 \npara corrigir o funcionamento das células da retina.\nANVISA. Disponível em: www.gov.br/anvisa. Acesso em: 4 dez. 2021 (adaptado).\nO sucesso dessa terapia advém do fato de que o produto \nfavorecerá a\nA correção do código genético para a tradução da\nproteína.\nB alteração do RNA ribossômico ligado à síntese da\nproteína.\nC produção de mutações benéficas para a correção do\nproblema.\nD liberação imediata da proteína normal na região\nocular humana.\nE expressão do gene responsável pela produção da\nenzima normal.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 4,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 98,
+    "page": 4,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-98.webp"
+    ],
+    "hint": "O vetor leva uma cópia funcional de um gene; pense no que a célula pode produzir a partir dela.",
+    "steps": [
+      {
+        "title": "Identificar o material introduzido",
+        "text": "Foi inserida uma cópia normal do geneRPE65 no vetor."
+      },
+      {
+        "title": "Relacionar gene e produto",
+        "text": "A expressão do gene permite produzir a enzima funcional por transcrição e tradução."
+      },
+      {
+        "title": "Distinguir mecanismos",
+        "text": "Não se altera o código genético universal nem se fornece proteína pronta imediatamente. O mecanismo descrito é a expressão do gene normal, E."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-99",
+    "subject": "Biologia",
+    "topic": "Ecologia",
+    "difficulty": "Fácil",
+    "prompt": "QUESTÃO 99\nA extinção de espécies é uma ameaça real que\nafeta diversas regiões do país. A introdução de espécies\nexóticas pode ser considerada um fator maximizador \ndesse processo. A jaqueira (Artocarpus heterophyllus),\npor exemplo, é uma árvore originária da Índia e de \nregiões do Sudeste Asiático que foi introduzida ainda na \nera colonial e se aclimatou muito bem em praticamente \ntodo o território nacional.\nCasos como o dessa árvore podem provocar a redução\nda biodiversidade, pois elas\nA ocupam áreas de vegetação nativa e substituem\nparcialmente a flora original.\nB estimulam a competição por seus frutos entre animais\ntípicos da região e eliminam as espécies perdedoras.\nC alteram os nichos e aumentam o número de \npossibilidades de relações entre os seres vivos \ndaquele ambiente.\nD apresentam alta taxa de reprodução e se mantêm\ncom um número de indivíduos superior à capacidade \nsuporte do ambiente.\nE diminuem a relação de competição entre os\npolinizadores e facilitam a ação de dispersores de\nsementes de espécies nativas.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 0,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 99,
+    "page": 5,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-99.webp"
+    ],
+    "hint": "Avalie o efeito da ocupação do ambiente sobre as espécies que já viviam nele.",
+    "steps": [
+      {
+        "title": "Identificar o problema",
+        "text": "Uma espécie introduzida pode se estabelecer e ocupar áreas antes usadas pela vegetação nativa."
+      },
+      {
+        "title": "Relacionar à diversidade",
+        "text": "A substituição parcial da flora original pode reduzir a biodiversidade local."
+      },
+      {
+        "title": "Comparar as afirmações",
+        "text": "A descreve esse mecanismo. Não é necessário supor população indefinidamente acima da capacidade de suporte ou eliminação obrigatória de competidores por frutos."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-100",
+    "subject": "Física",
+    "topic": "Cinemática e dinâmica",
+    "difficulty": "Média",
+    "prompt": "CN - 2° dia | Caderno \nQUESTÃO 100\nEm um dia de calor intenso, dois colegas estão\na brincar com a água da mangueira. Um deles quer \nsaber até que altura o jato de água alcança, a partir da \nsaída de água, quando a mangueira está posicionada \ntotalmente na direção vertical. O outro colega propõe\nentão o seguinte experimento: eles posicionarem a saída\nde água da mangueira na direção horizontal, a 1 m de\naltura em relação ao chão, e então medirem a distância\nhorizontal entre a mangueira e o local onde a água \natinge o chão. A medida dessa distância foi de 3 m,\ne a partir disso eles calcularam o alcance vertical do \njato de água. Considere a aceleração da gravidade de\n10 m s-2.\nO resultado que eles obtiveram foi de\nA 1,50 m.\nB 2,25 m.\nC 4,00 m.\nD 4,50 m.\nE 5,00 m.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 1,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 100,
+    "page": 5,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-100.webp"
+    ],
+    "hint": "O lançamento horizontal revela a velocidade de saída; depois use essa velocidade no movimento vertical.",
+    "steps": [
+      {
+        "title": "Tempo de queda",
+        "text": "h=gt²/2. Para 1 m e g=10,t²=0,2 s²."
+      },
+      {
+        "title": "Velocidade do jato",
+        "text": "v=3/t,logo v²=9/0,2=45 m²/s²."
+      },
+      {
+        "title": "Subida acima da saída",
+        "text": "Na orientação vertical,hmax=v²/(2g)=45/20=2,25 m. Alternativa B. A altura pedida é relativa à saída da mangueira."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-102",
+    "subject": "Biologia",
+    "topic": "Genética e evolução",
+    "difficulty": "Média",
+    "prompt": " - AZUL - 1ª Aplicação 5 \nQUESTÃO 102\nEntre as diversas técnicas para diagnóstico da \ncovid-19, destaca-se o teste genético. Considerando as\ndiferentes variantes e cargas virais, um exemplo é a PCR, \nreação efetuada por uma enzima do tipo polimerase.\nEssa técnica permite identificar, com confiabilidade, o\nmaterial genético do SARS-CoV-2, um vírus de RNA.\nPara comprovação da infecção por esse coronavírus, são\ncoletadas amostras de secreções do indivíduo. Uma etapa \nque antecede a reação de PCR precisa ser realizada para\npermitir a amplificação do material genético do vírus.\nEssa etapa deve ser realizada para\nA concentrar o RNA viral para otimizar a técnica.\nB identificar nas amostras anticorpos anti-SARS-CoV-2.\nC proliferar o vírus em culturas, aumentando a carga viral.\nD purificar ácidos nucleicos virais, facilitando a ação da\nenzima.\nE obter moléculas de cDNAviral por meio da transcrição\nreversa.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 4,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 102,
+    "page": 5,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-102.webp"
+    ],
+    "hint": "A PCR convencional amplifica DNA, mas o genoma viral mencionado é RNA.",
+    "steps": [
+      {
+        "title": "Identificar os ácidos nucleicos",
+        "text": "O vírus possuiRNA; a etapa de amplificação descrita utilizaDNA como molde."
+      },
+      {
+        "title": "Preparar o molde",
+        "text": "A transcrição reversa sintetizaDNA complementar,cDNA,a partir doRNA viral."
+      },
+      {
+        "title": "Escolher a etapa",
+        "text": "Obter cDNA por transcrição reversa é a alternativa E. Anticorpos pertencem a outro tipo de teste."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-104",
+    "subject": "Biologia",
+    "topic": "Fisiologia e saúde",
+    "difficulty": "Fácil",
+    "prompt": "QUESTÃO 104\nDiversas substâncias são empregadas com a intenção\nde incrementar o desempenho esportivo de atletas de \nalto nível. O chamado doping sanguíneo, por exemplo, \npela utilização da eritropoietina, é proibido pelas principais\nfederações de esportes no mundo. A eritropoietina é um \nhormônio produzido pelos rins e fígado e sua principal ação\né regular o processo de eritropoiese. Seu uso administrado \nintravenosamente em quantidades superiores àquelas \npresentes naturalmente no organismo permite que o \nindivíduo aumente a sua capacidade de realização de\nexercícios físicos.\nEsse tipo de doping está diretamente relacionado ao \naumento da\nA frequência cardíaca.\nB capacidade pulmonar.\nC massa muscular do indivíduo.\nD atividade anaeróbica da musculatura.\nE taxa de transporte de oxigênio pelo sangue.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 4,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 104,
+    "page": 7,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-104.webp"
+    ],
+    "hint": "Eritropoiese é a formação de hemácias. Relacione essas células ao transporte sanguíneo.",
+    "steps": [
+      {
+        "title": "Ação do hormônio",
+        "text": "A eritropoietina estimula a produção de hemácias."
+      },
+      {
+        "title": "Função das hemácias",
+        "text": "Sua hemoglobina participa do transporte de oxigênio para os tecidos."
+      },
+      {
+        "title": "Mecanismo pedido",
+        "text": "O aumento da capacidade de transportarO₂ pelo sangue é a relação direta, E. Isso não significa aumento direto de volume pulmonar ou massa muscular."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-105",
+    "subject": "Física",
+    "topic": "Cinemática e dinâmica",
+    "difficulty": "Difícil",
+    "prompt": "CN - 2° dia | Caderno \nQUESTÃO 105\nEm um autódromo, os carros podem derrapar em \numa curva e bater na parede de proteção. Para diminuir\no impacto de uma batida, pode-se colocar na parede\numa barreira de pneus, isso faz com que a colisão\nseja mais demorada e o carro retorne com velocidade \nreduzida. Outra opção é colocar uma barreira de blocos\nde um material que se deforma, tornando-a tão demorada\nquanto a colisão com os pneus, mas que não permite a\nvolta do carro após a colisão.\nComparando as duas situações, como ficam a força média\nexercida sobre o carro e a energia mecânica dissipada?\nA A força é maior na colisão com a barreira de pneus, e\na energia dissipada é maior na colisão com a barreira\nde blocos.\nB A força é maior na colisão com a barreira de blocos, e\na energia dissipada é maior na colisão com a barreira\nde pneus.\nC A força é maior na colisão com a barreira de blocos, e\na energia dissipada é a mesma nas duas situações.\nD A força é maior na colisão com a barreira de pneus, e\na energia dissipada é maior na colisão com a barreira\nde pneus.\nE A força é maior na colisão com a barreira de blocos, e\na energia dissipada é maior na colisão com a barreira\nde blocos.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 0,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 105,
+    "page": 7,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-105.webp"
+    ],
+    "hint": "Compare a variação vetorial da velocidade e a energia cinética final em cada colisão.",
+    "steps": [
+      {
+        "title": "Impulso e força média",
+        "text": "Com mesmo tempo de colisão, a reversão do movimento nos pneus exige maior módulo de variação de quantidade de movimento que apenas parar."
+      },
+      {
+        "title": "Energia dissipada",
+        "text": "Nos blocos, o carro para e perde toda a energia cinética inicial. Nos pneus, retorna com energia cinética não nula; dissipa menos."
+      },
+      {
+        "title": "Comparar os dois efeitos",
+        "text": "Maior força média nos pneus, maior energia mecânica dissipada nos blocos. Alternativa A."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-108",
+    "subject": "Química",
+    "topic": "Soluções e concentrações",
+    "difficulty": "Média",
+    "prompt": "8 CN - 2° dia | Caderno 7 - AZUL - 1ª Aplicação\nQUESTÃO 108\nO ácido tartárico é o principal ácido do vinho e está diretamente relacionado com sua qualidade. Na avaliação de\num vinho branco em produção, uma analista neutralizou uma alíquota de 25,0 mL do vinho com NaOH a 0,10 mol L−1, \nconsumindo um volume igual a 8,0 mL dessa base. A reação para esse processo de titulação é representada pela\nequação química:\nHO\nOH O\nO OH\nOH\nOH O\nO OH\nONa\nNaO\n 2 NaOH  2 H2O\nÁcido tartárico\n(massa molar: 150 g mol\n1\n)\nA concentração de ácido tartárico no vinho analisado é mais próxima de:\nA 1,8 g L−1\nB 2,4 g L−1\nC 3,6 g L−1\nD 4,8 g L−1\nE 9,6 g L−1",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 1,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 108,
+    "page": 8,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-108.webp"
+    ],
+    "hint": "A equação mostra que cada mol do ácido reage com dois mol de base.",
+    "steps": [
+      {
+        "title": "Quantidade de base",
+        "text": "nNaOH=0,10×0,0080=0,00080 mol."
+      },
+      {
+        "title": "Quantidade de ácido",
+        "text": "nácido=0,00080/2=0,00040 mol. Massa=0,00040×150=0,060 g na alíquota."
+      },
+      {
+        "title": "Concentração no vinho",
+        "text": "0,060/0,0250=2,4 g/L. Alternativa B. O volume a usar é o da alíquota do vinho."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-109",
+    "subject": "Química",
+    "topic": "Estrutura atômica e ligações",
+    "difficulty": "Média",
+    "prompt": "QUESTÃO 109\nOelementoiodo(I)temfunçãobiológicaeéacumulado\nna tireoide. Nos acidentes nucleares de Chernobyl e \nFukushima, ocorreu a liberação para a atmosfera do\nradioisótopo 131I, responsável por enfermidades nas \npessoas que foram expostas a ele. O decaimento de uma \nmassa de 12 microgramas do isótopo 131I foi monitorado \npor 14 dias, conforme o quadro.\nTempo (dia) Massa residual de 131I (µg)\n0 12,0\n2 10,1\n4 8,5\n5 7,8\n6 7,2\n8 6,0\n14 3,6\nApós o período de 40 dias, a massa residual desse \nisótopo é mais próxima de\nA 2,4 µg.\nB 1,5 µg.\nC 0,8 µg.\nD 0,4 µg.\nE 0,2 µg.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 3,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 109,
+    "page": 9,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-109.webp"
+    ],
+    "hint": "Identifique no quadro quanto tempo é necessário para reduzir a massa à metade.",
+    "steps": [
+      {
+        "title": "Meia-vida",
+        "text": "De12 para 6 microgramas decorrem 8 dias."
+      },
+      {
+        "title": "Número de reduções",
+        "text": "40/8=5 meias-vidas."
+      },
+      {
+        "title": "Massa restante",
+        "text": "12/2⁵=0,375 micrograma,mais próximo de0,4. D. O decaimento não é uma subtração fixa por dia."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-113",
+    "subject": "Química",
+    "topic": "Eletroquímica",
+    "difficulty": "Média",
+    "prompt": "10 CN - 2° dia | Caderno \nQUESTÃO 113\nA nanotecnologia é responsável pelo aprimoramento \nde diversos materiais, incluindo os que são impactados\ncom a presença de poluentes e da umidade na atmosfera, \ncausadores de corrosão. O processo de corrosão é\nespontâneo e provoca a deterioração de metais como\no ferro, que, em presença de oxigênio e água, sofre \noxidação, conforme ilustra a equação química:\n4 Fe (s) + 2 H2\nO (l) + 3 O2 (g) → 2 Fe2O3⋅H2O (s)\nUma forma de garantir a durabilidade da estrutura \nmetálica e a sua resistência à umidade consiste na \ndeposição de filmes finos nanocerâmicos à base de\nzircônia (ZrO2\n) e alumina (Al2O3) sobre a superfície do \nobjeto que se deseja proteger.\nCLEMENTE, G. A. B. F. et al. O uso de materiais híbridos ou nanocompósitos como\nrevestimentos anticorrosivos do aço. Química Nova, n. 9, 2021 (adaptado).\nEssa nanotecnologia aplicada na proteção contra a\ncorrosão se baseia no(a)\nA proteção catódica, que utiliza um metal fortemente\nredutor.\nB uso de metais de sacrifício, que se oxidam no lugar \ndo ferro.\nC passivação do ferro, que fica revestido pelo seu\npróprio óxido.\nD efeito de barreira, que impede o contato com o agente \noxidante.\nE galvanização, que usa outros metais de menor\npotencial de redução.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 3,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 113,
+    "page": 10,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-113.webp"
+    ],
+    "hint": "Observe qual material foi colocado sobre o ferro e qual função física ele desempenha.",
+    "steps": [
+      {
+        "title": "Contato necessário",
+        "text": "A corrosão descrita exige contato do metal com agentes ambientais como água e oxigênio."
+      },
+      {
+        "title": "Função do revestimento",
+        "text": "Os filmes cerâmicos formam uma barreira que dificulta esse contato."
+      },
+      {
+        "title": "Distinguir proteções",
+        "text": "Não se usa um metal de sacrifício nem um filme do próprio óxido de ferro. O mecanismo é efeito de barreira, D."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-114",
+    "subject": "Biologia",
+    "topic": "Citologia e metabolismo",
+    "difficulty": "Fácil",
+    "prompt": "QUESTÃO 114\nAs células da epiderme da folha da Tradescantia \npallida purpurea, uma herbácea popularmente conhecida \ncomo trapoeraba-roxa, contém um vacúolo onde se\nencontra um pigmento que dá a coloração arroxeada a\nesse tecido. Em um experimento, um corte da epiderme \nde uma folha da trapoeraba-roxa foi imerso em ambiente\nhipotônico e, logo em seguida, foi colocado em uma\nlâmina e observado em microscópio óptico.\nDurante a observação desse corte, foi possível identificar o(a)\nA acúmulo do solvente com fragmentação da organela.\nB rompimento da membrana celular com liberação do\ncitosol.\nC aumento do vacúolo com diluição do pigmento no seu\ninterior.\nD quebra da parede celular com extravasamento do \npigmento.\nE murchamento da célula com expulsão do pigmento\ndo vacúolo.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 2,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 114,
+    "page": 10,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-114.webp"
+    ],
+    "hint": "Compare a concentração do meio com a do interior celular e acompanhe a água.",
+    "steps": [
+      {
+        "title": "Direção da osmose",
+        "text": "O ambiente hipotônico favorece entrada de água na célula."
+      },
+      {
+        "title": "Vacúolo e pigmento",
+        "text": "O vacúolo aumenta de volume; o pigmento fica mais diluído, sem necessidade de sua saída."
+      },
+      {
+        "title": "Papel da parede",
+        "text": "A parede celular limita a expansão e permite turgescência; não se prevê ruptura como resultado normal. C."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-117",
+    "subject": "Química",
+    "topic": "Estequiometria",
+    "difficulty": "Fácil",
+    "prompt": "CN - 2° dia | Caderno \nQUESTÃO 117\nUm grupo de alunos realizou um experimento para \nobservar algumas propriedades dos ácidos, adicionando \num pedaço de mármore (CaCO3\n) a uma solução aquosa\nde ácido clorídrico (HCl), observando a liberação de um\ngás e o aumento da temperatura.\nGás\nÁcido\nMármore\nO gás obtido no experimento é o:\nA H2\nB O2\nC CO2\nD CO\nE Cl2",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 2,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 117,
+    "page": 11,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-117.webp"
+    ],
+    "hint": "Ácidos reagem com carbonatos formando sal, água e um gás característico.",
+    "steps": [
+      {
+        "title": "Identificar os reagentes",
+        "text": "O mármore forneceCaCO₃ e a solução forneceHCl."
+      },
+      {
+        "title": "Representar a reação",
+        "text": "CaCO₃+2HCl→CaCl₂+H₂O+CO₂."
+      },
+      {
+        "title": "Conferir os átomos",
+        "text": "O carbono do carbonato sai no dióxido de carbono. O gás éCO₂, C."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-121",
+    "subject": "Biologia",
+    "topic": "Microbiologia e imunologia",
+    "difficulty": "Média",
+    "prompt": "12 CN - 2° dia | Caderno 7 - AZUL - 1ª Aplicação\nQUESTÃO 121\nAntimicrobianos são substâncias naturais ou sintéticas que têm capacidade de matar ou inibir o crescimento de\nmicrorganismos. A tabela apresenta uma lista de antimicrobianos hipotéticos, bem como suas ações e efeitos sobre \no metabolismo microbiano.\nAntimicrobiano Ação Efeito\n1 Une-se\taos\tribossomos Impede a síntese proteica\n2 Une-se\taos\tmicrotúbulos Impede\ta\tsegregação\tdas\tcromátides\n3 Une-se\taos\tfosfolipídeos\tda\tmembrana\tplasmática Reduz a permeabilidade da membrana plasmática\n4 Interfere na síntese de timina Inibe a síntese de DNA\n5 Interfere na síntese de uracila Impede a síntese de RNA\nQual dos antimicrobianos deve ser utilizado para curar uma infecção causada por um fungo sem afetar as bactérias\nda microbiota normal do organismo?\nA 1\nB 2\nC 3\nD 4\nE 5",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 1,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 121,
+    "page": 12,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-121.webp"
+    ],
+    "hint": "Procure uma estrutura eucariótica ausente nas bactérias.",
+    "steps": [
+      {
+        "title": "Comparar os organismos",
+        "text": "Fungos são eucariontes e apresentam microtúbulos envolvidos na divisão; bactérias não realizam mitose com fuso de microtúbulos."
+      },
+      {
+        "title": "Selecionar o alvo",
+        "text": "O antimicrobiano 2 interfere nesses microtúbulos e na segregação das cromátides."
+      },
+      {
+        "title": "Eliminar alvos comuns",
+        "text": "Ribossomos,membrana,DNA eRNA existem em ambos os grupos. No modelo de ações fornecido,o alvo seletivo pedido é2,B."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-126",
+    "subject": "Química",
+    "topic": "Misturas e separação",
+    "difficulty": "Fácil",
+    "prompt": "QUESTÃO 126\nA água bruta coletada de mananciais apresenta \nalto índice de sólidos suspensos, o que a deixa com \num aspecto turvo. Para se obter uma água límpida e \npotável, ela deve passar por um processo de purificação\nnuma estação de tratamento de água. Nesse processo,\nas principais etapas são, nesta ordem: coagulação,\ndecantação, filtração, desinfecção e fluoretação.\nQual é a etapa de retirada de grande parte desses \nsólidos?\nA Coagulação.\nB Decantação.\nC Filtração.\nD Desinfecção.\nE Fluoretação.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 1,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 126,
+    "page": 14,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-126.webp"
+    ],
+    "hint": "A coagulação reúne partículas em flocos; procure a etapa seguinte que os retira por sedimentação.",
+    "steps": [
+      {
+        "title": "Preparar os flocos",
+        "text": "A coagulação ajuda a aglomerar partículas suspensas,mas não é,sozinha,a retirada principal."
+      },
+      {
+        "title": "Separar por gravidade",
+        "text": "Na decantação,grande parte dos flocos sedimenta e é separada da água."
+      },
+      {
+        "title": "Etapas seguintes",
+        "text": "A filtração retém partículas remanescentes; desinfecção e fluoretação têm outros papéis. A etapa pedida édecantação,B."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-129",
+    "subject": "Química",
+    "topic": "Equilíbrio e pH",
+    "difficulty": "Média",
+    "prompt": "QUESTÃO 129\nO esquema representa o ciclo do nitrogênio:\nPlantas\nAssimilação\nBactérias\nAmonificação Nitrificação nitrificantes\nBactérias fixadoras\nde N2 no solo Bactérias nitrificantes\nBactérias fixa\u0002doras de N2\n nos \nnódulos de raízes \nde leguminosas\nBactérias\ndesnitri\u0002ficantes\n(fungos e bactérias aeróbicas e anaeróbicas)\nDecompositores\nAmônia e Amônio\n(NH3) (NH4\n+) Nitritos (NO2\n−\n)\nNitratos (NO3\n−\n)\nA chuva ácida interfere no ciclo do nitrogênio, \nprincipalmente, por proporcionar uma diminuição do pH\ndo solo e da atmosfera, alterando a concentração dos\ncompostos presentes nesse ciclo.\nDisponível em: http://scienceprojectideasforkids.com. Acesso em: 6 ago. 2012 (adaptado).\nEm um solo de menor pH, será favorecida a formação de:\nA N2\nB NH3\nC NH4\n+\nD NO2\n−\nE NO3\n−",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 2,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 129,
+    "page": 14,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-129.webp"
+    ],
+    "hint": "Diminuição de pH significa aumento da disponibilidade de H⁺.",
+    "steps": [
+      {
+        "title": "Equilíbrio relevante",
+        "text": "NH₃+H⁺⇌NH₄⁺ relaciona amônia e íon amônio."
+      },
+      {
+        "title": "Efeito de acidificar",
+        "text": "AumentarH⁺ favorece a forma protonadaNH₄⁺."
+      },
+      {
+        "title": "Conferir a espécie",
+        "text": "O produto favorecido é o íonamônio,C. Não se confunde com nitrito ou nitrato."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  },
+  {
+    "id": "inep-2022-d2-c7-135",
+    "subject": "Física",
+    "topic": "Ondas e óptica",
+    "difficulty": "Fácil",
+    "prompt": " - AZUL - 1ª Aplicação \nQUESTÃO 135\nEm 2002, um mecânico da cidade mineira de \nUberaba (MG) teve uma ideia para economizar o \nconsumo de energia elétrica e iluminar a própria casa \nnum dia de sol. Para isso, ele utilizou garrafas plásticas \nPET com água e cloro, conforme ilustram as figuras.\nCada garrafa foi fixada ao telhado de sua casa em um\nburaco com diâmetro igual ao da garrafa, muito maior \nque o comprimento de onda da luz. Nos últimos dois \nanos, sua ideia já alcançou diversas partes do mundo \ne deve atingir a marca de 1 milhão de casas utilizando\na “luz engarrafada”.\nZOBEL, G. Brasileiro inventor de “luz engarrafada” tem ideia espalhada pelo mundo.\nDisponível em: www.bbc.com. Acesso em: 23 jun. 2022 (adaptado).\nQue fenômeno óptico explica o funcionamento da “luz\nengarrafada”?\nA Difração.\nB Absorção.\nC Polarização.\nD Reflexão.\nE Refração.",
+    "options": [
+      "Alternativa A da prova",
+      "Alternativa B da prova",
+      "Alternativa C da prova",
+      "Alternativa D da prova",
+      "Alternativa E da prova"
+    ],
+    "answer": 4,
+    "source": "official",
+    "sourceName": "ENEM 2022 · 2º dia · Caderno 7 azul",
+    "year": 2022,
+    "number": 135,
+    "page": 16,
+    "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "keyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "images": [
+      "/official/2022-135.webp"
+    ],
+    "hint": "A luz solar passa entre meios diferentes na garrafa e se redistribui no ambiente.",
+    "steps": [
+      {
+        "title": "Entrada da luz",
+        "text": "Os raios passam do ar para o conjunto garrafa–água e depois para o interior."
+      },
+      {
+        "title": "Mudança de direção",
+        "text": "Ao mudar de meio, a luz pode alterar sua direção por refração."
+      },
+      {
+        "title": "Distinguir fenômenos",
+        "text": "O orifício muito maior que o comprimento de onda afasta a difração como explicação principal. O mecanismo pedido érefração,E."
+      }
+    ],
+    "status": "ready",
+    "verification": "official"
+  }
+]

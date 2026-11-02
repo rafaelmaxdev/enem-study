@@ -1,0 +1,6 @@
+import {getDocument,GlobalWorkerOptions} from 'pdfjs-dist';
+import worker from 'pdfjs-dist/build/pdf.worker.min.mjs?url';
+GlobalWorkerOptions.workerSrc=worker;
+export async function openPDF(blob:Blob){return getDocument({data:new Uint8Array(await blob.arrayBuffer())}).promise;}
+export async function renderPage(blob:Blob,pageNumber:number){const pdf=await openPDF(blob);try{const page=await pdf.getPage(pageNumber);const vp=page.getViewport({scale:1.7});const canvas=document.createElement('canvas');canvas.width=Math.floor(vp.width);canvas.height=Math.floor(vp.height);const context=canvas.getContext('2d')!;await page.render({canvas,canvasContext:context,viewport:vp}).promise;const text=(await page.getTextContent()).items.map(i=>'str'in i?i.str+('hasEOL'in i&&i.hasEOL?'\n':' '):'').join('');return {image:canvas.toDataURL('image/jpeg',.92),text,pages:pdf.numPages};}finally{await pdf.destroy();}}
+export async function extractKey(blob:Blob){const pdf=await openPDF(blob);const keys:Record<string,number>={};try{for(let p=1;p<=pdf.numPages;p++){const page=await pdf.getPage(p);const text=(await page.getTextContent()).items.map(i=>'str'in i?i.str:'').join(' ');for(const match of text.matchAll(/\b(\d{1,3})\s*[-.:]?\s*([A-E])\b/g))keys[match[1]]='ABCDE'.indexOf(match[2]);}return keys;}finally{await pdf.destroy();}}

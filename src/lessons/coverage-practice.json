@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "coverage-1",
+    "subject": "Matemática",
+    "topic": "Inequações e domínio de funções",
+    "difficulty": "Fácil",
+    "prompt": "Um estacionamento cobra R$ 8 fixos mais R$ 3 por hora completa. Para uma estadia de um número inteiro não negativo de horas, qual é o maior número de horas com custo de até R$ 29?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 2,
+    "hint": "Monte uma desigualdade para o custo total.",
+    "steps": [
+      {
+        "title": "Modelar",
+        "text": "8+3h≤29."
+      },
+      {
+        "title": "Resolver",
+        "text": "3h≤21, logo h≤7."
+      },
+      {
+        "title": "Conferir",
+        "text": "7 horas custam 29 reais; 8 custam 32. Máximo 7."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-2",
+    "subject": "Matemática",
+    "topic": "Inequações e domínio de funções",
+    "difficulty": "Média",
+    "prompt": "Nos números reais, qual é o domínio de f(x)=√(x+1)/(x−3)?",
+    "options": [
+      "x>−1",
+      "x≥−1",
+      "x≥−1, com x≠3",
+      "x≤−1, com x≠3",
+      "Todos os reais, exceto 3"
+    ],
+    "answer": 2,
+    "hint": "Combine a restrição da raiz e a do denominador.",
+    "steps": [
+      {
+        "title": "Raiz",
+        "text": "x+1≥0 implica x≥−1."
+      },
+      {
+        "title": "Divisão",
+        "text": "x−3≠0 implica x≠3."
+      },
+      {
+        "title": "Interseção",
+        "text": "São válidas simultaneamente as duas condições; apenas C as reúne."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-3",
+    "subject": "Matemática",
+    "topic": "Inequações e domínio de funções",
+    "difficulty": "Difícil",
+    "prompt": "Para quais valores reais de x vale (x−1)/(x+2)>0?",
+    "options": [
+      "−2<x<1",
+      "x≤−2 ou x≥1",
+      "x<−2 ou x>1",
+      "x>−2",
+      "x<1"
+    ],
+    "answer": 2,
+    "hint": "Localize o zero e o valor proibido e compare sinais.",
+    "steps": [
+      {
+        "title": "Pontos críticos",
+        "text": "Numerador zera em1; denominador em−2, que é proibido."
+      },
+      {
+        "title": "Sinais",
+        "text": "A razão é positiva se ambos são negativos, x<−2, ou ambos positivos, x>1."
+      },
+      {
+        "title": "Extremos",
+        "text": "A desigualdade é estrita:1 não entra; e−2 nunca pertence ao domínio. C."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-4",
+    "subject": "Matemática",
+    "topic": "Simetrias e transformações",
+    "difficulty": "Fácil",
+    "prompt": "Após refletir P=(−2,5) no eixo y, quais são suas coordenadas?",
+    "options": [
+      "(−2, −5)",
+      "(2,5)",
+      "(5, −2)",
+      "(2, −5)",
+      "(−5,2)"
+    ],
+    "answer": 1,
+    "hint": "O eixo y é a linha de espelho: a coordenada horizontal troca de sinal.",
+    "steps": [
+      {
+        "title": "Regra",
+        "text": "(x, y)→(−x, y)."
+      },
+      {
+        "title": "Aplicar",
+        "text": "−(−2)=2 e y=5."
+      },
+      {
+        "title": "Conferir",
+        "text": "A imagem é(2,5), alternativa B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-5",
+    "subject": "Matemática",
+    "topic": "Simetrias e transformações",
+    "difficulty": "Média",
+    "prompt": "Uma peça tem área de 18 cm². Uma cópia semelhante é produzida com todas as medidas lineares iguais a 2/3 das medidas originais. Qual a área da cópia?",
+    "options": [
+      "6 cm²",
+      "8 cm²",
+      "12 cm²",
+      "16 cm²",
+      "27 cm²"
+    ],
+    "answer": 1,
+    "hint": "O fator da área é o quadrado do fator linear.",
+    "steps": [
+      {
+        "title": "Fator",
+        "text": "(2/3)²=4/9."
+      },
+      {
+        "title": "Área",
+        "text": "18×4/9=8 cm²."
+      },
+      {
+        "title": "Conferir",
+        "text": "A área diminui e não é18×2/3. B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-6",
+    "subject": "Matemática",
+    "topic": "Simetrias e transformações",
+    "difficulty": "Difícil",
+    "prompt": "Um ponto P=(2,1) é girado 90° no sentido anti-horário em torno da origem. Em seguida, sua imagem é refletida no eixo x. Qual é o ponto final?",
+    "options": [
+      "(−1,2)",
+      "(1, −2)",
+      "(−1, −2)",
+      "(2, −1)",
+      "(−2,1)"
+    ],
+    "answer": 2,
+    "hint": "Aplique as transformações na ordem informada.",
+    "steps": [
+      {
+        "title": "Rotação",
+        "text": "(x, y)→(−y, x), logo(2,1)→(−1,2)."
+      },
+      {
+        "title": "Reflexão",
+        "text": "No eixo x, y troca de sinal:(−1,2)→(−1, −2)."
+      },
+      {
+        "title": "Ordem",
+        "text": "O resultado final é C; inverter a ordem pode produzir outro ponto."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-7",
+    "subject": "Física",
+    "topic": "Estática e equilíbrio",
+    "difficulty": "Fácil",
+    "prompt": "Uma força de 30 N atua perpendicularmente a uma chave, a 0,20 m do eixo do parafuso. Qual o módulo do torque?",
+    "options": [
+      "0,15 N·m",
+      "1,5 N·m",
+      "6 N·m",
+      "15 N·m",
+      "150 N·m"
+    ],
+    "answer": 2,
+    "hint": "Multiplique a força pelo braço perpendicular.",
+    "steps": [
+      {
+        "title": "Dados",
+        "text": "F=30 N e d=0,20 m."
+      },
+      {
+        "title": "Torque",
+        "text": "τ=Fd=6 N·m."
+      },
+      {
+        "title": "Unidade",
+        "text": "A unidade éN·m, alternativa C."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-8",
+    "subject": "Física",
+    "topic": "Estática e equilíbrio",
+    "difficulty": "Média",
+    "prompt": "Uma barra sem peso está em equilíbrio apoiada num pivô. Uma carga de 500 N fica a 0,40 m de um lado. A que força perpendicular aplicada a 2,0 m do outro lado ela corresponde?",
+    "options": [
+      "50 N",
+      "100 N",
+      "200 N",
+      "400 N",
+      "1000 N"
+    ],
+    "answer": 1,
+    "hint": "Os torques em sentidos contrários devem ter o mesmo módulo.",
+    "steps": [
+      {
+        "title": "Equação",
+        "text": "500×0,40=F×2,0."
+      },
+      {
+        "title": "Calcular",
+        "text": "F=200/2=100 N."
+      },
+      {
+        "title": "Conferir",
+        "text": "Ambos os torques valem 200 N·m. B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-9",
+    "subject": "Física",
+    "topic": "Estática e equilíbrio",
+    "difficulty": "Difícil",
+    "prompt": "Uma viga uniforme de 4 m pesa 200 N e está apoiada nas extremidades A e B. Uma carga de 600 N é colocada a 1 m de A. Quanto vale a reação vertical do apoio B, em equilíbrio?",
+    "options": [
+      "150 N",
+      "200 N",
+      "250 N",
+      "400 N",
+      "550 N"
+    ],
+    "answer": 2,
+    "hint": "Calcule os torques em relação a A e inclua o peso da viga.",
+    "steps": [
+      {
+        "title": "Peso próprio",
+        "text": "Os200 N atuam no centro, a2 m de A."
+      },
+      {
+        "title": "Torques",
+        "text": "4RB=600×1+200×2=1000."
+      },
+      {
+        "title": "Resultado",
+        "text": "RB=250 N. RA=800−250=550 N, mas não é a reação pedida. C."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-10",
+    "subject": "Física",
+    "topic": "Gravitação e órbitas",
+    "difficulty": "Fácil",
+    "prompt": "Se a distância entre os centros de duas massas dobra, mantendo-se as massas, a força gravitacional passa a ser qual fração da original?",
+    "options": [
+      "1/8",
+      "1/4",
+      "1/2",
+      "2",
+      "4"
+    ],
+    "answer": 1,
+    "hint": "A força depende do inverso do quadrado da distância.",
+    "steps": [
+      {
+        "title": "Lei",
+        "text": "F é proporcional a1/r²."
+      },
+      {
+        "title": "Alteração",
+        "text": "Trocar r por 2r produz fator 1/4."
+      },
+      {
+        "title": "Resposta",
+        "text": "B é a única razão correta."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-11",
+    "subject": "Física",
+    "topic": "Gravitação e órbitas",
+    "difficulty": "Média",
+    "prompt": "Um planeta esférico tem raio R e aceleração gravitacional g na superfície. A uma altura R acima da superfície, qual é a aceleração gravitacional, desprezando rotação?",
+    "options": [
+      "g/9",
+      "g/4",
+      "g/2",
+      "g",
+      "2g"
+    ],
+    "answer": 1,
+    "hint": "A altura deve ser somada ao raio do planeta.",
+    "steps": [
+      {
+        "title": "Distância",
+        "text": "r=R+R=2R."
+      },
+      {
+        "title": "Razão",
+        "text": "galtura/g=R²/(2R)²=1/4."
+      },
+      {
+        "title": "Conclusão",
+        "text": "O campo valeg/4, B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-12",
+    "subject": "Física",
+    "topic": "Gravitação e órbitas",
+    "difficulty": "Difícil",
+    "prompt": "Dois satélites descrevem órbitas circulares em torno do mesmo planeta, de raios r e 4r. Se o período do primeiro é 3 h, qual o do segundo?",
+    "options": [
+      "6 h",
+      "9 h",
+      "12 h",
+      "24 h",
+      "48 h"
+    ],
+    "answer": 3,
+    "hint": "Use a terceira lei de Kepler para o mesmo corpo central.",
+    "steps": [
+      {
+        "title": "Razão",
+        "text": "(T2/3)²=4³=64."
+      },
+      {
+        "title": "Raiz positiva",
+        "text": "T2/3=8."
+      },
+      {
+        "title": "Calcular",
+        "text": "T2=24 h, alternativa D."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-13",
+    "subject": "Física",
+    "topic": "Óptica geométrica",
+    "difficulty": "Fácil",
+    "prompt": "Um raio incide em espelho plano fazendo 35° com a normal. Qual o ângulo do raio refletido com a normal?",
+    "options": [
+      "20°",
+      "35°",
+      "55°",
+      "70°",
+      "110°"
+    ],
+    "answer": 1,
+    "hint": "Use a lei da reflexão com a mesma referência angular.",
+    "steps": [
+      {
+        "title": "Referência",
+        "text": "A normal é perpendicular ao espelho."
+      },
+      {
+        "title": "Lei",
+        "text": "Ângulo refletido=ângulo incidente."
+      },
+      {
+        "title": "Resultado",
+        "text": "35°, B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-14",
+    "subject": "Física",
+    "topic": "Óptica geométrica",
+    "difficulty": "Média",
+    "prompt": "Uma pessoa está a 2 m diante de um espelho plano. Se ela recua 1 m, qual é a nova distância entre a pessoa e sua imagem?",
+    "options": [
+      "2 m",
+      "3 m",
+      "4 m",
+      "5 m",
+      "6 m"
+    ],
+    "answer": 4,
+    "hint": "A imagem mantém a mesma distância atrás do espelho que a pessoa tem à frente.",
+    "steps": [
+      {
+        "title": "Nova posição",
+        "text": "A pessoa fica a3 m do espelho."
+      },
+      {
+        "title": "Imagem",
+        "text": "A imagem virtual fica 3 m atrás dele."
+      },
+      {
+        "title": "Separação",
+        "text": "3+3=6 m, E."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-15",
+    "subject": "Física",
+    "topic": "Óptica geométrica",
+    "difficulty": "Difícil",
+    "prompt": "Uma lente delgada convergente tem distância focal de 10 cm. Um objeto real é colocado a 30 cm da lente. Adote 1/f=1/p+1/q, com q positivo para imagem real. Qual é a distância da imagem à lente e sua orientação?",
+    "options": [
+      "15 cm, invertida",
+      "15 cm, direita",
+      "20 cm, invertida",
+      "30 cm, direita",
+      "60 cm, invertida"
+    ],
+    "answer": 0,
+    "hint": "Isole 1/q antes de calcular o aumento transversal.",
+    "steps": [
+      {
+        "title": "Distância",
+        "text": "1/q=1/10−1/30=1/15, logo q=15 cm."
+      },
+      {
+        "title": "Aumento",
+        "text": "−q/p=−15/30=−0,5."
+      },
+      {
+        "title": "Sinal",
+        "text": "A imagem é real e invertida. A."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-16",
+    "subject": "Física",
+    "topic": "Eletrostática e campo elétrico",
+    "difficulty": "Fácil",
+    "prompt": "Duas pequenas esferas com cargas elétricas de sinais iguais são aproximadas sem contato. Qual interação elétrica ocorre entre elas no modelo de cargas puntiformes?",
+    "options": [
+      "Atração",
+      "Repulsão",
+      "Nenhuma força",
+      "Anulação das cargas",
+      "Transformação em cargas neutras"
+    ],
+    "answer": 1,
+    "hint": "Compare os sinais das cargas.",
+    "steps": [
+      {
+        "title": "Sinais",
+        "text": "As cargas têm o mesmo sinal."
+      },
+      {
+        "title": "Interação",
+        "text": "Cargas de mesmo sinal se repelem."
+      },
+      {
+        "title": "Conservação",
+        "text": "Sem troca de carga, não se tornam neutras por mera aproximação. B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-17",
+    "subject": "Física",
+    "topic": "Eletrostática e campo elétrico",
+    "difficulty": "Média",
+    "prompt": "Duas cargas puntiformes fixas exercem força elétrica de 12 N entre si. Mantidas as cargas, a distância entre elas é duplicada. Qual passa a ser a força?",
+    "options": [
+      "1 N",
+      "3 N",
+      "6 N",
+      "24 N",
+      "48 N"
+    ],
+    "answer": 1,
+    "hint": "Aplique a dependência com o quadrado da distância.",
+    "steps": [
+      {
+        "title": "Lei",
+        "text": "F varia com 1/r²."
+      },
+      {
+        "title": "Fator",
+        "text": "Dobrar r divide F por 4."
+      },
+      {
+        "title": "Calcular",
+        "text": "12/4=3 N, B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-18",
+    "subject": "Física",
+    "topic": "Eletrostática e campo elétrico",
+    "difficulty": "Difícil",
+    "prompt": "Um capacitor ideal de 2 μF é carregado até 100 V e depois desconectado da fonte. Qual energia elétrica está armazenada imediatamente após a desconexão?",
+    "options": [
+      "0,001 J",
+      "0,01 J",
+      "0,1 J",
+      "1 J",
+      "10 J"
+    ],
+    "answer": 1,
+    "hint": "Use E=CU²/2 com capacitância em farads.",
+    "steps": [
+      {
+        "title": "Converter",
+        "text": "C=2×10⁻⁶ F."
+      },
+      {
+        "title": "Aplicar",
+        "text": "E=(2×10⁻⁶)×100²/2."
+      },
+      {
+        "title": "Calcular",
+        "text": "E=0,01 J, B. Desconectar não elimina instantaneamente a carga no modelo ideal."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-19",
+    "subject": "Química",
+    "topic": "Gases",
+    "difficulty": "Fácil",
+    "prompt": "Um gás ideal ocupa 4 L sob pressão de 3 atm. Mantendo sua temperatura e quantidade, ele passa a ocupar 6 L. Qual é a nova pressão?",
+    "options": [
+      "1 atm",
+      "2 atm",
+      "3 atm",
+      "4,5 atm",
+      "6 atm"
+    ],
+    "answer": 1,
+    "hint": "O produto pressão×volume permanece constante.",
+    "steps": [
+      {
+        "title": "Equação",
+        "text": "3×4=P2×6."
+      },
+      {
+        "title": "Isolar",
+        "text": "P2=12/6."
+      },
+      {
+        "title": "Conferir",
+        "text": "P2=2 atm, B; a expansão reduz a pressão."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-20",
+    "subject": "Química",
+    "topic": "Gases",
+    "difficulty": "Média",
+    "prompt": "Uma amostra de gás ideal está em recipiente rígido fechado, inicialmente a 300 K e 2 atm. Ela é aquecida até 450 K. Qual a pressão final?",
+    "options": [
+      "1 atm",
+      "1,5 atm",
+      "2,5 atm",
+      "3 atm",
+      "4 atm"
+    ],
+    "answer": 3,
+    "hint": "Com volume e quantidade fixos, P/T é constante.",
+    "steps": [
+      {
+        "title": "Razão",
+        "text": "P2/2=450/300."
+      },
+      {
+        "title": "Calcular",
+        "text": "P2=2×1,5=3 atm."
+      },
+      {
+        "title": "Condição",
+        "text": "O recipiente rígido mantém o volume; D."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-21",
+    "subject": "Química",
+    "topic": "Gases",
+    "difficulty": "Difícil",
+    "prompt": "Uma mistura ideal contém 2 mol de N₂ e 6 mol de O₂, a pressão total de 4 atm. Sem reação, qual a pressão parcial do N₂?",
+    "options": [
+      "0,5 atm",
+      "1 atm",
+      "2 atm",
+      "3 atm",
+      "4 atm"
+    ],
+    "answer": 1,
+    "hint": "Use a fração molar, não a proporção entre massas.",
+    "steps": [
+      {
+        "title": "Total",
+        "text": "São8 mol de gás."
+      },
+      {
+        "title": "Fração",
+        "text": "xN₂=2/8=1/4."
+      },
+      {
+        "title": "Parcial",
+        "text": "pN₂=4×1/4=1 atm, B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-22",
+    "subject": "Química",
+    "topic": "Radioatividade",
+    "difficulty": "Fácil",
+    "prompt": "Um radionuclídeo tem meia-vida de 6 dias. Que fração dos núcleos iniciais permanece após 18 dias?",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "1/8",
+      "1/16"
+    ],
+    "answer": 3,
+    "hint": "Conte quantos intervalos de meia-vida transcorreram.",
+    "steps": [
+      {
+        "title": "Intervalos",
+        "text": "18/6=3."
+      },
+      {
+        "title": "Fração",
+        "text": "(1/2)³=1/8."
+      },
+      {
+        "title": "Resultado",
+        "text": "D; não se trata de uma redução linear."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-23",
+    "subject": "Química",
+    "topic": "Radioatividade",
+    "difficulty": "Média",
+    "prompt": "Um núcleo de número de massa 210 e número atômico 84 emite uma partícula alfa. Quais são o número de massa e o número atômico do núcleo resultante?",
+    "options": [
+      "206 e 82",
+      "208 e 82",
+      "210 e 83",
+      "214 e 86",
+      "206 e 84"
+    ],
+    "answer": 0,
+    "hint": "Uma partícula alfa contém dois prótons e dois nêutrons.",
+    "steps": [
+      {
+        "title": "Massa",
+        "text": "A′=210−4=206."
+      },
+      {
+        "title": "Número atômico",
+        "text": "Z′=84−2=82."
+      },
+      {
+        "title": "Conferir",
+        "text": "A combinação éA; ambos os números precisam ser conservados no balanço."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-24",
+    "subject": "Química",
+    "topic": "Radioatividade",
+    "difficulty": "Difícil",
+    "prompt": "Uma amostra contém inicialmente 160 mg de um radionuclídeo. Após certo tempo, restam 20 mg desse radionuclídeo. Sabendo que a meia-vida é 4 h, qual foi o tempo transcorrido?",
+    "options": [
+      "4 h",
+      "8 h",
+      "10 h",
+      "12 h",
+      "16 h"
+    ],
+    "answer": 3,
+    "hint": "Compare a massa restante com a inicial como uma potência de1/2.",
+    "steps": [
+      {
+        "title": "Razão",
+        "text": "20/160=1/8."
+      },
+      {
+        "title": "Meias-vidas",
+        "text": "1/8=(1/2)³, logo passaram 3 intervalos."
+      },
+      {
+        "title": "Tempo",
+        "text": "3×4=12 h, D."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-25",
+    "subject": "Química",
+    "topic": "Funções inorgânicas",
+    "difficulty": "Fácil",
+    "prompt": "Qual substância é classificada como base de Arrhenius por liberar OH⁻ em água?",
+    "options": [
+      "HCl",
+      "NaOH",
+      "CO₂",
+      "NaCl",
+      "CH₄"
+    ],
+    "answer": 1,
+    "hint": "Procure o hidróxido que se dissocia em água.",
+    "steps": [
+      {
+        "title": "Substância",
+        "text": "NaOH é hidróxido de sódio."
+      },
+      {
+        "title": "Dissociação",
+        "text": "NaOH→Na⁺+OH⁻."
+      },
+      {
+        "title": "Classificação",
+        "text": "O aumento de OH⁻ caracteriza a base de Arrhenius. B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-26",
+    "subject": "Química",
+    "topic": "Funções inorgânicas",
+    "difficulty": "Média",
+    "prompt": "Na neutralização completa H₃PO₄+3KOH→K₃PO₄+3H₂O, quantos mol de KOH reagem com 0,50 mol de H₃PO₄?",
+    "options": [
+      "0,17 mol",
+      "0,50 mol",
+      "1,0 mol",
+      "1,5 mol",
+      "3,0 mol"
+    ],
+    "answer": 3,
+    "hint": "Use os coeficientes da reação de neutralização completa fornecida.",
+    "steps": [
+      {
+        "title": "Razão",
+        "text": "São3 mol de KOH por 1 mol deácido."
+      },
+      {
+        "title": "Calcular",
+        "text": "3×0,50=1,5 mol."
+      },
+      {
+        "title": "Conferir",
+        "text": "D; uma neutralização parcial teria outro balanço, mas não é o caso informado."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-27",
+    "subject": "Química",
+    "topic": "Funções inorgânicas",
+    "difficulty": "Difícil",
+    "prompt": "Uma amostra de óxido de sódio reage completamente com água segundo Na₂O+H₂O→2NaOH. Se 0,20 mol de Na₂O reage e o volume final da solução é 0,50 L, qual é a concentração em mol/L de NaOH?",
+    "options": [
+      "0,10",
+      "0,20",
+      "0,40",
+      "0,80",
+      "1,60"
+    ],
+    "answer": 3,
+    "hint": "Obtenha a quantidade formada antes de dividir pelo volume final.",
+    "steps": [
+      {
+        "title": "Estequiometria",
+        "text": "0,20 mol de Na₂O produz 0,40 mol de NaOH."
+      },
+      {
+        "title": "Concentração",
+        "text": "C=0,40/0,50=0,80 mol/L."
+      },
+      {
+        "title": "Modelo",
+        "text": "Considera-se reação completa e volume final informado. D."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-28",
+    "subject": "Química",
+    "topic": "Propriedades coligativas",
+    "difficulty": "Fácil",
+    "prompt": "À mesma pressão externa, uma solução aquosa ideal diluída de açúcar não volátil, comparada com água pura, tende a apresentar qual comportamento?",
+    "options": [
+      "Menor ebulição e maior congelamento",
+      "Maior ebulição e menor congelamento",
+      "Maior pressão de vapor",
+      "Mesma temperatura de congelamento",
+      "Maior temperatura de congelamento"
+    ],
+    "answer": 1,
+    "hint": "Compare elevação ebuliométrica e abaixamento crioscópico.",
+    "steps": [
+      {
+        "title": "Vapor",
+        "text": "O soluto não volátil reduz a pressão de vapor."
+      },
+      {
+        "title": "Temperaturas",
+        "text": "Ebulição aumenta; congelamento diminui no modelo descrito."
+      },
+      {
+        "title": "Resposta",
+        "text": "A combinação correta éB."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-29",
+    "subject": "Química",
+    "topic": "Propriedades coligativas",
+    "difficulty": "Média",
+    "prompt": "Duas soluções aquosas ideais diluídas têm a mesma molalidade de soluto: uma de glicose e outra de NaCl. Admitindo dissociação completa do NaCl e ausência de dissociação da glicose, qual tem maior abaixamento da temperatura de congelamento?",
+    "options": [
+      "Glicose, porque tem moléculas maiores",
+      "NaCl, por produzir mais partículas",
+      "Ambas, sempre com o mesmo valor",
+      "Água pura",
+      "Não depende da quantidade de partículas"
+    ],
+    "answer": 1,
+    "hint": "Conte as partículas efetivamente produzidas por mol de cada soluto.",
+    "steps": [
+      {
+        "title": "Glicose",
+        "text": "Um mol de soluto produz aproximadamenteum mol de partículas."
+      },
+      {
+        "title": "NaCl",
+        "text": "Um mol produzdois mol de íons no modelo."
+      },
+      {
+        "title": "Comparar",
+        "text": "Com mesma molalidade inicial, oNaCl causa maior abaixamento. B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-30",
+    "subject": "Química",
+    "topic": "Propriedades coligativas",
+    "difficulty": "Difícil",
+    "prompt": "Uma solução ideal de um soluto não eletrólito tem molalidade 0,25 mol/kg. Adote ΔT=Kf·m e Kf=1,8 °C·kg/mol. Se o solvente puro congela a 0 °C, qual é a temperatura prevista de congelamento da solução?",
+    "options": [
+      "−0,90 °C",
+      "−0,45 °C",
+      "−0,25 °C",
+      "+0,45 °C",
+      "+1,80 °C"
+    ],
+    "answer": 1,
+    "hint": "Calcule o abaixamento e depois subtraia do ponto do solvente.",
+    "steps": [
+      {
+        "title": "Abaixamento",
+        "text": "ΔT=1,8×0,25=0,45°C."
+      },
+      {
+        "title": "Temperatura",
+        "text": "T=0−0,45=−0,45°C."
+      },
+      {
+        "title": "Sinal",
+        "text": "A temperatura diminui; B é a alternativa compatível."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-31",
+    "subject": "Biologia",
+    "topic": "Divisão celular e desenvolvimento",
+    "difficulty": "Fácil",
+    "prompt": "Uma célula somática diploide com 10 cromossomos completa uma mitose normal. Quantos cromossomos tem cada célula-filha?",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "40",
+      "Depende de somar os dois núcleos"
+    ],
+    "answer": 1,
+    "hint": "A mitose conserva a ploidia quando não há erros de segregação.",
+    "steps": [
+      {
+        "title": "Ponto de partida",
+        "text": "A célula possui 2n=10."
+      },
+      {
+        "title": "Divisão",
+        "text": "As cromátides são distribuídas entre os dois núcleos."
+      },
+      {
+        "title": "Resultado",
+        "text": "Cada filha mantém 10 cromossomos, B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-32",
+    "subject": "Biologia",
+    "topic": "Divisão celular e desenvolvimento",
+    "difficulty": "Média",
+    "prompt": "Em uma meiose normal, qual evento caracteriza a primeira divisão e reduz o número de conjuntos cromossômicos?",
+    "options": [
+      "Separação de cromátides irmãs",
+      "Separação de cromossomos homólogos",
+      "Duplicação do DNA",
+      "Fusão de dois gametas",
+      "Duplicação de centrômeros antes da fase S"
+    ],
+    "answer": 1,
+    "hint": "A redução acontece pela separação dos pares paterno e materno.",
+    "steps": [
+      {
+        "title": "Pares",
+        "text": "A célula diploide possui homólogos."
+      },
+      {
+        "title": "MeioseI",
+        "text": "Os homólogos seguem para polos opostos."
+      },
+      {
+        "title": "Resultado",
+        "text": "Cada célula recebe um conjunto, ainda com cromossomos duplicados. B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-33",
+    "subject": "Biologia",
+    "topic": "Divisão celular e desenvolvimento",
+    "difficulty": "Difícil",
+    "prompt": "Uma célula diploide com 2n=6 foi observada após a duplicação do DNA e antes da primeira divisão meiótica. Contando cromossomos pelos centrômeros, quantos cromossomos e cromátides ela possui?",
+    "options": [
+      "3 e 6",
+      "6 e 6",
+      "6 e 12",
+      "12 e 12",
+      "12 e 24"
+    ],
+    "answer": 2,
+    "hint": "Cada cromossomo duplicado possui duas cromátides, mas continua contado por um centrômero.",
+    "steps": [
+      {
+        "title": "Cromossomos",
+        "text": "A duplicação do DNA não altera ainda os6 centrômeros."
+      },
+      {
+        "title": "Cromátides",
+        "text": "Cada um dos 6 cromossomos possui 2 cromátides:12."
+      },
+      {
+        "title": "Resposta",
+        "text": "São6 cromossomos e12 cromátides, C."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-34",
+    "subject": "Biologia",
+    "topic": "Biomas e sucessão ecológica",
+    "difficulty": "Fácil",
+    "prompt": "Após o abandono de uma área agrícola, plantas espontâneas voltam a ocupar o local. O solo permaneceu no terreno. Esse processo é exemplo de:",
+    "options": [
+      "Sucessão primária",
+      "Sucessão secundária",
+      "Extinção em massa obrigatória",
+      "Fixação industrial de carbono",
+      "Formação instantânea de bioma"
+    ],
+    "answer": 1,
+    "hint": "A presença de solo anterior é importante para a classificação.",
+    "steps": [
+      {
+        "title": "História",
+        "text": "Já existia comunidade e uso da área."
+      },
+      {
+        "title": "Legado",
+        "text": "O solo permaneceu."
+      },
+      {
+        "title": "Classificação",
+        "text": "A recolonização corresponde à sucessão secundária, B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-35",
+    "subject": "Biologia",
+    "topic": "Biomas e sucessão ecológica",
+    "difficulty": "Média",
+    "prompt": "Em um ambiente com estiagem sazonal, certas árvores perdem grande parte das folhas no período seco. Qual vantagem direta essa característica pode oferecer?",
+    "options": [
+      "Aumentar obrigatoriamente a transpiração",
+      "Reduzir a perda de água por transpiração",
+      "Eliminar a necessidade de respiração",
+      "Absorver nitrogênio atmosférico pelas folhas",
+      "Impedir qualquer entrada de luz no solo"
+    ],
+    "answer": 1,
+    "hint": "Relacione área foliar à troca de água com o ambiente.",
+    "steps": [
+      {
+        "title": "Superfície",
+        "text": "Folhas expõem superfície com trocas gasosas."
+      },
+      {
+        "title": "Resposta",
+        "text": "Reduzir a área foliar pode diminuir a perda de água."
+      },
+      {
+        "title": "Limite",
+        "text": "Isso também pode reduzir a fotossíntese; é uma relação de custo e benefício. B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "coverage-36",
+    "subject": "Biologia",
+    "topic": "Biomas e sucessão ecológica",
+    "difficulty": "Difícil",
+    "prompt": "Dois fragmentos florestais abrigam populações da mesma espécie com pouca migração entre eles. Um corredor adequado ao deslocamento dessa espécie é restaurado. Qual efeito é biologicamente plausível, sem ser uma garantia universal?",
+    "options": [
+      "Impedir qualquer seleção natural",
+      "Aumentar o fluxo gênico entre as populações",
+      "Tornar os indivíduos geneticamente idênticos",
+      "Eliminar todas as espécies invasoras",
+      "Fazer toda mutação ser vantajosa"
+    ],
+    "answer": 1,
+    "hint": "Pense no que indivíduos migrantes podem transportar ao se reproduzir.",
+    "steps": [
+      {
+        "title": "Deslocamento",
+        "text": "O corredor pode facilitar migração."
+      },
+      {
+        "title": "Reprodução",
+        "text": "Migrantes podem introduzir alelos na outra população."
+      },
+      {
+        "title": "Conclusão",
+        "text": "Isso favorece fluxo gênico, sem eliminar seleção ou diversidade. B."
+      }
+    ],
+    "source": "author",
+    "sourceName": "Autoral · Ampliação da jornada",
+    "status": "ready",
+    "verification": "manual"
+  }
+]

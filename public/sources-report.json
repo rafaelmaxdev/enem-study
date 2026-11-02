@@ -1,0 +1,339 @@
+{
+  "date": "2026-10-28",
+  "purpose": "Uso pessoal local; sem publicação de coleções comerciais.",
+  "official": {
+    "source": "Inep",
+    "files": [
+      {
+        "file": "2023_PV_impresso_D2_CD7.pdf",
+        "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+        "bytes": 3753721,
+        "sha256": "49e7ad9d0ab25710f6e5c4c3296fc40b63d86a3a87d5f25d83e8ecc81b98415b",
+        "downloaded": true,
+        "pdfOpened": true
+      },
+      {
+        "file": "2023_GB_impresso_D2_CD7.pdf",
+        "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+        "bytes": 592375,
+        "sha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+        "downloaded": true,
+        "pdfOpened": true
+      },
+      {
+        "file": "2024_PV_impresso_D2_CD5.pdf",
+        "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D2_CD5.pdf",
+        "bytes": 5003533,
+        "sha256": "ec4e704ab4017762ffb1eba84c55285a429d3d02ed0e58258c1171315cb34937",
+        "downloaded": true,
+        "pdfOpened": true
+      },
+      {
+        "file": "2024_GB_impresso_D2_CD5.pdf",
+        "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D2_CD5.pdf",
+        "bytes": 121742,
+        "sha256": "342edd1d18c0266812b9e379c7b9b2ebfcdd739857445bd03cf3c55951861297",
+        "downloaded": true,
+        "pdfOpened": true
+      },
+      {
+        "file": "2025_PV_impresso_D2_CD7.pdf",
+        "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_PV_impresso_D2_CD7.pdf",
+        "bytes": 3685677,
+        "sha256": "39af0f0eaf3e30a3cd211bc19db9029204703965a2c76ff232fb3109181fa7c8",
+        "downloaded": true,
+        "pdfOpened": true
+      },
+      {
+        "file": "2025_GB_impresso_D2_CD7.pdf",
+        "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2025_GB_impresso_D2_CD7.pdf",
+        "bytes": 293450,
+        "sha256": "9e2d470af35378df532173414ec7077c3ce4df38c084a5f1258579fdf9270aef",
+        "downloaded": true,
+        "pdfOpened": true
+      }
+    ],
+    "questionsReady": 80,
+    "byYear": {
+      "2023": 24,
+      "2024": 30,
+      "2025": 26
+    },
+    "excluded": "Itens anulados no gabarito e recortes incompletos não entram no banco.",
+    "classification": "Assuntos, dificuldades e explicações são editoriais, não classificações oficiais do Inep."
+  },
+  "otherSources": [
+    {
+      "name": "Memorize",
+      "url": "https://www.memorizevestibular.com/blog/simulados",
+      "located": "12 simulados SAS: 6 de 2025 e 6 de 2026. PDFs do 1º simulado D2 e gabaritos abertos na pesquisa.",
+      "downloaded": 0,
+      "extracted": 0,
+      "questionsReady": 0,
+      "conditions": "Downloads gratuitos oferecidos; PDFs com direitos reservados. Licença aberta de reprodução não localizada.",
+      "links": [
+        "https://www.memorizevestibular.com/materiais/1-sas-2025-dia-2.pdf",
+        "https://www.memorizevestibular.com/materiais/1-sas-2025-dia-2-gabarito.pdf",
+        "https://www.memorizevestibular.com/materiais/1-sas-2026-dia-2.pdf",
+        "https://www.memorizevestibular.com/materiais/1-sas-2026-dia-2-gabarito.pdf"
+      ]
+    },
+    {
+      "name": "SAS Educação",
+      "url": "https://www.saseducacao.com.br/sas-no-enem",
+      "located": "Listas por dificuldade em Matemática e Natureza; provas e gabaritos D2.",
+      "downloaded": 0,
+      "extracted": 0,
+      "questionsReady": 0,
+      "conditions": "Disponibilizados pelo SAS; licença aberta não localizada. Provas oficiais foram buscadas diretamente no Inep."
+    },
+    {
+      "name": "CHECKNOENEM",
+      "url": "https://checknoenem.com.br/provas-e-gabaritos-enem.html",
+      "located": "Links oficiais Inep 2016–2025 e catálogo por assunto.",
+      "downloaded": 0,
+      "extracted": 0,
+      "questionsReady": 0,
+      "conditions": "Classificações e comentários do site não são gabaritos oficiais. Não copiados."
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/studymorasas",
+      "located": "Página pública do grupo simulados sas; sem catálogo público de arquivos.",
+      "downloaded": 0,
+      "extracted": 0,
+      "questionsReady": 0,
+      "conditions": "Importação manual de arquivos obtidos com acesso e autorização do usuário."
+    },
+    {
+      "name": "Linktree ana235",
+      "url": "https://linktr.ee/ana235",
+      "located": "Link para pasta colaborativa de simulados. Conteúdo dos arquivos não conferido.",
+      "downloaded": 0,
+      "extracted": 0,
+      "questionsReady": 0,
+      "conditions": "Origem, integridade e autorização a verificar individualmente.",
+      "links": [
+        "https://drive.google.com/drive/u/0/folders/1vW_3eI2_9yLSdwksJRQ2NRMyUlzepbVE"
+      ]
+    },
+    {
+      "name": "Drive de Pobre",
+      "url": "https://drivedepobre.com/",
+      "located": "Catálogo e páginas de simulados SAS 2022 D2 e resoluções. Acesso público HTTP200 após bloqueio inicial403 em outra ferramenta. Nenhum PDF confirmado para importação.",
+      "downloaded": 0,
+      "extracted": 0,
+      "questionsReady": 0,
+      "conditions": "Acesso gratuito ao catálogo não confirma gratuidade dos downloads ou autorização de uso dos arquivos.",
+      "links": [
+        "https://drivedepobre.com/enem-e-vestibulares/VoEUv4U9cPqE",
+        "https://drivedepobre.com/enem-e-vestibulares/wzp9ZKzIo2f_",
+        "https://drivedepobre.com/enem-e-vestibulares/23f0PzliMPXp"
+      ]
+    }
+  ],
+  "sas2023_06": {
+    "collection": "6º Simulado SAS ENEM 2023 · Segundo dia · Azul",
+    "source": "https://t.me/+n0aSOhTL_Uc0OWU1",
+    "classified": 90,
+    "included": 80,
+    "excluded": [
+      {
+        "number": 98,
+        "reason": "Descartada: A depende de interpretar produto ácido exclusivamente como função inorgânica, embora a solução do sal apresente caráter ácido por hidrólise. Fonte primária: https://www.open.edu/openlearn/mod/oucontent/view.php?id=20880&section=4.1.1"
+      },
+      {
+        "number": 110,
+        "reason": "Descartada por ambiguidade B/C: o comando pede serviço comprometido pela perda, não efeito da perda. B e C descrevem serviços reais. O comentário da chave confunde essas leituras. Fonte primária: https://pubs.usgs.gov/pp/1805/pdf/pp1805.pdf"
+      },
+      {
+        "number": 113,
+        "reason": "Excluída por premissa científica incorreta na introdução: associa o lactato à dor muscular tardia. A resposta sobre o aceptor final de elétrons é identificável, mas o texto original não atende à exigência de conteúdo integralmente confiável."
+      },
+      {
+        "number": 126,
+        "reason": "Não há circuito fechado representado ou explicitado; uma força eletromotriz induzida não garante a corrente A→B que o gabarito pressupõe. Excluir por condição física ausente."
+      },
+      {
+        "number": 130,
+        "reason": "A redação diz densidade negativa 'maior' sem explicitar módulo; para números negativos, maior módulo significa valor menor. A transferência também pressupõe comparação dos campos/posições. Excluir conservadoramente por ambiguidade física e de sinal, embora o gabarito pretendido seja D."
+      },
+      {
+        "number": 131,
+        "reason": "Informação farmacocinética insuficiente: massa sanguínea em2h não equivale necessariamente à massa administrada. Bioequivalência não implica absorção100% nem ausência de distribuição/eliminação. Gabarito B depende de hipótese ausente."
+      },
+      {
+        "number": 133,
+        "reason": "O gabarito A calcula apenas calor latente com rendimento100%. Para o custo total de produção não foram fornecidos estado térmico inicial nem eficiência. Excluir por hipóteses materiais não explicitadas."
+      },
+      {
+        "number": 138,
+        "reason": "A forma elíptica não decorre de uma trajetória plana horizontal. A geometria da seção e a altura não foram especificadas; a justificativa fornecida confunde orientação do plano com forma da curva."
+      },
+      {
+        "number": 169,
+        "reason": "DESCARTAR: sem independência ou probabilidade condicional, P(A∩B) pode variar de 0 a 2.5%, permitindo categorias diferentes. O gabarito B usa uma hipótese não fornecida."
+      },
+      {
+        "number": 171,
+        "reason": "DESCARTAR conservadoramente: variável i na fórmula resulta em [4,6], enquanto todas as opções usam razões decimais; a opção C não satisfaz a fórmula se substituída diretamente. Gabarito pretende converter 4%–6%, mas não distingue as representações."
+      }
+    ],
+    "bySubject": {
+      "Biologia": 16,
+      "Física": 10,
+      "Química": 12,
+      "Matemática": 42
+    },
+    "byDifficulty": {
+      "Fácil": 25,
+      "Média": 50,
+      "Difícil": 5
+    },
+    "byTopic": {
+      "Biologia / Ecologia": 7,
+      "Física / Ondas e óptica": 3,
+      "Química / Equilíbrio e pH": 2,
+      "Física / Cinemática e dinâmica": 2,
+      "Biologia / Genética e evolução": 3,
+      "Química / Química ambiental": 2,
+      "Biologia / Microbiologia e imunologia": 3,
+      "Física / Trabalho, energia e potência": 2,
+      "Química / Eletroquímica": 1,
+      "Física / Termologia e termodinâmica": 2,
+      "Química / Misturas e separação": 1,
+      "Química / Estequiometria": 1,
+      "Química / Química orgânica": 3,
+      "Biologia / Botânica e zoologia": 1,
+      "Química / Estrutura atômica e ligações": 1,
+      "Química / Soluções e concentrações": 1,
+      "Biologia / Citologia e metabolismo": 1,
+      "Biologia / Fisiologia e saúde": 1,
+      "Física / Hidrostática": 1,
+      "Matemática / Grandezas e unidades": 4,
+      "Matemática / Razão, proporção e escalas": 7,
+      "Matemática / Estatística": 6,
+      "Matemática / Análise Combinatória": 2,
+      "Matemática / Funções e Gráficos": 5,
+      "Matemática / Operações e notação científica": 2,
+      "Matemática / Geometria plana": 4,
+      "Matemática / Porcentagem e juros": 3,
+      "Matemática / Geometria espacial": 6,
+      "Matemática / Exponenciais e logaritmos": 1,
+      "Matemática / Equações e Sistemas": 1,
+      "Matemática / PA e PG": 1
+    },
+    "conditions": "Cópias locais fornecidas/acessíveis ao usuário; transformação para estudo pessoal no site local. Direitos reservados SAS; sem licença aberta ou autorização de redistribuição confirmada.",
+    "files": {
+      "Prova - Dia 02- SAS 06_2023.pdf": {
+        "bytes": 14112525,
+        "sha256": "5783d8a38bd3af919d14bd015ae506fa6c6d4729396af5116688691b4995f172"
+      },
+      "Gab - dia 02 - SAS 06_2023.pdf": {
+        "bytes": 915618,
+        "sha256": "279e2fbdf49a4cf155adcadedbd17ed55f6507c748927c1e7a36da6559d7c773"
+      }
+    }
+  },
+  "journey": {
+    "date": "2026-10-29",
+    "lessons": 49,
+    "sections": 194,
+    "workedExamples": 98,
+    "recallQuestions": 98,
+    "visualLessons": 27,
+    "newAuthorQuestions": 14,
+    "activeQuestions": 220,
+    "historicalSource": "https://prod-assets-saseducacao.s3.amazonaws.com/public/2026-04/RAIO-X_ENEM%20SAS.pdf",
+    "priorityMethod": "Editorial: historical incidence and prerequisites; not an official ranking of grouped topics or forecast.",
+    "newPDFsImported": 0,
+    "imageGenerationCalls": 0
+  },
+  "expansion2022": {
+    "downloadedFiles": 2,
+    "extracted": 90,
+    "officiallyAnnulled": [
+      157
+    ],
+    "included": 38,
+    "numbers": [
+      139,
+      140,
+      142,
+      144,
+      146,
+      148,
+      149,
+      153,
+      154,
+      163,
+      164,
+      165,
+      167,
+      169,
+      171,
+      173,
+      174,
+      175,
+      178,
+      180,
+      93,
+      96,
+      97,
+      98,
+      99,
+      100,
+      102,
+      104,
+      105,
+      108,
+      109,
+      113,
+      114,
+      117,
+      121,
+      126,
+      129,
+      135
+    ],
+    "method": "Each selected prompt and its five choices read; independent reasoning compared against corresponding official key. Figures inspected where essential; remaining extracted items are not approved for study.",
+    "files": {
+      "2022_PV_impresso_D2_CD7.pdf": {
+        "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+        "bytes": 6854310,
+        "sha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9"
+      },
+      "2022_GB_impresso_D2_CD7.pdf": {
+        "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+        "bytes": 210705,
+        "sha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118"
+      }
+    },
+    "date": "2026-10-29",
+    "newProjectionAuthorQuestions": 5,
+    "activeTotal": 184,
+    "journeyBlocks": 37
+  },
+  "curriculumAudit": {
+    "date": "2026-10-29",
+    "matrix": {
+      "url": "https://download.inep.gov.br/download/enem/matriz_referencia.pdf",
+      "pages": 24,
+      "sha256": "6b56d523ccb85f74f7ed33e0cd679f3dd178ed6f13a5b0948bcfdfe8964ce6a1"
+    },
+    "newLessons": 12,
+    "newAuthorQuestions": 36,
+    "sas": {
+      "fullyReviewedSecondDayExams": 1,
+      "name": "6º SAS2023D2",
+      "extracted": 90,
+      "reviewed": 90,
+      "included": 80,
+      "excluded": 10,
+      "otherSASReviewed": 0,
+      "totalChannelExams": null
+    },
+    "activeQuestions": 220,
+    "lessons": 49
+  }
+}

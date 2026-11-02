@@ -1,0 +1,194 @@
+[
+  {
+    "id": "projection-1",
+    "subject": "Matemática",
+    "topic": "Projeção ortogonal",
+    "difficulty": "Fácil",
+    "prompt": "Um drone ocupa o ponto P=(4,3,7), com coordenadas em metros. O solo é representado pelo plano z=0. Qual ponto representa a projeção ortogonal do drone sobre o solo?",
+    "options": [
+      "(0,0,7)",
+      "(4,0,7)",
+      "(0,3,7)",
+      "(4,3,0)",
+      "(4,3,7)"
+    ],
+    "answer": 3,
+    "source": "author",
+    "sourceName": "Autoral · Projeção ortogonal",
+    "hint": "Na projeção sobre o solo horizontal, apenas a coordenada da altura é eliminada.",
+    "steps": [
+      {
+        "title": "Escolher o plano",
+        "text": "O plano z=0 é horizontal; a direção perpendicular a ele é a do eixo z."
+      },
+      {
+        "title": "Manter a posição horizontal",
+        "text": "As coordenadas x=4 e y=3 permanecem iguais."
+      },
+      {
+        "title": "Eliminar a altura",
+        "text": "A projeção é (4,3,0), alternativa D. A distância perpendicular até o solo é7 m, mas isso não é o ponto pedido."
+      }
+    ],
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "projection-2",
+    "subject": "Matemática",
+    "topic": "Projeção ortogonal",
+    "difficulty": "Fácil",
+    "prompt": "Uma caixa em formato de paralelepípedo tem largura de 8 cm no eixo x, profundidade de 5 cm no eixo y e altura de 3 cm no eixo z. Suas faces são paralelas aos planos coordenados. A vista frontal é a projeção ortogonal no plano xz, observada na direção do eixo y. Qual é a área dessa vista?",
+    "options": [
+      "15 cm²",
+      "24 cm²",
+      "30 cm²",
+      "40 cm²",
+      "120 cm²"
+    ],
+    "answer": 1,
+    "source": "author",
+    "sourceName": "Autoral · Projeção ortogonal",
+    "hint": "A vista frontal elimina a profundidade, mantendo largura e altura.",
+    "steps": [
+      {
+        "title": "Selecionar dimensões",
+        "text": "No plano xz permanecem8 cm de largura e3 cm de altura."
+      },
+      {
+        "title": "Reconhecer o contorno",
+        "text": "A projeção é um retângulo alinhado ao plano."
+      },
+      {
+        "title": "Calcular",
+        "text": "Área=8×3=24 cm²,B. 40 cm² seria a vista superior;120 cm³ é o volume."
+      }
+    ],
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "projection-3",
+    "subject": "Matemática",
+    "topic": "Projeção ortogonal",
+    "difficulty": "Média",
+    "prompt": "Um cabo reto liga A=(1,2,0) a B=(7,10,12), com coordenadas em metros. Qual é o comprimento da projeção ortogonal desse cabo sobre o plano horizontal z=0?",
+    "options": [
+      "6 m",
+      "8 m",
+      "10 m",
+      "12 m",
+      "14 m"
+    ],
+    "answer": 2,
+    "source": "author",
+    "sourceName": "Autoral · Projeção ortogonal",
+    "hint": "Projete as duas extremidades e calcule a distância no plano resultante.",
+    "steps": [
+      {
+        "title": "Projetar os pontos",
+        "text": "A′=(1,2,0) e B′=(7,10,0). A altura12 não aparece na vista superior."
+      },
+      {
+        "title": "Calcular deslocamentos",
+        "text": "Δx=6 m eΔy=8 m."
+      },
+      {
+        "title": "Usar Pitágoras no plano",
+        "text": "Comprimento projetado=√(6²+8²)=10 m,C. O cabo real é maior, pois também tem componente vertical."
+      }
+    ],
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "projection-4",
+    "subject": "Matemática",
+    "topic": "Projeção ortogonal",
+    "difficulty": "Média",
+    "prompt": "Um aro circular fino, de raio 3 cm, está em um plano vertical yz. Seu centro é C=(0,0,5), com todas as coordenadas em centímetros. Qual é o contorno da projeção ortogonal do aro sobre o plano horizontal xy?",
+    "options": [
+      "Circunferência de raio 3 cm",
+      "Circunferência de raio 5 cm",
+      "Segmento de comprimento 3 cm",
+      "Segmento de comprimento 6 cm",
+      "Um único ponto"
+    ],
+    "answer": 3,
+    "source": "author",
+    "sourceName": "Autoral · Projeção ortogonal",
+    "hint": "Na vista de cima, os pontos diferem apenas pela coordenada y: a altura desaparece.",
+    "steps": [
+      {
+        "title": "Eliminar a altura",
+        "text": "Todos os pontos do aro têmx=0. A projeção no plano xy mantémx=0 e elimina z."
+      },
+      {
+        "title": "Encontrar o intervalo",
+        "text": "No aro,y varia de−3 a3. Para cada valor intermediário existe ponto projetado,pois o círculo é observado de perfil."
+      },
+      {
+        "title": "Interpretar o contorno",
+        "text": "A projeção é um segmento de6 cm, o diâmetro do aro. D. Não é o comprimento da circunferência."
+      }
+    ],
+    "status": "ready",
+    "verification": "manual"
+  },
+  {
+    "id": "projection-5",
+    "subject": "Matemática",
+    "topic": "Projeção ortogonal",
+    "difficulty": "Difícil",
+    "prompt": "Uma peça é montada com cubos de aresta 1 cm, alinhados aos eixos. A tabela informa a altura das pilhas, em número de cubos, em cada posição da base. Todas as pilhas começam no piso, sem lacunas. A vista frontal é a projeção ortogonal no plano xz, observada na direção do eixo y. Qual é a área ocupada por essa projeção?",
+    "options": [
+      "4 cm²",
+      "5 cm²",
+      "6 cm²",
+      "7 cm²",
+      "9 cm²"
+    ],
+    "answer": 2,
+    "source": "author",
+    "sourceName": "Autoral · Projeção ortogonal",
+    "hint": "Em cada coluna x, as pilhas de profundidades diferentes se sobrepõem. Conte até a maior altura.",
+    "steps": [
+      {
+        "title": "Comparar por largura",
+        "text": "Emx=0,as alturas são1 e2; emx=1,são3 e0; emx=2,são0 e1."
+      },
+      {
+        "title": "Projetar as pilhas",
+        "text": "As alturas visíveis por coluna são os máximos2,3 e1. A profundidade y é eliminada."
+      },
+      {
+        "title": "Somar áreas sem duplicar",
+        "text": "A projeção ocupa2+3+1=6 quadrados de1 cm². Alternativa C. Somar todos os cubos daria volume7 cm³,uma grandeza diferente."
+      }
+    ],
+    "status": "ready",
+    "verification": "manual",
+    "table": {
+      "headers": [
+        "Profundidade",
+        "x=0",
+        "x=1",
+        "x=2"
+      ],
+      "rows": [
+        [
+          "y=0",
+          "1",
+          "3",
+          "0"
+        ],
+        [
+          "y=1",
+          "2",
+          "0",
+          "1"
+        ]
+      ]
+    }
+  }
+]
