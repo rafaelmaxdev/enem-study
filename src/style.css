@@ -34,3 +34,5 @@
 @media(max-width:760px){.exam-number-grid{grid-template-columns:repeat(auto-fill,minmax(40px,1fr))}.exam-answer{min-width:56px}.exam-page-tools{gap:10px}.exam-pdf-loading{min-height:240px}}
 
 .exam-question-heading{scroll-margin-top:20px}
+
+.exam-enunciado-title{display:flex;align-items:baseline;gap:10px;font-size:20px;margin-top:4px}.exam-enunciado-title strong{font-size:40px;line-height:1.2;font-weight:650;color:var(--primary);font-variant-numeric:tabular-nums}
