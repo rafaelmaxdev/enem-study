@@ -7,6 +7,22 @@ import {assetURL} from './hosting';
 
 type Props = {state:State; update:(change:(state:State)=>State)=>void; onZoom:(src:string)=>void};
 
+function resultFor(exam:(typeof edcleyExams)[number],state:State){
+ const responses=state.edcleyExamReader?.exams[exam.id]?.responses;
+ let answered=0,correct=0;
+ for(const question of exam.questions){
+  const selected=responses?.[question.number];
+  if(selected===undefined)continue;
+  answered++;
+  if(selected===question.answer)correct++;
+ }
+ return {
+  answered,correct,
+  complete:answered===exam.questions.length,
+  accuracy:answered?Math.round(correct/answered*100):null,
+ };
+}
+
 export default function EdcleyExamsPage({state,update,onZoom}:Props){
  const reader=state.edcleyExamReader;
  const exam=edcleyExams.find(item=>item.id===reader?.currentExam)??edcleyExams[0];
@@ -15,8 +31,7 @@ export default function EdcleyExamsPage({state,update,onZoom}:Props){
  const index=Math.max(0,current);
  const question=exam.questions[index];
  const response=progress?.responses[question.number];
- const answered=exam.questions.filter(item=>progress?.responses[item.number]!==undefined);
- const correct=answered.filter(item=>progress?.responses[item.number]===item.answer).length;
+ const {answered,correct,complete,accuracy}=resultFor(exam,state);
 
  function go(id:string,number:number){
   update(s=>{
@@ -47,13 +62,16 @@ export default function EdcleyExamsPage({state,update,onZoom}:Props){
     const next=edcleyExams.find(item=>item.id===event.target.value);
     if(next)go(next.id,reader?.exams[next.id]?.current??next.questions[0].number);
    }}>
-    {edcleyExams.map(item=><option key={item.id} value={item.id}>{item.title}</option>)}
+    {edcleyExams.map(item=>{
+     const result=item.id===exam.id?{complete,accuracy}:resultFor(item,state);
+     return <option key={item.id} value={item.id}>{item.title}{result.complete&&` ✓ Concluído · ${result.accuracy}% de acertos`}</option>;
+    })}
    </Select>
    <div className="section-title">
-    <span className="small">{answered.length} de {exam.questions.length} respondidas · {correct} acertos</span>
+    <span className="small" aria-live="polite">{complete&&<><strong>✓ Concluído</strong> · </>}{answered} de {exam.questions.length} respondidas · {correct} acertos{accuracy!==null&&` (${accuracy}%)`}</span>
     <a className="small underline" href={edcleyChannel} target="_blank" rel="noreferrer">Canal de origem <ExternalLink size={12} className="inline"/></a>
    </div>
-   <progress className="exam-progress" value={answered.length} max={exam.questions.length} aria-label="Progresso no caderno"/>
+   <progress className="exam-progress" value={answered} max={exam.questions.length} aria-label="Progresso no caderno"/>
    <div className="exam-number-grid" aria-label="Navegar pelas questões">
     {exam.questions.map(item=>{
      const selected=progress?.responses[item.number];
