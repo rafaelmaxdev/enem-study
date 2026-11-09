@@ -5,9 +5,9 @@ import {letters,type State} from './domain';
 import {edcleyChannel,edcleyExams} from './edcley-exams';
 import {assetURL} from './hosting';
 
-type Props = {state:State; update:(change:(state:State)=>State)=>void};
+type Props = {state:State; update:(change:(state:State)=>State)=>void; onZoom:(src:string)=>void};
 
-export default function EdcleyExamsPage({state,update}:Props){
+export default function EdcleyExamsPage({state,update,onZoom}:Props){
  const reader=state.edcleyExamReader;
  const exam=edcleyExams.find(item=>item.id===reader?.currentExam)??edcleyExams[0];
  const progress=reader?.exams[exam.id];
@@ -67,7 +67,7 @@ export default function EdcleyExamsPage({state,update}:Props){
    </div>
   </Card>
 
-  <EdcleyQuestion key={exam.id+':'+question.number} question={question} response={response} onSubmit={submit} original={!exam.id.startsWith('capes-')&&!question.adapted}/>
+  <EdcleyQuestion key={exam.id+':'+question.number} question={question} response={response} onSubmit={submit} onZoom={onZoom} original={!exam.id.startsWith('capes-')&&!question.adapted}/>
 
   <div className="section-title">
    <Button variant="outline" disabled={index===0} onClick={()=>go(exam.id,exam.questions[index-1].number)}><ArrowLeft/>Anterior</Button>
@@ -77,23 +77,25 @@ export default function EdcleyExamsPage({state,update}:Props){
  </>;
 }
 
-function EdcleyQuestion({question,response,onSubmit,original}:{
+function EdcleyQuestion({question,response,onSubmit,onZoom,original}:{
  question:(typeof edcleyExams)[number]['questions'][number];
  response:number|undefined;
  onSubmit:(choice:number)=>void;
+ onZoom:Props['onZoom'];
  original:boolean;
 }){
  const [choice,setChoice]=useState<number|null>(null);
+ const {image,explanationImage}=question;
  return <Card className="question-card edcley-question">
   <div className="section-title">
    <h2>Questão {question.number}</h2>
    <span className="tag">{question.subject}</span>
   </div>
   <p className="small muted">{original?'Questão':'Questão adaptada'}{question.sourceNumber&&' '+question.sourceNumber} da página {question.page} do PDF.</p>
-  {question.image
-   ? <><p className="sr-only">{question.prompt}</p><a href={assetURL(question.image)} target="_blank" rel="noreferrer">
-      <img className="exam-pdf-image" src={assetURL(question.image)} alt={question.imageOptions?'Enunciado e alternativas ilustradas. Abra para ampliar.':'Enunciado com a figura ou tabela original. Abra para ampliar.'}/>
-     </a></>
+  {image
+   ? <><p className="sr-only">{question.prompt}</p><button type="button" className="question-picture-button" onClick={()=>onZoom(image)} aria-label="Ampliar enunciado">
+      <img className="exam-pdf-image" src={assetURL(image)} alt={question.imageOptions?'Enunciado e alternativas ilustradas.':'Enunciado com a figura ou tabela original.'}/>
+     </button></>
    : <p className="question-text whitespace-pre-line">{question.prompt}</p>}
   <fieldset className="question-options" disabled={response!==undefined}>
    <legend className="sr-only">Alternativas da questão {question.number}</legend>
@@ -110,10 +112,10 @@ function EdcleyQuestion({question,response,onSubmit,original}:{
    : <div className={'feedback '+(response===question.answer?'':'wrong')} role="status">
      <h3>{response===question.answer?'Resposta correta':'Você marcou '+letters[response]}</h3>
      <p><strong>Alternativa {letters[question.answer]}</strong>{!question.imageOptions&&' · '+question.options[question.answer]}</p>
-     {question.explanationImage
-      ? <><p className="sr-only">{question.explanation}</p><a href={assetURL(question.explanationImage)} target="_blank" rel="noreferrer">
-         <img className="exam-pdf-image" src={assetURL(question.explanationImage)} alt="Comentário de resolução do PDF. Abra para ampliar."/>
-        </a></>
+     {explanationImage
+      ? <><p className="sr-only">{question.explanation}</p><button type="button" className="question-picture-button" onClick={()=>onZoom(explanationImage)} aria-label="Ampliar resolução">
+         <img className="exam-pdf-image" src={assetURL(explanationImage)} alt="Comentário de resolução do PDF."/>
+        </button></>
       : <p className="whitespace-pre-line">{question.explanation}</p>}
     </div>}
  </Card>;

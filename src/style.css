@@ -37,3 +37,6 @@
 
 .exam-enunciado-title{display:flex;align-items:baseline;gap:10px;font-size:20px;margin-top:4px}.exam-enunciado-title strong{font-size:40px;line-height:1.2;font-weight:650;color:var(--primary);font-variant-numeric:tabular-nums}
 .edcley-question .option.wrong{background:var(--soft-red);border-color:var(--red)}
+.edcley-question .question-picture-button{display:block;width:100%;padding:0;background:transparent}
+.image-modal{max-width:1200px;width:calc(100% - 16px);padding:12px;gap:12px}
+.image-modal>.section-title{position:sticky;top:0;background:var(--card);padding:4px 0}
