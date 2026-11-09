@@ -7,6 +7,11 @@ import {assetURL} from './hosting';
 
 type Props = {state:State; update:(change:(state:State)=>State)=>void; onZoom:(src:string)=>void};
 
+const resolutionSubheadings=new Set([
+ 'Lógica','Análise dimensional','Razão e proporção','Regra de três',
+ 'Sacada matemática','Conceito-chave','Por que as outras erram','Dica de prova',
+]);
+
 function resultFor(exam:(typeof edcleyExams)[number],state:State){
  const responses=state.edcleyExamReader?.exams[exam.id]?.responses;
  let answered=0,correct=0;
@@ -127,14 +132,32 @@ function EdcleyQuestion({question,response,onSubmit,onZoom,original}:{
   </fieldset>
   {response===undefined
    ? <Button disabled={choice===null} onClick={()=>{if(choice!==null)onSubmit(choice);}}>Confirmar resposta<Check/></Button>
-   : <div className={'feedback '+(response===question.answer?'':'wrong')} role="status">
-     <h3>{response===question.answer?'Resposta correta':'Você marcou '+letters[response]}</h3>
-     <p><strong>Alternativa {letters[question.answer]}</strong>{!question.imageOptions&&' · '+question.options[question.answer]}</p>
-     {explanationImage
-      ? <><p className="sr-only">{question.explanation}</p><button type="button" className="question-picture-button" onClick={()=>onZoom(explanationImage)} aria-label="Ampliar resolução">
-         <img className="exam-pdf-image" src={assetURL(explanationImage)} alt="Comentário de resolução do PDF."/>
-        </button></>
-      : <p className="whitespace-pre-line">{question.explanation}</p>}
-    </div>}
+   : <>
+     <div className={'feedback '+(response===question.answer?'':'wrong')} role="status">
+      <h3>{response===question.answer?'Resposta correta':'Você marcou '+letters[response]}</h3>
+      <p><strong>Alternativa {letters[question.answer]}</strong>{!question.imageOptions&&' · '+question.options[question.answer]}</p>
+     </div>
+     <section className="grid gap-3 border-t border-border pt-5" aria-labelledby="edcley-resolution">
+      <h3 id="edcley-resolution">Resolução comentada</h3>
+      {explanationImage
+       ? <><p className="sr-only">{question.explanation}</p><button type="button" className="question-picture-button" onClick={()=>onZoom(explanationImage)} aria-label="Ampliar resolução">
+          <img className="exam-pdf-image" src={assetURL(explanationImage)} alt="Comentário de resolução do PDF."/>
+         </button></>
+       : <div className="grid max-w-[74ch] gap-4 text-sm">
+          {question.explanation.trim().split(/\n\s*\n/).map((paragraph,index)=>{
+           const firstBreak=paragraph.indexOf('\n');
+           const heading=firstBreak===-1?paragraph.trim():paragraph.slice(0,firstBreak).trim();
+           if(resolutionSubheadings.has(heading)||/^Passo \d+\s*[:.–-]/i.test(heading)){
+            const body=firstBreak===-1?'':paragraph.slice(firstBreak+1).trim();
+            return <div key={index} className={body?'grid gap-1':undefined}>
+             <h4 className="font-semibold">{heading}</h4>
+             {body&&<p className="whitespace-pre-line">{body}</p>}
+            </div>;
+           }
+           return <p key={index} className="whitespace-pre-line">{paragraph.trim()}</p>;
+          })}
+         </div>}
+     </section>
+    </>}
  </Card>;
 }

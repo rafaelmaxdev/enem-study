@@ -16,7 +16,7 @@
      "40."
     ],
     "answer": 3,
-    "explanation": "A questão exige combinar três ideias em cadeia — área de cada fio, restrição normativa, área do círculo — e devolver o diâmetro. A área total ocupada pelos fios é 8 × 15 mm² = 120 mm². Como essa área representa, no limite da norma, 40% da seção transversal do tubo, temos 0,4 · Atubo = 120, o que dá Atubo = 300 mm². Com A = π·r² e π = 3, obtém-se 300 = 3·r², ou seja, r² = 100 e portanto r = 10 mm. O diâmetro pedido é d = 2r = 20 mm. Vale reter três armadilhas: (i) a norma limita a área ocupada, não o número de fios; (ii) a pergunta é sobre o diâmetro, não o raio — quem para em 10 mm cai em A; (iii) usar π ≈ 3 é uma simplificação didática. Com π real, o diâmetro seria ligeiramente diferente, mas a alternativa correta permanece. É exatamente isso que a alternativa D captura.",
+    "explanation": "A questão exige combinar três ideias em cadeia — área de cada fio, restrição normativa, área do círculo — e devolver o diâmetro. A área total ocupada pelos fios é 8 × 15 mm² = 120 mm². Como essa área representa, no limite da norma, 40% da seção transversal do tubo, temos 0,4 · Atubo = 120, o que dá Atubo = 300 mm².\n\nCom A = π·r² e π = 3, obtém-se 300 = 3·r², ou seja, r² = 100 e portanto r = 10 mm. O diâmetro pedido é d = 2r = 20 mm. Vale reter três armadilhas: (i) a norma limita a área ocupada, não o número de fios; (ii) a pergunta é sobre o diâmetro, não o raio — quem para em 10 mm cai em A; (iii) usar π ≈ 3 é uma simplificação didática. Com π real, o diâmetro seria ligeiramente diferente, mas a alternativa correta permanece.\n\nÉ exatamente isso que a alternativa D captura.",
     "image": "/edcley/apostas-2026-1-01.webp"
    },
    {
@@ -32,7 +32,7 @@
      "8."
     ],
     "answer": 1,
-    "explanation": "O ponto de partida é identificar o vértice da parábola f(x) = −(1/8)x² + 2x. Como a = −1/8 e b = 2, aplica-se xv = −b/(2a) = −2/(−1/4) = 8; e f(8) = −(1/8)·64 + 2·8 = −8 + 16 = 8. O vértice é, portanto, V = (8, 8). Em seguida, é preciso saber onde a parábola volta a tocar o solo à direita — ou seja, resolver f(x) = 0. De −(1/8)x² + 2x = 0, multiplicando por 8, obtém-se −x² + 16x = 0, isto é, x(x − 16) = 0, o que dá x = 0 ou x = 16. À direita, portanto, o túnel termina em (16, 0). O coeficiente angular da reta que liga (8, 8) a (16, 0) é m = (0 − 8)/(16 − 8) = −8/8 = −1. O sinal negativo já era esperado: a reta desce da esquerda para a direita, do topo do túnel à extremidade direita. A única alternativa que descreve esse coeficiente é a B.",
+    "explanation": "O ponto de partida é identificar o vértice da parábola f(x) = −(1/8)x² + 2x. Como a = −1/8 e b = 2, aplica-se xv = −b/(2a) = −2/(−1/4) = 8; e f(8) = −(1/8)·64 + 2·8 = −8 + 16 = 8. O vértice é, portanto, V = (8, 8).\n\nEm seguida, é preciso saber onde a parábola volta a tocar o solo à direita — ou seja, resolver f(x) = 0. De −(1/8)x² + 2x = 0, multiplicando por 8, obtém-se −x² + 16x = 0, isto é, x(x − 16) = 0, o que dá x = 0 ou x = 16. À direita, portanto, o túnel termina em (16, 0).\n\nO coeficiente angular da reta que liga (8, 8) a (16, 0) é m = (0 − 8)/(16 − 8) = −8/8 = −1. O sinal negativo já era esperado: a reta desce da esquerda para a direita, do topo do túnel à extremidade direita. A única alternativa que descreve esse coeficiente é a B.",
     "image": "/edcley/apostas-2026-1-02.webp"
    },
    {
@@ -48,7 +48,7 @@
      "0,3r + 0,25t ≥ 12 e 0,3r + 0,2t ≤ 8."
     ],
     "answer": 0,
-    "explanation": "Toda modelagem por inequações começa por escrever as duas restrições — massa e tempo — na ordem em que aparecem no enunciado. Para a restrição de massa, cada porção de ravióli pesa 0,25 kg e cada porção de talharim pesa 0,3 kg; o total não pode ultrapassar 12 kg. Isso gera 0,25r + 0,3t ≤ 12. Para a restrição de tempo, cada ravióli exige 0,3 hora e cada talharim exige 0,2 hora; o total não pode ultrapassar 8 horas úteis. Isso gera 0,3r + 0,2t ≤ 8. Os coeficientes de cada porção mudam entre as duas inequações — atenção: quem inverte o coeficiente cai em C ou D. E o sinal é sempre de menor ou igual, porque os limites são de recurso disponível, não de meta a atingir (o que descartaria B e E, que usam ≥). A única alternativa que preserva simultaneamente os coeficientes corretos e o sentido das desigualdades é a A."
+    "explanation": "Toda modelagem por inequações começa por escrever as duas restrições — massa e tempo — na ordem em que aparecem no enunciado. Para a restrição de massa, cada porção de ravióli pesa 0,25 kg e cada porção de talharim pesa 0,3 kg; o total não pode ultrapassar 12 kg. Isso gera 0,25r + 0,3t ≤ 12.\n\nPara a restrição de tempo, cada ravióli exige 0,3 hora e cada talharim exige 0,2 hora; o total não pode ultrapassar 8 horas úteis. Isso gera 0,3r + 0,2t ≤ 8. Os coeficientes de cada porção mudam entre as duas inequações — atenção: quem inverte o coeficiente cai em C ou D. E o sinal é sempre de menor ou igual, porque os limites são de recurso disponível, não de meta a atingir (o que descartaria B e E, que usam ≥).\n\nA única alternativa que preserva simultaneamente os coeficientes corretos e o sentido das desigualdades é a A."
    },
    {
     "number": 4,
@@ -63,7 +63,7 @@
      "Comportamento 5."
     ],
     "answer": 1,
-    "explanation": "O ponto de partida é entender que a vazão constante se refere ao volume, não à altura. A cada instante sai a mesma quantidade de centímetros cúbicos; o quanto a lâmina baixa em resposta depende da área da superfície livre naquele momento — e essa área muda ao longo do esvaziamento porque a cuba é uma semiesfera. Com a cuba cheia, a superfície da água coincide com a boca da peça e tem área máxima, π·10² ≈ 314 cm². Retirar um volume ali derruba pouco a altura. Perto do fim, a água ocupa o fundo arredondado, onde a seção é minúscula: o mesmo volume retirado faz a lâmina despencar. Formalmente, sendo A(h) a área da seção a uma altura h, tem-se dh/dt = −(dV/dt)/A(h) — com A grande no início e A → 0 no fim. A curva, portanto, cai devagar e depois desaba: é côncava para baixo, situada acima da reta. Isso elimina de imediato o Comportamento 3 (reta, que exigiria um recipiente cilíndrico, de seção constante) e os Comportamentos 4 e 5, côncavos para cima — estes descreveriam recipientes largos no fundo e estreitos no topo, o oposto da cuba. Restam 1 e 2, ambos côncavos para baixo, e é aqui que a questão cobra a conta de verdade. O volume de água de altura h numa semiesfera de raio R é V = π·h²·(3R − h)/3. Com R = 10, o volume total é 2.000π/3 ≈ 2.094 cm³, escoados em 1 hora. Na metade do tempo resta metade do volume: π·h²·(30 − h)/3 = 1.047, ou seja, h²·(30 − h) = 1.000, o que dá h ≈ 6,5 cm — e não 5 cm, como sugeriria a intuição linear. Levando esse ponto ao gráfico, é o Comportamento 2 que passa por ali; o Comportamento 1 passa bem acima, perto de 7,8 cm, exagerando a concavidade e descrevendo um recipiente ainda mais achatado no topo do que a semiesfera. A alternativa B é, portanto, a única compatível com a geometria descrita.",
+    "explanation": "O ponto de partida é entender que a vazão constante se refere ao volume, não à altura. A cada instante sai a mesma quantidade de centímetros cúbicos; o quanto a lâmina baixa em resposta depende da área da superfície livre naquele momento — e essa área muda ao longo do esvaziamento porque a cuba é uma semiesfera.\n\nCom a cuba cheia, a superfície da água coincide com a boca da peça e tem área máxima, π·10² ≈ 314 cm². Retirar um volume ali derruba pouco a altura. Perto do fim, a água ocupa o fundo arredondado, onde a seção é minúscula: o mesmo volume retirado faz a lâmina despencar. Formalmente, sendo A(h) a área da seção a uma altura h, tem-se dh/dt = −(dV/dt)/A(h) — com A grande no início e A → 0 no fim. A curva, portanto, cai devagar e depois desaba: é côncava para baixo, situada acima da reta.\n\nIsso elimina de imediato o Comportamento 3 (reta, que exigiria um recipiente cilíndrico, de seção constante) e os Comportamentos 4 e 5, côncavos para cima — estes descreveriam recipientes largos no fundo e estreitos no topo, o oposto da cuba. Restam 1 e 2, ambos côncavos para baixo, e é aqui que a questão cobra a conta de verdade.\n\nO volume de água de altura h numa semiesfera de raio R é V = π·h²·(3R − h)/3. Com R = 10, o volume total é 2.000π/3 ≈ 2.094 cm³, escoados em 1 hora. Na metade do tempo resta metade do volume: π·h²·(30 − h)/3 = 1.047, ou seja, h²·(30 − h) = 1.000, o que dá h ≈ 6,5 cm — e não 5 cm, como sugeriria a intuição linear. Levando esse ponto ao gráfico, é o Comportamento 2 que passa por ali; o Comportamento 1 passa bem acima, perto de 7,8 cm, exagerando a concavidade e descrevendo um recipiente ainda mais achatado no topo do que a semiesfera.\n\nA alternativa B é, portanto, a única compatível com a geometria descrita.",
     "image": "/edcley/apostas-2026-1-04.webp"
    },
    {
@@ -79,7 +79,7 @@
      "2,0."
     ],
     "answer": 2,
-    "explanation": "A questão pede uma comparação de tempos, mas o primeiro passo é uniformizar as unidades. As velocidades, dadas em km/h, precisam virar m/s — divisão por 3,6. A velocidade teórica, 64,4 km/h, corresponde a 17,89 m/s. A velocidade máxima de Bolt, 44,72 km/h, corresponde a 12,42 m/s. Em 2 segundos, o corredor teórico percorre d = 17,89 · 2 ≈ 35,78 m. Bolt, à velocidade máxima, cobre esses mesmos 35,78 m em t = 35,78 / 12,42 ≈ 2,88 s. O tempo adicional requerido por Bolt é, portanto, 2,88 − 2 = 0,88 s, arredondado para 0,9 s. A armadilha da questão é psicológica: como o percentual entre 64,4 e 44,72 é grande (o corredor teórico é ~44% mais rápido), o candidato pode ser tentado a marcar E (2,0 s) ou D (1,2 s), imaginando que a diferença de tempo será tão grande quanto a diferença percentual de velocidade. Mas tempo e velocidade são inversamente proporcionais para distância fixa — nem sempre a intuição percentual funciona. A única resposta compatível com o cálculo direto é a C."
+    "explanation": "A questão pede uma comparação de tempos, mas o primeiro passo é uniformizar as unidades. As velocidades, dadas em km/h, precisam virar m/s — divisão por 3,6. A velocidade teórica, 64,4 km/h, corresponde a 17,89 m/s. A velocidade máxima de Bolt, 44,72 km/h, corresponde a 12,42 m/s.\n\nEm 2 segundos, o corredor teórico percorre d = 17,89 · 2 ≈ 35,78 m. Bolt, à velocidade máxima, cobre esses mesmos 35,78 m em t = 35,78 / 12,42 ≈ 2,88 s. O tempo adicional requerido por Bolt é, portanto, 2,88 − 2 = 0,88 s, arredondado para 0,9 s.\n\nA armadilha da questão é psicológica: como o percentual entre 64,4 e 44,72 é grande (o corredor teórico é ~44% mais rápido), o candidato pode ser tentado a marcar E (2,0 s) ou D (1,2 s), imaginando que a diferença de tempo será tão grande quanto a diferença percentual de velocidade. Mas tempo e velocidade são inversamente proporcionais para distância fixa — nem sempre a intuição percentual funciona. A única resposta compatível com o cálculo direto é a C."
    },
    {
     "number": 6,
@@ -94,7 +94,7 @@
      "9,5."
     ],
     "answer": 3,
-    "explanation": "Os tempos registrados — 1,5; 3,0; 4,5; 6,0 horas — formam uma progressão aritmética com razão constante r = 1,5. A pergunta é sobre o valor do sexto termo, já que os dias 5, 10, 15, 20, 25 e 30 formam a sequência dos termos da PA, com o dia 5 sendo o primeiro (a₁ = 1,5). Aplicando a fórmula do termo geral, an = a₁ + (n − 1)·r, temos a₆ = 1,5 + 5·1,5 = 1,5 + 7,5 = 9,0 horas. Uma ferramenta mais rápida, quando a razão é evidente: percebendo que a cada intervalo de cinco dias somam-se 1,5 hora, do dia 5 ao dia 30 há cinco intervalos de cinco dias, portanto 5 · 1,5 = 7,5 horas de acréscimo sobre o valor inicial. O total é 9,0 — como pede a alternativa D. Vale notar, para o ENEM, que este é o típico exercício em que a memorização da fórmula da PA acaba sendo mais lenta do que a leitura direta do padrão. Quem contar os intervalos ganha tempo."
+    "explanation": "Os tempos registrados — 1,5; 3,0; 4,5; 6,0 horas — formam uma progressão aritmética com razão constante r = 1,5. A pergunta é sobre o valor do sexto termo, já que os dias 5, 10, 15, 20, 25 e 30 formam a sequência dos termos da PA, com o dia 5 sendo o primeiro (a₁ = 1,5).\n\nAplicando a fórmula do termo geral, an = a₁ + (n − 1)·r, temos a₆ = 1,5 + 5·1,5 = 1,5 + 7,5 = 9,0 horas. Uma ferramenta mais rápida, quando a razão é evidente: percebendo que a cada intervalo de cinco dias somam-se 1,5 hora, do dia 5 ao dia 30 há cinco intervalos de cinco dias, portanto 5 · 1,5 = 7,5 horas de acréscimo sobre o valor inicial. O total é 9,0 — como pede a alternativa D.\n\nVale notar, para o ENEM, que este é o típico exercício em que a memorização da fórmula da PA acaba sendo mais lenta do que a leitura direta do padrão. Quem contar os intervalos ganha tempo."
    },
    {
     "number": 7,
@@ -109,7 +109,7 @@
      "Muito satisfeito."
     ],
     "answer": 3,
-    "explanation": "O cálculo é direto: 1,3 · 0,9 = 1,17. Esse valor descreve, em fator multiplicativo, o desempenho combinado dos dois indicadores. Como 1,17 corresponde a um aumento de 17% em relação à situação de referência (fator 1,00), a leitura do índice global é de crescimento moderado, não de queda. Consultando a tabela, 17% está entre 15% e 20%, faixa classificada como Satisfeito. Duas armadilhas se apresentam: (i) tratar o −10% de vendas como queda que domina o índice — o que confundiria o candidato a marcar B ou A —, quando de fato o crescimento de visibilidade é maior em módulo do que a queda de vendas; (ii) interpretar 1,17 como percentagem bruta (117%), o que jogaria a resposta em E. A leitura correta reconhece que 1,17 representa o fator resultante e que 17% é o crescimento associado — dentro da faixa Satisfeito. A alternativa D captura exatamente essa leitura.",
+    "explanation": "O cálculo é direto: 1,3 · 0,9 = 1,17. Esse valor descreve, em fator multiplicativo, o desempenho combinado dos dois indicadores. Como 1,17 corresponde a um aumento de 17% em relação à situação de referência (fator 1,00), a leitura do índice global é de crescimento moderado, não de queda.\n\nConsultando a tabela, 17% está entre 15% e 20%, faixa classificada como Satisfeito. Duas armadilhas se apresentam: (i) tratar o −10% de vendas como queda que domina o índice — o que confundiria o candidato a marcar B ou A —, quando de fato o crescimento de visibilidade é maior em módulo do que a queda de vendas; (ii) interpretar 1,17 como percentagem bruta (117%), o que jogaria a resposta em E.\n\nA leitura correta reconhece que 1,17 representa o fator resultante e que 17% é o crescimento associado — dentro da faixa Satisfeito. A alternativa D captura exatamente essa leitura.",
     "image": "/edcley/apostas-2026-1-07.webp"
    },
    {
@@ -125,7 +125,7 @@
      "Nos 12 primeiros minutos, foi preenchido 1/3 do reservatório, e o restante é preenchido pela torneira 2 em 18 minutos."
     ],
     "answer": 1,
-    "explanation": "Trabalhando sozinha por 12 minutos, a torneira 1 — que enche o reservatório todo em 24 minutos — encheria metade dele: 12/24 = 1/2. Descartam-se, portanto, as alternativas A, C e E, que apontam frações menores. Falta agora encher a metade restante do reservatório usando apenas a torneira 2, cuja vazão é 1/36 do volume por minuto (36 minutos para encher tudo). Para completar 1/2 do reservatório com essa vazão, o tempo necessário é t = (1/2) / (1/36) = 18 minutos. Isso elimina D, que sugeria 12 minutos. O total de tempo do processo, desde a abertura inicial até o completo enchimento, é 12 + 18 = 30 minutos — uma leitura útil para confirmar que a resposta B é coerente. A alternativa correta é, portanto, a B."
+    "explanation": "Trabalhando sozinha por 12 minutos, a torneira 1 — que enche o reservatório todo em 24 minutos — encheria metade dele: 12/24 = 1/2. Descartam-se, portanto, as alternativas A, C e E, que apontam frações menores.\n\nFalta agora encher a metade restante do reservatório usando apenas a torneira 2, cuja vazão é 1/36 do volume por minuto (36 minutos para encher tudo). Para completar 1/2 do reservatório com essa vazão, o tempo necessário é t = (1/2) / (1/36) = 18 minutos. Isso elimina D, que sugeria 12 minutos.\n\nO total de tempo do processo, desde a abertura inicial até o completo enchimento, é 12 + 18 = 30 minutos — uma leitura útil para confirmar que a resposta B é coerente. A alternativa correta é, portanto, a B."
    },
    {
     "number": 9,
@@ -140,7 +140,7 @@
      "2, pois sua área é aproximadamente 8.000 cm²."
     ],
     "answer": 2,
-    "explanation": "Com o armário de 75 cm × 60 cm e as folgas de 10 cm de cada lado (largura) e 10 cm ao fundo (profundidade), o vão precisa ter, no mínimo, 75 + 10 + 10 = 95 cm de largura e 60 + 10 = 70 cm de profundidade. Comparando com os três vãos disponíveis, todos atendem a esse mínimo: o vão 1 (105 × 75), o vão 2 (95 × 80) e o vão 3 (100 × 70). Como todos os três são elegíveis, o critério de desempate passa a ser a menor área de base. Calculando: vão 1 → 105 · 75 = 7.875 cm²; vão 2 → 95 · 80 = 7.600 cm²; vão 3 → 100 · 70 = 7.000 cm². O menor é o vão 3, exatamente 7.000 cm². A alternativa C reúne, portanto, os dois critérios simultaneamente: elegibilidade técnica e menor área ocupada. As alternativas A, B, D e E ou erram na conta da área, ou apontam vãos que ocupam mais espaço do que o necessário — comprometendo a intenção do proprietário de preservar circulação na sala."
+    "explanation": "Com o armário de 75 cm × 60 cm e as folgas de 10 cm de cada lado (largura) e 10 cm ao fundo (profundidade), o vão precisa ter, no mínimo, 75 + 10 + 10 = 95 cm de largura e 60 + 10 = 70 cm de profundidade. Comparando com os três vãos disponíveis, todos atendem a esse mínimo: o vão 1 (105 × 75), o vão 2 (95 × 80) e o vão 3 (100 × 70).\n\nComo todos os três são elegíveis, o critério de desempate passa a ser a menor área de base. Calculando: vão 1 → 105 · 75 = 7.875 cm²; vão 2 → 95 · 80 = 7.600 cm²; vão 3 → 100 · 70 = 7.000 cm². O menor é o vão 3, exatamente 7.000 cm².\n\nA alternativa C reúne, portanto, os dois critérios simultaneamente: elegibilidade técnica e menor área ocupada. As alternativas A, B, D e E ou erram na conta da área, ou apontam vãos que ocupam mais espaço do que o necessário — comprometendo a intenção do proprietário de preservar circulação na sala."
    },
    {
     "number": 10,
@@ -155,7 +155,7 @@
      "dois aldeídos."
     ],
     "answer": 4,
-    "explanation": "O composto CH₃−CH=CH−CH₃ é o but-2-eno, um alceno simétrico em que a dupla ligação separa dois carbonos idênticos em conectividade: cada um está ligado, do outro lado, a um grupo metila (CH₃) e a um hidrogênio. Na ozonólise seguida de hidrólise redutora, a dupla ligação é cortada e cada carbono da dupla passa a compor um grupo carbonila. Como cada carbono da dupla está ligado a um H (além do CH₃), o grupo carbonila formado terá a estrutura CH₃−CHO — ou seja, um aldeído (etanal, também conhecido como acetaldeído). Por simetria, o outro carbono da dupla produz exatamente o mesmo aldeído. O resultado final são dois aldeídos idênticos. Para descartar as demais: não se formam ácidos carboxílicos porque a hidrólise é redutora (com Zn em ácido acético ou Me₂S), não oxidativa; não se forma cetona porque em ambos os lados da dupla há um átomo de hidrogênio no carbono ligado à insaturação (a formação de cetona exigiria dois grupos alquila naquele carbono, sem H). A alternativa E é a única que reflete corretamente o produto da reação.",
+    "explanation": "O composto CH₃−CH=CH−CH₃ é o but-2-eno, um alceno simétrico em que a dupla ligação separa dois carbonos idênticos em conectividade: cada um está ligado, do outro lado, a um grupo metila (CH₃) e a um hidrogênio.\n\nNa ozonólise seguida de hidrólise redutora, a dupla ligação é cortada e cada carbono da dupla passa a compor um grupo carbonila. Como cada carbono da dupla está ligado a um H (além do CH₃), o grupo carbonila formado terá a estrutura CH₃−CHO — ou seja, um aldeído (etanal, também conhecido como acetaldeído). Por simetria, o outro carbono da dupla produz exatamente o mesmo aldeído. O resultado final são dois aldeídos idênticos.\n\nPara descartar as demais: não se formam ácidos carboxílicos porque a hidrólise é redutora (com Zn em ácido acético ou Me₂S), não oxidativa; não se forma cetona porque em ambos os lados da dupla há um átomo de hidrogênio no carbono ligado à insaturação (a formação de cetona exigiria dois grupos alquila naquele carbono, sem H). A alternativa E é a única que reflete corretamente o produto da reação.",
     "adapted": true
    },
    {
@@ -171,7 +171,7 @@
      "pilhas em série e resistor de 50 Ω."
     ],
     "answer": 1,
-    "explanation": "A questão traz duas decisões independentes. Primeiro, a associação das pilhas. Para obter a maior tensão possível, associam-se em série: as tensões se somam, resultando em 3 · 1,5 V = 4,5 V. Em paralelo, a tensão permaneceria em 1,5 V — insuficiente para acender o LED a 2,5 V —, o que descarta A e C imediatamente. Segundo, o dimensionamento do resistor. O LED recebe 2,5 V; a fonte fornece 4,5 V; sobra, portanto, uma diferença de potencial de 2,0 V que precisa ser absorvida pelo resistor em série. A corrente que atravessa o circuito, dado que os componentes estão em série, é a mesma corrente que passa pelo LED — 20 mA, ou 0,020 A. Aplicando a lei de Ohm, R = ΔV / i = 2,0 / 0,020 = 100 Ω. Um resistor de 25 Ω (alternativa D) deixaria passar corrente muito maior que a suportada pelo LED, queimando-o. Um resistor de 50 Ω (E) também produziria corrente acima do limite. A combinação correta é, portanto, série com resistor de 100 Ω — como aponta a alternativa B."
+    "explanation": "A questão traz duas decisões independentes. Primeiro, a associação das pilhas. Para obter a maior tensão possível, associam-se em série: as tensões se somam, resultando em 3 · 1,5 V = 4,5 V. Em paralelo, a tensão permaneceria em 1,5 V — insuficiente para acender o LED a 2,5 V —, o que descarta A e C imediatamente.\n\nSegundo, o dimensionamento do resistor. O LED recebe 2,5 V; a fonte fornece 4,5 V; sobra, portanto, uma diferença de potencial de 2,0 V que precisa ser absorvida pelo resistor em série. A corrente que atravessa o circuito, dado que os componentes estão em série, é a mesma corrente que passa pelo LED — 20 mA, ou 0,020 A. Aplicando a lei de Ohm, R = ΔV / i = 2,0 / 0,020 = 100 Ω.\n\nUm resistor de 25 Ω (alternativa D) deixaria passar corrente muito maior que a suportada pelo LED, queimando-o. Um resistor de 50 Ω (E) também produziria corrente acima do limite. A combinação correta é, portanto, série com resistor de 100 Ω — como aponta a alternativa B."
    },
    {
     "number": 13,
@@ -186,7 +186,7 @@
      "substituir o fio resistivo por um de mesma extensão, mas com maior área transversal, aumentando a resistência conforme a segunda lei de Ohm."
     ],
     "answer": 0,
-    "explanation": "No modelo idealizado, um resistor em série aumenta a resistência total e reduz a corrente. Parte da tensão cai nesse resistor, reduzindo a tensão sobre a carga. Ligar um resistor em paralelo mantém a mesma tensão em ambos os ramos. O exercício modela um circuito ideal e desconsidera as restrições de uma instalação real.",
+    "explanation": "No modelo idealizado, um resistor em série aumenta a resistência total e reduz a corrente. Parte da tensão cai nesse resistor, reduzindo a tensão sobre a carga.\n\nLigar um resistor em paralelo mantém a mesma tensão em ambos os ramos. O exercício modela um circuito ideal e desconsidera as restrições de uma instalação real.",
     "adapted": true
    },
    {
@@ -202,7 +202,7 @@
      "mutualismo."
     ],
     "answer": 2,
-    "explanation": "A pergunta exige localizar, com precisão, o tipo de relação ecológica em que uma espécie se beneficia e a outra permanece neutra. Essa é exatamente a definição de comensalismo. No caso descrito, as araras-azuis se beneficiam do acesso facilitado às sementes já descartadas pelos bovinos; os bovinos, por sua vez, não sofrem prejuízo perceptível nem obtêm benefício mensurável da presença das araras — a relação é assimétrica. A comparação com as demais alternativas ajuda a fixar as categorias. No amensalismo, uma espécie prejudica a outra sem obter benefício — não é o caso, já que ninguém é prejudicado. A competição interespecífica exigiria que ambas disputassem o mesmo recurso, mas aqui elas consomem partes diferentes do fruto. A protocooperação e o mutualismo pressupõem benefício mútuo (o mutualismo obrigatório; a protocooperação facultativa), e nem uma nem outro descreve o cenário — o gado não se beneficia da presença das araras. É por isso que a alternativa C sintetiza corretamente a relação apresentada."
+    "explanation": "A pergunta exige localizar, com precisão, o tipo de relação ecológica em que uma espécie se beneficia e a outra permanece neutra. Essa é exatamente a definição de comensalismo. No caso descrito, as araras-azuis se beneficiam do acesso facilitado às sementes já descartadas pelos bovinos; os bovinos, por sua vez, não sofrem prejuízo perceptível nem obtêm benefício mensurável da presença das araras — a relação é assimétrica.\n\nA comparação com as demais alternativas ajuda a fixar as categorias. No amensalismo, uma espécie prejudica a outra sem obter benefício — não é o caso, já que ninguém é prejudicado. A competição interespecífica exigiria que ambas disputassem o mesmo recurso, mas aqui elas consomem partes diferentes do fruto. A protocooperação e o mutualismo pressupõem benefício mútuo (o mutualismo obrigatório; a protocooperação facultativa), e nem uma nem outro descreve o cenário — o gado não se beneficia da presença das araras.\n\nÉ por isso que a alternativa C sintetiza corretamente a relação apresentada."
    },
    {
     "number": 15,
@@ -217,7 +217,7 @@
      "gonadotrofina coriônica humana (hCG)."
     ],
     "answer": 4,
-    "explanation": "O hormônio descrito no texto é a gonadotrofina coriônica humana (hCG). Sintetizada pelo trofoblasto — camada externa do embrião em desenvolvimento — desde os primeiros dias após a implantação, essa proteína circula rapidamente na corrente sanguínea materna e é o marcador utilizado nos testes de gravidez, sejam eles de sangue ou de urina. Sua função central, exatamente como descreve o enunciado, é manter ativo o corpo lúteo nos primeiros dois a três meses de gestação. O corpo lúteo, remanescente do folículo que liberou o óvulo, produz a progesterona necessária para preservar o endométrio. Sem hCG, esse corpo lúteo regrediria pouco depois da ovulação (como ocorre num ciclo em que não há fecundação), o endométrio se descamaria e não haveria gestação. As demais alternativas confundem etapas do processo. A progesterona (A) é produzida pelo corpo lúteo — graças à ação do hCG —, mas não é o hormônio que se eleva primeiro. FSH (B) e LH (D) caem no início da gestação, pois seus receptores hipofisários passam a ser inibidos pelas altas concentrações de progesterona e estrógeno. O estrógeno (C) sobe, sim, mas depois — quando a placenta assume a produção. Só o hCG cumpre a descrição do texto."
+    "explanation": "O hormônio descrito no texto é a gonadotrofina coriônica humana (hCG). Sintetizada pelo trofoblasto — camada externa do embrião em desenvolvimento — desde os primeiros dias após a implantação, essa proteína circula rapidamente na corrente sanguínea materna e é o marcador utilizado nos testes de gravidez, sejam eles de sangue ou de urina.\n\nSua função central, exatamente como descreve o enunciado, é manter ativo o corpo lúteo nos primeiros dois a três meses de gestação. O corpo lúteo, remanescente do folículo que liberou o óvulo, produz a progesterona necessária para preservar o endométrio. Sem hCG, esse corpo lúteo regrediria pouco depois da ovulação (como ocorre num ciclo em que não há fecundação), o endométrio se descamaria e não haveria gestação.\n\nAs demais alternativas confundem etapas do processo. A progesterona (A) é produzida pelo corpo lúteo — graças à ação do hCG —, mas não é o hormônio que se eleva primeiro. FSH (B) e LH (D) caem no início da gestação, pois seus receptores hipofisários passam a ser inibidos pelas altas concentrações de progesterona e estrógeno. O estrógeno (C) sobe, sim, mas depois — quando a placenta assume a produção. Só o hCG cumpre a descrição do texto."
    },
    {
     "number": 16,
@@ -232,7 +232,7 @@
      "20."
     ],
     "answer": 0,
-    "explanation": "O princípio central é a conservação da energia: toda a energia cinética do veículo se converte em calor absorvido pelo tambor. Primeiro passo — converter a velocidade: 72 km/h ÷ 3,6 = 20 m/s. A energia cinética inicial é Ec = ½·m·v² = ½ · 1.500 · 20² = ½ · 1.500 · 400 = 300.000 J. Antes de aplicar a equação do calor, é preciso compatibilizar as unidades. O calor específico foi dado em J/(g·°C), mas a massa é pedida em quilogramas: como 1 kg = 1.000 g, o valor 0,6 J/(g·°C) equivale a 600 J/(kg·°C). Essa conversão é o passo que separa quem acerta de quem erra a questão. O calor absorvido pelo tambor obedece à relação Q = mtambor·c·ΔT. Com c = 600 J/(kg·°C) e ΔT = 120 − 20 = 100 °C, temos 300.000 = m · 600 · 100, de onde m = 300.000 / 60.000 = 5 kg. A alternativa A é a única que reflete corretamente esse balanço energético. Duas armadilhas dignas de nota: (i) esquecer de converter km/h para m/s eleva o resultado numérico em fator próximo de 13, jogando o candidato em massas absurdamente altas; (ii) confundir ΔT com a temperatura final — usar 120 no lugar dos 100 °C de variação — produz um resultado menor e igualmente incorreto."
+    "explanation": "O princípio central é a conservação da energia: toda a energia cinética do veículo se converte em calor absorvido pelo tambor. Primeiro passo — converter a velocidade: 72 km/h ÷ 3,6 = 20 m/s. A energia cinética inicial é Ec = ½·m·v² = ½ · 1.500 · 20² = ½ · 1.500 · 400 = 300.000 J.\n\nAntes de aplicar a equação do calor, é preciso compatibilizar as unidades. O calor específico foi dado em J/(g·°C), mas a massa é pedida em quilogramas: como 1 kg = 1.000 g, o valor 0,6 J/(g·°C) equivale a 600 J/(kg·°C). Essa conversão é o passo que separa quem acerta de quem erra a questão.\n\nO calor absorvido pelo tambor obedece à relação Q = mtambor·c·ΔT. Com c = 600 J/(kg·°C) e ΔT = 120 − 20 = 100 °C, temos 300.000 = m · 600 · 100, de onde m = 300.000 / 60.000 = 5 kg. A alternativa A é a única que reflete corretamente esse balanço energético.\n\nDuas armadilhas dignas de nota: (i) esquecer de converter km/h para m/s eleva o resultado numérico em fator próximo de 13, jogando o candidato em massas absurdamente altas; (ii) confundir ΔT com a temperatura final — usar 120 no lugar dos 100 °C de variação — produz um resultado menor e igualmente incorreto."
    },
    {
     "number": 17,
@@ -247,7 +247,7 @@
      "848."
     ],
     "answer": 1,
-    "explanation": "A leitura da equação é o passo decisivo. A proporção estequiométrica entre NH₃ e Na₂CO₃ é 2 : 1: dois mols de amônia geram, em rendimento ideal, um mol de carbonato de sódio. Com 20 mols de NH₃ e rendimento de 100%, seriam produzidos 20/2 = 10 mols de Na₂CO₃; como o rendimento é de 90%, o número efetivo cai para 10 · 0,90 = 9 mols. Convertendo para gramas: massa = 9 mol · 106 g/mol = 954 g. A alternativa B é a única compatível com o cálculo estequiométrico correto. Vale identificar a armadilha das outras alternativas: quem ignora o rendimento chega a 1.060 g (C) — ou seja, os 10 mols teóricos. Quem esquece a proporção 2:1 e trata como 1:1 chega a valores em torno de 1.900 g, fora das alternativas."
+    "explanation": "A leitura da equação é o passo decisivo. A proporção estequiométrica entre NH₃ e Na₂CO₃ é 2 : 1: dois mols de amônia geram, em rendimento ideal, um mol de carbonato de sódio. Com 20 mols de NH₃ e rendimento de 100%, seriam produzidos 20/2 = 10 mols de Na₂CO₃; como o rendimento é de 90%, o número efetivo cai para 10 · 0,90 = 9 mols.\n\nConvertendo para gramas: massa = 9 mol · 106 g/mol = 954 g. A alternativa B é a única compatível com o cálculo estequiométrico correto.\n\nVale identificar a armadilha das outras alternativas: quem ignora o rendimento chega a 1.060 g (C) — ou seja, os 10 mols teóricos. Quem esquece a proporção 2:1 e trata como 1:1 chega a valores em torno de 1.900 g, fora das alternativas."
    },
    {
     "number": 18,
@@ -262,7 +262,7 @@
      "melhorar a separação entre água e hidrocarbonetos, reduzindo impurezas no petróleo e aumentando sua eficiência energética."
     ],
     "answer": 4,
-    "explanation": "A leitura correta parte de uma pergunta simples: o que os tensoativos fazem, de fato, com hidrocarbonetos?. Eles atuam na interface entre óleo e água, permitindo separá-los quando estão emulsionados ou emulsioná-los quando é preciso mantê-los misturados. Nas operações da indústria petrolífera, esse papel é decisivo em duas frentes: extração (recuperação avançada) e refino (quebra de emulsões). No contexto do inverno europeu, quando o consumo de derivados de petróleo dispara por causa do aquecimento, o gargalo prático é o tratamento do petróleo bruto que chega às refinarias com água emulsionada. Os tensoativos, aplicados como demulsificantes, aceleram essa separação, o que aumenta a eficiência das refinarias — respondendo à alta demanda sem sobrecarregar as unidades industriais. A alternativa E descreve exatamente essa aplicação. As demais são inconsistentes: A confunde a formação de micelas com aceleração de oxidação (não é a função dos tensoativos); B é falsa — tensoativos não catalisam combustão; C descreve papel de anticongelantes, não de tensoativos; D inverte o efeito — tensoativos alteram tensão superficial, não densidade."
+    "explanation": "A leitura correta parte de uma pergunta simples: o que os tensoativos fazem, de fato, com hidrocarbonetos?. Eles atuam na interface entre óleo e água, permitindo separá-los quando estão emulsionados ou emulsioná-los quando é preciso mantê-los misturados. Nas operações da indústria petrolífera, esse papel é decisivo em duas frentes: extração (recuperação avançada) e refino (quebra de emulsões).\n\nNo contexto do inverno europeu, quando o consumo de derivados de petróleo dispara por causa do aquecimento, o gargalo prático é o tratamento do petróleo bruto que chega às refinarias com água emulsionada. Os tensoativos, aplicados como demulsificantes, aceleram essa separação, o que aumenta a eficiência das refinarias — respondendo à alta demanda sem sobrecarregar as unidades industriais. A alternativa E descreve exatamente essa aplicação.\n\nAs demais são inconsistentes: A confunde a formação de micelas com aceleração de oxidação (não é a função dos tensoativos); B é falsa — tensoativos não catalisam combustão; C descreve papel de anticongelantes, não de tensoativos; D inverte o efeito — tensoativos alteram tensão superficial, não densidade."
    },
    {
     "number": 19,
@@ -277,7 +277,7 @@
      "1/2."
     ],
     "answer": 0,
-    "explanation": "Há dois caminhos para chegar à resposta, e ambos convergem em 1/5. O primeiro é o cálculo direto por multiplicação de probabilidades condicionais: para que o terceiro ganhe, os dois primeiros precisam falhar. A probabilidade de o primeiro escolher chave errada é 4/5; dado esse fracasso, a probabilidade de o segundo também errar é 3/4; e a probabilidade de o terceiro finalmente acertar, com três chaves restantes, é 1/3. O produto é (4/5)·(3/4)·(1/3) = 12/60 = 1/5. O segundo caminho é ainda mais elegante e é um resultado clássico de probabilidade: se cinco pessoas retiram, em ordem, uma chave de um conjunto de cinco e apenas uma abre a porta, cada uma delas tem exatamente a mesma probabilidade de ser a vencedora, e essa probabilidade é 1/5 — independentemente da posição na fila. Isso decorre da simetria do problema: as cinco chaves são igualmente prováveis de ser tiradas em qualquer posição da sequência. Muitos candidatos, pressionados pelo tempo, marcam C (1/3) achando que o terceiro terá \"1 em 3\" chances, ignorando que ele só sequer chega a tentar se os dois primeiros falharem. É exatamente essa combinação que produz o 1/5 da alternativa A."
+    "explanation": "Há dois caminhos para chegar à resposta, e ambos convergem em 1/5. O primeiro é o cálculo direto por multiplicação de probabilidades condicionais: para que o terceiro ganhe, os dois primeiros precisam falhar. A probabilidade de o primeiro escolher chave errada é 4/5; dado esse fracasso, a probabilidade de o segundo também errar é 3/4; e a probabilidade de o terceiro finalmente acertar, com três chaves restantes, é 1/3. O produto é (4/5)·(3/4)·(1/3) = 12/60 = 1/5.\n\nO segundo caminho é ainda mais elegante e é um resultado clássico de probabilidade: se cinco pessoas retiram, em ordem, uma chave de um conjunto de cinco e apenas uma abre a porta, cada uma delas tem exatamente a mesma probabilidade de ser a vencedora, e essa probabilidade é 1/5 — independentemente da posição na fila. Isso decorre da simetria do problema: as cinco chaves são igualmente prováveis de ser tiradas em qualquer posição da sequência.\n\nMuitos candidatos, pressionados pelo tempo, marcam C (1/3) achando que o terceiro terá \"1 em 3\" chances, ignorando que ele só sequer chega a tentar se os dois primeiros falharem. É exatamente essa combinação que produz o 1/5 da alternativa A."
    },
    {
     "number": 20,
@@ -292,7 +292,7 @@
      "4⁶ × 10⁵."
     ],
     "answer": 0,
-    "explanation": "Aplica-se o princípio multiplicativo, respeitando as três regras. Os três primeiros dígitos são fixos (7, 8 e 9) — contribuem com um único arranjo, ou seja, fator 1. Os seis dígitos seguintes admitem quatro possibilidades cada (algarismos 1, 2, 3 ou 4), com repetição livre — fator 4⁶ = 4.096. Os quatro últimos aceitam qualquer algarismo de 0 a 9, também com repetição — fator 10⁴ = 10.000. O total é, portanto, 1 · 4⁶ · 10⁴ = 4.096 · 10.000 = 40.960.000, que a alternativa A registra na forma fatorada 4⁶ × 10⁴ — exatamente o produto dos três blocos. As demais erram ora na base (C troca o 10 por 9, como se houvesse apenas nove algarismos disponíveis), ora no expoente (D e E alteram a quantidade de dígitos do último bloco), ora na própria estrutura (B abandona a forma fatorada e chuta uma ordem de grandeza). A armadilha típica é ignorar que o primeiro bloco, embora tenha três dígitos, contribui com apenas um arranjo (é fixo, não combinatório). Alunos apressados multiplicam por 1.000 achando que \"três dígitos livres\" — mas o enunciado é explícito: os três primeiros são fixos e obrigatórios. A resposta correta é a A."
+    "explanation": "Aplica-se o princípio multiplicativo, respeitando as três regras. Os três primeiros dígitos são fixos (7, 8 e 9) — contribuem com um único arranjo, ou seja, fator 1. Os seis dígitos seguintes admitem quatro possibilidades cada (algarismos 1, 2, 3 ou 4), com repetição livre — fator 4⁶ = 4.096. Os quatro últimos aceitam qualquer algarismo de 0 a 9, também com repetição — fator 10⁴ = 10.000.\n\nO total é, portanto, 1 · 4⁶ · 10⁴ = 4.096 · 10.000 = 40.960.000, que a alternativa A registra na forma fatorada 4⁶ × 10⁴ — exatamente o produto dos três blocos. As demais erram ora na base (C troca o 10 por 9, como se houvesse apenas nove algarismos disponíveis), ora no expoente (D e E alteram a quantidade de dígitos do último bloco), ora na própria estrutura (B abandona a forma fatorada e chuta uma ordem de grandeza).\n\nA armadilha típica é ignorar que o primeiro bloco, embora tenha três dígitos, contribui com apenas um arranjo (é fixo, não combinatório). Alunos apressados multiplicam por 1.000 achando que \"três dígitos livres\" — mas o enunciado é explícito: os três primeiros são fixos e obrigatórios. A resposta correta é a A."
    },
    {
     "number": 21,
@@ -307,7 +307,7 @@
      "80."
     ],
     "answer": 2,
-    "explanation": "O primeiro movimento é descobrir quanto vale a hora obrigatória. Sendo x esse valor, a hora extra vale 1,5x. Considerando as 40 horas obrigatórias e as 10 extras que compõem o pagamento mensal atual, tem-se 40x + 10·(1,5x) = 40x + 15x = 55x = 440. Portanto, x = R$ 8,00 por hora obrigatória, e cada hora extra vale R$ 12,00. Para obter R$ 792,00 de acréscimo, o número de horas extras adicionais é 792 / 12 = 66 horas — como aponta a alternativa C. Erros clássicos: (i) calcular sobre o valor da hora obrigatória (792/8 = 99 h) e não sobre a hora extra; (ii) esquecer o multiplicador 1,5 e tratar a hora extra como igual à obrigatória, obtendo 792/8 = 99; (iii) fazer a média entre valores diferentes de horas e dividir R$ 440,00 por 50 = R$ 8,80 — mistura equivocada de médias com valor unitário. O caminho correto exige separar cada tipo de hora em sua contribuição própria."
+    "explanation": "O primeiro movimento é descobrir quanto vale a hora obrigatória. Sendo x esse valor, a hora extra vale 1,5x. Considerando as 40 horas obrigatórias e as 10 extras que compõem o pagamento mensal atual, tem-se 40x + 10·(1,5x) = 40x + 15x = 55x = 440. Portanto, x = R$ 8,00 por hora obrigatória, e cada hora extra vale R$ 12,00.\n\nPara obter R$ 792,00 de acréscimo, o número de horas extras adicionais é 792 / 12 = 66 horas — como aponta a alternativa C.\n\nErros clássicos: (i) calcular sobre o valor da hora obrigatória (792/8 = 99 h) e não sobre a hora extra; (ii) esquecer o multiplicador 1,5 e tratar a hora extra como igual à obrigatória, obtendo 792/8 = 99; (iii) fazer a média entre valores diferentes de horas e dividir R$ 440,00 por 50 = R$ 8,80 — mistura equivocada de médias com valor unitário. O caminho correto exige separar cada tipo de hora em sua contribuição própria."
    },
    {
     "number": 22,
@@ -322,7 +322,7 @@
      "5 m/s."
     ],
     "answer": 1,
-    "explanation": "Trata-se de um lançamento horizontal: a componente vertical do movimento é governada exclusivamente pela gravidade, enquanto a componente horizontal permanece com velocidade constante (na ausência de resistência do ar). Os dois movimentos são independentes, ligados apenas pelo tempo comum de queda. Primeiro, calcula-se o tempo de queda a partir da altura. Da equação h = ½·g·t², vem 0,2 = ½ · 10 · t², portanto t² = 0,04 e t = 0,2 s. Em seguida, a velocidade horizontal é obtida a partir da distância percorrida no mesmo tempo: v = d/t = 0,3 / 0,2 = 1,5 m/s — o que corresponde à alternativa B. Armadilhas frequentes: (i) usar h = v·t no cálculo vertical, esquecendo que a queda é acelerada, não uniforme; (ii) confundir o alcance horizontal com uma distância inclinada, aplicando teorema de Pitágoras onde não é o caso — na horizontal, a distância é apenas o valor dado no enunciado; (iii) esquecer de tomar o valor absoluto de t (que aqui é trivial, mas em problemas com sinais pode ser fonte de erro)."
+    "explanation": "Trata-se de um lançamento horizontal: a componente vertical do movimento é governada exclusivamente pela gravidade, enquanto a componente horizontal permanece com velocidade constante (na ausência de resistência do ar). Os dois movimentos são independentes, ligados apenas pelo tempo comum de queda.\n\nPrimeiro, calcula-se o tempo de queda a partir da altura. Da equação h = ½·g·t², vem 0,2 = ½ · 10 · t², portanto t² = 0,04 e t = 0,2 s. Em seguida, a velocidade horizontal é obtida a partir da distância percorrida no mesmo tempo: v = d/t = 0,3 / 0,2 = 1,5 m/s — o que corresponde à alternativa B.\n\nArmadilhas frequentes: (i) usar h = v·t no cálculo vertical, esquecendo que a queda é acelerada, não uniforme; (ii) confundir o alcance horizontal com uma distância inclinada, aplicando teorema de Pitágoras onde não é o caso — na horizontal, a distância é apenas o valor dado no enunciado; (iii) esquecer de tomar o valor absoluto de t (que aqui é trivial, mas em problemas com sinais pode ser fonte de erro)."
    },
    {
     "number": 23,
@@ -337,7 +337,7 @@
      "1.800."
     ],
     "answer": 4,
-    "explanation": "É um caso clássico de regra de três composta com duas variáveis diretamente proporcionais à produção — número de funcionários e duração da jornada. Quando o número de trabalhadores aumenta na proporção 5/3 e o tempo de trabalho aumenta na proporção 9/6 = 3/2, a produção esperada multiplica-se por ambos os fatores. Assim, produção nova = 720 · (5/3) · (3/2) = 720 · (15/6) = 720 · 2,5 = 1.800 tijolos. É essa a leitura da alternativa E. Duas armadilhas: (i) esquecer um dos dois fatores multiplicativos — quem aplicar apenas a proporção de funcionários chega a 1.200 tijolos (alternativa B), e quem aplicar apenas o aumento das horas chega a 1.080 (alternativa A). Ambas são respostas parciais. (ii) Confundir proporcionalidade direta com inversa: se por engano se aplicar 3/5 no lugar de 5/3, ou 6/9 no lugar de 9/6, o resultado despenca em ordens de grandeza. O caminho correto exige identificar que mais funcionários e mais horas produzem mais tijolos — proporcionalidade direta nas duas variáveis simultaneamente."
+    "explanation": "É um caso clássico de regra de três composta com duas variáveis diretamente proporcionais à produção — número de funcionários e duração da jornada. Quando o número de trabalhadores aumenta na proporção 5/3 e o tempo de trabalho aumenta na proporção 9/6 = 3/2, a produção esperada multiplica-se por ambos os fatores.\n\nAssim, produção nova = 720 · (5/3) · (3/2) = 720 · (15/6) = 720 · 2,5 = 1.800 tijolos. É essa a leitura da alternativa E.\n\nDuas armadilhas: (i) esquecer um dos dois fatores multiplicativos — quem aplicar apenas a proporção de funcionários chega a 1.200 tijolos (alternativa B), e quem aplicar apenas o aumento das horas chega a 1.080 (alternativa A). Ambas são respostas parciais. (ii) Confundir proporcionalidade direta com inversa: se por engano se aplicar 3/5 no lugar de 5/3, ou 6/9 no lugar de 9/6, o resultado despenca em ordens de grandeza. O caminho correto exige identificar que mais funcionários e mais horas produzem mais tijolos — proporcionalidade direta nas duas variáveis simultaneamente."
    },
    {
     "number": 24,
@@ -352,7 +352,7 @@
      "a área é inversamente proporcional ao quadrado do comprimento do lado."
     ],
     "answer": 1,
-    "explanation": "A área do triângulo equilátero de lado L é dada pela fórmula A = (√3 / 4) · L². Escrevendo assim, a estrutura fica evidente: a área depende de L² multiplicado por um número fixo (√3/4). Sempre que uma grandeza pode ser escrita como y = k · x² com k constante, dizemos que y é diretamente proporcional ao quadrado de x. Traduzindo para o contexto: quando o lado do triângulo dobra, a área não dobra — quadruplica. Quando o lado triplica, a área multiplica por nove. É esse comportamento que a alternativa B captura corretamente. As demais oferecem confusões clássicas. Proporcionalidade direta ao lado (A) descreveria uma reta, o que só é verdadeiro para o perímetro, não para a área. Proporcionalidade ao cubo (C) descreveria o comportamento do volume de um sólido semelhante — por exemplo, um tetraedro regular —, não da área de uma figura plana. E as duas últimas — proporcionalidade inversa ao lado (D) ou ao quadrado (E) — descreveriam figuras que diminuem quando o lado cresce, o que não faz sentido para área. A alternativa correta é a B."
+    "explanation": "A área do triângulo equilátero de lado L é dada pela fórmula A = (√3 / 4) · L². Escrevendo assim, a estrutura fica evidente: a área depende de L² multiplicado por um número fixo (√3/4). Sempre que uma grandeza pode ser escrita como y = k · x² com k constante, dizemos que y é diretamente proporcional ao quadrado de x.\n\nTraduzindo para o contexto: quando o lado do triângulo dobra, a área não dobra — quadruplica. Quando o lado triplica, a área multiplica por nove. É esse comportamento que a alternativa B captura corretamente.\n\nAs demais oferecem confusões clássicas. Proporcionalidade direta ao lado (A) descreveria uma reta, o que só é verdadeiro para o perímetro, não para a área. Proporcionalidade ao cubo (C) descreveria o comportamento do volume de um sólido semelhante — por exemplo, um tetraedro regular —, não da área de uma figura plana. E as duas últimas — proporcionalidade inversa ao lado (D) ou ao quadrado (E) — descreveriam figuras que diminuem quando o lado cresce, o que não faz sentido para área. A alternativa correta é a B."
    },
    {
     "number": 27,
@@ -367,7 +367,7 @@
      "acidificação dos oceanos."
     ],
     "answer": 1,
-    "explanation": "Entre os fatores urbanos ligados à industrialização e à globalização, o mais diretamente conectado ao agravamento de enchentes e da disseminação de doenças descritas no enunciado é a impermeabilização dos solos. Ela ocorre quando o crescimento acelerado das cidades substitui superfícies naturais permeáveis — solos com cobertura vegetal, matas ciliares, várzeas — por asfalto, concreto e telhados. A água da chuva, que antes infiltrava no solo e recarregava lençóis freáticos, agora escoa em superfície, satura sistemas de drenagem e retorna aos leitos dos rios em volume e velocidade muito maiores. O efeito é dublo: (i) intensifica enchentes súbitas em bacias urbanizadas; (ii) cria condições para a proliferação de vetores e patógenos, uma vez que a água parada em pontos alagados favorece leptospirose, dengue e outras doenças mencionadas no texto. Também empobrece a biodiversidade urbana, ao eliminar habitats de espécies dependentes das áreas úmidas. As demais alternativas descrevem processos ambientais graves — eutrofização, buraco na camada de ozônio, acidificação dos oceanos —, mas nenhum deles se relaciona diretamente ao mecanismo de enchentes urbanas e disseminação de doenças descrito. Aumento da fotossíntese, na alternativa D, seria positivo, não negativo. A resposta correta é a B."
+    "explanation": "Entre os fatores urbanos ligados à industrialização e à globalização, o mais diretamente conectado ao agravamento de enchentes e da disseminação de doenças descritas no enunciado é a impermeabilização dos solos. Ela ocorre quando o crescimento acelerado das cidades substitui superfícies naturais permeáveis — solos com cobertura vegetal, matas ciliares, várzeas — por asfalto, concreto e telhados. A água da chuva, que antes infiltrava no solo e recarregava lençóis freáticos, agora escoa em superfície, satura sistemas de drenagem e retorna aos leitos dos rios em volume e velocidade muito maiores.\n\nO efeito é dublo: (i) intensifica enchentes súbitas em bacias urbanizadas; (ii) cria condições para a proliferação de vetores e patógenos, uma vez que a água parada em pontos alagados favorece leptospirose, dengue e outras doenças mencionadas no texto. Também empobrece a biodiversidade urbana, ao eliminar habitats de espécies dependentes das áreas úmidas.\n\nAs demais alternativas descrevem processos ambientais graves — eutrofização, buraco na camada de ozônio, acidificação dos oceanos —, mas nenhum deles se relaciona diretamente ao mecanismo de enchentes urbanas e disseminação de doenças descrito. Aumento da fotossíntese, na alternativa D, seria positivo, não negativo. A resposta correta é a B."
    },
    {
     "number": 28,
@@ -382,7 +382,7 @@
      "melhora o desempenho dos motores, reduzindo a emissão de poluentes."
     ],
     "answer": 3,
-    "explanation": "A pergunta é específica: em relação à chuva ácida, qual a vantagem do biodiesel? A chuva ácida é causada, principalmente, pela emissão de dióxido de enxofre (SO₂) na atmosfera. E o SO₂, por sua vez, vem da queima de combustíveis fósseis com enxofre em sua composição — o óleo diesel derivado do petróleo é um dos principais. O biodiesel, produzido a partir de fontes vegetais ou animais por transesterificação, praticamente não contém enxofre. Portanto, sua combustão libera quantidades muito baixas de SO₂, reduzindo a contribuição para a formação de chuva ácida. Essa é a resposta técnica direta à pergunta — e é exatamente a alternativa D. As outras alternativas mencionam vantagens reais ou parciais do biodiesel — eficiência (A), origem renovável (C), redução geral de poluentes (E) — mas nenhuma delas se articula com o fenômeno específico da chuva ácida, que é o objeto da questão. A alternativa B é falsa em sentido estrito: o biodiesel também emite CO₂ na combustão (embora com balanço menos negativo, pelo ciclo do carbono nas plantas). É a leitura precisa que a alternativa D captura."
+    "explanation": "A pergunta é específica: em relação à chuva ácida, qual a vantagem do biodiesel? A chuva ácida é causada, principalmente, pela emissão de dióxido de enxofre (SO₂) na atmosfera. E o SO₂, por sua vez, vem da queima de combustíveis fósseis com enxofre em sua composição — o óleo diesel derivado do petróleo é um dos principais.\n\nO biodiesel, produzido a partir de fontes vegetais ou animais por transesterificação, praticamente não contém enxofre. Portanto, sua combustão libera quantidades muito baixas de SO₂, reduzindo a contribuição para a formação de chuva ácida. Essa é a resposta técnica direta à pergunta — e é exatamente a alternativa D.\n\nAs outras alternativas mencionam vantagens reais ou parciais do biodiesel — eficiência (A), origem renovável (C), redução geral de poluentes (E) — mas nenhuma delas se articula com o fenômeno específico da chuva ácida, que é o objeto da questão. A alternativa B é falsa em sentido estrito: o biodiesel também emite CO₂ na combustão (embora com balanço menos negativo, pelo ciclo do carbono nas plantas). É a leitura precisa que a alternativa D captura."
    },
    {
     "number": 30,
@@ -397,7 +397,7 @@
      "ligação de hidrogênio."
     ],
     "answer": 2,
-    "explanation": "A pergunta envolve tipos de ligação química: quais são intramoleculares (dentro da molécula) e quais são intermoleculares (entre moléculas). Quando o gelo seco sublima, as moléculas de CO₂ passam do estado sólido — onde estão organizadas num retículo cristalino, mantidas próximas umas às outras — para o estado gasoso, em que se separam. Nesse processo, o que se rompe são as interações entre moléculas, não as ligações covalentes que unem C e O dentro de cada molécula. A alternativa A é falsa por confundir essas duas escalas: as duplas ligações C=O permanecem intactas durante a sublimação. Restam as forças intermoleculares. Como o CO₂ é uma molécula apolar — a geometria linear O=C=O anula o dipolo total, apesar das ligações C=O individualmente polares —, as únicas interações possíveis entre suas moléculas no cristal são as forças de dispersão de London, geradas por dipolos induzidos instantâneos que se produzem, entre moléculas apolares, pela flutuação da nuvem eletrônica. Ligação iônica (B) exigiria transferência de elétrons e formação de íons — inexistente aqui. Ligação metálica (D) só se dá em metais. Ligação de hidrogênio (E) exige H ligado diretamente a F, O ou N em molécula adjacente — não é o caso do CO₂. A resposta correta é, portanto, a C."
+    "explanation": "A pergunta envolve tipos de ligação química: quais são intramoleculares (dentro da molécula) e quais são intermoleculares (entre moléculas). Quando o gelo seco sublima, as moléculas de CO₂ passam do estado sólido — onde estão organizadas num retículo cristalino, mantidas próximas umas às outras — para o estado gasoso, em que se separam. Nesse processo, o que se rompe são as interações entre moléculas, não as ligações covalentes que unem C e O dentro de cada molécula. A alternativa A é falsa por confundir essas duas escalas: as duplas ligações C=O permanecem intactas durante a sublimação.\n\nRestam as forças intermoleculares. Como o CO₂ é uma molécula apolar — a geometria linear O=C=O anula o dipolo total, apesar das ligações C=O individualmente polares —, as únicas interações possíveis entre suas moléculas no cristal são as forças de dispersão de London, geradas por dipolos induzidos instantâneos que se produzem, entre moléculas apolares, pela flutuação da nuvem eletrônica.\n\nLigação iônica (B) exigiria transferência de elétrons e formação de íons — inexistente aqui. Ligação metálica (D) só se dá em metais. Ligação de hidrogênio (E) exige H ligado diretamente a F, O ou N em molécula adjacente — não é o caso do CO₂. A resposta correta é, portanto, a C."
    },
    {
     "number": 31,
@@ -412,7 +412,7 @@
      "36."
     ],
     "answer": 2,
-    "explanation": "A modelagem exige duas equações. Chamando de V o valor de cada parcela na Opção 1, tem-se N · V = 60.000, ou seja, V = 60.000/N. Na Opção 2, o número de prestações passa a (N + 6) e o valor de cada uma cai para (V − 500), mantendo o mesmo total: (N + 6)·(V − 500) = 60.000. Substituindo V na segunda equação: (N + 6)·(60.000/N − 500) = 60.000. Expandindo, obtém-se 60.000 − 500N + 360.000/N − 3.000 = 60.000, o que se reduz a 360.000/N = 500N + 3.000. Multiplicando por N e dividindo por 500, chega-se à equação quadrática N² + 6N − 720 = 0. Aplicando Bháskara: Δ = 36 + 4·720 = 2.916, e √2.916 = 54 exatamente. Logo N = (−6 + 54)/2 = 48/2 = 24. A raiz negativa é descartada por não ter sentido no contexto. Conferindo: 60.000 ÷ 24 = R$ 2.500,00 por parcela na Opção 1; 60.000 ÷ 30 = R$ 2.000,00 na Opção 2 — diferença de exatamente R$ 500,00, como o enunciado exige. A alternativa correta é a C."
+    "explanation": "A modelagem exige duas equações. Chamando de V o valor de cada parcela na Opção 1, tem-se N · V = 60.000, ou seja, V = 60.000/N. Na Opção 2, o número de prestações passa a (N + 6) e o valor de cada uma cai para (V − 500), mantendo o mesmo total: (N + 6)·(V − 500) = 60.000.\n\nSubstituindo V na segunda equação: (N + 6)·(60.000/N − 500) = 60.000. Expandindo, obtém-se 60.000 − 500N + 360.000/N − 3.000 = 60.000, o que se reduz a 360.000/N = 500N + 3.000. Multiplicando por N e dividindo por 500, chega-se à equação quadrática N² + 6N − 720 = 0.\n\nAplicando Bháskara: Δ = 36 + 4·720 = 2.916, e √2.916 = 54 exatamente. Logo N = (−6 + 54)/2 = 48/2 = 24. A raiz negativa é descartada por não ter sentido no contexto. Conferindo: 60.000 ÷ 24 = R$ 2.500,00 por parcela na Opção 1; 60.000 ÷ 30 = R$ 2.000,00 na Opção 2 — diferença de exatamente R$ 500,00, como o enunciado exige. A alternativa correta é a C."
    },
    {
     "number": 34,
@@ -427,7 +427,7 @@
      "exposição controlada à água para fortalecer o sistema imunológico."
     ],
     "answer": 3,
-    "explanation": "A esquistossomose é uma doença cujo ciclo depende de duas etapas ambientais precisas: a contaminação da água por ovos eliminados nas fezes de pessoas infectadas; e a presença de caramujos do gênero Biomphalaria, que abrigam parte do ciclo do parasita e liberam cercárias infectantes. Se uma dessas etapas for interrompida, o ciclo se quebra e a doença deixa de se propagar na população. A intervenção mais eficaz e sustentável é o saneamento básico: sistemas de esgoto que impeçam a chegada de fezes contaminadas à água; tratamento adequado da água consumida e utilizada para lavagem; abastecimento de água potável canalizada em regiões rurais e periurbanas. Sem essas medidas, os caramujos continuam sendo infectados e o ciclo se perpetua, mesmo com tratamento medicamentoso da população — que trata a doença já instalada, mas não impede a reinfecção. As outras alternativas se apoiam em bases erradas. A (vacina) — não existe vacina eficaz contra Schistosoma mansoni em uso clínico rotineiro; B (gradeamento) — inviável tecnicamente e ecologicamente devastador; C (antivirais) — a esquistossomose é doença parasitária por platelminto, não viral; medicamentos como o praziquantel são usados, mas antivirais não fazem parte do arsenal terapêutico correto. E (exposição controlada) — não fortalece imunidade; apenas exponhe a novas infecções. A resposta correta é a D."
+    "explanation": "A esquistossomose é uma doença cujo ciclo depende de duas etapas ambientais precisas: a contaminação da água por ovos eliminados nas fezes de pessoas infectadas; e a presença de caramujos do gênero Biomphalaria, que abrigam parte do ciclo do parasita e liberam cercárias infectantes. Se uma dessas etapas for interrompida, o ciclo se quebra e a doença deixa de se propagar na população.\n\nA intervenção mais eficaz e sustentável é o saneamento básico: sistemas de esgoto que impeçam a chegada de fezes contaminadas à água; tratamento adequado da água consumida e utilizada para lavagem; abastecimento de água potável canalizada em regiões rurais e periurbanas. Sem essas medidas, os caramujos continuam sendo infectados e o ciclo se perpetua, mesmo com tratamento medicamentoso da população — que trata a doença já instalada, mas não impede a reinfecção.\n\nAs outras alternativas se apoiam em bases erradas. A (vacina) — não existe vacina eficaz contra Schistosoma mansoni em uso clínico rotineiro; B (gradeamento) — inviável tecnicamente e ecologicamente devastador; C (antivirais) — a esquistossomose é doença parasitária por platelminto, não viral; medicamentos como o praziquantel são usados, mas antivirais não fazem parte do arsenal terapêutico correto. E (exposição controlada) — não fortalece imunidade; apenas exponhe a novas infecções. A resposta correta é a D."
    }
   ]
  },
@@ -448,7 +448,7 @@
      "As duas substâncias formam uma solução tampão que impede novas contaminações, sem atuar nos poluentes presentes."
     ],
     "answer": 0,
-    "explanation": "As moléculas de detergente são anfifílicas: possuem uma região polar e outra apolar. Por isso, formam micelas que englobam os hidrocarbonetos e aumentam sua dispersão na fase aquosa, facilitando a remoção e o tratamento do contaminante. Em condições controladas, o peróxido de hidrogênio ativado gera espécies fortemente oxidantes — como radicais hidroxila —, capazes de fragmentar e oxidar os compostos orgânicos. As demais alternativas atribuem aos dois agentes efeitos que eles não produzem (aumento de densidade, bloqueio de poros, aquecimento, tamponamento). A descrição correta das duas funções está na letra A."
+    "explanation": "As moléculas de detergente são anfifílicas: possuem uma região polar e outra apolar. Por isso, formam micelas que englobam os hidrocarbonetos e aumentam sua dispersão na fase aquosa, facilitando a remoção e o tratamento do contaminante.\n\nEm condições controladas, o peróxido de hidrogênio ativado gera espécies fortemente oxidantes — como radicais hidroxila —, capazes de fragmentar e oxidar os compostos orgânicos. As demais alternativas atribuem aos dois agentes efeitos que eles não produzem (aumento de densidade, bloqueio de poros, aquecimento, tamponamento). A descrição correta das duas funções está na letra A."
    },
    {
     "number": 3,
@@ -463,7 +463,7 @@
      "1,9"
     ],
     "answer": 1,
-    "explanation": "A massa molar do Fe₂O₃ vale 2 × 56 + 3 × 16 = 160 g/mol. Pela equação balanceada, 1 mol de Fe₂O₃ produz 2 mol de Fe, o que corresponde a 2 × 56 = 112 g de ferro. A razão pedida é, portanto, 160/112 ≈ 1,43. Quem inverte a razão encontra 0,7 e não acha alternativa; quem esquece de dobrar o ferro chega a 160/56 ≈ 2,9. O valor aproximado de 1,4 corresponde à letra B."
+    "explanation": "A massa molar do Fe₂O₃ vale 2 × 56 + 3 × 16 = 160 g/mol. Pela equação balanceada, 1 mol de Fe₂O₃ produz 2 mol de Fe, o que corresponde a 2 × 56 = 112 g de ferro.\n\nA razão pedida é, portanto, 160/112 ≈ 1,43. Quem inverte a razão encontra 0,7 e não acha alternativa; quem esquece de dobrar o ferro chega a 160/56 ≈ 2,9. O valor aproximado de 1,4 corresponde à letra B."
    },
    {
     "number": 4,
@@ -478,7 +478,7 @@
      "raios gama e infravermelho."
     ],
     "answer": 2,
-    "explanation": "Controles remotos de televisor emitem radiação infravermelha, que precisa atingir diretamente o sensor do aparelho — daí a exigência de alinhamento óptico. Drones, por sua vez, recebem comandos por sinais de radiofrequência, que se propagam a distâncias maiores e contornam obstáculos com mais facilidade. A associação correta, na ordem apresentada pelo enunciado, é infravermelho e ondas de rádio: letra C."
+    "explanation": "Controles remotos de televisor emitem radiação infravermelha, que precisa atingir diretamente o sensor do aparelho — daí a exigência de alinhamento óptico. Drones, por sua vez, recebem comandos por sinais de radiofrequência, que se propagam a distâncias maiores e contornam obstáculos com mais facilidade.\n\nA associação correta, na ordem apresentada pelo enunciado, é infravermelho e ondas de rádio: letra C."
    },
    {
     "number": 5,
@@ -493,7 +493,7 @@
      "acelerar o ciclo de vida do parasita para impedir seu crescimento."
     ],
     "answer": 3,
-    "explanation": "O enunciado lista três limitações do composto vegetal: baixa solubilidade, instabilidade e pouca absorção. O encapsulamento em nanopartículas lipídicas responde exatamente a esses três problemas — protege o princípio ativo contra a degradação, favorece sua dispersão em meios biológicos e melhora sua biodisponibilidade, aumentando a chance de o fármaco atingir o local de ação em concentração adequada. As demais alternativas descrevem efeitos indesejados (mutações, ampliação de efeitos adversos) ou mecanismos sem relação com a tecnologia (bioacumulação no vetor, aceleração do ciclo do parasita). A vantagem real da estratégia está na letra D."
+    "explanation": "O enunciado lista três limitações do composto vegetal: baixa solubilidade, instabilidade e pouca absorção. O encapsulamento em nanopartículas lipídicas responde exatamente a esses três problemas — protege o princípio ativo contra a degradação, favorece sua dispersão em meios biológicos e melhora sua biodisponibilidade, aumentando a chance de o fármaco atingir o local de ação em concentração adequada.\n\nAs demais alternativas descrevem efeitos indesejados (mutações, ampliação de efeitos adversos) ou mecanismos sem relação com a tecnologia (bioacumulação no vetor, aceleração do ciclo do parasita). A vantagem real da estratégia está na letra D."
    },
    {
     "number": 6,
@@ -508,7 +508,7 @@
      "324 g"
     ],
     "answer": 2,
-    "explanation": "O intervalo de tempo é 10 min = 600 s; logo, a energia total eliminada vale E = 1.000 × 600 = 600.000 J. Como o calor molar de vaporização é 40,7 kJ/mol = 40.700 J/mol, o número de mols de água vaporizada é n = 600.000/40.700 ≈ 14,74 mol. A massa correspondente é m = 14,74 × 18 ≈ 265 g. Quem usa o tempo em minutos, sem converter para segundos, encontra valores dez vezes menores e não fecha alternativa; a resposta aproximada de 265 g está na letra C."
+    "explanation": "O intervalo de tempo é 10 min = 600 s; logo, a energia total eliminada vale E = 1.000 × 600 = 600.000 J. Como o calor molar de vaporização é 40,7 kJ/mol = 40.700 J/mol, o número de mols de água vaporizada é n = 600.000/40.700 ≈ 14,74 mol.\n\nA massa correspondente é m = 14,74 × 18 ≈ 265 g. Quem usa o tempo em minutos, sem converter para segundos, encontra valores dez vezes menores e não fecha alternativa; a resposta aproximada de 265 g está na letra C."
    },
    {
     "number": 7,
@@ -523,7 +523,7 @@
      "refrigerador."
     ],
     "answer": 4,
-    "explanation": "A sequência descrita — compressão, condensação na serpentina externa, expansão na válvula e evaporação na serpentina interna — caracteriza o ciclo de refrigeração por compressão de vapor, comum a refrigeradores e aparelhos de ar-condicionado. O detalhe que desempata é a finalidade: a serpentina fria está dentro de uma câmara isolada destinada à conservação de alimentos. Isso identifica especificamente um refrigerador, e não um ar-condicionado, que resfria ambientes. A resposta é a letra E."
+    "explanation": "A sequência descrita — compressão, condensação na serpentina externa, expansão na válvula e evaporação na serpentina interna — caracteriza o ciclo de refrigeração por compressão de vapor, comum a refrigeradores e aparelhos de ar-condicionado.\n\nO detalhe que desempata é a finalidade: a serpentina fria está dentro de uma câmara isolada destinada à conservação de alimentos. Isso identifica especificamente um refrigerador, e não um ar-condicionado, que resfria ambientes. A resposta é a letra E."
    },
    {
     "number": 8,
@@ -538,7 +538,7 @@
      "a dependência exclusiva de rios perenes para qualquer sistema de refrigeração."
     ],
     "answer": 3,
-    "explanation": "Usinas nucleares geram rejeitos radioativos de diferentes classes, e parte deles exige acondicionamento, armazenamento e isolamento seguro por períodos muito longos. Esse desafio de gestão e disposição final é o principal entrave ambiental da fonte. As demais alternativas falham por descreverem outras fontes ou afirmações falsas: aerogeradores pertencem à energia eólica (A); SO₂ e NOx são típicos da queima de combustíveis fósseis, não da fissão (B); as usinas convertem calor em eletricidade por ciclos termodinâmicos (C); e há diversos sistemas de refrigeração que não dependem exclusivamente de rios perenes (E). A resposta é a letra D."
+    "explanation": "Usinas nucleares geram rejeitos radioativos de diferentes classes, e parte deles exige acondicionamento, armazenamento e isolamento seguro por períodos muito longos. Esse desafio de gestão e disposição final é o principal entrave ambiental da fonte.\n\nAs demais alternativas falham por descreverem outras fontes ou afirmações falsas: aerogeradores pertencem à energia eólica (A); SO₂ e NOx são típicos da queima de combustíveis fósseis, não da fissão (B); as usinas convertem calor em eletricidade por ciclos termodinâmicos (C); e há diversos sistemas de refrigeração que não dependem exclusivamente de rios perenes (E). A resposta é a letra D."
    },
    {
     "number": 9,
@@ -553,7 +553,7 @@
      "24.000 − 600x − 60x²"
     ],
     "answer": 0,
-    "explanation": "Com o desconto x, o novo preço é (40 − x) e a nova quantidade vendida é (600 + 30x). A receita é o produto dessas duas grandezas: R(x) = (40 − x)(600 + 30x). Desenvolvendo: R(x) = 24.000 + 1.200x − 600x − 30x² = 24.000 + 600x − 30x². Os distratores trocam sinais dos termos de 1º e 2º graus, capturando quem erra a distributiva. A expressão correta é a da letra A."
+    "explanation": "Com o desconto x, o novo preço é (40 − x) e a nova quantidade vendida é (600 + 30x). A receita é o produto dessas duas grandezas: R(x) = (40 − x)(600 + 30x).\n\nDesenvolvendo: R(x) = 24.000 + 1.200x − 600x − 30x² = 24.000 + 600x − 30x². Os distratores trocam sinais dos termos de 1º e 2º graus, capturando quem erra a distributiva. A expressão correta é a da letra A."
    },
    {
     "number": 10,
@@ -568,7 +568,7 @@
      "Pote 2, com lucro de R$ 120,00."
     ],
     "answer": 0,
-    "explanation": "A produção diária equivale a 12 kg = 12.000 g. Com potes de 200 g, obtêm-se 12.000/200 = 60 unidades, e o lucro é 60 × R$ 2,00 = R$ 120,00. Com potes de 300 g, são 12.000/300 = 40 unidades, com lucro de 40 × R$ 2,00 = R$ 80,00. Como o lucro é fixo por unidade vendida, o pote menor gera mais unidades e, portanto, mais lucro. A combinação correta — Pote 1, com R$ 120,00 — está na letra A."
+    "explanation": "A produção diária equivale a 12 kg = 12.000 g. Com potes de 200 g, obtêm-se 12.000/200 = 60 unidades, e o lucro é 60 × R$ 2,00 = R$ 120,00. Com potes de 300 g, são 12.000/300 = 40 unidades, com lucro de 40 × R$ 2,00 = R$ 80,00.\n\nComo o lucro é fixo por unidade vendida, o pote menor gera mais unidades e, portanto, mais lucro. A combinação correta — Pote 1, com R$ 120,00 — está na letra A."
    },
    {
     "number": 11,
@@ -583,7 +583,7 @@
      "R$ 1.375,00"
     ],
     "answer": 0,
-    "explanation": "O terreno é um trapézio de bases PQ = 200 m e SR = 150 m, com altura PS = 120 m. Sua área vale A = (B + b)h/2 = (200 + 150) × 120/2 = 21.000 m². O preço por metro quadrado necessário para quitar a dívida é 11.550.000/21.000 = R$ 550,00. Quem usa apenas a base maior (200 × 120 = 24.000 m²) não encontra valor exato; quem esquece de dividir por 2 chega perto de R$ 275,00, fora das opções. O valor correto é o da letra A.",
+    "explanation": "O terreno é um trapézio de bases PQ = 200 m e SR = 150 m, com altura PS = 120 m. Sua área vale A = (B + b)h/2 = (200 + 150) × 120/2 = 21.000 m².\n\nO preço por metro quadrado necessário para quitar a dívida é 11.550.000/21.000 = R$ 550,00. Quem usa apenas a base maior (200 × 120 = 24.000 m²) não encontra valor exato; quem esquece de dividir por 2 chega perto de R$ 275,00, fora das opções. O valor correto é o da letra A.",
     "image": "/edcley/apostas-2026-2-11.webp"
    },
    {
@@ -599,7 +599,7 @@
      "4/5"
     ],
     "answer": 0,
-    "explanation": "Para o terceiro participante vencer, o primeiro deve errar (probabilidade 4/5), o segundo também deve errar (3/4, pois restam 4 envelopes) e o terceiro deve acertar (1/3, entre os 3 restantes). Multiplicando: P = (4/5) × (3/4) × (1/3) = 1/5. Também é possível concluir por simetria: como o envelope premiado tem a mesma chance de ocupar qualquer uma das cinco posições da ordem de escolha, cada participante tem probabilidade 1/5 de vencer, independentemente da posição. A resposta é a letra A."
+    "explanation": "Para o terceiro participante vencer, o primeiro deve errar (probabilidade 4/5), o segundo também deve errar (3/4, pois restam 4 envelopes) e o terceiro deve acertar (1/3, entre os 3 restantes). Multiplicando: P = (4/5) × (3/4) × (1/3) = 1/5.\n\nTambém é possível concluir por simetria: como o envelope premiado tem a mesma chance de ocupar qualquer uma das cinco posições da ordem de escolha, cada participante tem probabilidade 1/5 de vencer, independentemente da posição. A resposta é a letra A."
    },
    {
     "number": 13,
@@ -614,7 +614,7 @@
      "R$ 140.000,00"
     ],
     "answer": 2,
-    "explanation": "Empresa X: área = 100 × 75 = 7.500 m²; custo = 7.500 × 12 = R$ 90.000,00. Empresa Y: área = 120 × 70 = 8.400 m²; custo = 8.400 × 11 = R$ 92.400,00. Embora a Empresa Y cobre menos por metro quadrado, sua área maior eleva o custo total — armadilha para quem compara apenas o preço unitário e marca A. O menor custo total, de R$ 90.000,00, pertence à proposta X e corresponde à letra C."
+    "explanation": "Empresa X: área = 100 × 75 = 7.500 m²; custo = 7.500 × 12 = R$ 90.000,00. Empresa Y: área = 120 × 70 = 8.400 m²; custo = 8.400 × 11 = R$ 92.400,00.\n\nEmbora a Empresa Y cobre menos por metro quadrado, sua área maior eleva o custo total — armadilha para quem compara apenas o preço unitário e marca A. O menor custo total, de R$ 90.000,00, pertence à proposta X e corresponde à letra C."
    },
    {
     "number": 14,
@@ -629,7 +629,7 @@
      "8"
     ],
     "answer": 1,
-    "explanation": "A área coberta por uma unidade é A = πr² = 3 × 20² = 1.200 m². Para atingir pelo menos 6.000 m², são necessárias 6.000/1.200 = 5 unidades. A hipótese de soma direta das áreas, sem sobreposições nem lacunas, foi explicitada no enunciado, o que valida a divisão simples. Quem usa o diâmetro no lugar do raio encontra área quatro vezes maior e conclui, erradamente, que bastariam 2 unidades. A resposta é a letra B."
+    "explanation": "A área coberta por uma unidade é A = πr² = 3 × 20² = 1.200 m². Para atingir pelo menos 6.000 m², são necessárias 6.000/1.200 = 5 unidades.\n\nA hipótese de soma direta das áreas, sem sobreposições nem lacunas, foi explicitada no enunciado, o que valida a divisão simples. Quem usa o diâmetro no lugar do raio encontra área quatro vezes maior e conclui, erradamente, que bastariam 2 unidades. A resposta é a letra B."
    },
    {
     "number": 15,
@@ -644,7 +644,7 @@
      "3/16"
     ],
     "answer": 1,
-    "explanation": "Para a decisão chegar ao sétimo jogo, a Equipe Alfa deve vencer exatamente 3 dos 6 primeiros — o que pode ocorrer de C(6,3) = 20 maneiras, cada sequência com probabilidade (1/2)⁶. Em seguida, Alfa ainda precisa vencer a sétima partida, com probabilidade 1/2. Assim, P = 20 × (1/2)⁷ = 20/128 = 5/32. Quem esquece de exigir a vitória no jogo decisivo calcula apenas a chance de a série empatar em 3 a 3 (5/16) e não encontra a alternativa; a probabilidade pedida, 5/32, está na letra B."
+    "explanation": "Para a decisão chegar ao sétimo jogo, a Equipe Alfa deve vencer exatamente 3 dos 6 primeiros — o que pode ocorrer de C(6,3) = 20 maneiras, cada sequência com probabilidade (1/2)⁶. Em seguida, Alfa ainda precisa vencer a sétima partida, com probabilidade 1/2.\n\nAssim, P = 20 × (1/2)⁷ = 20/128 = 5/32. Quem esquece de exigir a vitória no jogo decisivo calcula apenas a chance de a série empatar em 3 a 3 (5/16) e não encontra a alternativa; a probabilidade pedida, 5/32, está na letra B."
    },
    {
     "number": 16,
@@ -659,7 +659,7 @@
      "65"
     ],
     "answer": 4,
-    "explanation": "Chamando de x o número de unidades acima de 50, a quantidade comprada é (50 + x) e o preço unitário é (80 − x). A receita vale R(x) = (50 + x)(80 − x) = 4.000 + 30x − x². O máximo dessa função quadrática ocorre no vértice: x = −b/(2a) = −30/(2 × (−1)) = 15. A quantidade que maximiza a receita é, portanto, 50 + 15 = 65 unidades. Quem responde 15 esquece de somar a base de 50 unidades; a resposta correta é a letra E."
+    "explanation": "Chamando de x o número de unidades acima de 50, a quantidade comprada é (50 + x) e o preço unitário é (80 − x). A receita vale R(x) = (50 + x)(80 − x) = 4.000 + 30x − x².\n\nO máximo dessa função quadrática ocorre no vértice: x = −b/(2a) = −30/(2 × (−1)) = 15. A quantidade que maximiza a receita é, portanto, 50 + 15 = 65 unidades. Quem responde 15 esquece de somar a base de 50 unidades; a resposta correta é a letra E."
    },
    {
     "number": 17,
@@ -674,7 +674,7 @@
      "10 horas"
     ],
     "answer": 3,
-    "explanation": "A produção é proporcional ao produto entre o número de trabalhadores e o tempo de trabalho. Com 45 × 8 = 360 trabalhadores-hora produzem-se 9.000 caixas, ou seja, 25 caixas por trabalhador-hora. Para 21.000 caixas com 105 trabalhadores: x = 8 × (45/105) × (21.000/9.000) = 8 horas — ou, diretamente, 21.000/(105 × 25) = 8. O aumento de produção exigida é compensado exatamente pelo aumento do quadro, e a jornada permanece em 8 horas: letra D."
+    "explanation": "A produção é proporcional ao produto entre o número de trabalhadores e o tempo de trabalho. Com 45 × 8 = 360 trabalhadores-hora produzem-se 9.000 caixas, ou seja, 25 caixas por trabalhador-hora.\n\nPara 21.000 caixas com 105 trabalhadores: x = 8 × (45/105) × (21.000/9.000) = 8 horas — ou, diretamente, 21.000/(105 × 25) = 8. O aumento de produção exigida é compensado exatamente pelo aumento do quadro, e a jornada permanece em 8 horas: letra D."
    },
    {
     "number": 18,
@@ -689,7 +689,7 @@
      "120"
     ],
     "answer": 0,
-    "explanation": "O crédito mensal na Loja A é 10% de R$ 500,00 = R$ 50,00; nas outras lojas, 5% de R$ 1.500,00 = R$ 75,00. O total acumulado por mês é, portanto, R$ 125,00. O número mínimo de meses para atingir o limite é 10.000/125 = 80. Quem aplica 5% ao total de R$ 2.000,00 obtém R$ 100,00 mensais e conclui 100 meses, caindo na alternativa C. A resposta correta é a letra A."
+    "explanation": "O crédito mensal na Loja A é 10% de R$ 500,00 = R$ 50,00; nas outras lojas, 5% de R$ 1.500,00 = R$ 75,00. O total acumulado por mês é, portanto, R$ 125,00.\n\nO número mínimo de meses para atingir o limite é 10.000/125 = 80. Quem aplica 5% ao total de R$ 2.000,00 obtém R$ 100,00 mensais e conclui 100 meses, caindo na alternativa C. A resposta correta é a letra A."
    },
    {
     "number": 19,
@@ -704,7 +704,7 @@
      "5"
     ],
     "answer": 0,
-    "explanation": "A leitura do gráfico mostra o PIB Nacional acima da referência internacional em 2019, 2021, 2022 e 2024, e abaixo dela em 2018, 2020 e 2023. Para formar um intervalo válido, é preciso que a superioridade ocorra em dois anos consecutivos. Entre os anos identificados, o único par consecutivo é 2021–2022; 2019 e 2024 ficam isolados entre anos de PIB Nacional inferior. Existe, portanto, exatamente 1 intervalo, e a resposta é a letra A.",
+    "explanation": "A leitura do gráfico mostra o PIB Nacional acima da referência internacional em 2019, 2021, 2022 e 2024, e abaixo dela em 2018, 2020 e 2023.\n\nPara formar um intervalo válido, é preciso que a superioridade ocorra em dois anos consecutivos. Entre os anos identificados, o único par consecutivo é 2021–2022; 2019 e 2024 ficam isolados entre anos de PIB Nacional inferior. Existe, portanto, exatamente 1 intervalo, e a resposta é a letra A.",
     "image": "/edcley/apostas-2026-2-19.webp"
    },
    {
@@ -720,7 +720,7 @@
      "Caranguejos → algas → microcrustáceos → peixes predadores."
     ],
     "answer": 1,
-    "explanation": "Na biomagnificação, a concentração de uma substância persistente aumenta ao longo dos níveis tróficos: cada consumidor ingere muitos organismos do nível anterior e retém parte do contaminante em seus tecidos, acumulando-o ao longo da vida. Assim, a menor concentração de mercúrio é esperada nos produtores (algas) e a maior nos consumidores de topo (peixes predadores), na ordem algas → microcrustáceos → caranguejos → peixes predadores. A alternativa A descreve o sentido inverso; a ordem crescente correta é a da letra B."
+    "explanation": "Na biomagnificação, a concentração de uma substância persistente aumenta ao longo dos níveis tróficos: cada consumidor ingere muitos organismos do nível anterior e retém parte do contaminante em seus tecidos, acumulando-o ao longo da vida.\n\nAssim, a menor concentração de mercúrio é esperada nos produtores (algas) e a maior nos consumidores de topo (peixes predadores), na ordem algas → microcrustáceos → caranguejos → peixes predadores. A alternativa A descreve o sentido inverso; a ordem crescente correta é a da letra B."
    },
    {
     "number": 27,
@@ -735,7 +735,7 @@
      "ressonância."
     ],
     "answer": 4,
-    "explanation": "Ressonância é o aumento acentuado da amplitude de resposta de um sistema quando ele recebe excitação com frequência próxima de uma de suas frequências naturais — o mesmo princípio que amplifica o balanço empurrado no ritmo certo ou o som em uma caixa acústica. Nas nanopartículas metálicas, a oscilação coletiva dos elétrons de condução define essa frequência própria, dando origem à ressonância plasmônica. Reflexão, difração, polarização e interferência são fenômenos ondulatórios distintos, que não envolvem coincidência com frequência natural. A resposta é a letra E."
+    "explanation": "Ressonância é o aumento acentuado da amplitude de resposta de um sistema quando ele recebe excitação com frequência próxima de uma de suas frequências naturais — o mesmo princípio que amplifica o balanço empurrado no ritmo certo ou o som em uma caixa acústica.\n\nNas nanopartículas metálicas, a oscilação coletiva dos elétrons de condução define essa frequência própria, dando origem à ressonância plasmônica. Reflexão, difração, polarização e interferência são fenômenos ondulatórios distintos, que não envolvem coincidência com frequência natural. A resposta é a letra E."
    },
    {
     "number": 28,
@@ -750,7 +750,7 @@
      "Impedir a liberação de calor e inviabilizar a geração de energia."
     ],
     "answer": 3,
-    "explanation": "Na cocombustão, a biomassa substitui parte do carvão mineral. Isso pode reduzir o uso de carbono fóssil e, quando a biomassa tem baixo teor de enxofre, diminuir também as emissões de SO₂, associadas à chuva ácida. O benefício climático, porém, não é automático: depende do cultivo, do transporte, do processamento e da reposição da biomassa — por isso a alternativa correta fala em redução parcial e potencial, e não em emissão zero (armadilha da alternativa A, com sua promessa absoluta). A resposta é a letra D."
+    "explanation": "Na cocombustão, a biomassa substitui parte do carvão mineral. Isso pode reduzir o uso de carbono fóssil e, quando a biomassa tem baixo teor de enxofre, diminuir também as emissões de SO₂, associadas à chuva ácida.\n\nO benefício climático, porém, não é automático: depende do cultivo, do transporte, do processamento e da reposição da biomassa — por isso a alternativa correta fala em redução parcial e potencial, e não em emissão zero (armadilha da alternativa A, com sua promessa absoluta). A resposta é a letra D."
    },
    {
     "number": 29,
@@ -765,7 +765,7 @@
      "A operação normal da usina emite quantidades muito baixas de gases de efeito estufa em comparação com fontes fósseis."
     ],
     "answer": 4,
-    "explanation": "Usinas nucleares produzem calor por fissão, sem queimar combustíveis fósseis. Por isso, suas emissões diretas de gases de efeito estufa durante a operação são muito baixas — este é o argumento climático que sustenta a substituição de termelétricas a carvão e petróleo. Isso não significa ausência de impactos: mineração, construção, descomissionamento, segurança e rejeitos precisam ser considerados. As alternativas A a D trazem afirmações absolutas ou simplesmente falsas (descarte direto de rejeitos, urânio renovável, ausência total de impacto). O argumento válido é o da letra E."
+    "explanation": "Usinas nucleares produzem calor por fissão, sem queimar combustíveis fósseis. Por isso, suas emissões diretas de gases de efeito estufa durante a operação são muito baixas — este é o argumento climático que sustenta a substituição de termelétricas a carvão e petróleo.\n\nIsso não significa ausência de impactos: mineração, construção, descomissionamento, segurança e rejeitos precisam ser considerados. As alternativas A a D trazem afirmações absolutas ou simplesmente falsas (descarte direto de rejeitos, urânio renovável, ausência total de impacto). O argumento válido é o da letra E."
    },
    {
     "number": 30,
@@ -780,7 +780,7 @@
      "Impedir a fixação biológica de nitrogênio por todas as bactérias."
     ],
     "answer": 2,
-    "explanation": "As algas incorporam nitrogênio e fósforo à própria biomassa ao crescer. Quando essa biomassa é retirada do ambiente de forma controlada, parte dos nutrientes sai junto com ela. A redução do excesso de nutrientes diminui a probabilidade de florações intensas, decomposição elevada e queda do oxigênio dissolvido — os fenômenos típicos da eutrofização. As demais alternativas envolvem metais pesados, pH, salinidade e fixação de nitrogênio, mecanismos alheios à estratégia descrita. O benefício real está na letra C."
+    "explanation": "As algas incorporam nitrogênio e fósforo à própria biomassa ao crescer. Quando essa biomassa é retirada do ambiente de forma controlada, parte dos nutrientes sai junto com ela.\n\nA redução do excesso de nutrientes diminui a probabilidade de florações intensas, decomposição elevada e queda do oxigênio dissolvido — os fenômenos típicos da eutrofização. As demais alternativas envolvem metais pesados, pH, salinidade e fixação de nitrogênio, mecanismos alheios à estratégia descrita. O benefício real está na letra C."
    },
    {
     "number": 31,
@@ -795,7 +795,7 @@
      "Retirar a umidade do solo e impedir o crescimento de fungos."
     ],
     "answer": 1,
-    "explanation": "CaO e Ca(OH)₂ são compostos básicos: reagem com as espécies ácidas do solo em uma neutralização clássica, elevando o pH. Esse é o objetivo da calagem, que ainda reduz a toxicidade do alumínio e melhora a disponibilidade de vários nutrientes para as plantas. O corretivo não substitui a adubação fosfatada, não tem por finalidade impermeabilizar o solo, não atua como agente de secagem nem visa aumentar a salinidade. O efeito desejado está descrito na letra B."
+    "explanation": "CaO e Ca(OH)₂ são compostos básicos: reagem com as espécies ácidas do solo em uma neutralização clássica, elevando o pH. Esse é o objetivo da calagem, que ainda reduz a toxicidade do alumínio e melhora a disponibilidade de vários nutrientes para as plantas.\n\nO corretivo não substitui a adubação fosfatada, não tem por finalidade impermeabilizar o solo, não atua como agente de secagem nem visa aumentar a salinidade. O efeito desejado está descrito na letra B."
    },
    {
     "number": 32,
@@ -810,7 +810,7 @@
      "Romper as ligações fosfodiéster e fragmentar o DNA."
     ],
     "answer": 1,
-    "explanation": "As membranas celular e nuclear são formadas por bicamadas lipídicas. O detergente, por sua natureza anfifílica, interage com esses lipídios, desorganiza as membranas e libera o conteúdo intracelular — inclusive o DNA — na solução. Quem confunde os papéis dos reagentes cai nas alternativas D ou A: é o álcool gelado, adicionado depois, que reduz a solubilidade do DNA e favorece sua precipitação visível. O detergente também não catalisa transcrição nem rompe ligações fosfodiéster. Sua função correta está na letra B."
+    "explanation": "As membranas celular e nuclear são formadas por bicamadas lipídicas. O detergente, por sua natureza anfifílica, interage com esses lipídios, desorganiza as membranas e libera o conteúdo intracelular — inclusive o DNA — na solução.\n\nQuem confunde os papéis dos reagentes cai nas alternativas D ou A: é o álcool gelado, adicionado depois, que reduz a solubilidade do DNA e favorece sua precipitação visível. O detergente também não catalisa transcrição nem rompe ligações fosfodiéster. Sua função correta está na letra B."
    },
    {
     "number": 33,
@@ -825,7 +825,7 @@
      "Neutralização química dos poluentes presentes nas superfícies urbanas."
     ],
     "answer": 3,
-    "explanation": "A impermeabilização reduz a infiltração e aumenta a velocidade e o volume do escoamento superficial. Ao correr sobre ruas e calçadas, a água mobiliza areia, lixo, óleo e outros materiais depositados nas vias. Esse fluxo intenso sobrecarrega galerias pluviais, favorece alagamentos, poluição difusa e o assoreamento dos cursos d’água. As alternativas A, B e C descrevem o efeito oposto ao do processo, e a E não corresponde a nenhum mecanismo do escoamento. A consequência direta correta é a da letra D."
+    "explanation": "A impermeabilização reduz a infiltração e aumenta a velocidade e o volume do escoamento superficial. Ao correr sobre ruas e calçadas, a água mobiliza areia, lixo, óleo e outros materiais depositados nas vias.\n\nEsse fluxo intenso sobrecarrega galerias pluviais, favorece alagamentos, poluição difusa e o assoreamento dos cursos d’água. As alternativas A, B e C descrevem o efeito oposto ao do processo, e a E não corresponde a nenhum mecanismo do escoamento. A consequência direta correta é a da letra D."
    },
    {
     "number": 34,
@@ -840,7 +840,7 @@
      "Oxidação intensa dos lipídios do café durante os poucos segundos de extração."
     ],
     "answer": 3,
-    "explanation": "A extração sob pressão concentra, em pouco volume de água, compostos dissolvidos, partículas finas em suspensão e gotículas de óleo emulsificadas. É esse conjunto concentrado que confere corpo, aroma e intensidade à bebida. Atenção à armadilha da alternativa A: maior concentração por mililitro não implica maior quantidade total de cafeína por porção — são grandezas diferentes. A evaporação completa dos aromas (C) destruiria justamente o que se quer preservar, e as alternativas B e E apontam mecanismos que não sustentam a intensidade sensorial. A explicação correta está na letra D."
+    "explanation": "A extração sob pressão concentra, em pouco volume de água, compostos dissolvidos, partículas finas em suspensão e gotículas de óleo emulsificadas. É esse conjunto concentrado que confere corpo, aroma e intensidade à bebida.\n\nAtenção à armadilha da alternativa A: maior concentração por mililitro não implica maior quantidade total de cafeína por porção — são grandezas diferentes. A evaporação completa dos aromas (C) destruiria justamente o que se quer preservar, e as alternativas B e E apontam mecanismos que não sustentam a intensidade sensorial. A explicação correta está na letra D."
    },
    {
     "number": 35,
@@ -855,7 +855,7 @@
      "5"
     ],
     "answer": 4,
-    "explanation": "O primeiro passo é identificar os anos em que o valor do Brasil supera o mundial: 2004 (4,3 > 4,1), 2005 (3,8 > 3,2), 2007 (5,1 > 5,0), 2008 (4,0 > 3,1), 2009 (−0,1 > −1,7), 2010 (7,5 > 5,3) e 2011 (3,9 > 3,1). Note que 2009 conta: retração de 0,1% ainda é superior à retração mundial de 1,7%. Os pares de anos consecutivos formados apenas por esses anos são 2004–2005, 2007–2008, 2008–2009, 2009–2010 e 2010–2011 — cinco pares. Quem descarta 2009 por ser negativo encontra apenas 3 e cai na alternativa C. A contagem correta, 5, está na letra E.",
+    "explanation": "O primeiro passo é identificar os anos em que o valor do Brasil supera o mundial: 2004 (4,3 > 4,1), 2005 (3,8 > 3,2), 2007 (5,1 > 5,0), 2008 (4,0 > 3,1), 2009 (−0,1 > −1,7), 2010 (7,5 > 5,3) e 2011 (3,9 > 3,1). Note que 2009 conta: retração de 0,1% ainda é superior à retração mundial de 1,7%.\n\nOs pares de anos consecutivos formados apenas por esses anos são 2004–2005, 2007–2008, 2008–2009, 2009–2010 e 2010–2011 — cinco pares. Quem descarta 2009 por ser negativo encontra apenas 3 e cai na alternativa C. A contagem correta, 5, está na letra E.",
     "image": "/edcley/apostas-2026-2-35.webp"
    },
    {
@@ -871,7 +871,7 @@
      "8"
     ],
     "answer": 3,
-    "explanation": "Cada par ordenado de resultados tem peso proporcional ao produto dos números de setores. Entre os 10 × 10 = 100 resultados elementares, o avanço de 7 casas ocorre nos pares (3,4) e (4,3), com 3 × 4 + 4 × 3 = 24 resultados. O concorrente mais próximo é o avanço de 4 casas: o par (4,4) rende 16 resultados — números iguais avançam o próprio número, não a soma — e os pares (1,3) e (3,1) somam mais 6, totalizando 22. Os avanços de 5 casas somam 20 resultados, os de 6 casas, 16, e os demais aparecem ainda menos. O avanço mais frequente é, portanto, 7 casas: letra D."
+    "explanation": "Cada par ordenado de resultados tem peso proporcional ao produto dos números de setores. Entre os 10 × 10 = 100 resultados elementares, o avanço de 7 casas ocorre nos pares (3,4) e (4,3), com 3 × 4 + 4 × 3 = 24 resultados.\n\nO concorrente mais próximo é o avanço de 4 casas: o par (4,4) rende 16 resultados — números iguais avançam o próprio número, não a soma — e os pares (1,3) e (3,1) somam mais 6, totalizando 22. Os avanços de 5 casas somam 20 resultados, os de 6 casas, 16, e os demais aparecem ainda menos. O avanço mais frequente é, portanto, 7 casas: letra D."
    },
    {
     "number": 37,
@@ -886,7 +886,7 @@
      "45"
     ],
     "answer": 1,
-    "explanation": "Somando as duas categorias, os totais diários são: segunda 65, terça 85, quarta 95, quinta 88, sexta 95, sábado 95 e domingo 95. O maior total é 95 e o menor é 65; a amplitude vale 95 − 65 = 30. Quem calcula a amplitude de apenas uma das colunas (infantis: 49 − 22 = 27; adultos: 59 − 43 = 16) não encontra alternativa exata — o enunciado pede o total diário. A resposta é a letra B.",
+    "explanation": "Somando as duas categorias, os totais diários são: segunda 65, terça 85, quarta 95, quinta 88, sexta 95, sábado 95 e domingo 95.\n\nO maior total é 95 e o menor é 65; a amplitude vale 95 − 65 = 30. Quem calcula a amplitude de apenas uma das colunas (infantis: 49 − 22 = 27; adultos: 59 − 43 = 16) não encontra alternativa exata — o enunciado pede o total diário. A resposta é a letra B.",
     "image": "/edcley/apostas-2026-2-37.webp"
    },
    {
@@ -902,7 +902,7 @@
      "Dívida 5"
     ],
     "answer": 0,
-    "explanation": "O desconto de cada dívida vale 10% do valor atualizado. Para comparar a economia proporcional, divide-se esse desconto pelo valor originalmente contratado. Dívida 1: 195/1.200 = 16,25%. Dívida 2: 270/1.800 = 15%. Dívida 3: 350/2.500 = 14%. Dívidas 4 e 5: 420/2.800 = 15% e 480/3.200 = 15%. A maior economia proporcional, de 16,25%, ocorre na Dívida 1 — quem escolhe pelo maior desconto absoluto (R$ 480,00) cai na alternativa E. A escolha correta é a letra A.",
+    "explanation": "O desconto de cada dívida vale 10% do valor atualizado. Para comparar a economia proporcional, divide-se esse desconto pelo valor originalmente contratado.\n\nDívida 1: 195/1.200 = 16,25%. Dívida 2: 270/1.800 = 15%. Dívida 3: 350/2.500 = 14%. Dívidas 4 e 5: 420/2.800 = 15% e 480/3.200 = 15%. A maior economia proporcional, de 16,25%, ocorre na Dívida 1 — quem escolhe pelo maior desconto absoluto (R$ 480,00) cai na alternativa E. A escolha correta é a letra A.",
     "image": "/edcley/apostas-2026-2-38.webp"
    },
    {
@@ -918,7 +918,7 @@
      "1/2"
     ],
     "answer": 1,
-    "explanation": "Para o placar estar 3 a 3 após seis jogos, um dos jogadores deve vencer exatamente 3 das 6 primeiras partidas. Há C(6,3) = 20 sequências possíveis, cada uma com probabilidade (1/2)⁶ = 1/64. Logo, P = 20 × 1/64 = 20/64 = 5/16. Diferentemente da questão 15 deste caderno, aqui não se multiplica pela probabilidade da sétima partida: a pergunta é sobre a série chegar a ela, não sobre alguém vencê-la. A resposta é a letra B."
+    "explanation": "Para o placar estar 3 a 3 após seis jogos, um dos jogadores deve vencer exatamente 3 das 6 primeiras partidas. Há C(6,3) = 20 sequências possíveis, cada uma com probabilidade (1/2)⁶ = 1/64.\n\nLogo, P = 20 × 1/64 = 20/64 = 5/16. Diferentemente da questão 15 deste caderno, aqui não se multiplica pela probabilidade da sétima partida: a pergunta é sobre a série chegar a ela, não sobre alguém vencê-la. A resposta é a letra B."
    },
    {
     "number": 40,
@@ -933,7 +933,7 @@
      "8,5%"
     ],
     "answer": 2,
-    "explanation": "Os 14 valores lidos no gráfico são: 8,6; 8,5; 7,9; 7,9; 8,1; 7,6; 7,7; 7,6; 7,5; 6,8; 8,2; 8,5; 9,0; 8,8. Em ordem crescente: 6,8; 7,5; 7,6; 7,6; 7,7; 7,9; 7,9; 8,1; 8,2; 8,5; 8,5; 8,6; 8,8; 9,0. Como há 14 observações (quantidade par), a mediana é a média entre o 7º e o 8º valores ordenados: (7,9 + 8,1)/2 = 8,0%. Quem toma a mediana sem ordenar a série, ou escolhe o valor mais frequente (7,6 e 7,9 aparecem duas vezes cada), erra o cálculo. A resposta é a letra C.",
+    "explanation": "Os 14 valores lidos no gráfico são: 8,6; 8,5; 7,9; 7,9; 8,1; 7,6; 7,7; 7,6; 7,5; 6,8; 8,2; 8,5; 9,0; 8,8. Em ordem crescente: 6,8; 7,5; 7,6; 7,6; 7,7; 7,9; 7,9; 8,1; 8,2; 8,5; 8,5; 8,6; 8,8; 9,0.\n\nComo há 14 observações (quantidade par), a mediana é a média entre o 7º e o 8º valores ordenados: (7,9 + 8,1)/2 = 8,0%. Quem toma a mediana sem ordenar a série, ou escolhe o valor mais frequente (7,6 e 7,9 aparecem duas vezes cada), erra o cálculo. A resposta é a letra C.",
     "image": "/edcley/apostas-2026-2-40.webp"
    },
    {
@@ -949,7 +949,7 @@
      "6! × 10"
     ],
     "answer": 2,
-    "explanation": "Cada uma das seis posições da senha pode receber qualquer um dos dez algarismos, independentemente das demais — a repetição é permitida e o zero pode abrir a senha. Pelo princípio fundamental da contagem: 10 × 10 × 10 × 10 × 10 × 10 = 10⁶ = 1.000.000 de senhas. Trata-se de uma sequência com repetição, e não de combinação C(10,6), que ignora a ordem, nem de arranjo simples A(10,6), que proíbe repetir algarismos. A resposta é a letra C."
+    "explanation": "Cada uma das seis posições da senha pode receber qualquer um dos dez algarismos, independentemente das demais — a repetição é permitida e o zero pode abrir a senha.\n\nPelo princípio fundamental da contagem: 10 × 10 × 10 × 10 × 10 × 10 = 10⁶ = 1.000.000 de senhas. Trata-se de uma sequência com repetição, e não de combinação C(10,6), que ignora a ordem, nem de arranjo simples A(10,6), que proíbe repetir algarismos. A resposta é a letra C."
    }
   ]
  },
@@ -970,7 +970,7 @@
      "o deslocamento das placas tectônicas, que muda significativamente a posição dos continentes durante cada translação."
     ],
     "answer": 1,
-    "explanation": "A alternância das estações nasce da combinação entre a translação e a inclinação de aproximadamente 23,5° do eixo de rotação, mantida ao longo de toda a órbita: quando um hemisfério se volta para o Sol, recebe raios mais perpendiculares e dias mais longos, enquanto o outro recebe luz oblíqua e dias curtos — por isso as estações são opostas nos dois hemisférios. A órbita elíptica não explica o fenômeno: a Terra passa perto do periélio em janeiro, inverno no Norte. Altitude, oscilação da rotação e placas tectônicas atuam em outras escalas de espaço e tempo, e a alternativa C repete o equívoco clássico da distância. Resposta: alternativa B."
+    "explanation": "A alternância das estações nasce da combinação entre a translação e a inclinação de aproximadamente 23,5° do eixo de rotação, mantida ao longo de toda a órbita: quando um hemisfério se volta para o Sol, recebe raios mais perpendiculares e dias mais longos, enquanto o outro recebe luz oblíqua e dias curtos — por isso as estações são opostas nos dois hemisférios.\n\nA órbita elíptica não explica o fenômeno: a Terra passa perto do periélio em janeiro, inverno no Norte. Altitude, oscilação da rotação e placas tectônicas atuam em outras escalas de espaço e tempo, e a alternativa C repete o equívoco clássico da distância. Resposta: alternativa B."
    },
    {
     "number": 2,
@@ -985,7 +985,7 @@
      "2.628 kWh"
     ],
     "answer": 2,
-    "explanation": "Potência dos conjuntos de 12 lâmpadas: incandescente, 12 · 60 = 720 W = 0,72 kW; LED, 12 · 15 = 180 W = 0,18 kW. A diferença é de 0,54 kW. O tempo total vale 4 · 730 = 2.920 h, de modo que a economia acumulada é E = 0,54 · 2.920 = 1.576,8 kWh, aproximadamente 1.577 kWh. A alternativa D corresponde, aproximadamente, ao consumo total do sistema incandescente, e não à economia; os demais valores não resultam da diferença correta entre os dois sistemas. Resposta: alternativa C.",
+    "explanation": "Potência dos conjuntos de 12 lâmpadas: incandescente, 12 · 60 = 720 W = 0,72 kW; LED, 12 · 15 = 180 W = 0,18 kW. A diferença é de 0,54 kW. O tempo total vale 4 · 730 = 2.920 h, de modo que a economia acumulada é E = 0,54 · 2.920 = 1.576,8 kWh, aproximadamente 1.577 kWh.\n\nA alternativa D corresponde, aproximadamente, ao consumo total do sistema incandescente, e não à economia; os demais valores não resultam da diferença correta entre os dois sistemas. Resposta: alternativa C.",
     "adapted": true
    },
    {
@@ -1001,7 +1001,7 @@
      "Complexo golgiense e retículo endoplasmático rugoso"
     ],
     "answer": 2,
-    "explanation": "Quando as bordas da membrana se fecham em torno da bactéria, forma-se o fagossomo — a vesícula que transporta o microrganismo pelo citoplasma. O fagossomo se funde a lisossomos, originando o fagolisossomo, compartimento ácido em que enzimas hidrolíticas digerem o material englobado. O retículo rugoso e o complexo golgiense sintetizam e endereçam essas enzimas, mas não são o veículo do transporte nem o local final da digestão; ribossomos, núcleo, mitocôndrias, centríolos e peroxissomos exercem outras funções. Resposta: alternativa C."
+    "explanation": "Quando as bordas da membrana se fecham em torno da bactéria, forma-se o fagossomo — a vesícula que transporta o microrganismo pelo citoplasma. O fagossomo se funde a lisossomos, originando o fagolisossomo, compartimento ácido em que enzimas hidrolíticas digerem o material englobado.\n\nO retículo rugoso e o complexo golgiense sintetizam e endereçam essas enzimas, mas não são o veículo do transporte nem o local final da digestão; ribossomos, núcleo, mitocôndrias, centríolos e peroxissomos exercem outras funções. Resposta: alternativa C."
    },
    {
     "number": 4,
@@ -1016,7 +1016,7 @@
      "CO₂ + H₂O ⇌ H₂CO₃"
     ],
     "answer": 0,
-    "explanation": "A etapa pedida é o encontro direto entre o radical de cloro e o ozônio: Cl• + O₃ → ClO• + O₂. Em etapa posterior, ClO• + O• → Cl• + O₂ regenera o radical, e o balanço global converte ozônio e oxigênio atômico em O₂ — daí o caráter catalítico do cloro. A alternativa B é uma fotodissociação natural; C é outra etapa do ciclo, não a perguntada; D representa a formação do ozônio; E descreve o equilíbrio do ácido carbônico. Resposta: alternativa A."
+    "explanation": "A etapa pedida é o encontro direto entre o radical de cloro e o ozônio: Cl• + O₃ → ClO• + O₂. Em etapa posterior, ClO• + O• → Cl• + O₂ regenera o radical, e o balanço global converte ozônio e oxigênio atômico em O₂ — daí o caráter catalítico do cloro.\n\nA alternativa B é uma fotodissociação natural; C é outra etapa do ciclo, não a perguntada; D representa a formação do ozônio; E descreve o equilíbrio do ácido carbônico. Resposta: alternativa A."
    },
    {
     "number": 5,
@@ -1031,7 +1031,7 @@
      "neutralizam as cargas do citoplasma e precipitam seletivamente todas as organelas."
     ],
     "answer": 2,
-    "explanation": "Como os fosfolipídios, os detergentes são anfipáticos: suas regiões hidrofóbicas interagem com as caudas da bicamada e com as porções apolares das proteínas, desfazendo progressivamente a organização da membrana e incorporando os componentes a micelas e agregados mistos dispersos no meio aquoso. O processo é desorganização e solubilização, não hidrólise de DNA ou de proteínas (A e B); células animais não possuem parede celular (D); e a alternativa E descreve um mecanismo inexistente. Resposta: alternativa C."
+    "explanation": "Como os fosfolipídios, os detergentes são anfipáticos: suas regiões hidrofóbicas interagem com as caudas da bicamada e com as porções apolares das proteínas, desfazendo progressivamente a organização da membrana e incorporando os componentes a micelas e agregados mistos dispersos no meio aquoso.\n\nO processo é desorganização e solubilização, não hidrólise de DNA ou de proteínas (A e B); células animais não possuem parede celular (D); e a alternativa E descreve um mecanismo inexistente. Resposta: alternativa C."
    },
    {
     "number": 6,
@@ -1046,7 +1046,7 @@
      "Translocação, bloqueando o deslocamento dos ribossomos ao longo do RNA mensageiro."
     ],
     "answer": 2,
-    "explanation": "A metilação de promotores compacta a cromatina e recruta proteínas repressoras: a RNA polimerase e os fatores de transcrição perdem acesso à região reguladora, e a transcrição do gene diminui — menos RNA, menor expressão. A modificação não altera a sequência nem impede obrigatoriamente a replicação; tampouco age sobre ribossomos, tradução ou translocação, e o splicing só ocorre depois de o RNA ser transcrito. Resposta: alternativa C."
+    "explanation": "A metilação de promotores compacta a cromatina e recruta proteínas repressoras: a RNA polimerase e os fatores de transcrição perdem acesso à região reguladora, e a transcrição do gene diminui — menos RNA, menor expressão.\n\nA modificação não altera a sequência nem impede obrigatoriamente a replicação; tampouco age sobre ribossomos, tradução ou translocação, e o splicing só ocorre depois de o RNA ser transcrito. Resposta: alternativa C."
    },
    {
     "number": 7,
@@ -1061,7 +1061,7 @@
      "Prolactina"
     ],
     "answer": 3,
-    "explanation": "A gonadotrofina coriônica humana (hCG), produzida pelo trofoblasto após a implantação, atua em receptores semelhantes aos do LH: estimula o corpo lúteo, impede sua regressão e mantém a progesterona das primeiras semanas. Seu rápido aumento no início da gestação explica o uso como marcador nos testes de gravidez. LH e FSH regem o ciclo ovariano e o desenvolvimento folicular; a prolactina relaciona-se à lactação; e o estrogênio, embora importante, não é o sinalizador que preserva o corpo lúteo. Resposta: alternativa D."
+    "explanation": "A gonadotrofina coriônica humana (hCG), produzida pelo trofoblasto após a implantação, atua em receptores semelhantes aos do LH: estimula o corpo lúteo, impede sua regressão e mantém a progesterona das primeiras semanas. Seu rápido aumento no início da gestação explica o uso como marcador nos testes de gravidez.\n\nLH e FSH regem o ciclo ovariano e o desenvolvimento folicular; a prolactina relaciona-se à lactação; e o estrogênio, embora importante, não é o sinalizador que preserva o corpo lúteo. Resposta: alternativa D."
    },
    {
     "number": 8,
@@ -1076,7 +1076,7 @@
      "reduzir a disponibilidade de íons carbonato, diminuindo o estado de saturação e dificultando a formação de CaCO₃."
     ],
     "answer": 4,
-    "explanation": "Mais CO₂ dissolvido gera ácido carbônico e libera H⁺; o excesso de H⁺ desloca o equilíbrio H⁺ + CO₃²⁻ ⇌ HCO₃⁻ para o bicarbonato, consumindo íons carbonato. Com menos CO₃²⁻ disponível, cai o estado de saturação da água em relação ao CaCO₃ e a calcificação torna-se energeticamente mais difícil. As alternativas B e D invertem o sentido previsto pelos equilíbrios; A e C descrevem efeitos que não decorrem deles. Resposta: alternativa E."
+    "explanation": "Mais CO₂ dissolvido gera ácido carbônico e libera H⁺; o excesso de H⁺ desloca o equilíbrio H⁺ + CO₃²⁻ ⇌ HCO₃⁻ para o bicarbonato, consumindo íons carbonato. Com menos CO₃²⁻ disponível, cai o estado de saturação da água em relação ao CaCO₃ e a calcificação torna-se energeticamente mais difícil.\n\nAs alternativas B e D invertem o sentido previsto pelos equilíbrios; A e C descrevem efeitos que não decorrem deles. Resposta: alternativa E."
    },
    {
     "number": 10,
@@ -1091,7 +1091,7 @@
      "parasitismo, pois a espécie X retira nutrientes diretamente dos tecidos da espécie Y."
     ],
     "answer": 3,
-    "explanation": "Y é inibida por uma substância liberada por X, e X mantém todos os indicadores do cultivo isolado — prejuízo de um lado, neutralidade do outro: amensalismo, aqui na forma de alelopatia. O enunciado exclui a limitação de recursos, afastando a leitura de competição. Comensalismo exigiria um beneficiado sem prejudicado; mutualismo, vantagem recíproca; parasitismo, exploração direta de um hospedeiro — nada disso ocorre. Resposta: alternativa D."
+    "explanation": "Y é inibida por uma substância liberada por X, e X mantém todos os indicadores do cultivo isolado — prejuízo de um lado, neutralidade do outro: amensalismo, aqui na forma de alelopatia. O enunciado exclui a limitação de recursos, afastando a leitura de competição.\n\nComensalismo exigiria um beneficiado sem prejudicado; mutualismo, vantagem recíproca; parasitismo, exploração direta de um hospedeiro — nada disso ocorre. Resposta: alternativa D."
    },
    {
     "number": 11,
@@ -1106,7 +1106,7 @@
      "mutualismo obrigatório, pois nenhuma das espécies consegue viver separadamente."
     ],
     "answer": 3,
-    "explanation": "As araras se beneficiam das sementes expostas após a passagem de antas e queixadas; os mamíferos, que já consumiram a polpa, não têm desempenho alterado — benefício de um lado, neutralidade do outro: comensalismo. Não há competição, pois as espécies exploram partes distintas do recurso em momentos diferentes; não há parasitismo, protocooperação nem mutualismo, que exigiriam exploração de tecidos ou benefício recíproco. Resposta: alternativa D."
+    "explanation": "As araras se beneficiam das sementes expostas após a passagem de antas e queixadas; os mamíferos, que já consumiram a polpa, não têm desempenho alterado — benefício de um lado, neutralidade do outro: comensalismo.\n\nNão há competição, pois as espécies exploram partes distintas do recurso em momentos diferentes; não há parasitismo, protocooperação nem mutualismo, que exigiriam exploração de tecidos ou benefício recíproco. Resposta: alternativa D."
    },
    {
     "number": 12,
@@ -1121,7 +1121,7 @@
      "ser substituída por um condutor ideal, de resistência praticamente nula."
     ],
     "answer": 2,
-    "explanation": "Potência constante impõe 127²/R₁ = 220²/R₂, logo R₂/R₁ = (220/127)² ≈ 3,0: a resistência na rede de 220 V deve ser cerca de o triplo da original, pois, para P fixa, R cresce com o quadrado da tensão. Manter a mesma resistência triplicaria a potência (sobrecarga); reduzi-la agravaria ainda mais o quadro — as alternativas D e E caminham no sentido oposto ao necessário. Resposta: alternativa C."
+    "explanation": "Potência constante impõe 127²/R₁ = 220²/R₂, logo R₂/R₁ = (220/127)² ≈ 3,0: a resistência na rede de 220 V deve ser cerca de o triplo da original, pois, para P fixa, R cresce com o quadrado da tensão.\n\nManter a mesma resistência triplicaria a potência (sobrecarga); reduzi-la agravaria ainda mais o quadro — as alternativas D e E caminham no sentido oposto ao necessário. Resposta: alternativa C."
    },
    {
     "number": 13,
@@ -1136,7 +1136,7 @@
      "Cenoura"
     ],
     "answer": 2,
-    "explanation": "O tubo neural, origem do encéfalo e da medula espinal, fecha-se muito cedo na gestação — por isso o folato importa desde o período pré-concepcional. Na tabela, a couve é o alimento associado ao ácido fólico. Vitamina C, potássio, licopeno e vitamina A têm funções relevantes, mas nenhum é o nutriente destacado no enunciado para a prevenção dos defeitos do tubo neural; a questão avalia a leitura da tabela, sem substituir orientação médica. Resposta: alternativa C.",
+    "explanation": "O tubo neural, origem do encéfalo e da medula espinal, fecha-se muito cedo na gestação — por isso o folato importa desde o período pré-concepcional. Na tabela, a couve é o alimento associado ao ácido fólico.\n\nVitamina C, potássio, licopeno e vitamina A têm funções relevantes, mas nenhum é o nutriente destacado no enunciado para a prevenção dos defeitos do tubo neural; a questão avalia a leitura da tabela, sem substituir orientação médica. Resposta: alternativa C.",
     "image": "/edcley/apostas-2026-4-13.webp"
    },
    {
@@ -1152,7 +1152,7 @@
      "L(x) = (40 − x)(60 − x)"
     ],
     "answer": 3,
-    "explanation": "Se x é o novo preço, a redução aplicada é 40 − x, e a quantidade vendida passa a Q(x) = 20 + (40 − x) = 60 − x. O lucro por caixa é x − 25; logo, L(x) = (x − 25)(60 − x) = −x² + 85x − 1.500, quadrática de concavidade para baixo. A alternativa C calcula a receita, sem descontar o custo de R$ 25,00; A e E tratam o desconto como se fosse o lucro unitário; B modela mal a quantidade. Resposta: alternativa D."
+    "explanation": "Se x é o novo preço, a redução aplicada é 40 − x, e a quantidade vendida passa a Q(x) = 20 + (40 − x) = 60 − x. O lucro por caixa é x − 25; logo, L(x) = (x − 25)(60 − x) = −x² + 85x − 1.500, quadrática de concavidade para baixo.\n\nA alternativa C calcula a receita, sem descontar o custo de R$ 25,00; A e E tratam o desconto como se fosse o lucro unitário; B modela mal a quantidade. Resposta: alternativa D."
    },
    {
     "number": 15,
@@ -1167,7 +1167,7 @@
      "240 rpm"
     ],
     "answer": 1,
-    "explanation": "Com o porta-satélites fixo, |ω_s|/|ω_a| = N_a/N_s = 60/20 = 3. Assim, 240/|ω_a| = 3 e |ω_a| = 80 rpm. O sentido contrário da anelar afetaria apenas o sinal da velocidade algébrica; como o comando pede o módulo, o resultado é 80 rpm. Sem a informação do porta-satélites fixo, o problema ficaria indeterminado. Resposta: alternativa B."
+    "explanation": "Com o porta-satélites fixo, |ω_s|/|ω_a| = N_a/N_s = 60/20 = 3. Assim, 240/|ω_a| = 3 e |ω_a| = 80 rpm.\n\nO sentido contrário da anelar afetaria apenas o sinal da velocidade algébrica; como o comando pede o módulo, o resultado é 80 rpm. Sem a informação do porta-satélites fixo, o problema ficaria indeterminado. Resposta: alternativa B."
    },
    {
     "number": 16,
@@ -1182,7 +1182,7 @@
      "18"
     ],
     "answer": 2,
-    "explanation": "A válvula A preenche 1/12 do reservatório por minuto: em 6 minutos, 6 · 1/12 = 1/2. Falta metade, e a válvula B, com 1/18 por minuto, precisa de t tal que t · 1/18 = 1/2, ou seja, t = 9 minutos. Tempo total: 6 + 9 = 15 minutos. Somar 12 + 18 ou supor as duas válvulas funcionando simultaneamente são os deslizes clássicos — o enunciado deixa claro que elas operam em sucessão. Resposta: alternativa C."
+    "explanation": "A válvula A preenche 1/12 do reservatório por minuto: em 6 minutos, 6 · 1/12 = 1/2. Falta metade, e a válvula B, com 1/18 por minuto, precisa de t tal que t · 1/18 = 1/2, ou seja, t = 9 minutos. Tempo total: 6 + 9 = 15 minutos.\n\nSomar 12 + 18 ou supor as duas válvulas funcionando simultaneamente são os deslizes clássicos — o enunciado deixa claro que elas operam em sucessão. Resposta: alternativa C."
    },
    {
     "number": 17,
@@ -1197,7 +1197,7 @@
      "3,99935 × 10¹¹ m²"
     ],
     "answer": 2,
-    "explanation": "Como 1 ha = 10⁴ m², a área vale 3.999,35 · 10⁴ = 39.993.500 m². Em notação científica normalizada, desloca-se a vírgula sete casas: 3,99935 × 10⁷ m². O expoente 7 é coerente com a ordem de grandeza: milhares de hectares correspondem a dezenas de milhões de metros quadrados — os demais expoentes erram essa escala. Resposta: alternativa C."
+    "explanation": "Como 1 ha = 10⁴ m², a área vale 3.999,35 · 10⁴ = 39.993.500 m². Em notação científica normalizada, desloca-se a vírgula sete casas: 3,99935 × 10⁷ m².\n\nO expoente 7 é coerente com a ordem de grandeza: milhares de hectares correspondem a dezenas de milhões de metros quadrados — os demais expoentes erram essa escala. Resposta: alternativa C."
    },
    {
     "number": 18,
@@ -1212,7 +1212,7 @@
      "375,0 dm²"
     ],
     "answer": 2,
-    "explanation": "A = (B + b) · h/2 = (200 + 150) · 150/2 = 350 · 75 = 26.250 cm². A decomposição confirma: quadrado de 22.500 cm² mais triângulo de 3.750 cm². Convertendo, 26.250/100 = 262,5 dm². A conversão se faz por 100 — e não por 10 — porque a unidade está elevada ao quadrado; esse é o tropeço que gera os distratores. Resposta: alternativa C."
+    "explanation": "A = (B + b) · h/2 = (200 + 150) · 150/2 = 350 · 75 = 26.250 cm². A decomposição confirma: quadrado de 22.500 cm² mais triângulo de 3.750 cm². Convertendo, 26.250/100 = 262,5 dm².\n\nA conversão se faz por 100 — e não por 10 — porque a unidade está elevada ao quadrado; esse é o tropeço que gera os distratores. Resposta: alternativa C."
    },
    {
     "number": 27,
@@ -1227,7 +1227,7 @@
     ],
     "subject": "Física",
     "answer": 1,
-    "explanation": "A vazão é o volume útil elevado por segundo. A corda sobe com velocidade v = 2πRf; aumentando o raio R do aro e mantendo f = 1 Hz, cresce v e, com ela, o número de colunas d’água que atravessam o tubo a cada segundo — a vazão aumenta. Rolhas menores (A) alargam a folga e agravam o vazamento; encurtar o percurso (C) não altera o volume transportado por segundo; reduzir f (D) reduz v; e aproximar as rolhas (E) aumenta a fração do tubo ocupada pela borracha sem diminuir o vazamento total, que depende da altura da coluna, não do espaçamento. Resposta: alternativa B.",
+    "explanation": "A vazão é o volume útil elevado por segundo. A corda sobe com velocidade v = 2πRf; aumentando o raio R do aro e mantendo f = 1 Hz, cresce v e, com ela, o número de colunas d’água que atravessam o tubo a cada segundo — a vazão aumenta.\n\nRolhas menores (A) alargam a folga e agravam o vazamento; encurtar o percurso (C) não altera o volume transportado por segundo; reduzir f (D) reduz v; e aproximar as rolhas (E) aumenta a fração do tubo ocupada pela borracha sem diminuir o vazamento total, que depende da altura da coluna, não do espaçamento. Resposta: alternativa B.",
     "image": "/edcley/apostas-2026-4-27.webp"
    },
    {
@@ -1243,7 +1243,7 @@
      "A vacina estimula o sistema imunológico a reconhecer o antígeno apresentado, desencadeando a produção de anticorpos específicos (imunoglobulinas) e células de memória imunológica, conferindo proteção duradoura."
     ],
     "answer": 4,
-    "explanation": "A vacina apresenta o antígeno para que o próprio organismo construa a resposta: é imunização ativa, com produção de imunoglobulinas específicas e formação de células de memória — por isso a proteção é duradoura e se reativa em contatos futuros com o patógeno. As alternativas A e D descrevem a transferência de células de defesa prontas, o que não ocorre; B corresponde à imunização passiva, típica dos soros; C confunde a vacina com um neutralizador químico direto. Resposta: alternativa E.",
+    "explanation": "A vacina apresenta o antígeno para que o próprio organismo construa a resposta: é imunização ativa, com produção de imunoglobulinas específicas e formação de células de memória — por isso a proteção é duradoura e se reativa em contatos futuros com o patógeno.\n\nAs alternativas A e D descrevem a transferência de células de defesa prontas, o que não ocorre; B corresponde à imunização passiva, típica dos soros; C confunde a vacina com um neutralizador químico direto. Resposta: alternativa E.",
     "image": "/edcley/apostas-2026-4-28.webp"
    },
    {
@@ -1259,7 +1259,7 @@
      "Genótipos que resultam em fenótipos extremos em situações de dominância incompleta, ampliando a diversidade fenotípica."
     ],
     "answer": 0,
-    "explanation": "Com dominância incompleta, o heterozigoto exibe fenótipo intermediário entre os dois homozigotos — exatamente a altura mediana que o enunciado descreve como vantajosa. A seleção estabilizadora, ao favorecer o intermediário, favorece o genótipo Aa. Os homozigotos (B e C) produzem os fenótipos extremos, desfavorecidos; a alternativa D desloca a explicação para a epigenética, alheia ao mecanismo mendeliano pedido; e a E favorece extremos, o oposto da seleção estabilizadora. Resposta: alternativa A."
+    "explanation": "Com dominância incompleta, o heterozigoto exibe fenótipo intermediário entre os dois homozigotos — exatamente a altura mediana que o enunciado descreve como vantajosa. A seleção estabilizadora, ao favorecer o intermediário, favorece o genótipo Aa.\n\nOs homozigotos (B e C) produzem os fenótipos extremos, desfavorecidos; a alternativa D desloca a explicação para a epigenética, alheia ao mecanismo mendeliano pedido; e a E favorece extremos, o oposto da seleção estabilizadora. Resposta: alternativa A."
    },
    {
     "number": 30,
@@ -1274,7 +1274,7 @@
      "A supressão epigenética de genes adaptativos, desencadeada pelo estresse ambiental inerente aos processos de seleção artificial, induz alterações deletérias no genoma canino, predispondo os animais a diversas enfermidades."
     ],
     "answer": 0,
-    "explanation": "Cruzamentos seletivos repetidos estreitam o pool gênico e elevam a endogamia: alelos recessivos deletérios, antes raros em heterozigose, passam a se encontrar em homozigose com mais frequência e a se expressar — o mesmo mecanismo das doenças associadas à consanguinidade em outras espécies. As alternativas B, C, D e E propõem mecanismos (perda de plasticidade, acúmulo de mutações dominantes, imunodepressão, supressão epigenética) que não decorrem diretamente da seleção artificial descrita. Resposta: alternativa A."
+    "explanation": "Cruzamentos seletivos repetidos estreitam o pool gênico e elevam a endogamia: alelos recessivos deletérios, antes raros em heterozigose, passam a se encontrar em homozigose com mais frequência e a se expressar — o mesmo mecanismo das doenças associadas à consanguinidade em outras espécies.\n\nAs alternativas B, C, D e E propõem mecanismos (perda de plasticidade, acúmulo de mutações dominantes, imunodepressão, supressão epigenética) que não decorrem diretamente da seleção artificial descrita. Resposta: alternativa A."
    },
    {
     "number": 31,
@@ -1289,7 +1289,7 @@
      "Retículo endoplasmático, rede de membranas envolvida na síntese de lipídeos e proteínas, além do transporte intracelular, cujas alterações genéticas também são predominantemente de origem nuclear e não citoplasmática."
     ],
     "answer": 0,
-    "explanation": "A técnica troca justamente o citoplasma do óvulo materno porque as mitocôndrias carregam DNA próprio (mtDNA), herdado exclusivamente pela via materna: usar o citoplasma de uma doadora saudável impede a transmissão de doenças mitocondriais sem alterar o material genético nuclear dos pais. Como as próprias alternativas reconhecem, ribossomos, lisossomos, complexo de Golgi e retículo dependem majoritariamente de genes nucleares e não caracterizam herança citoplasmática. Resposta: alternativa A."
+    "explanation": "A técnica troca justamente o citoplasma do óvulo materno porque as mitocôndrias carregam DNA próprio (mtDNA), herdado exclusivamente pela via materna: usar o citoplasma de uma doadora saudável impede a transmissão de doenças mitocondriais sem alterar o material genético nuclear dos pais.\n\nComo as próprias alternativas reconhecem, ribossomos, lisossomos, complexo de Golgi e retículo dependem majoritariamente de genes nucleares e não caracterizam herança citoplasmática. Resposta: alternativa A."
    },
    {
     "number": 32,
@@ -1304,7 +1304,7 @@
      "6,12 km"
     ],
     "answer": 1,
-    "explanation": "Perímetro mínimo: 2 · (90 + 45) = 270 m, que em 12 voltas dá 3.240 m = 3,24 km. Perímetro máximo: 2 · (120 + 90) = 420 m, ou 5.040 m = 5,04 km em 12 voltas. A média pedida é (3,24 + 5,04)/2 = 8,28/2 = 4,14 km. As alternativas A e C são, respectivamente, o percurso mínimo e o máximo isolados — armadilhas para quem interrompe o cálculo antes da média. Resposta: alternativa B."
+    "explanation": "Perímetro mínimo: 2 · (90 + 45) = 270 m, que em 12 voltas dá 3.240 m = 3,24 km. Perímetro máximo: 2 · (120 + 90) = 420 m, ou 5.040 m = 5,04 km em 12 voltas. A média pedida é (3,24 + 5,04)/2 = 8,28/2 = 4,14 km.\n\nAs alternativas A e C são, respectivamente, o percurso mínimo e o máximo isolados — armadilhas para quem interrompe o cálculo antes da média. Resposta: alternativa B."
    },
    {
     "number": 33,
@@ -1319,7 +1319,7 @@
      "R$ 14.400,00"
     ],
     "answer": 2,
-    "explanation": "Empresa A: área de 100 · 60 = 6.000 m² a R$ 12,00 → 6.000 · 12 = R$ 72.000,00. Empresa B: 120 · 70 = 8.400 m² a R$ 11,00 → 8.400 · 11 = R$ 92.400,00. Ambos os campos respeitam os limites da FIFA; o menor custo total é o da Empresa A. A alternativa B é o orçamento da empresa mais cara; D e E perdem uma ordem de grandeza no produto. Resposta: alternativa C."
+    "explanation": "Empresa A: área de 100 · 60 = 6.000 m² a R$ 12,00 → 6.000 · 12 = R$ 72.000,00. Empresa B: 120 · 70 = 8.400 m² a R$ 11,00 → 8.400 · 11 = R$ 92.400,00. Ambos os campos respeitam os limites da FIFA; o menor custo total é o da Empresa A.\n\nA alternativa B é o orçamento da empresa mais cara; D e E perdem uma ordem de grandeza no produto. Resposta: alternativa C."
    },
    {
     "number": 34,
@@ -1334,7 +1334,7 @@
      "20 bolsistas"
     ],
     "answer": 1,
-    "explanation": "Chamando de x os novos bolsistas: (10 + x)/(90 + x) = 0,20. Daí 10 + x = 18 + 0,2x, ou seja, 0,8x = 8 e x = 10. Conferindo: 20 bolsistas em 100 alunos correspondem exatamente a 20%. Quem aplica 20% sobre os 90 alunos atuais obtém 18 e marca 8 (alternativa A), esquecendo que os ingressantes também aumentam o total. Resposta: alternativa B."
+    "explanation": "Chamando de x os novos bolsistas: (10 + x)/(90 + x) = 0,20. Daí 10 + x = 18 + 0,2x, ou seja, 0,8x = 8 e x = 10. Conferindo: 20 bolsistas em 100 alunos correspondem exatamente a 20%.\n\nQuem aplica 20% sobre os 90 alunos atuais obtém 18 e marca 8 (alternativa A), esquecendo que os ingressantes também aumentam o total. Resposta: alternativa B."
    },
    {
     "number": 35,
@@ -1349,7 +1349,7 @@
      "70 mL de água destilada"
     ],
     "answer": 2,
-    "explanation": "Nos 100 mL originais há 81 mL de princípio ativo. Na diluição, o soluto se conserva: 81/(100 + V) = 0,50, logo 100 + V = 162 e V = 62 mL de água destilada. A alternativa A vem de “dobrar o volume” sem conferir a fração final (81/150 = 54%, não 50%); 60, 65 e 70 punem arredondamentos apressados. Resposta: alternativa C."
+    "explanation": "Nos 100 mL originais há 81 mL de princípio ativo. Na diluição, o soluto se conserva: 81/(100 + V) = 0,50, logo 100 + V = 162 e V = 62 mL de água destilada.\n\nA alternativa A vem de “dobrar o volume” sem conferir a fração final (81/150 = 54%, não 50%); 60, 65 e 70 punem arredondamentos apressados. Resposta: alternativa C."
    },
    {
     "number": 36,
@@ -1364,7 +1364,7 @@
      "Mosquitos"
     ],
     "answer": 2,
-    "explanation": "A febre maculosa brasileira é causada pela bactéria Rickettsia rickettsii e transmitida pela picada de carrapatos — no Brasil, sobretudo o carrapato-estrela (Amblyomma sculptum), que tem a capivara entre seus principais hospedeiros amplificadores. Pulgas remetem à peste bubônica; piolhos, ao tifo epidêmico; mosquitos, a arboviroses como dengue e febre amarela; percevejos não transmitem a doença. Resposta: alternativa C."
+    "explanation": "A febre maculosa brasileira é causada pela bactéria Rickettsia rickettsii e transmitida pela picada de carrapatos — no Brasil, sobretudo o carrapato-estrela (Amblyomma sculptum), que tem a capivara entre seus principais hospedeiros amplificadores.\n\nPulgas remetem à peste bubônica; piolhos, ao tifo epidêmico; mosquitos, a arboviroses como dengue e febre amarela; percevejos não transmitem a doença. Resposta: alternativa C."
    },
    {
     "number": 37,
@@ -1379,7 +1379,7 @@
      "Percevejos"
     ],
     "answer": 2,
-    "explanation": "A peste bubônica, causada pela bactéria Yersinia pestis, circula entre roedores e chega ao ser humano principalmente pela picada da pulga-do-rato (Xenopsylla cheopis) — o vetor das grandes epidemias históricas, como a Peste Negra. Carrapatos transmitem a febre maculosa; piolhos, o tifo epidêmico; mosquitos, arboviroses e malária; percevejos não são vetores da peste. Resposta: alternativa C."
+    "explanation": "A peste bubônica, causada pela bactéria Yersinia pestis, circula entre roedores e chega ao ser humano principalmente pela picada da pulga-do-rato (Xenopsylla cheopis) — o vetor das grandes epidemias históricas, como a Peste Negra.\n\nCarrapatos transmitem a febre maculosa; piolhos, o tifo epidêmico; mosquitos, arboviroses e malária; percevejos não são vetores da peste. Resposta: alternativa C."
    },
    {
     "number": 38,
@@ -1394,7 +1394,7 @@
      "Realizar a oxidação direta dos hidrocarbonetos, quebrando suas longas cadeias carbônicas em moléculas menores e menos tóxicas."
     ],
     "answer": 1,
-    "explanation": "Tensoativos são moléculas anfipáticas: acima da concentração micelar crítica, organizam-se em micelas cujo interior apolar encapsula os hidrocarbonetos, dispersando-os na fase aquosa e aumentando sua biodisponibilidade para a degradação — química (pelo peróxido) e microbiana. Eles não introduzem novos poluentes (A), não catalisam a oxidação promovida pelo H₂O₂ (C), não ajustam o pH (D) nem oxidam diretamente as cadeias carbônicas (E). Resposta: alternativa B."
+    "explanation": "Tensoativos são moléculas anfipáticas: acima da concentração micelar crítica, organizam-se em micelas cujo interior apolar encapsula os hidrocarbonetos, dispersando-os na fase aquosa e aumentando sua biodisponibilidade para a degradação — química (pelo peróxido) e microbiana.\n\nEles não introduzem novos poluentes (A), não catalisam a oxidação promovida pelo H₂O₂ (C), não ajustam o pH (D) nem oxidam diretamente as cadeias carbônicas (E). Resposta: alternativa B."
    },
    {
     "number": 40,
@@ -1409,7 +1409,7 @@
      "Promove a síntese descontrolada de RNA mensageiro."
     ],
     "answer": 0,
-    "explanation": "O RNAi age sobre o mRNA já transcrito e já presente no citoplasma: destruído o mensageiro, os ribossomos ficam sem molde e a tradução — a síntese da proteína — é bloqueada. É assim que a destruição citoplasmática regula a expressão do gene. A transcrição (B) e o transporte núcleo–citoplasma (C) são etapas anteriores, que permanecem intactas; D e E invertem o mecanismo descrito no enunciado. Resposta: alternativa A."
+    "explanation": "O RNAi age sobre o mRNA já transcrito e já presente no citoplasma: destruído o mensageiro, os ribossomos ficam sem molde e a tradução — a síntese da proteína — é bloqueada. É assim que a destruição citoplasmática regula a expressão do gene.\n\nA transcrição (B) e o transporte núcleo–citoplasma (C) são etapas anteriores, que permanecem intactas; D e E invertem o mecanismo descrito no enunciado. Resposta: alternativa A."
    },
    {
     "number": 43,
@@ -1424,7 +1424,7 @@
      "Retículo endoplasmático, rede de membranas intracelulares envolvida na síntese e transporte de proteínas e lipídeos, sem participação direta nos mecanismos de movimentação e alinhamento cromossômico na mitose."
     ],
     "answer": 3,
-    "explanation": "O alinhamento na placa metafásica é obra das fibras do fuso mitótico: microtúbulos dinâmicos que se prendem aos cinetócoros dos cromossomos, equilibram as tensões que os posicionam no equador da célula e, depois, conduzem a separação das cromátides. Sem fuso funcional, os cromossomos ficam dispersos — exatamente a anomalia observada. Como as próprias alternativas registram, centríolos apenas organizam o início do processo, e nucléolo, membrana plasmática e retículo não movem cromossomos. Resposta: alternativa D."
+    "explanation": "O alinhamento na placa metafásica é obra das fibras do fuso mitótico: microtúbulos dinâmicos que se prendem aos cinetócoros dos cromossomos, equilibram as tensões que os posicionam no equador da célula e, depois, conduzem a separação das cromátides. Sem fuso funcional, os cromossomos ficam dispersos — exatamente a anomalia observada.\n\nComo as próprias alternativas registram, centríolos apenas organizam o início do processo, e nucléolo, membrana plasmática e retículo não movem cromossomos. Resposta: alternativa D."
    },
    {
     "number": 44,
@@ -1439,7 +1439,7 @@
      "Ligação gênica"
     ],
     "answer": 1,
-    "explanation": "No fenótipo de Bombaim, o genótipo hh (homozigoto recessivo em outro loco) impede a síntese da substância H; sem a precursora, os alelos IA e IB não conseguem se expressar. Um gene suprimindo a expressão de outro loco, e fazendo-o em homozigose recessiva, é a definição de epistasia recessiva. Codominância e dominância incompleta são interações entre alelos do mesmo loco; herança poligênica envolve efeito aditivo de vários genes; ligação gênica trata de genes no mesmo cromossomo — nada disso descreve o bloqueio observado. Resposta: alternativa B."
+    "explanation": "No fenótipo de Bombaim, o genótipo hh (homozigoto recessivo em outro loco) impede a síntese da substância H; sem a precursora, os alelos IA e IB não conseguem se expressar. Um gene suprimindo a expressão de outro loco, e fazendo-o em homozigose recessiva, é a definição de epistasia recessiva.\n\nCodominância e dominância incompleta são interações entre alelos do mesmo loco; herança poligênica envolve efeito aditivo de vários genes; ligação gênica trata de genes no mesmo cromossomo — nada disso descreve o bloqueio observado. Resposta: alternativa B."
    },
    {
     "number": 45,
@@ -1454,7 +1454,7 @@
      "1,25 kg·m/s"
     ],
     "answer": 3,
-    "explanation": "O momento linear é vetorial: em P, p = m·v = 0,2 · 1 = 0,2 kg·m/s em um sentido; em Q, após a semicircunferência, o mesmo módulo aponta no sentido oposto. Assim, |ΔQ| = |p_Q − p_P| = 0,2 − (−0,2) = 0,4 kg·m/s. A rapidez constante não zera a variação — a direção mudou, e é isso que a alternativa A ignora; os demais valores não decorrem da subtração vetorial correta. Resposta: alternativa D.",
+    "explanation": "O momento linear é vetorial: em P, p = m·v = 0,2 · 1 = 0,2 kg·m/s em um sentido; em Q, após a semicircunferência, o mesmo módulo aponta no sentido oposto. Assim, |ΔQ| = |p_Q − p_P| = 0,2 − (−0,2) = 0,4 kg·m/s.\n\nA rapidez constante não zera a variação — a direção mudou, e é isso que a alternativa A ignora; os demais valores não decorrem da subtração vetorial correta. Resposta: alternativa D.",
     "image": "/edcley/apostas-2026-4-45.webp"
    },
    {
@@ -1470,7 +1470,7 @@
      "15,0 minutos"
     ],
     "answer": 2,
-    "explanation": "Área do refletor: A = 3,14 · 0,5² = 0,785 m². Potência incidente: 1000 · 0,785 = 785 W; potência útil (40%): 314 W. O tempo é t = 188.400/314 = 600 s = 10,0 minutos. Quem esquece o rendimento de 40% encontra 4 minutos e não acha alternativa; quem troca πR² por πD² quadruplica a área e cai perto de B. Resposta: alternativa C."
+    "explanation": "Área do refletor: A = 3,14 · 0,5² = 0,785 m². Potência incidente: 1000 · 0,785 = 785 W; potência útil (40%): 314 W. O tempo é t = 188.400/314 = 600 s = 10,0 minutos.\n\nQuem esquece o rendimento de 40% encontra 4 minutos e não acha alternativa; quem troca πR² por πD² quadruplica a área e cai perto de B. Resposta: alternativa C."
    },
    {
     "number": 47,
@@ -1485,7 +1485,7 @@
      "Ambos apresentam interações ecológicas que não dependem de outros seres vivos, mas apenas de fatores abióticos presentes no ambiente."
     ],
     "answer": 1,
-    "explanation": "Os corais dependem de uma simbiose interespecífica: abrigam algas fotossintetizantes (zooxantelas) que lhes fornecem boa parte da energia. Já as abelhas estruturam sua sobrevivência na sociedade da colmeia — cooperação intraespecífica, com divisão de tarefas entre indivíduos da mesma espécie. A alternativa A inverte os termos; C, D e E generalizam com “exclusivamente”, “igualmente” e “apenas” relações que os dois organismos não sustentam. Resposta: alternativa B.",
+    "explanation": "Os corais dependem de uma simbiose interespecífica: abrigam algas fotossintetizantes (zooxantelas) que lhes fornecem boa parte da energia. Já as abelhas estruturam sua sobrevivência na sociedade da colmeia — cooperação intraespecífica, com divisão de tarefas entre indivíduos da mesma espécie.\n\nA alternativa A inverte os termos; C, D e E generalizam com “exclusivamente”, “igualmente” e “apenas” relações que os dois organismos não sustentam. Resposta: alternativa B.",
     "image": "/edcley/apostas-2026-4-47.webp"
    },
    {
@@ -1501,7 +1501,7 @@
      "Magnésio e Níquel"
     ],
     "answer": 0,
-    "explanation": "Para maximizar ΔE = E°(cátodo) − E°(ânodo), escolhe-se o maior potencial de redução como cátodo (Ni, −0,25 V) e o menor como ânodo (Li, −3,05 V): ΔE = −0,25 − (−3,05) = 2,80 V. Os demais pares rendem menos: Li–K, 0,12 V; K–Mg, 0,63 V; Ba–Al, 1,24 V; Mg–Ni, 2,05 V. Resposta: alternativa A.",
+    "explanation": "Para maximizar ΔE = E°(cátodo) − E°(ânodo), escolhe-se o maior potencial de redução como cátodo (Ni, −0,25 V) e o menor como ânodo (Li, −3,05 V): ΔE = −0,25 − (−3,05) = 2,80 V.\n\nOs demais pares rendem menos: Li–K, 0,12 V; K–Mg, 0,63 V; Ba–Al, 1,24 V; Mg–Ni, 2,05 V. Resposta: alternativa A.",
     "image": "/edcley/apostas-2026-4-48.webp"
    },
    {
@@ -1517,7 +1517,7 @@
      "Ligar o chuveiro em paralelo com um resistor para reduzir a tensão aplicada ao chuveiro."
     ],
     "answer": 1,
-    "explanation": "No modelo idealizado, um resistor em série aumenta a resistência total e reduz a corrente. Parte da tensão cai nesse resistor, reduzindo a tensão sobre a carga. Ligar um resistor em paralelo mantém a mesma tensão em ambos os ramos. O exercício modela um circuito ideal e desconsidera as restrições de uma instalação real.",
+    "explanation": "No modelo idealizado, um resistor em série aumenta a resistência total e reduz a corrente. Parte da tensão cai nesse resistor, reduzindo a tensão sobre a carga.\n\nLigar um resistor em paralelo mantém a mesma tensão em ambos os ramos. O exercício modela um circuito ideal e desconsidera as restrições de uma instalação real.",
     "adapted": true
    },
    {
@@ -1533,7 +1533,7 @@
      "O caso com três pessoas, e a probabilidade de ganhar a sobremesa nessa modalidade é de aproximadamente 34,38% (11/32)."
     ],
     "answer": 4,
-    "explanation": "Modalidade 1: P(números iguais) = 7/49 = 1/7 ≈ 14,3%. Modalidade 2: P(pelo menos dois iguais) = 1 − P(todos diferentes) = 1 − (8 · 7 · 6)/8³ = 1 − 336/512 = 176/512 = 11/32 ≈ 34,38% — mais que o dobro da primeira. A alternativa C acerta a comparação, mas sem o valor que a distingue de D; a D (3/16 = 6/32) deixa casos de fora; A e B invertem a conclusão. Resposta: alternativa E.",
+    "explanation": "Modalidade 1: P(números iguais) = 7/49 = 1/7 ≈ 14,3%. Modalidade 2: P(pelo menos dois iguais) = 1 − P(todos diferentes) = 1 − (8 · 7 · 6)/8³ = 1 − 336/512 = 176/512 = 11/32 ≈ 34,38% — mais que o dobro da primeira.\n\nA alternativa C acerta a comparação, mas sem o valor que a distingue de D; a D (3/16 = 6/32) deixa casos de fora; A e B invertem a conclusão. Resposta: alternativa E.",
     "adapted": true
    },
    {
@@ -1549,7 +1549,7 @@
      "5/9"
     ],
     "answer": 2,
-    "explanation": "Áreas laterais iguais: 2πr₁h₁ = 2πr₂h₂, logo r₁h₁ = r₂h₂. A razão dos volumes fatora-se como V₁/V₂ = (πr₁²h₁)/(πr₂²h₂) = r₁ · (r₁h₁) / [r₂ · (r₂h₂)] = r₁/r₂, já que os produtos r·h se cancelam. Como V₁/V₂ = 4/9, segue r₁/r₂ = 4/9. O truque é escrever r²h = r · (rh); quem tenta extrair raízes sem usar a igualdade das áreas laterais cai em A ou D. Resposta: alternativa C."
+    "explanation": "Áreas laterais iguais: 2πr₁h₁ = 2πr₂h₂, logo r₁h₁ = r₂h₂. A razão dos volumes fatora-se como V₁/V₂ = (πr₁²h₁)/(πr₂²h₂) = r₁ · (r₁h₁) / [r₂ · (r₂h₂)] = r₁/r₂, já que os produtos r·h se cancelam. Como V₁/V₂ = 4/9, segue r₁/r₂ = 4/9.\n\nO truque é escrever r²h = r · (rh); quem tenta extrair raízes sem usar a igualdade das áreas laterais cai em A ou D. Resposta: alternativa C."
    },
    {
     "number": 52,
@@ -1564,7 +1564,7 @@
      "−6,0 × 10⁵ kJ"
     ],
     "answer": 3,
-    "explanation": "Massa de metano: 15 · 0,8 · 0,90 = 10,8 kg = 10.800 g, ou seja, 10.800/16 = 675 mol. Por mol: rompem-se 4 C–H e 2 O=O (4 · 412 + 2 · 498 = 2.644 kJ) e formam-se 2 C=O e 4 O–H (2 · 803 + 4 · 463 = 3.458 kJ); ΔH = 2.644 − 3.458 = −814 kJ/mol. Total: 675 · (−814) = −549.450 kJ ≈ −5,5 × 10⁵ kJ. Quem ignora os 90% de metano encontra cerca de −6,1 × 10⁵ e escorrega para a alternativa E; o sinal negativo confirma a combustão exotérmica. Resposta: alternativa D.",
+    "explanation": "Massa de metano: 15 · 0,8 · 0,90 = 10,8 kg = 10.800 g, ou seja, 10.800/16 = 675 mol. Por mol: rompem-se 4 C–H e 2 O=O (4 · 412 + 2 · 498 = 2.644 kJ) e formam-se 2 C=O e 4 O–H (2 · 803 + 4 · 463 = 3.458 kJ); ΔH = 2.644 − 3.458 = −814 kJ/mol. Total: 675 · (−814) = −549.450 kJ ≈ −5,5 × 10⁵ kJ.\n\nQuem ignora os 90% de metano encontra cerca de −6,1 × 10⁵ e escorrega para a alternativa E; o sinal negativo confirma a combustão exotérmica. Resposta: alternativa D.",
     "image": "/edcley/apostas-2026-4-52.webp"
    },
    {
@@ -1580,7 +1580,7 @@
      "L(x) = 24000 + 600x − 20x²"
     ],
     "answer": 1,
-    "explanation": "Com desconto x, o preço passa a 120 − x e as vendas a 200 + 20x. Logo, L(x) = (120 − x)(200 + 20x) = 24.000 + 2.400x − 200x − 20x² = 24.000 + 2.200x − 20x². O termo cruzado nasce de 120 · 20x − 200 · x; esquecer uma das duas parcelas — só o ganho das vendas extras ou só a perda do desconto — gera os coeficientes menores dos distratores. Resposta: alternativa B.",
+    "explanation": "Com desconto x, o preço passa a 120 − x e as vendas a 200 + 20x. Logo, L(x) = (120 − x)(200 + 20x) = 24.000 + 2.400x − 200x − 20x² = 24.000 + 2.200x − 20x².\n\nO termo cruzado nasce de 120 · 20x − 200 · x; esquecer uma das duas parcelas — só o ganho das vendas extras ou só a perda do desconto — gera os coeficientes menores dos distratores. Resposta: alternativa B.",
     "adapted": true
    },
    {
@@ -1596,7 +1596,7 @@
      "12"
     ],
     "answer": 0,
-    "explanation": "São combinações com repetição de 3 tipos tomados 3 a 3: C(3+3−1, 3) = C(5,3) = 10 conjuntos possíveis. Sem nenhum pacote A (apenas B e C): C(2+3−1, 3) = C(4,3) = 4. Com pelo menos um A: 10 − 4 = 6 — a saber, AAA, AAB, AAC, ABB, ABC e ACC. Quem responde 10 esquece a restrição do Tradicional; quem conta permutações trata como distinguíveis pacotes idênticos e infla o resultado. Resposta: alternativa A."
+    "explanation": "São combinações com repetição de 3 tipos tomados 3 a 3: C(3+3−1, 3) = C(5,3) = 10 conjuntos possíveis. Sem nenhum pacote A (apenas B e C): C(2+3−1, 3) = C(4,3) = 4. Com pelo menos um A: 10 − 4 = 6 — a saber, AAA, AAB, AAC, ABB, ABC e ACC.\n\nQuem responde 10 esquece a restrição do Tradicional; quem conta permutações trata como distinguíveis pacotes idênticos e infla o resultado. Resposta: alternativa A."
    },
    {
     "number": 56,
@@ -1611,7 +1611,7 @@
      "Fitoplâncton < Zooplâncton < Grandes peixes predadores < Pequenos peixes"
     ],
     "answer": 0,
-    "explanation": "Na biomagnificação, cada consumidor concentra o mercúrio acumulado por muitos indivíduos do nível anterior: a concentração cresce do produtor ao predador de topo — fitoplâncton < zooplâncton < pequenos peixes < grandes peixes predadores. Qualquer inversão na sequência (alternativas B a E) contraria o acúmulo progressivo ao longo dos níveis tróficos. Resposta: alternativa A."
+    "explanation": "Na biomagnificação, cada consumidor concentra o mercúrio acumulado por muitos indivíduos do nível anterior: a concentração cresce do produtor ao predador de topo — fitoplâncton < zooplâncton < pequenos peixes < grandes peixes predadores.\n\nQualquer inversão na sequência (alternativas B a E) contraria o acúmulo progressivo ao longo dos níveis tróficos. Resposta: alternativa A."
    },
    {
     "number": 57,
@@ -1626,7 +1626,7 @@
      "R$180,00"
     ],
     "answer": 3,
-    "explanation": "Hoje o lucro é 120 − (40 + 40) = R$ 40,00. Com os custos adicionais em 40 · 1,5 = R$ 60,00, o custo total sobe a R$ 100,00. Para manter o mesmo lucro vendendo com 20% de desconto sobre o novo preço P: 0,8P − 100 = 40, logo 0,8P = 140 e P = R$ 175,00. Conferindo: 175 · 0,8 = 140 e 140 − 100 = 40 — o lucro original preservado. Resposta: alternativa D.",
+    "explanation": "Hoje o lucro é 120 − (40 + 40) = R$ 40,00. Com os custos adicionais em 40 · 1,5 = R$ 60,00, o custo total sobe a R$ 100,00.\n\nPara manter o mesmo lucro vendendo com 20% de desconto sobre o novo preço P: 0,8P − 100 = 40, logo 0,8P = 140 e P = R$ 175,00. Conferindo: 175 · 0,8 = 140 e 140 − 100 = 40 — o lucro original preservado. Resposta: alternativa D.",
     "adapted": true
    }
   ]
@@ -1648,7 +1648,7 @@
      "Ciclo de Krebs, onde ocorre a oxidação de moléculas de acetil-CoA para gerar energia."
     ],
     "answer": 4,
-    "explanation": "No ciclo de Krebs, o acetil-CoA é oxidado, e parte da energia liberada é transferida para NADH e FADH₂. A glicólise usa ATP em sua etapa inicial, e o ciclo de Calvin usa ATP para fixar carbono. A descrição correta entre as alternativas é a da letra E.",
+    "explanation": "No ciclo de Krebs, o acetil-CoA é oxidado, e parte da energia liberada é transferida para NADH e FADH₂.\n\nA glicólise usa ATP em sua etapa inicial, e o ciclo de Calvin usa ATP para fixar carbono. A descrição correta entre as alternativas é a da letra E.",
     "adapted": true
    },
    {
@@ -1664,7 +1664,7 @@
      "A probabilidade de Arthur vencer o jogo é de 125/216."
     ],
     "answer": 4,
-    "explanation": "O espaço amostral tem 6 × 6 × 6 = 216 resultados equiprováveis. O número de Arthur é o maior valor entre seus dois dados, e ele só vence quando esse máximo supera estritamente o dado de João — no empate, a vitória é de João. O caminho limpo passa pelo complementar: a chance de o máximo de dois dados ser no máximo j é j²/36; logo, para cada valor j de João, Arthur vence em 36 − j² dos 36 pares possíveis. Somando para j de 1 a 6: 35 + 32 + 27 + 20 + 11 + 0 = 216 − 91 = 125 casos favoráveis a Arthur, restando 91 para João. A probabilidade de Arthur vencer é, portanto, 125/216 (cerca de 58%): dois dados dão vantagem real, mas o desempate a favor de João impede a barbada. Os distratores 100 e 120 orbitam o valor certo capturando contagens que esquecem parte dos casos, e 35/216 fisga quem troca o maior dos dois dados pela soma deles. a resposta é a alternativa E."
+    "explanation": "O espaço amostral tem 6 × 6 × 6 = 216 resultados equiprováveis. O número de Arthur é o maior valor entre seus dois dados, e ele só vence quando esse máximo supera estritamente o dado de João — no empate, a vitória é de João. O caminho limpo passa pelo complementar: a chance de o máximo de dois dados ser no máximo j é j²/36; logo, para cada valor j de João, Arthur vence em 36 − j² dos 36 pares possíveis. Somando para j de 1 a 6: 35 + 32 + 27 + 20 + 11 + 0 = 216 − 91 = 125 casos favoráveis a Arthur, restando 91 para João.\n\nA probabilidade de Arthur vencer é, portanto, 125/216 (cerca de 58%): dois dados dão vantagem real, mas o desempate a favor de João impede a barbada. Os distratores 100 e 120 orbitam o valor certo capturando contagens que esquecem parte dos casos, e 35/216 fisga quem troca o maior dos dois dados pela soma deles. a resposta é a alternativa E."
    },
    {
     "number": 3,
@@ -1679,7 +1679,7 @@
      "2/5"
     ],
     "answer": 0,
-    "explanation": "O caminho direto multiplica as etapas: o primeiro erra (4/5), o segundo erra (3/4) e o terceiro acerta (1/3), o que dá 4/5 × 3/4 × 1/3 = 12/60 = 1/5. Há também o atalho conceitual: num sorteio sem reposição, a chave correta tem a mesma chance de ocupar qualquer uma das cinco posições da fila — cada funcionário, antes de o processo começar, tem exatamente 1/5 de chance de ser o sortudo. As demais frações confundem probabilidade condicional de uma etapa (1/4, 1/3 disfarçado) com a probabilidade do evento completo. A resposta é a alternativa A."
+    "explanation": "O caminho direto multiplica as etapas: o primeiro erra (4/5), o segundo erra (3/4) e o terceiro acerta (1/3), o que dá 4/5 × 3/4 × 1/3 = 12/60 = 1/5. Há também o atalho conceitual: num sorteio sem reposição, a chave correta tem a mesma chance de ocupar qualquer uma das cinco posições da fila — cada funcionário, antes de o processo começar, tem exatamente 1/5 de chance de ser o sortudo.\n\nAs demais frações confundem probabilidade condicional de uma etapa (1/4, 1/3 disfarçado) com a probabilidade do evento completo. A resposta é a alternativa A."
    },
    {
     "number": 4,
@@ -1694,7 +1694,7 @@
      "Os tensoativos atuam como agentes redutores, transformando os hidrocarbonetos em compostos inofensivos. O peróxido de hidrogênio age como um solvente que dissolve os hidrocarbonetos no solo."
     ],
     "answer": 2,
-    "explanation": "O próprio enunciado dá as duas pistas: tensoativos têm \"propriedades específicas\" ligadas à sua estrutura anfifílica — cauda apolar que interage com o hidrocarboneto, cabeça polar voltada para a água — e o peróxido de hidrogênio é apresentado por suas \"características oxidantes\". A combinação correta é, portanto, micelas que solubilizam o contaminante em água e oxidação que degrada as cadeias em compostos menos nocivos. As alternativas erradas trocam os papéis: chamam o H₂O₂ de redutor ou de solvente, atribuem micelas ao peróxido ou poder oxidante ao tensoativo. Quem guarda que \"água oxigenada oxida\" elimina quatro opções de uma vez. A resposta é a alternativa C."
+    "explanation": "O próprio enunciado dá as duas pistas: tensoativos têm \"propriedades específicas\" ligadas à sua estrutura anfifílica — cauda apolar que interage com o hidrocarboneto, cabeça polar voltada para a água — e o peróxido de hidrogênio é apresentado por suas \"características oxidantes\". A combinação correta é, portanto, micelas que solubilizam o contaminante em água e oxidação que degrada as cadeias em compostos menos nocivos.\n\nAs alternativas erradas trocam os papéis: chamam o H₂O₂ de redutor ou de solvente, atribuem micelas ao peróxido ou poder oxidante ao tensoativo. Quem guarda que \"água oxigenada oxida\" elimina quatro opções de uma vez. A resposta é a alternativa C."
    },
    {
     "number": 5,
@@ -1709,7 +1709,7 @@
     ],
     "adapted": true,
     "answer": 0,
-    "explanation": "Basta multiplicar as liberdades de escolha posição a posição. Os três primeiros dígitos são fixos (fator 1), as seis posições do conjunto restrito contribuem com 4 opções cada (4⁶), as três posições do conjunto amplo contribuem com 10 opções cada (10³) e o dígito verificador é determinado pelos anteriores (fator 1). O total é 4⁶ × 10³. Os distratores deslocam expoentes entre as bases — 4⁵ × 10⁴ e 4⁷ × 10³ trocam uma posição de grupo, e 4⁶ × 10² (que aparece repetido no material de origem) esquece uma das três posições livres. A resposta é a alternativa A."
+    "explanation": "Basta multiplicar as liberdades de escolha posição a posição. Os três primeiros dígitos são fixos (fator 1), as seis posições do conjunto restrito contribuem com 4 opções cada (4⁶), as três posições do conjunto amplo contribuem com 10 opções cada (10³) e o dígito verificador é determinado pelos anteriores (fator 1). O total é 4⁶ × 10³.\n\nOs distratores deslocam expoentes entre as bases — 4⁵ × 10⁴ e 4⁷ × 10³ trocam uma posição de grupo, e 4⁶ × 10² (que aparece repetido no material de origem) esquece uma das três posições livres. A resposta é a alternativa A."
    },
    {
     "number": 6,
@@ -1724,7 +1724,7 @@
      "Energia Cinética: 600.000 J; Massa de Aço: 6,52 kg"
     ],
     "answer": 1,
-    "explanation": "A energia cinética vale E = m·v²/2 = 1500 × 20² ÷ 2 = 1500 × 400 ÷ 2 = 300.000 J. Igualando ao calor sensível, Q = m·c·ΔT, com ΔT = 120 − 20 = 100 °C: 300.000 = m × 460 × 100, de onde m = 300.000 ÷ 46.000 ≈ 6,52 kg. As armadilhas estão mapeadas nos distratores: quem esquece o ½ da energia cinética chega a 600.000 J; quem dobra ou reduz a energia pela metade arrasta a massa para 13,04 kg ou 3,26 kg. O par consistente — 300.000 J e 6,52 kg — está na alternativa B."
+    "explanation": "A energia cinética vale E = m·v²/2 = 1500 × 20² ÷ 2 = 1500 × 400 ÷ 2 = 300.000 J. Igualando ao calor sensível, Q = m·c·ΔT, com ΔT = 120 − 20 = 100 °C: 300.000 = m × 460 × 100, de onde m = 300.000 ÷ 46.000 ≈ 6,52 kg.\n\nAs armadilhas estão mapeadas nos distratores: quem esquece o ½ da energia cinética chega a 600.000 J; quem dobra ou reduz a energia pela metade arrasta a massa para 13,04 kg ou 3,26 kg. O par consistente — 300.000 J e 6,52 kg — está na alternativa B."
    },
    {
     "number": 7,
@@ -1739,7 +1739,7 @@
      "Ligações de hidrogênio, que são responsáveis pela formação das moléculas de CO₂."
     ],
     "answer": 3,
-    "explanation": "Na sublimação, as moléculas de CO₂ permanecem intactas: o que se rompe é apenas a atração entre uma molécula e outra. Como o CO₂ é linear e apolar, essa atração se resume às forças de dispersão de London, da família das forças de Van der Waals — interações fracas, o que explica o gelo seco sublimar em condições ambientes. As demais alternativas atribuem ao CO₂ ligações que ele não possui entre moléculas: não há íons, não há rede metálica e não há ligação de hidrogênio (o composto sequer tem H). Falar em rompimento covalente descreveria a quebra da própria molécula, que não ocorre na mudança de estado. A resposta é a alternativa D."
+    "explanation": "Na sublimação, as moléculas de CO₂ permanecem intactas: o que se rompe é apenas a atração entre uma molécula e outra. Como o CO₂ é linear e apolar, essa atração se resume às forças de dispersão de London, da família das forças de Van der Waals — interações fracas, o que explica o gelo seco sublimar em condições ambientes.\n\nAs demais alternativas atribuem ao CO₂ ligações que ele não possui entre moléculas: não há íons, não há rede metálica e não há ligação de hidrogênio (o composto sequer tem H). Falar em rompimento covalente descreveria a quebra da própria molécula, que não ocorre na mudança de estado. A resposta é a alternativa D."
    },
    {
     "number": 9,
@@ -1753,7 +1753,7 @@
     ],
     "subject": "Química",
     "answer": 0,
-    "explanation": "O enunciado entrega a alavanca: as enzimas do escurecimento trabalham melhor em pH próximo do neutro. Logo, deslocar o meio para longe da neutralidade reduz sua atividade — e é exatamente isso que o suco de limão faz, ao acidificar fortemente a superfície da fruta. É o gesto clássico da cozinha com respaldo bioquímico. O sal se descreve como criador de ambiente \"favorável\" à enzima, o oposto do objetivo; a água apenas dilui sem alterar o pH de forma relevante; e o mel, embora tenha ação antioxidante, não é a resposta que decorre do mecanismo dado no enunciado (interferir na enzima via pH). A resposta é a alternativa A."
+    "explanation": "O enunciado entrega a alavanca: as enzimas do escurecimento trabalham melhor em pH próximo do neutro. Logo, deslocar o meio para longe da neutralidade reduz sua atividade — e é exatamente isso que o suco de limão faz, ao acidificar fortemente a superfície da fruta. É o gesto clássico da cozinha com respaldo bioquímico.\n\nO sal se descreve como criador de ambiente \"favorável\" à enzima, o oposto do objetivo; a água apenas dilui sem alterar o pH de forma relevante; e o mel, embora tenha ação antioxidante, não é a resposta que decorre do mecanismo dado no enunciado (interferir na enzima via pH).\n\nA resposta é a alternativa A."
    },
    {
     "number": 10,
@@ -1768,7 +1768,7 @@
      "Fluxo de informações por segundo"
     ],
     "answer": 2,
-    "explanation": "\"MB/s\" relaciona uma quantidade de dados (megabytes) com o tempo (segundos): é, por definição, uma taxa de transferência de dados — o nome técnico consagrado para essa grandeza em redes e armazenamento. \"Velocidade por segundo\" e \"distância por segundo\" importam vocabulário da cinemática que não descreve informação; \"volume\" remete a capacidade, não a ritmo; e \"fluxo de informações por segundo\" é redundante, já que a divisão pelo tempo está embutida na própria ideia de fluxo. A resposta é a alternativa C."
+    "explanation": "\"MB/s\" relaciona uma quantidade de dados (megabytes) com o tempo (segundos): é, por definição, uma taxa de transferência de dados — o nome técnico consagrado para essa grandeza em redes e armazenamento.\n\n\"Velocidade por segundo\" e \"distância por segundo\" importam vocabulário da cinemática que não descreve informação; \"volume\" remete a capacidade, não a ritmo; e \"fluxo de informações por segundo\" é redundante, já que a divisão pelo tempo está embutida na própria ideia de fluxo. A resposta é a alternativa C."
    },
    {
     "number": 11,
@@ -1783,7 +1783,7 @@
      "0,156%"
     ],
     "answer": 1,
-    "explanation": "Porcentagem é razão por cem. Se ocorrem 15,6 óbitos a cada 1.000 nascidos, a cada 100 nascidos ocorrem 15,6 ÷ 10 = 1,56 — ou seja, 1,56%. Manter o 15,6 e só trocar o símbolo (15,6%) infla a taxa dez vezes; 1,56‰ troca a unidade pedida (a questão quer porcentagem, não por mil); 0,156% e 0,0156% dividem por 100 e por 1.000 a mais. A resposta é a alternativa B."
+    "explanation": "Porcentagem é razão por cem. Se ocorrem 15,6 óbitos a cada 1.000 nascidos, a cada 100 nascidos ocorrem 15,6 ÷ 10 = 1,56 — ou seja, 1,56%.\n\nManter o 15,6 e só trocar o símbolo (15,6%) infla a taxa dez vezes; 1,56‰ troca a unidade pedida (a questão quer porcentagem, não por mil); 0,156% e 0,0156% dividem por 100 e por 1.000 a mais. A resposta é a alternativa B."
    },
    {
     "number": 12,
@@ -1798,7 +1798,7 @@
      "5,4 km"
     ],
     "answer": 2,
-    "explanation": "Com as dimensões mínimas, o perímetro do campo é 2 × (90 + 45) = 270 metros. Em 12 voltas, o corredor percorre 12 × 270 = 3.240 metros, que convertidos dão 3,24 km. Os distratores nascem de meio caminho: 2,7 km é o perímetro de 10 voltas (ou 270 lido direto como quilômetros vezes dez), 1,8 km esquece um dos pares de lados, e 4,5 e 5,4 km misturam as dimensões máximas. A resposta é a alternativa C."
+    "explanation": "Com as dimensões mínimas, o perímetro do campo é 2 × (90 + 45) = 270 metros. Em 12 voltas, o corredor percorre 12 × 270 = 3.240 metros, que convertidos dão 3,24 km.\n\nOs distratores nascem de meio caminho: 2,7 km é o perímetro de 10 voltas (ou 270 lido direto como quilômetros vezes dez), 1,8 km esquece um dos pares de lados, e 4,5 e 5,4 km misturam as dimensões máximas. A resposta é a alternativa C."
    },
    {
     "number": 13,
@@ -1813,7 +1813,7 @@
      "Não há diferença entre as duas configurações."
     ],
     "answer": 3,
-    "explanation": "Basta montar as duas contas. Configuração 1 — Cláudia (mulher, 23 anos) como primeiro nome: R$ 300,00; Nelson (homem, 35 anos) como segundo nome: R$ 450,00 + R$ 100,00 = R$ 550,00; total R$ 850,00. Configuração 2 — Nelson como primeiro nome: R$ 450,00; Cláudia como segundo nome: R$ 300,00 + R$ 200,00 = R$ 500,00; total R$ 950,00. A diferença entre as configurações é de R$ 100,00, e o valor maior ocorre quando Nelson é o primeiro nome e Cláudia o segundo — exatamente o que afirma a alternativa que aponta essa configuração como R$ 100,00 a mais. Quem soma o acréscimo ao nome errado cai nas opções de R$ 200,00. A resposta é a alternativa D."
+    "explanation": "Basta montar as duas contas. Configuração 1 — Cláudia (mulher, 23 anos) como primeiro nome: R$ 300,00; Nelson (homem, 35 anos) como segundo nome: R$ 450,00 + R$ 100,00 = R$ 550,00; total R$ 850,00. Configuração 2 — Nelson como primeiro nome: R$ 450,00; Cláudia como segundo nome: R$ 300,00 + R$ 200,00 = R$ 500,00; total R$ 950,00.\n\nA diferença entre as configurações é de R$ 100,00, e o valor maior ocorre quando Nelson é o primeiro nome e Cláudia o segundo — exatamente o que afirma a alternativa que aponta essa configuração como R$ 100,00 a mais. Quem soma o acréscimo ao nome errado cai nas opções de R$ 200,00. A resposta é a alternativa D."
    },
    {
     "number": 14,
@@ -1828,7 +1828,7 @@
      "1100 g"
     ],
     "answer": 1,
-    "explanation": "Os 340 g de amônia correspondem a 340 ÷ 17 = 20 mol de NH₃. Com a proporção global de 2 mol de NH₃ para 1 mol de Na₂CO₃ (é para isso que a primeira equação é multiplicada por 2), formam- se 10 mol de carbonato de sódio. Com massa molar de aproximadamente 106 g/mol, o rendimento teórico é 10 × 106 = 1.060 g. Falta o passo que a prova adora cobrar: o rendimento de 90%. A massa efetivamente formada é 1.060 × 0,90 = 954 g. O distrator de 1.060 g captura quem para no teórico — e a presença dele na lista confirma a intenção do autor. A resposta é a alternativa B."
+    "explanation": "Os 340 g de amônia correspondem a 340 ÷ 17 = 20 mol de NH₃. Com a proporção global de 2 mol de NH₃ para 1 mol de Na₂CO₃ (é para isso que a primeira equação é multiplicada por 2), formam- se 10 mol de carbonato de sódio. Com massa molar de aproximadamente 106 g/mol, o rendimento teórico é 10 × 106 = 1.060 g.\n\nFalta o passo que a prova adora cobrar: o rendimento de 90%. A massa efetivamente formada é 1.060 × 0,90 = 954 g. O distrator de 1.060 g captura quem para no teórico — e a presença dele na lista confirma a intenção do autor. A resposta é a alternativa B."
    },
    {
     "number": 15,
@@ -1843,7 +1843,7 @@
      "R$ 35,00"
     ],
     "answer": 1,
-    "explanation": "A menor altura comum às duas colunas é o mínimo múltiplo comum das espessuras. Escrevendo 2,85 = 3 × 0,95 e 1,95 = 3 × 0,65, ou trabalhando com 285 = 3 × 5 × 19 e 195 = 3 × 5 × 13 (em centésimos de milímetro), o MMC é 3 × 5 × 19 × 13 = 3.705, ou seja, 37,05 mm. Nessa altura cabem 37,05 ÷ 2,85 = 13 moedas de R$ 1,00 (R$ 13,00) e 37,05 ÷ 1,95 = 19 moedas de R$ 0,50 (R$ 9,50). O total mínimo arrecadado é 13,00 + 9,50 = R$ 22,50. A resposta é a alternativa B."
+    "explanation": "A menor altura comum às duas colunas é o mínimo múltiplo comum das espessuras. Escrevendo 2,85 = 3 × 0,95 e 1,95 = 3 × 0,65, ou trabalhando com 285 = 3 × 5 × 19 e 195 = 3 × 5 × 13 (em centésimos de milímetro), o MMC é 3 × 5 × 19 × 13 = 3.705, ou seja, 37,05 mm.\n\nNessa altura cabem 37,05 ÷ 2,85 = 13 moedas de R$ 1,00 (R$ 13,00) e 37,05 ÷ 1,95 = 19 moedas de R$ 0,50 (R$ 9,50). O total mínimo arrecadado é 13,00 + 9,50 = R$ 22,50. A resposta é a alternativa B."
    },
    {
     "number": 17,
@@ -1858,7 +1858,7 @@
      "A construção de diques e barreiras de contenção ao longo dos rios, que visam conter o volume de água e evitar o transbordamento."
     ],
     "answer": 1,
-    "explanation": "A geografia urbana aponta um vilão estrutural para as enchentes paulistanas: a impermeabilização do solo. Asfalto, concreto e ocupação desordenada — inclusive de várzeas — impedem a infiltração da água da chuva, que escoa superficialmente em grande volume e velocidade até sobrecarregar rios canalizados e galerias. As demais alternativas descrevem fatores que atenuam (parques, reflorestamento ciliar, vegetação de várzea) ou medidas de contenção que não são causa do problema (diques e barreiras). A resposta é a alternativa B."
+    "explanation": "A geografia urbana aponta um vilão estrutural para as enchentes paulistanas: a impermeabilização do solo. Asfalto, concreto e ocupação desordenada — inclusive de várzeas — impedem a infiltração da água da chuva, que escoa superficialmente em grande volume e velocidade até sobrecarregar rios canalizados e galerias.\n\nAs demais alternativas descrevem fatores que atenuam (parques, reflorestamento ciliar, vegetação de várzea) ou medidas de contenção que não são causa do problema (diques e barreiras). A resposta é a alternativa B."
    },
    {
     "number": 18,
@@ -1873,7 +1873,7 @@
      "O biodiesel contém compostos de enxofre que atuam na neutralização da acidez da chuva."
     ],
     "answer": 1,
-    "explanation": "A cadeia causal da chuva ácida associada ao diesel passa pelo enxofre: S do combustível → SO₂ na queima → H₂SO₄ na atmosfera. O biodiesel, obtido de óleos vegetais e gorduras, é praticamente isento de enxofre — a redução citada, da ordem de 98%, ataca diretamente o principal agente do fenômeno. Ser renovável (primeira alternativa) fala do ciclo do carbono, não do enxofre, e por isso não justifica o efeito pedido; as demais opções invertem o teor de enxofre, prometem emissão zero inexistente ou atribuem ao biodiesel um papel neutralizador que ele não tem. A resposta é a alternativa B."
+    "explanation": "A cadeia causal da chuva ácida associada ao diesel passa pelo enxofre: S do combustível → SO₂ na queima → H₂SO₄ na atmosfera. O biodiesel, obtido de óleos vegetais e gorduras, é praticamente isento de enxofre — a redução citada, da ordem de 98%, ataca diretamente o principal agente do fenômeno.\n\nSer renovável (primeira alternativa) fala do ciclo do carbono, não do enxofre, e por isso não justifica o efeito pedido; as demais opções invertem o teor de enxofre, prometem emissão zero inexistente ou atribuem ao biodiesel um papel neutralizador que ele não tem. A resposta é a alternativa B."
    },
    {
     "number": 19,
@@ -1888,7 +1888,7 @@
      "O método é classificado como insatisfatório, pois a diferença absoluta entre a área estimada e π é de 0,7."
     ],
     "answer": 0,
-    "explanation": "Com lado (16/9)·R, a área do quadrado é (16/9)² · R² = (256/81) · R². Comparar com a área do círculo, π·R², significa comparar a fração 256/81 ≈ 3,1605 com π ≈ 3,14. A diferença absoluta é 3,1605 − 3,14 = 0,0205 — muito abaixo do corte de 0,5, portanto o método é satisfatório. É a antiga aproximação de área circular por quadrado, e os distratores testam quem erra a potência (esquece de elevar 16/9 ao quadrado) ou inventa diferenças na casa dos décimos. Coerência interna: só a primeira alternativa apresenta ao mesmo tempo o valor certo e a classificação certa. A resposta é a alternativa A."
+    "explanation": "Com lado (16/9)·R, a área do quadrado é (16/9)² · R² = (256/81) · R². Comparar com a área do círculo, π·R², significa comparar a fração 256/81 ≈ 3,1605 com π ≈ 3,14. A diferença absoluta é 3,1605 − 3,14 = 0,0205 — muito abaixo do corte de 0,5, portanto o método é satisfatório.\n\nÉ a antiga aproximação de área circular por quadrado, e os distratores testam quem erra a potência (esquece de elevar 16/9 ao quadrado) ou inventa diferenças na casa dos décimos. Coerência interna: só a primeira alternativa apresenta ao mesmo tempo o valor certo e a classificação certa. A resposta é a alternativa A."
    },
    {
     "number": 20,
@@ -1903,7 +1903,7 @@
      "A é diretamente proporcional a l."
     ],
     "answer": 0,
-    "explanation": "A área do triângulo equilátero é A = (√3/4) · l². O fator √3/4 é constante; a dependência em relação ao lado é quadrática. Dobrar o lado quadruplica a área — assinatura de proporcionalidade direta com o quadrado de l. As alternativas com \"inversamente\" contrariam o crescimento da área com o lado, e as versões em l ou √l subestimam esse crescimento (valeriam para grandezas lineares, não para áreas). A resposta é a alternativa A."
+    "explanation": "A área do triângulo equilátero é A = (√3/4) · l². O fator √3/4 é constante; a dependência em relação ao lado é quadrática. Dobrar o lado quadruplica a área — assinatura de proporcionalidade direta com o quadrado de l.\n\nAs alternativas com \"inversamente\" contrariam o crescimento da área com o lado, e as versões em l ou √l subestimam esse crescimento (valeriam para grandezas lineares, não para áreas). A resposta é a alternativa A."
    },
    {
     "number": 21,
@@ -1918,7 +1918,7 @@
      "36 parcelas"
     ],
     "answer": 2,
-    "explanation": "A condição do problema é 60.000/N − 60.000/(N + 6) = 500. Multiplicando por N(N + 6): 60.000 × 6 = 500 · N(N + 6), ou seja, N² + 6N − 720 = 0. O discriminante vale 36 + 2.880 = 2.916 = 54², e a raiz positiva é N = (−6 + 54)/2 = 24. Verificação: com 24 parcelas, cada uma sai por R$ 2.500,00; com 30 parcelas, por R$ 2.000,00 — exatamente R$ 500,00 mais barata. O distrator de 30 captura quem responde N + 6 em vez de N. A resposta é a alternativa C."
+    "explanation": "A condição do problema é 60.000/N − 60.000/(N + 6) = 500. Multiplicando por N(N + 6): 60.000 × 6 = 500 · N(N + 6), ou seja, N² + 6N − 720 = 0. O discriminante vale 36 + 2.880 = 2.916 = 54², e a raiz positiva é N = (−6 + 54)/2 = 24.\n\nVerificação: com 24 parcelas, cada uma sai por R$ 2.500,00; com 30 parcelas, por R$ 2.000,00 — exatamente R$ 500,00 mais barata. O distrator de 30 captura quem responde N + 6 em vez de N. A resposta é a alternativa C."
    },
    {
     "number": 24,
@@ -1933,7 +1933,7 @@
      "A dieta em cativeiro modifica a coloração da pele do sapo, aumentando sua toxicidade."
     ],
     "answer": 0,
-    "explanation": "O mecanismo está descrito no próprio texto: a toxina não é fabricada do zero pelo sapo — ela vem dos insetos da dieta natural, é acumulada e depois secretada na pele (sequestro de compostos alimentares). Se a dieta de cativeiro, à base de moscas comuns, não fornece esses precursores químicos, a pele simplesmente não tem com o que se tornar tóxica. Dizer que o cativeiro \"diminui a produção\" sugere uma síntese própria que o texto nega; \"estimula\", \"não interfere\" e a hipótese da coloração contradizem frontalmente o fenômeno observado. A resposta é a alternativa A."
+    "explanation": "O mecanismo está descrito no próprio texto: a toxina não é fabricada do zero pelo sapo — ela vem dos insetos da dieta natural, é acumulada e depois secretada na pele (sequestro de compostos alimentares). Se a dieta de cativeiro, à base de moscas comuns, não fornece esses precursores químicos, a pele simplesmente não tem com o que se tornar tóxica.\n\nDizer que o cativeiro \"diminui a produção\" sugere uma síntese própria que o texto nega; \"estimula\", \"não interfere\" e a hipótese da coloração contradizem frontalmente o fenômeno observado. A resposta é a alternativa A."
    },
    {
     "number": 25,
@@ -1948,7 +1948,7 @@
      "As modificações epigenéticas não têm impacto na expressão gênica e, portanto, não são herdadas."
     ],
     "answer": 2,
-    "explanation": "A definição dada no enunciado já elimina metade das opções: epigenética é, por construção, mudança de expressão gênica sem alteração da sequência de DNA. Alternativas que falam em \"alterar diretamente a sequência\" ou em \"não ter impacto na expressão\" contradizem a própria definição. O elo da herança são as células germinativas: marcas como metilação do DNA presentes em gametas podem escapar da reprogramação e chegar à prole, modulando a expressão dos genes do descendente sem tocar na sequência. É exatamente essa a formulação correta. A resposta é a alternativa C."
+    "explanation": "A definição dada no enunciado já elimina metade das opções: epigenética é, por construção, mudança de expressão gênica sem alteração da sequência de DNA. Alternativas que falam em \"alterar diretamente a sequência\" ou em \"não ter impacto na expressão\" contradizem a própria definição.\n\nO elo da herança são as células germinativas: marcas como metilação do DNA presentes em gametas podem escapar da reprogramação e chegar à prole, modulando a expressão dos genes do descendente sem tocar na sequência. É exatamente essa a formulação correta. A resposta é a alternativa C."
    },
    {
     "number": 26,
@@ -1963,7 +1963,7 @@
      "Construir barreiras físicas em áreas de risco para impedir o acesso à água."
     ],
     "answer": 2,
-    "explanation": "O ciclo da esquistossomose depende de esgoto humano alcançando coleções de água doce onde vivem os caramujos do gênero Biomphalaria — e de pessoas entrando nessa água. A medida que rompe o ciclo nas duas pontas é o saneamento básico (impede que os ovos cheguem à água) combinado a evitar o contato com águas contaminadas (impede a penetração das cercárias pela pele). Educação sobre sintomas ajuda no diagnóstico, não na transmissão; repelente não bloqueia cercárias; quimioprofilaxia em massa não é a estratégia central; e barreiras físicas atacam o acesso sem resolver a contaminação. A resposta é a alternativa C."
+    "explanation": "O ciclo da esquistossomose depende de esgoto humano alcançando coleções de água doce onde vivem os caramujos do gênero Biomphalaria — e de pessoas entrando nessa água. A medida que rompe o ciclo nas duas pontas é o saneamento básico (impede que os ovos cheguem à água) combinado a evitar o contato com águas contaminadas (impede a penetração das cercárias pela pele).\n\nEducação sobre sintomas ajuda no diagnóstico, não na transmissão; repelente não bloqueia cercárias; quimioprofilaxia em massa não é a estratégia central; e barreiras físicas atacam o acesso sem resolver a contaminação. A resposta é a alternativa C."
    },
    {
     "number": 27,
@@ -1978,7 +1978,7 @@
      "Soja e mamona, empatadas"
     ],
     "answer": 2,
-    "explanation": "A comparação pedida não é a emissão bruta por quilograma, e sim a emissão por unidade de energia útil. Para cada biodiesel: energia útil = poder calorífico × eficiência, convertida a MJ por 4,18 kJ/kcal. Soja: 9.200 × 0,82 = 7.544 kcal ≈ 31,54 MJ → 2.800 ÷ 31,54 ≈ 88,8 g/MJ. Milho: 7.830 kcal ≈ 32,73 MJ → ≈ 82,5 g/MJ. Mamona: 7.568 kcal ≈ 31,63 MJ → 2.500 ÷ 31,63 ≈ 79,0 g/MJ. Dendê: 7.568 kcal ≈ 31,63 MJ → 2.900 ÷ 31,63 ≈ 91,7 g/MJ. A mamona vence com cerca de 79 g de CO₂ por megajoule útil. Note a pegadinha do empate: mamona e dendê liberam a mesma energia útil por quilograma, mas emitem quantidades diferentes de CO₂ — quem compara só a coluna de energia cai na última opção. A resposta é a alternativa C.",
+    "explanation": "A comparação pedida não é a emissão bruta por quilograma, e sim a emissão por unidade de energia útil. Para cada biodiesel: energia útil = poder calorífico × eficiência, convertida a MJ por 4,18 kJ/kcal. Soja: 9.200 × 0,82 = 7.544 kcal ≈ 31,54 MJ → 2.800 ÷ 31,54 ≈ 88,8 g/MJ. Milho: 7.830 kcal ≈ 32,73 MJ → ≈ 82,5 g/MJ. Mamona: 7.568 kcal ≈ 31,63 MJ → 2.500 ÷ 31,63 ≈ 79,0 g/MJ. Dendê: 7.568 kcal ≈ 31,63 MJ → 2.900 ÷ 31,63 ≈ 91,7 g/MJ.\n\nA mamona vence com cerca de 79 g de CO₂ por megajoule útil. Note a pegadinha do empate: mamona e dendê liberam a mesma energia útil por quilograma, mas emitem quantidades diferentes de CO₂ — quem compara só a coluna de energia cai na última opção. A resposta é a alternativa C.",
     "image": "/edcley/apostas-2026-15-27.webp"
    },
    {
@@ -1994,7 +1994,7 @@
      "2,3 kΩ e 5 W"
     ],
     "answer": 0,
-    "explanation": "A corrente nominal da carga sai de P = V·I: I = 10 ÷ 127 ≈ 0,0787 A. Em série, essa mesma corrente atravessa o resistor, que precisa segurar a tensão excedente: 220 − 127 = 93 V. Pela Lei de Ohm, R = 93 ÷ 0,0787 ≈ 1.182 Ω ≈ 1,2 kΩ. Falta o critério térmico: o resistor dissipa P = 93 × 0,0787 ≈ 7,3 W. Um componente de 5 W trabalharia acima do limite e superaqueceria — daí a potência nominal mínima adequada, entre as opções, ser 10 W. O par correto, 1,2 kΩ com 10 W, está na alternativa A.",
+    "explanation": "A corrente nominal da carga sai de P = V·I: I = 10 ÷ 127 ≈ 0,0787 A. Em série, essa mesma corrente atravessa o resistor, que precisa segurar a tensão excedente: 220 − 127 = 93 V. Pela Lei de Ohm, R = 93 ÷ 0,0787 ≈ 1.182 Ω ≈ 1,2 kΩ.\n\nFalta o critério térmico: o resistor dissipa P = 93 × 0,0787 ≈ 7,3 W. Um componente de 5 W trabalharia acima do limite e superaqueceria — daí a potência nominal mínima adequada, entre as opções, ser 10 W. O par correto, 1,2 kΩ com 10 W, está na alternativa A.",
     "adapted": true
    },
    {
@@ -2010,7 +2010,7 @@
      "Terreno Y, pois tem o menor custo total para a área ofertada."
     ],
     "answer": 4,
-    "explanation": "As áreas empatam: Terreno X tem 20 × 15 = 300 m² e Terreno Y tem 25 × 12 = 300 m². Com áreas iguais, o custo total é decidido pelo preço unitário: X custa 300 × 250 = R$ 75.000,00 e Y custa 300 × 230 = R$ 69.000,00. As justificativas erradas se traem: não há terreno \"com menor área\" (são iguais), o metro quadrado de X é o mais caro, e não existe \"maior área\" para sustentar custo-benefício superior. A escolha econômica é o Terreno Y pelo menor custo total — alternativa E."
+    "explanation": "As áreas empatam: Terreno X tem 20 × 15 = 300 m² e Terreno Y tem 25 × 12 = 300 m². Com áreas iguais, o custo total é decidido pelo preço unitário: X custa 300 × 250 = R$ 75.000,00 e Y custa 300 × 230 = R$ 69.000,00.\n\nAs justificativas erradas se traem: não há terreno \"com menor área\" (são iguais), o metro quadrado de X é o mais caro, e não existe \"maior área\" para sustentar custo-benefício superior. A escolha econômica é o Terreno Y pelo menor custo total — alternativa E."
    },
    {
     "number": 30,
@@ -2025,7 +2025,7 @@
      "R$ 3.000,00"
     ],
     "answer": 3,
-    "explanation": "A remuneração soma três parcelas independentes: o fixo de R$ 1.000,00; os eventos, 6 × 200 = R$ 1.200,00; e os drinques, 20 × 15 = R$ 300,00. Total: 1.000 + 1.200 + 300 = R$ 2.500,00. Cada distrator omite um pedaço: R$ 1.000,00 é só o fixo, R$ 1.600,00 e R$ 2.000,00 deixam parcela variável de fora, e R$ 3.000,00 extrapola os dados. A resposta é a alternativa D."
+    "explanation": "A remuneração soma três parcelas independentes: o fixo de R$ 1.000,00; os eventos, 6 × 200 = R$ 1.200,00; e os drinques, 20 × 15 = R$ 300,00. Total: 1.000 + 1.200 + 300 = R$ 2.500,00.\n\nCada distrator omite um pedaço: R$ 1.000,00 é só o fixo, R$ 1.600,00 e R$ 2.000,00 deixam parcela variável de fora, e R$ 3.000,00 extrapola os dados. A resposta é a alternativa D."
    },
    {
     "number": 31,
@@ -2040,7 +2040,7 @@
      "Ambas resultam em valores iguais para a compra total."
     ],
     "answer": 3,
-    "explanation": "Na Loja X: 6 × 80 + 5 × 50 = 480 + 250 = R$ 730,00. Na Loja Y: 6 × 70 + 5 × 60 = 420 + 300 = R$ 720,00. A Loja Y sai R$ 10,00 mais barata no conjunto. O detalhe está na justificativa: comparar um único item engana, porque as quantidades diferem — a camisa mais barata está na X e a calça mais barata na Y, mas só a soma completa decide. A escolha econômica, pelo custo total mais baixo, é a Loja Y — alternativa D."
+    "explanation": "Na Loja X: 6 × 80 + 5 × 50 = 480 + 250 = R$ 730,00. Na Loja Y: 6 × 70 + 5 × 60 = 420 + 300 = R$ 720,00. A Loja Y sai R$ 10,00 mais barata no conjunto.\n\nO detalhe está na justificativa: comparar um único item engana, porque as quantidades diferem — a camisa mais barata está na X e a calça mais barata na Y, mas só a soma completa decide. A escolha econômica, pelo custo total mais baixo, é a Loja Y — alternativa D."
    },
    {
     "number": 32,
@@ -2055,7 +2055,7 @@
      "100 ml"
     ],
     "answer": 2,
-    "explanation": "Na diluição, o soluto se conserva: 80% de 100 ml são 80 ml de princípio ativo. Para que esses 80 ml representem 50% do volume final V, é preciso 0,50 · V = 80, logo V = 160 ml. Partindo dos 100 ml iniciais, a água acrescentada é 160 − 100 = 60 ml. Quem responde 80 ml confunde o volume de soluto com o de água a adicionar. A resposta é a alternativa C."
+    "explanation": "Na diluição, o soluto se conserva: 80% de 100 ml são 80 ml de princípio ativo. Para que esses 80 ml representem 50% do volume final V, é preciso 0,50 · V = 80, logo V = 160 ml.\n\nPartindo dos 100 ml iniciais, a água acrescentada é 160 − 100 = 60 ml. Quem responde 80 ml confunde o volume de soluto com o de água a adicionar. A resposta é a alternativa C."
    },
    {
     "number": 33,
@@ -2070,7 +2070,7 @@
      "149.600.384,4 km"
     ],
     "answer": 0,
-    "explanation": "Converter metros em quilômetros é dividir por 1.000 — a vírgula anda três casas para a esquerda: 149.597.870.700 m = 149.597.870,7 km, sem perda de precisão. Manter o número e só trocar a unidade multiplica a distância por mil; deslocar casas a mais ou a menos, ou somar distâncias estranhas ao problema, gera os demais distratores. A resposta é a alternativa A."
+    "explanation": "Converter metros em quilômetros é dividir por 1.000 — a vírgula anda três casas para a esquerda: 149.597.870.700 m = 149.597.870,7 km, sem perda de precisão.\n\nManter o número e só trocar a unidade multiplica a distância por mil; deslocar casas a mais ou a menos, ou somar distâncias estranhas ao problema, gera os demais distratores. A resposta é a alternativa A."
    },
    {
     "number": 34,
@@ -2085,7 +2085,7 @@
      "16"
     ],
     "answer": 2,
-    "explanation": "Cada giro cai em um dos 10 setores, e os giros são independentes: 100 pares equiprováveis. Agrupando por pontuação (dobro nos pares iguais, produto nos diferentes) e pesando pela quantidade de setores: pontuação 2 → (1,1),(1,2),(2,1): 1 + 4 = 5 casos; 3 → (1,3),(3,1): 6; 4 → (2,2),(1,4), (4,1): 4 + 8 = 12; 6 → (3,3),(2,3),(3,2): 9 + 12 = 21; 8 → (4,4),(2,4),(4,2): 16 + 16 = 32; 12 → (3,4),(4,3): 24. O truque é notar que a regra do dobro faz (4,4) render 8 — juntando-se aos produtos 2 × 4 — e (3,3) render 6, engordando essas pontuações. Com 32 casos em 100, a pontuação mais provável é 8. A resposta é a alternativa C."
+    "explanation": "Cada giro cai em um dos 10 setores, e os giros são independentes: 100 pares equiprováveis. Agrupando por pontuação (dobro nos pares iguais, produto nos diferentes) e pesando pela quantidade de setores: pontuação 2 → (1,1),(1,2),(2,1): 1 + 4 = 5 casos; 3 → (1,3),(3,1): 6; 4 → (2,2),(1,4), (4,1): 4 + 8 = 12; 6 → (3,3),(2,3),(3,2): 9 + 12 = 21; 8 → (4,4),(2,4),(4,2): 16 + 16 = 32; 12 → (3,4),(4,3): 24.\n\nO truque é notar que a regra do dobro faz (4,4) render 8 — juntando-se aos produtos 2 × 4 — e (3,3) render 6, engordando essas pontuações. Com 32 casos em 100, a pontuação mais provável é 8. A resposta é a alternativa C."
    },
    {
     "number": 35,
@@ -2100,7 +2100,7 @@
      "9 cm"
     ],
     "answer": 3,
-    "explanation": "A área central é o retângulo menos os quatro triângulos dos cantos. O retângulo tem 20 × 14 = 280 cm². Nos cantos inferior esquerdo e superior direito, os catetos medem x e x: juntos, 2 × (x·x ÷ 2) = x². Nos outros dois cantos, os catetos medem (20 − x) e (14 − x): juntos, (20 − x)(14 − x). Assim, A(x) = 280 − x² − (280 − 34x + x²) = −2x² + 34x. É uma parábola com concavidade para baixo (a = −2), cujo máximo ocorre no vértice: x = −b ÷ (2a) = −34 ÷ (−4) = 8,5, valor dentro do intervalo permitido. A resposta é a alternativa D.",
+    "explanation": "A área central é o retângulo menos os quatro triângulos dos cantos. O retângulo tem 20 × 14 = 280 cm². Nos cantos inferior esquerdo e superior direito, os catetos medem x e x: juntos, 2 × (x·x ÷ 2) = x². Nos outros dois cantos, os catetos medem (20 − x) e (14 − x): juntos, (20 − x)(14 − x). Assim, A(x) = 280 − x² − (280 − 34x + x²) = −2x² + 34x.\n\nÉ uma parábola com concavidade para baixo (a = −2), cujo máximo ocorre no vértice: x = −b ÷ (2a) = −34 ÷ (−4) = 8,5, valor dentro do intervalo permitido. A resposta é a alternativa D.",
     "image": "/edcley/apostas-2026-15-35.webp"
    },
    {
@@ -2116,7 +2116,7 @@
      "Todos os vãos atendem e possuem a mesma área"
     ],
     "answer": 0,
-    "explanation": "Com as folgas, o móvel exige largura mínima de 0,65 + 0,01 + 0,01 = 0,67 m e profundidade mínima de 0,95 + 0,01 = 0,96 m. O Vão 3 (0,80 × 0,90) reprova na profundidade, pois 0,90 < 0,96. Os Vãos 1 e 2 atendem às duas exigências. Entre os aprovados, compara-se a área: Vão 1 tem 0,70 × 1,00 = 0,70 m² e Vão 2 tem 0,68 × 1,05 = 0,714 m². O menor espaço adequado é o Vão 1 — e a ordem importa: primeiro eliminar quem não cabe, só depois comparar área. A resposta é a alternativa A.",
+    "explanation": "Com as folgas, o móvel exige largura mínima de 0,65 + 0,01 + 0,01 = 0,67 m e profundidade mínima de 0,95 + 0,01 = 0,96 m. O Vão 3 (0,80 × 0,90) reprova na profundidade, pois 0,90 < 0,96. Os Vãos 1 e 2 atendem às duas exigências.\n\nEntre os aprovados, compara-se a área: Vão 1 tem 0,70 × 1,00 = 0,70 m² e Vão 2 tem 0,68 × 1,05 = 0,714 m². O menor espaço adequado é o Vão 1 — e a ordem importa: primeiro eliminar quem não cabe, só depois comparar área. A resposta é a alternativa A.",
     "image": "/edcley/apostas-2026-15-36.webp"
    }
   ]
