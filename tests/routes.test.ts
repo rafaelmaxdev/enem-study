@@ -5,7 +5,7 @@ import {lessons,nextLesson,syncJourneyCompletion} from '../src/journey';
 import {initialState} from '../src/seed';
 import {splitMath} from '../src/math-text';
 test('endereços abrem páginas, assuntos e abas diretamente',()=>{
- for(const page of ['contents','study','library','performance','settings','sas','sasPractice','sasExams'] as const){const r={page,topic:null,tab:'learn' as const};assert.deepEqual(readRoute(routePath(r)),r);}
+ for(const page of ['contents','study','library','performance','settings','sas','sasPractice','sasExams','edcleyExams'] as const){const r={page,topic:null,tab:'learn' as const};assert.deepEqual(readRoute(routePath(r)),r);}
  for(const lesson of lessons)for(const tab of ['learn','summary','practice'] as const){const r={page:'contents' as const,topic:lesson.topic,tab};assert.deepEqual(readRoute(routePath(r)),r);}
  assert.equal(readRoute('/jornada/inexistente').topic,null);
 });

@@ -48,7 +48,16 @@ function mergeMigration(remote,local){
   exams[id]={...(Date.parse(a.updatedAt)>=Date.parse(b.updatedAt)?a:b),responses};
  }
  const sasExamReader=readerA||readerB?{currentExam:(readerA||readerB).currentExam,exams}:undefined;
- return checkedState({...remote,...(sasExamReader?{sasExamReader}:{}),session:remote.session||local.session,sasSession:remote.sasSession||local.sasSession,sasReviews,questions:[...questions.values()],attempts:[...attempts.values()],checklist:{...local.checklist,...remote.checklist},...(journey?{journey:{currentTopic:journey.currentTopic,progress}}:{})});
+ const edcleyRemote=remote.edcleyExamReader,edcleyLocal=local.edcleyExamReader;
+ const edcleyExamReader=edcleyRemote||edcleyLocal;
+ if(edcleyRemote&&edcleyLocal){
+  edcleyExamReader.exams={...edcleyLocal.exams,...edcleyRemote.exams};
+  for(const [id,progress] of Object.entries(edcleyLocal.exams)){
+   const saved=edcleyExamReader.exams[id];
+   edcleyExamReader.exams[id]={...saved,responses:{...progress.responses,...saved.responses}};
+  }
+ }
+ return checkedState({...remote,...(sasExamReader?{sasExamReader}:{}),...(edcleyExamReader?{edcleyExamReader}:{}),session:remote.session||local.session,sasSession:remote.sasSession||local.sasSession,sasReviews,questions:[...questions.values()],attempts:[...attempts.values()],checklist:{...local.checklist,...remote.checklist},...(journey?{journey:{currentTopic:journey.currentTopic,progress}}:{})});
 }
 
 export function createLocalStore(directory){

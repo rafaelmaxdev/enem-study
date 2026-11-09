@@ -36,3 +36,4 @@
 .exam-question-heading{scroll-margin-top:20px}
 
 .exam-enunciado-title{display:flex;align-items:baseline;gap:10px;font-size:20px;margin-top:4px}.exam-enunciado-title strong{font-size:40px;line-height:1.2;font-weight:650;color:var(--primary);font-variant-numeric:tabular-nums}
+.edcley-question .option.wrong{background:var(--soft-red);border-color:var(--red)}

@@ -1,0 +1,2766 @@
+[
+ {
+  "id": "revisao-2026-tres-meses",
+  "title": "Revisão da monitoria (3 meses) · Matemática e Natureza",
+  "questions": [
+   {
+    "number": 1,
+    "page": 2,
+    "subject": "Química",
+    "prompt": "Leia o texto a seguir.\n\nA atmosfera terrestre pode ser considerada um grande reator químico. Esse reator contém, além de oxigênio, que é um composto altamente reativo, diversos compostos em pequena concentração, os quais podem atuar como reagentes e/ou catalisadores, e a luz solar, como fonte de energia. (...)\n\nO quadro lista o tempo de residência de alguns compostos na atmosfera. A informação sobre o tempo de residência é muito importante para reconhecer o raio de ação de um composto, tomando por base o local em que ocorreu a emissão.\n\nCompostos Tempo de residência Composição\n\n(a: anos; d: dias; h: (ppb: parte por bilhão\n\nhoras) em volume)\n\nDióxido de carbono, 4a 360.000 CO 2 Monóxido de carbono, 0,1a 100 CO Metano, CH 8a 1.600 4\n\nFormaldído, HCOH 1d 1-0,1\n\nÁcido fórmico, HCO H 5d 2-0,1 2\n\nÓxido de dinitrogênio, 85a 310 N O 2 Óxido nítrico, NO 1d 0,1\n\nDióxido de nitrogêncio, 1d 0,3 NO 2 Amônia, NH 5d 1 3\n\nDióxido de enxofre, SO 1-4d 0,01-0,1 2\n\nFonte: Rocha, J. C. et al. Introdução à Química Ambiental. Porto Alegre: Bookman,2004. p. 68 - 69. (Adaptado)\n\nSabe-se que, quanto maior o tempo de residência de um composto na atmosfera, maior será seu raio de ação. Assim, possuem maior raio de ação os compostos",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Os compostos que possuem maior tempo de residência (na escala de anos) possuem maior raio de atuação, pois se espalham por toda a atmosfera do planeta, quando emitidos em qualquer ponto da atmosfera terrestre.",
+    "image": "/edcley/revisao-2026-tres-meses-q001.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q001-res.webp"
+   },
+   {
+    "number": 2,
+    "page": 3,
+    "subject": "Biologia",
+    "prompt": "Leia, com atenção, o texto a seguir:\n\nQual é a maior temperatura que o corpo pode aguentar? Sir Charles Blagden, um médico inglês do século 18, tentou responder na raça. Ele entrou num cômodo aquecido a 105 °C com um cachorro, alguns ovos e um bife cru. Em 15 minutos, ele e seu melhor amigo saíram intactos, e com o almoço quase pronto: os ovos ficaram cozidos e o bife, bem passado. Testes mais recentes mostraram que dá para aguentar temperaturas de até 127 °C por 20 minutos.\n\nFonte: Disponível em: http://super.abril.com.br/ciencia/qual-maior-temperatura-corpo-pode-aguentar-\n\n46355.shtm. Acesso em: jun. 2012.\n\nSobre a adaptação fisiológica, relacionada à resistência ao aumento da temperatura ambiental, ocorrida dentro do cômodo, houve",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Como adaptação ao calor intenso, houve dilatação das arteríolas para aumentar a quantidade de calor dissipada pela superfície do corpo. O aumento da secreção de tiroxina aumenta a taxa metabólica e eleva a conversão de calor, sendo uma adaptação ao frio. No calor, há aumento da liberação de ADH, o que aumenta a reabsorção de água pelos rins. A contração dos músculos eretores dos pelos é uma adaptação ao frio. Os cães não transpiram pela língua, e a ofegação eleva a perda de calor pela via respiratória.",
+    "image": "/edcley/revisao-2026-tres-meses-q002.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q002-res.webp"
+   },
+   {
+    "number": 3,
+    "page": 4,
+    "subject": "Química",
+    "prompt": "O bombardeio de núcleos com nêutrons teve início com o descobrimento desses em 1932. Enrico Fermi, em Roma, obteve muitos núcleos artificiais utilizando essa técnica, porém foi o alemão Otto Hahn quem descobriu um novo tipo de reação nuclear quando provocou a colisão de nêutrons lentos contra o urânio-235.\n\nEssa reação foi denominada fissão, pois o urânio se divide em dois grandes “pedaços”. A perda de massa durante a fissão é grande, de modo que é liberada uma grande quantidade de energia. Basta fissionar 1g de urânio-235 para produzir calor equivalente à combustão de 2600 toneladas de carvão.\n\nFonte: GARRITZ, A., CHAMIZO, J.A. Química. Pearson Education do Brasil. São Paulo. 2002. p. 252-253.\n\nSabe-se que a energia liberada pela queima do carvão (C) é da ordem –1 de 390 kJ · mol . –1 (Dado: C=12g · mol ).\n\nA energia liberada, em kJ, por 1g de urânio-235 é, aproximadamente,\n\n6",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "O texto afirma que o calor gerado pela fissão de 1g de urânio-235 é equivalente à combustão de 2.600t de carvão (C). Assim, tem-se: 12g C ______________390kJ 6 2.600 · 10 g _________ x 10 x = 8,45 · 10 kJ",
+    "image": "/edcley/revisao-2026-tres-meses-q003.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q003-res.webp"
+   },
+   {
+    "number": 4,
+    "page": 5,
+    "subject": "Química",
+    "prompt": "O lixo tecnológico produzido anualmente no mundo tem gerado grandes problemas ambientais. Os metais pesados contidos em pilhas e baterias podem causar sérios danos ao meio ambiente e ao ser humano.\n\nAnalise a tabela a seguir, que contém alguns desses metais e os efeitos que podem causar no organismo quando em excesso:\n\nmetal efeito\n\nchumbo convulsões, náuseas, vômitos, paralisia\n\ncádmio irratação nos olhos, se inalado pode ser fatal\n\nmanganês inflamação pulmonar, psicose, insônia\n\nmercúrio demência, alterações renais e hepáticas\n\nzinco úlcera, pancreatite, anemia\n\nConsidere os seguintes potenciais de redução:\n\n0 potenciais-padrão de redução E (V)\n\n+2 0 Pb + 2e → Pb –0,12\n\n+2 0 Cd + 2e → Cd –0,40\n\n+2 0 Mn + 2e → Mn –1,18\n\n+2 0 Hg + 2e → Hg +0,91\n\n+2 0 Zn + 2e → Zn –0,76\n\nO elemento que possui maior tendência à oxidação deve causar",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "O elemento com maior tendência à oxidação será aquele que possuir menor potencial de redução. Logo, manganês. Assim, os sintomas seriam inflamação pulmonar, psicose e insônia.",
+    "image": "/edcley/revisao-2026-tres-meses-q004.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q004-res.webp"
+   },
+   {
+    "number": 5,
+    "page": 7,
+    "subject": "Física",
+    "prompt": "A figura seguinte ilustra, esquematicamente, o dispositivo utilizado para regular a iluminação em um quarto de bebê. Uma lâmpada de incandescência é ligada à tomada por meio de um condutor metálico JK circular de centro em O, cuja resistência é maior do que a da lâmpada. O circuito se fecha por meio do cursor OC, livre para girar em torno do ponto O, no plano da figura. Quando a extremidade C é conectada em J, a lâmpada brilha com seu brilho normal; quando é conectada em L, a lâmpada apaga. O brilho da lâmpada pode ser regulado conectando a extremidade C a qualquer ponto do condutor metálico entre J e K.\n\nConsidere-se constante e igual a 120V a diferença de potencial nos terminais da tomada e que a lâmpada utilizada seja de 60W – 120V, cuja resistência se conserve a mesma e que sejam desprezíveis as resistências dos fios de ligação e do cursor OC.\n\nQuando o cursor for colocado na posição em que a resistência do trecho JC se torne igual à da lâmpada, a iluminação se tornará equivalente à fornecida por uma lâmpada de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "2 2 P = R · i  ? P diretamente proporcional a i lamp Quando R = R como: V – V  = constante ? JC lamp + – .",
+    "image": "/edcley/revisao-2026-tres-meses-q005.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q005-res.webp"
+   },
+   {
+    "number": 6,
+    "page": 8,
+    "subject": "Química",
+    "prompt": "Leia o texto a seguir.\n\nUm grande número de substâncias químicas é adicionado aos alimentos durante o processo de fabricação (...) entre essas substâncias estão os agentes humectantes, que mantêm o alimento úmido e macio. No coco ralado, por exemplo, é adicionada glicerina. Nos marshmallows, adiciona-se monoestearato glicérico (...).\n\nFonte: Departamento de Química - UFSC.\n\nO monoestearato glicérico pode ser representado como:\n\nAo considerar-se a estrutura do éster apresentada, a capacidade deste atuar como umectante está relacionada com a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "A presença dos grupos hidroxilas permite que o éster estabeleça com a água ligações intermoleculares do tipo ligação hidrogênio que são interações fortes, tornando, assim, o alimento mais macio pela presença da água.",
+    "image": "/edcley/revisao-2026-tres-meses-q006.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q006-res.webp"
+   },
+   {
+    "number": 7,
+    "page": 9,
+    "subject": "Química",
+    "prompt": "No alto da Serra do Mar, a água ferve a uma temperatura mais baixa que na cidade de Belo Horizonte. Em Belo Horizonte, por sua vez, a água ferve a uma temperatura mais baixa que na cidade do Rio de Janeiro.\n\nSobre essas informações, é correto afirmar que",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "A ebulição ocorre quando a pressão de vapor do líquido se iguala à pressão atmosférica. Como no Rio de Janeiro a pressão atmosférica é maior, é necessária uma temperatura maior para a pressão de vapor da água se igualar à pressão atmosférica.",
+    "image": "/edcley/revisao-2026-tres-meses-q007.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q007-res.webp"
+   },
+   {
+    "number": 8,
+    "page": 10,
+    "subject": "Física",
+    "prompt": "Estufas são estruturas feitas de vidros transparentes com o objetivo de evitar a perda de calor recebido pelo ambiente externo, mantendo assim a temperatura no seu interior maior do que no exterior ao seu redor. As estufas, normalmente, são utilizadas para cultivar plantas, e a fonte térmica é o Sol.\n\nCrédito: Shutterstock.\n\nA temperatura no interior da estufa é maior do que no exterior ao seu redor, porque",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "As paredes de vidros transparentes permitem a passagem de radiação solar (radiação ultravioleta) que, ao interagir com o solo, passa a emitir radiação infravermelha que é opaca às paredes de vidro transparente.",
+    "image": "/edcley/revisao-2026-tres-meses-q008.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q008-res.webp"
+   },
+   {
+    "number": 9,
+    "page": 11,
+    "subject": "Química",
+    "prompt": "A pólvora, ou pólvora negra, a primeira mistura explosiva inventada, foi usada na Antiguidade na China, na Arábia e na Índia. Textos chineses antigos referem-se a “substância química do fogo” ou “droga do fogo”. Seus ingredientes foram registrados no início do ano 1000 d.C. e mesmo então as proporções realmente necessárias dos componentes, sal de nitrato, enxofre e carbono, não foram especificadas. (...)\n\nA composição da pólvora hoje varia um pouco, mas (...) a reação química para a explosão pode ser escrita como\n\n4KNO (s) + 7C(s) + S(s) → 3CO (g) + 3CO(g) + 2N (g) + K CO (s) + 3 2 2 2 3 K S(s) 2\n\nFonte: LE COUTER, P. e BURRESEN, J. Os botões de Napoleão, as 17 moléculas que mudaram a história. Rio de\n\nJaneiro: Jorge Zahar, 2006. p. 84-85.\n\nA força motora da pólvora, capaz de lançar balas de canhão ou revólver, se deve",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Ao analisar a equação descrita, percebe-se que são formadas oito moléculas de gases durante a queima. Devido ao calor gerado durante o processo, estes gases sofrem expansão, gerando força motora para lançar os projéteis.",
+    "image": "/edcley/revisao-2026-tres-meses-q009.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q009-res.webp"
+   },
+   {
+    "number": 10,
+    "page": 12,
+    "subject": "Biologia",
+    "prompt": "Leia, atentamente, o fragmento seguinte, de autoria de Scott Simpson, paleontólogo da Universidade Case Western Reserve, em Cleveland, EUA:\n\nAs evidências que vêm da África do Sul sugerem que os hominídeos eram o foco da predação assim como os babuínos e antílopes.\n\nFonte: LOPES, Reinaldo J. Evolução humana: prato do dia. Disponível em:\n\n< http://super.abril.com.br/ciencia/evolucao-humana-prato-dia-446037.shtml >. Acesso em: dez. 2011.\n\nEm contraponto ao fragmento de texto acima, observa-se que uma sinapomorfia dos hominídeos, no entanto, permitia que eles não fossem presas tão fáceis.\n\nEssa sinapomorfia envolve as seguintes características:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "As articulações permitiam uma fuga mais fácil e veloz, enquanto a vida arborícola permitia que os hominídeos se escondessem dos predadores.",
+    "image": "/edcley/revisao-2026-tres-meses-q010.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q010-res.webp"
+   },
+   {
+    "number": 11,
+    "page": 13,
+    "subject": "Física",
+    "prompt": "A figura a seguir mostra uma cena muito comum no futebol, a cobrança de uma falta:\n\nCrédito: Shutterstock.\n\nNas cobranças, a bola atinge velocidades superiores a 100km/h. O peso de uma bola de futebol é em média 450g. Suponha que, na cobrança da figura, a bola tenha atingido a velocidade de 108km/h e o tempo de contato entre o pé do jogador e a bola seja de 0,02s.\n\nA força feita pelo pé do jogador sobre a bola, durante a cobrança de falta, foi de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "Convertendo as unidades, temos: m = 450g = 0,45kg; e V = 108km/h = 30m/s. Temos que",
+    "image": "/edcley/revisao-2026-tres-meses-q011.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q011-res.webp"
+   },
+   {
+    "number": 12,
+    "page": 14,
+    "subject": "Química",
+    "prompt": "A demanda por fontes alternativas de energia tem sido crescente no mundo. Uma dessas fontes é o biodiesel, obtido através de um processo denominado transesterificação. Nesse processo, um óleo, obtido de oleaginosas, reage com um álcool, em presença de catalisador, gerando o biodiesel.\n\nO biodiesel obtido pela transesterificação do óleo de palma (também conhecido como dendê) tem estrutura como a mostrada a seguir.\n\nO álcool, utilizado na produção desse óleo, é o",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "O biodiesel, obtido pela transesterificação do óleo de palma, é um éster derivado de um triglicerídeo (triéster de ácido graxo). No biodisel formado tem-se: Parte oriunda do óleo                                     parte oriunda do álcool Assim, o álcool utilizado possui dois carbonos. Logo, etanol.",
+    "image": "/edcley/revisao-2026-tres-meses-q012.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q012-res.webp"
+   },
+   {
+    "number": 13,
+    "page": 15,
+    "subject": "Química",
+    "prompt": "Leia o texto a seguir:\n\nO N O é gás atóxico, inodoro e insípido, com o nitrogênio no seu estado 2 de oxidação mais baixo (...) Pode ser preparado pela decomposição cuidadosa do nitrato de amônio a 250°C.\n\nNH NO (s) → N O(g) + 2 H O(g) 4 3 2 2\n\nFonte: KOTZ, J. C. e TREICHEL, P. Química & Reações Químicas. vol. 2. 3ª ed. Rio de Janeiro: LTC, 1998. p. 668.\n\n–1 –1 –1 Dados: Massas molares  H = 1g·mol N = 14g.mol O = 16g·mol\n\nA massa, em quilogramas, do N O produzido quando 4,0kg de nitrato 2 de amônio sofrem decomposição, é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "Massa molar do NH NO = 80g 4 3 Massa molar do N O = 44g 2 Logo, 80g     ____44g 4.000g ____  x x = 2.200g ou 2,2kg",
+    "image": "/edcley/revisao-2026-tres-meses-q013.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q013-res.webp"
+   },
+   {
+    "number": 14,
+    "page": 16,
+    "subject": "Biologia",
+    "prompt": "Leia, com atenção, o texto a seguir:\n\nOs lipídios constituem a principal molécula de armazenagem de substrato do corpo, pois eles têm um maior conteúdo energético do que as proteínas ou os carboidratos. Nas reações conhecidas como lipólise, os lipídios são degradados pelas lipases em glicerol e ácidos graxos. O glicerol ingressa na glicólise aproximadamente na metade da via metabólica e passa pelas mesmas reações que a glicose a partir deste ponto.\n\nAs longas cadeias de carbono dos ácidos graxos não são tão fáceis de transformar em ATP como a glicose ou os aminoácidos. Um ácido graxo deve inicialmente ser transportado do citosol para o interior da mitocôndria. Lá ele é lentamente desdobrado em unidades de dois carbonos a partir do final da cadeia, uma unidade de cada vez, num processo denominado de beta-oxidação. Na maioria das células, as unidades de dois carbonos originadas nos ácidos graxos são convertidas em acetil CoA, que ingressa diretamente no ciclo do ácido cítrico. Como muitas moléculas de acetil CoA podem ser produzidas a partir de um único ácido graxo, os lipídios contêm 9 Kcal de energia armazenada por grama, comparados com 4 Kcal por grama, tanto para as proteínas como para os carboidratos.\n\nFonte: SILVERTHORN, Dee Unglaub. Fisiologia Humana: uma abordagem integrada. 2ª ed. São Paulo: Manole,\n\n2003. p. 97.  cap. 4, p. 73-108. Uma vantagem de os lipídios serem o principal material de reserva do organismo está relacionada ao fato de que",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "O Acetil CoA formado pela beta-oxidação entra no Ciclo do ácido cítrico, que ocorre na matriz mitocondrial, com a finalidade de converter energia para a célula. Como cada molécula de ácido graxo é formada por vários carbonos, a degradação dos lipídios nos fornece um maior saldo energético.",
+    "image": "/edcley/revisao-2026-tres-meses-q014.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q014-res.webp"
+   },
+   {
+    "number": 15,
+    "page": 17,
+    "subject": "Química",
+    "prompt": "Leio o texto a seguir:\n\nA queima do carvão é responsável por 40% dos 30 bilhões de toneladas de CO emitidos por atividades humanas a cada ano. 2\n\nFonte: BIELLO, D. Sequestro de carbono salvará o “carvão limpo”→. Revista Scientific American Brasil – Aula\n\naberta 6 ano I, nº 6, Moderna, 2011, p. 20.\n\nAlém de sua utilização como combustível, o carvão é muito utilizado como matéria-prima para uma série de indústrias químicas. Sua reação de queima é dada por: –1 C(s)  +  O (g)  →  CO (g)                △H = –393,5kJ·mol 2 2\n\nA quantidade de energia gerada, em kJ, para produzir todo o CO anual, 2 proveniente da queima de carvão, equivale, aproximadamente, a\n\n17",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "De acordo com o texto, 40% dos 30 bilhões de toneladas de CO são 2 provenientes da queima de carvão (12 bilhões de toneladas) Pela equação: 1mol C ____________ 44g CO 2 15 x→       ____________ 12·10 g CO 2 15 x = 0,27·10 mol C Mas: 1mol C           ____________ 393,5kJ 15 0,27·10 mol ____________ y→ 17 y = 1,06·10 kJ",
+    "image": "/edcley/revisao-2026-tres-meses-q015.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q015-res.webp"
+   },
+   {
+    "number": 16,
+    "page": 18,
+    "subject": "Biologia",
+    "prompt": "Para que um atleta possa praticar atividade física, ele precisa de velocidade e resistência. Sobre esse assunto, leia, atentamente, o texto a seguir:\n\nApesar de sua importância, muito pouco ATP é armazenado nos músculos. (...) Assim, o ATP precisa ser constantemente reposto, pela adição de um fosfato à molécula de difosfato de adenosina (ADP), que é produzida quando o fosfato terminal do ATP é removido. A fonte imediata de fosfato de alta energia para a regeneração do ATP é o fosfato de creatina, que está presente no músculo, em quantidades bastante grandes. (...) A quantidade de fosfato de creatina no músculo é suficiente para cerca de seis a oito segundos de exercício com carga total (...) Uma vez exaurido o fosfato de creatina, o ATP precisa ser substituído pelo metabolismo (decomposição) de carboidrato ou gordura. (...) O oxigênio é sempre necessário para o metabolismo de gorduras, mas o carboidrato pode ser decomposto, tanto por vias aeróbicas, que requerem oxigênio, quanto por vias anaeróbicas, que não o utilizam. (...) Exercícios que duram mais de dois ou três minutos baseiam-se, cada vez mais, em metabolismo aeróbico.\n\nFonte: ASHCROFT, Frances M. A vida no limite: a ciência da sobrevivência. Rio de Janeiro: Jorge Zahar Ed., 2001.\n\nCap. 5, p. 186-188.\n\nDependendo das necessidades metabólicas, o atleta utiliza, preferencialmente, uma determinada estratégia para obtenção de energia. Assim, comparando-se atletas de modalidades com provas de maior ou de menor duração, espera-se a seguinte relação:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Atividades de longa duração requerem o metabolismo aeróbio, por apresentar um maior rendimento energético. A glicólise fermentativa lática, além de um baixo rendimento energético, acumula ácido láctico, o que pode levar à fadiga muscular e impedir a atividade muscular. Atividades de curta duração utilizam, preferencialmente, fosfato de creatina para repor o ATP.",
+    "image": "/edcley/revisao-2026-tres-meses-q016.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q016-res.webp"
+   },
+   {
+    "number": 17,
+    "page": 19,
+    "subject": "Química",
+    "prompt": "No início do século XIX, com o domínio da técnica da eletrólise ígnea, na qual as substâncias puras que serão eletrolisadas se encontram liquefeitas, foi possível isolar e  identificar uma série de elementos até então desconhecidos na sua forma elementar.\n\nA eletrólise ígnea do KOH foi uma das primeiras a serem realizadas e permitiu a produção de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "A eletrólise ígnea do KOH faz com que os íons K+ sejam atraídos para o polo negativo, o cátodo da cuba eletrolítica, recebendo elétrons e se transformando em metal K.",
+    "image": "/edcley/revisao-2026-tres-meses-q017.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q017-res.webp"
+   },
+   {
+    "number": 18,
+    "page": 20,
+    "subject": "Física",
+    "prompt": "As máquinas de lavar roupa possuem, durante a lavagem, uma operação chamada de centrifugação, que consiste em retirar ao máximo a água retida nas roupas por meio de orifícios existentes no tambor giratório da máquina, como mostra a figura a seguir: Crédito: Shutterstock.\n\nA água é retirada da roupa devido",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "A força centrípeta não atua na água que sai da roupa por inércia.",
+    "image": "/edcley/revisao-2026-tres-meses-q018.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q018-res.webp"
+   },
+   {
+    "number": 19,
+    "page": 21,
+    "subject": "Biologia",
+    "prompt": "Observe, atentamente, a imagem a seguir:\n\nCrédito: Shutterstock.\n\nEla mostra, em seu ambiente natural, um inseto em uma das etapas de sua metamorfose. Ao final, esse processo irá originar um adulto da ordem dos lepidópteros, que são insetos holometábolos.\n\nNa fotografia, se identifica um(a)",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "As quatro fases, nos insetos holometábolos (de metamorfose completa), são: ovo – larva – pupa (crisálida) – imago (adulto). Na fotografia, observa-se uma lagarta (fase larval) se alimentando e acumulando reservas nutritivas, para que se dê a transformação corporal na fase de pupa. A reprodução sexuada depende de maturação orgânica, que se dá na fase de adulto.",
+    "image": "/edcley/revisao-2026-tres-meses-q019.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q019-res.webp"
+   },
+   {
+    "number": 20,
+    "page": 22,
+    "subject": "Física",
+    "prompt": "As estradas brasileiras estão, em sua maioria, em péssimo estado de conservação. Essa situação provoca, além de falta de segurança, prejuízos imensos à economia do país. Uma das consequências dessa situação é a redução da velocidade dos veículos nas estradas. Essa péssima qualidade de nossas estradas não se restringe ao tipo de asfalto que cobre as pistas, mas na falta de atenção às normas na construção de curvas.\n\nEm uma curva, sem elevação lateral, cujo raio mede 40m, a velocidade máxima permitida aos veículos é de 72 km/h.\n\nNa situação descrita, o valor mínimo do coeficiente de atrito cinético entre os pneus de um caminhão, que trafega pela curva e o piso, para que  este realize a referida curva em segurança está determinado em",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Sabendo que a força necessária para o caminhão realizar a curva é feita pelo atrito entre o piso e os pneus, a resultante centrípeta pode ser escrita como: (72km/h = 20 m/s)",
+    "image": "/edcley/revisao-2026-tres-meses-q020.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q020-res.webp"
+   },
+   {
+    "number": 21,
+    "page": 23,
+    "subject": "Física",
+    "prompt": "Grande parte dos telefones celulares e dos tablets utiliza, atualmente, um recurso que lhes permite determinar, autonomamente, sua orientação com relação à direção vertical, ou seja, com relação ao campo gravitacional da terra. O recurso é útil, para que fotos e vídeos nunca sejam exibidos na tela de cabeça para baixo ou lateralmente. Isso é possível devido a uma medição feita por um pequeno chip de alguns poucos milímetros quadrados que não apenas detecta a orientação como é também capaz de determinar algumas características de possíveis movimentos do aparelho. Esse mesmo tipo de chip é utilizado em controles sensíveis ao movimento de alguns videogames.\n\nA figura a seguir mostra um esquema muito simplificado do princípio de funcionamento de um desses chips.\n\nDuas placas condutoras são isoladas uma da outra, sendo uma fixa na estrutura externa do chip e outra móvel, presa a um material elástico, representado no esquema por uma mola. Na prática, três estruturas como essa são fixadas em direções ortogonais, sendo cada uma orientada, ao longo de cada um dos eixos: x, y e z. Uma pequena diferença de potencial é constantemente aplicada às placas. Mudanças de orientação ou movimentos do aparelho podem modificar a distância entre elas, alterando a capacitância do sistema e criando efeitos que podem ser medidos por um amperímetro muito sensível.\n\nSe, num determinado momento, o amperímetro mede uma corrente elétrica no sentido de 1 para 2, o dispositivo deve interpretar a medida, acusando que o aparelho possui uma",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "O princípio da inércia, ou primeira lei de Newton, impõe que um dispositivo como esse não pode detectar diretamente velocidades, já que, em movimento uniforme, a placa móvel estaria em equilíbrio e, portanto, sempre em repouso com relação às partes fixas do sistema. Acelerações, por outro lado, podem modificar a distância entre as placas e criar efeitos mensuráveis, razão pela qual esse dispositivo é conhecido como acelerômetro. Uma aceleração do sistema na direção y com orientação para cima faria como que os efeitos da inércia aproximassem as placas, aumentando a capacitância e fazendo com que a ddp entre as placas torne-se, em módulo, menor que a da fonte externa de tensão, já que V = q/C. Dessa forma, cria-se uma força eletromotriz efetiva favorável à da fonte externa que vem a estabelecer uma corrente no sentido de 1 para 2.",
+    "image": "/edcley/revisao-2026-tres-meses-q021.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q021-res.webp"
+   },
+   {
+    "number": 22,
+    "page": 25,
+    "subject": "Química",
+    "prompt": "Leia o texto a seguir:\n\nO cloro é um gás amarelo-esverdeado e foi preparado, pela primeira vez, pelo químico sueco Karl Wilhem Scheele (1742-1786), em 1774, por uma reação que ainda se usa em laboratório como fonte de Cl . 2\n\n2NaCl(s) + 2 H SO (aq) + MnO (s) →  Na SO (aq) + MnSO (aq) + 2 2 4 2 2 4 4 H O(l) + Cl (g) 2 2\n\nFonte: KOTZ, J. C. e TREICHEL, P. Química & Reações Químicas. 3ª ed. Rio de Janeiro: LTC, 1998. v.2. p. 672.\n\n– Dado: Volume molar nas CNTP = 22,4L  Massas molares:  Na = 23g.mol 1 –1 Cl = 35,5g.mol\n\nNas CNTP, quando se utilizam 351g de cloreto de sódio, o volume, em litros,  do gás cloro produzido é de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Massa molar do NaCl = 58,5g  em 351g tem-se 351/58,5 =  6 mol de NaCl. Segundo a reação, 2mol de NaCl produzem 1mol de Cl . 2 Logo, tem-se que: 2mol NaCl      ____ 1 mol de Cl 2 6mol de NaCl ____  x x = 3 mol de Cl 2 1 mol de Cl ____ 22,4L 2 3 mol de Cl _____ y 2 y = 67,2L.",
+    "image": "/edcley/revisao-2026-tres-meses-q022.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q022-res.webp"
+   },
+   {
+    "number": 23,
+    "page": 26,
+    "subject": "Biologia",
+    "prompt": "Crédito: Shutterstock.\n\nA Mastigias papua, parte da fauna da Indonésia, apresenta simbiose com algas zooxantela e dinoflageladas e nada muito próximo à superfície, em uma lagoa de água salgada, isolada do mar. Seus tentáculos, diferentemente das demais espécies de águas vivas, não apresentam células urticantes.\n\nA presença de algas simbiontes e a ausência de células urticantes podem ser explicadas pela",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "As águas vivas dessa espécie evoluíram para uma associação mutualística com algas zooxantela e dinoflageladas, que realizam fotossíntese produzindo seu alimento, o qual, é, também aproveitado pelo animal. A disponibilidade de alimento, a partir dessa associação e da ausência de predadores, permitiu que águas vivas desprovidas de células urticantes, os nematoblastos, fossem positivamente selecionadas em um ambiente onde a estratégia nutricional não mais inclui a predação. O comportamento de nadar à superfície, manifestado pelo animal, favorece a produtividade primária das algas a ele associadas.",
+    "image": "/edcley/revisao-2026-tres-meses-q023.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q023-res.webp"
+   },
+   {
+    "number": 24,
+    "page": 27,
+    "subject": "Física",
+    "prompt": "Uma sensação comum, ao se colocar um desodorante do tipo spray de recipiente metálico, é sentir-se a axila gelada.\n\nA razão física para a queda de temperatura do gás é que",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "Como o gás se expande rapidamente, esse realiza trabalho, na vizinhança, reduzindo sua energia interna,   consequentemente, sua temperatura.",
+    "image": "/edcley/revisao-2026-tres-meses-q024.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q024-res.webp"
+   },
+   {
+    "number": 25,
+    "page": 28,
+    "subject": "Química",
+    "prompt": "Leia o fragmento, com atenção, e observe, cuidadosamente, a tabela a seguir:\n\nA primeira aplicação das terras raras surgiu ainda no século 19, com o desenvolvimento da iluminação a gás. (...) Com o passar do tempo, as propriedades desses elementos se tornaram mais conhecidas e eles passaram a ser usados como pedras de isqueiro, baterias recarregáveis e em aplicações metalúrgicas. (...)\n\nPouco conhecidos do público Estes minérios formam uma família de 15 elementos com números atômicos entre 57 e 71 (chamados lantanídeos); além doítrio (39) e do escândio (21).\n\nFonte: FRANÇA, M. S. J. Terras que valem ouro. Revista Unesp Ciência. n. 29. Ano 3. São Paulo. 2012. Disponível\n\nem: < http://www.unesp.br/aci_ses/revista_unespciencia/acervo/29/terrarara >. Acesso em: ago. 2012.\n\n(Adaptado).\n\nOs elementos destacados no texto e na ilustração da Tabela Periódica apresentam como característica de suas estruturas o fato de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Os lantanídeos apresentam a penúltima e última camada eletrônica de suas eletrosferas iguais, apresentando, assim, propriedades muito semelhantes entre si.",
+    "image": "/edcley/revisao-2026-tres-meses-q025.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q025-res.webp"
+   },
+   {
+    "number": 26,
+    "page": 29,
+    "subject": "Biologia",
+    "prompt": "Uma pesquisa em parceria entre a Universidade de Brasília – UnB, a Embrapa Recursos Genéticos e Biotecnologia e a Fiocruz pretende utilizar plantas transgênicas de alface para diagnosticar o vírus da dengue. A ideia é produzir um kit de diagnóstico mais econômico e eficiente para agilizar a detecção da doença pela rede pública de saúde no Brasil.\n\nO processo de transformação genética das plantas (...) consiste na introdução de uma parte do gene do vírus da dengue em DNA do cloroplasto de alfaces (...)\n\nDisponível em: http://www.embrapa.br/imprensa/noticias/2011/outubro/2a-semana/alface-transgenico-pode-\n\najudar-no-diagnostico-de-dengue. Acesso em: jun. 2012. A organela da alface usada para receber o gene do vírus da dengue tem como função",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "O vírus da dengue foi introduzido no cloroplasto, organela responsável pela fotossíntese. Por meio da fotossíntese, a alface produz açúcares, a partir de gás carbônico e água, usando a energia luminosa e liberando gás oxigênio.",
+    "image": "/edcley/revisao-2026-tres-meses-q026.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q026-res.webp"
+   },
+   {
+    "number": 27,
+    "page": 30,
+    "subject": "Física",
+    "prompt": "Leia o texto e observe a imagem a seguir.\n\nÉ famosa a foto do astronauta norte-americano Edwin Aldrin (1930-) tirada quando ele esteve na Lua. Nela vemos a bandeira dos Estados Unidos e o módulo lunar totalmente iluminado, enquanto o céu está escuro, sem nenhuma estrela. Na verdade, não vemos estrelas no céu porque os astronautas desceram no lado da Lua que estava iluminado pelo Sol. Nesta foto, o céu está escuro, mesmo sendo considerado “dia” naquele momento. Já na Terra, durante o dia o céu se apresenta azul por causa da dispersão da luz do Sol na nossa atmosfera.\n\nFonte: cienciahoje.com.\n\nPodemos afirmar que o céu está preto, e não azul, como observamos durante os dias aqui na Terra, porque",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "O céu da Terra é azul porque a luz sofre dispersão ou espalhamento em sua atmosfera, e a luz que prevalece para nossos olhos é o azul.",
+    "image": "/edcley/revisao-2026-tres-meses-q027.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q027-res.webp"
+   },
+   {
+    "number": 28,
+    "page": 32,
+    "subject": "Biologia",
+    "prompt": "Há dois tipos básicos de biblioteca de DNA: a genômica e a complementar. A biblioteca genômica de DNA é criada usando-se enzimas especiais, chamadas de enzimas de restrição, para cortar os cromossomos humanos em pequenos pedaços (...)\n\nA biblioteca complementar de DNA começa com outro tipo de material genético encontrado nas células, chamado de RNA mensageiro, usado para levar as ordens do genoma para a produção de proteínas. (...)\n\nO RNA mensageiro é, por natureza, transitório e instável; do contrário, poderíamos simplesmente isolá-lo de uma célula e o lermos diretamente.\n\nFonte: VENTER, John C. Uma vida decodificada: o homem que decodificou o DNA.\n\nRio de Janeiro: Elsevier, 2008. p. 93-94.\n\nEm vista da dificuldade de utilização de forma direta do RNA mensageiro, em consequência de seu caráter instável e transitório, uma estratégia para a realização do estudo em questão seria",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "A enzima transcriptase reversa encontrada em alguns retrovírus é capaz de formar DNA, a partir de uma fita de RNA. Assim, os cientistas conseguiriam produzir uma biblioteca genômica de DNA complementar a partir dos RNAs mensageiros.",
+    "image": "/edcley/revisao-2026-tres-meses-q028.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q028-res.webp"
+   },
+   {
+    "number": 29,
+    "page": 33,
+    "subject": "Física",
+    "prompt": "Leia, atentamente, o fragmento do texto apresentado a seguir:\n\nO karateca é um lutador que realiza um soco ou chute em alta velocidade. Isso é constatado nos campeonatos desse esporte, a maior parte das lutas é decidida em poucos segundos, 80% dos combates acabam em aproximadamente 50 centésimos de segundo. Em geral, um praticante dessa arte marcial efetua um soco numa velocidade linear de 9,8 metros por segundo (m/s), enquanto que o chute é mais rápido, é executado em 14,4 m/s. O soco de um karateca altamente treinado atinge uma velocidade linear de 13 m/s, produzindo uma força de 680 N. Então, qualquer golpe de um praticante dessa arte marcial pode causar dano ao oponente. Isso foi evidenciado nos anos 50, nos 52 combates que o faixa preta Oyama travou com touros, ele conseguiu matar 3 e quebrou o chifre de 48 deles.\n\nFonte:  Disponível em: <  http://www.efdeportes.com/efd169/velocidade-do-soco-do-karate.htm  >. Acesso em:\n\nago. 2013. (adaptado)\n\nConsidere a situação a seguir:\n\nMassa do soco do Karateca = Massa da mão do karateca Aceleração da gravidade = 10 m/s²\n\nConsiderando que um  karateca altamente treinado realize o golpe no intervalo de tempo que foi mencionado no texto, 50 centésimos de segundo, a potência aproximada, em W, desse golpe é de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Soco do karateca altamente treinado: Força equivalente a 680 N Aceleração do soco (mão): 2 a = ?v/?t         a = (13 – 0)/0,050           a = 260 m/s Massa do soco (massa da mão do karateca): F = m.a        680 = m.260          m ˜ 2,6 Kg Potência do soco: P = ?E /?t c cf ci P = (E – E )/?t 2 P = ((m.v /2) – 0)/?t 2 P ˜  2,6 . 13 /0,050 P ˜ 2,6 . 196/0,050 P ˜ 439,4/0,050 P ˜ 8788 W",
+    "image": "/edcley/revisao-2026-tres-meses-q029.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q029-res.webp"
+   },
+   {
+    "number": 30,
+    "page": 34,
+    "subject": "Física",
+    "prompt": "Leia, com atenção, o resumo da fatura mensal relativa ao consumo de energia elétrica de uma residência: Muitos consumidores estranham que, embora no Brasil, por lei, seja usado o sistema internacional de unidades, na fatura enviada pelas concessionárias, a quantidade de energia elétrica consumida venha expressa em quilowatt-hora (kWh). Isso ocorre porque a unidade de energia elétrica do Sistema Internacional, o joule, símbolo J, é muito pequena quando comparada à atual escala de consumo, o que tornaria a medida da energia elétrica consumida um número enorme.\n\nSe fossem expressas em joules as 213kWh de energia elétrica consumida, seu valor seria o equivalente  a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "6 6 Portanto 213kWh = 213 · 3,6 · 10 = 766,8 · 10 J = 766.800.000J.",
+    "image": "/edcley/revisao-2026-tres-meses-q030.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q030-res.webp"
+   },
+   {
+    "number": 31,
+    "page": 35,
+    "subject": "Física",
+    "prompt": "Em um supermercado, os carrinhos de compras, após serem utilizados, são abandonados no pátio do estacionamento pelos clientes e, só depois, são recolhidos por um funcionário, que vai encaixá-los um a um, empurrar o conjunto e guardá-lo em local apropriado. Um funcionário do supermercado lança um carrinho vazio com uma velocidade de 60cm/s contra dois outros carrinhos, também vazios e idênticos ao primeiro, que se encontram juntos e parados. Os atritos das rodas com o chão são desprezíveis.\n\nCrédito: Shutterstock.\n\nAo colidir com os dois carrinhos que estavam parados, os três carrinhos se encaixam e passam a mover-se com uma velocidade de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "Aplicando-se o princípio da conservação da quantidade de movimento, tem-se:",
+    "image": "/edcley/revisao-2026-tres-meses-q031.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q031-res.webp"
+   },
+   {
+    "number": 32,
+    "page": 37,
+    "subject": "Física",
+    "prompt": "É comum encontrar-se, em clubes, em hotéis e em residências, chuveiros na entrada de uma sauna, seja seca ou a vapor.\n\nIsso é necessário para que",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "O choque térmico é a variação brusca de temperatura.",
+    "image": "/edcley/revisao-2026-tres-meses-q032.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q032-res.webp"
+   },
+   {
+    "number": 33,
+    "page": 37,
+    "subject": "Biologia",
+    "prompt": "O conhecimento da composição dos alimentos é fundamental para a avaliação de uma dieta saudável e para a prevenção de doenças carenciais.\n\nA tabela a seguir mostra a quantidade de sais minerais, em miligramas (mg), disponíveis em 100 gramas da parte comestível de alguns alimentos:\n\nsais cálcio magnésio manganês fósforo potássio minerais alimento\n\nespinafre 98 82 0,71 25 336\n\nbrócolis 86 30 0,26 78 322\n\nnabo 42 15 4,42 17 280\n\nagrião 133 18 0,28 51 218\n\nrabanete 21 10 0,07 26 328 Fonte: TACO – tabela brasileira de composição de alimentos. 4ª edição - 2011. Disponível em: <\n\nhttp://www.unicamp.br/nepa/taco/tabela.php. > Acesso em: jun. 2012.\n\nO sal mineral indispensável tanto para a contração muscular quanto para a coagulação sanguínea é encontrado em maior quantidade no",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "O sal mineral indispensável para a coagulação sanguínea e a contração muscular é o cálcio, presente em maior quantidade no agrião.",
+    "image": "/edcley/revisao-2026-tres-meses-q033.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q033-res.webp"
+   },
+   {
+    "number": 34,
+    "page": 38,
+    "subject": "Química",
+    "prompt": "Leia, com atenção, o trecho a seguir:\n\nA vanilina (estrutura I) é um dos aromatizantes mais importantes, sendo largamente utilizado em alimentos, bebidas, perfumes e fármacos (...). Aproximadamente 50% da produção mundial de vanilina sintética são usados como intermediário para síntese de herbicidas, agentes antiespumantes ou drogas tais como a L-dopa (estrutura II). Observe, cuidadosamente, as figuras apresentadas:\n\nFonte: Disponível em: < http://qnint.sbq.org.br/qni/visualizarTema.php?idTema=54 >. Acesso em: out. 2013.\n\nNa transformação de vanilina em L-dopa, a função orgânica que se conserva é denominada",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "Na transformação de vanilina em L-dopa, ocorre a manutenção de um grupo funcional hidroxila (OH), ligado diretamente a um anel aromático. Essa situação caracteriza a presença da função orgânica denominada fenol.",
+    "image": "/edcley/revisao-2026-tres-meses-q034.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q034-res.webp"
+   },
+   {
+    "number": 35,
+    "page": 39,
+    "subject": "Biologia",
+    "prompt": "Leia, atentamente, os fragmentos a seguir:\n\n(...) no processo de adaptação ao meio, o uso de determinadas partes do corpo do organismo faz com que elas se desenvolvam, e o desuso faz com que se atrofiem.\n\n(...) alterações do corpo provocadas pelo uso e desuso são transmitidas aos descendentes.\n\nFonte: LOPES,  Sonia.  Bio. Volume único. São Paulo: Saraiva, 2005, p. 509.\n\nAs ideias mencionadas nos fragmentos   podem estar   relacionadas à teoria evolutiva conhecida como",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "A lei dos caracteres adquiridos e a lei do uso e desuso foram criações de Lamarck e compuseram a sua teoria.",
+    "image": "/edcley/revisao-2026-tres-meses-q035.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q035-res.webp"
+   },
+   {
+    "number": 36,
+    "page": 40,
+    "subject": "Biologia",
+    "prompt": "Leia com atenção a informação a seguir:\n\nDistúrbios no funcionamento do sistema imune podem promover ou potencializar certas doenças.\n\nAs doenças autoimunes resultam desses distúrbios. Podem ser definidas como disfunção imunológica na qual o sistema imune se volta contra o próprio organismo.\n\nSão exemplos de doenças autoimunes:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "Em algumas pessoas, o sistema imune atua contra algumas moléculas particulares do corpo, causando uma doença autoimune. Essa perda de autotolerância leva a diferentes consequências no organismo e surgem dessa forma doenças distintas. Ex.: lúpus eritematoso sistêmico, artrite reumatoide, diabete melito tipo I, esclerose múltipla. No lúpus, o sistema imune gera anticorpos contra as histonas (proteína) e DNA liberados pela quebra normal das células do corpo. Esses anticorpos autorreativos causam rachaduras cutâneas, febre, artrite e disfunção renal; na artrite reumatoide, leva a danos e à inflamação dolorosa das cartilagens e articulações dos ossos; no diabete melito tipo I, as células beta do pâncreas, produtoras de insulina, são atacadas pelas células T citotóxicas autoimunes e, na esclerose múltipla, as células T infiltram-se no sistema nervoso central, levando à destruição da bainha de mielina que envolve parte de muitos neurônios.",
+    "image": "/edcley/revisao-2026-tres-meses-q036.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q036-res.webp"
+   },
+   {
+    "number": 37,
+    "page": 41,
+    "subject": "Química",
+    "prompt": "Leia, com atenção, o texto a seguir:\n\nO chamado pó químico que é utilizado em muitos extintores de incêndio é uma mistura de bicarbonato de sódio, bicarbonato de potássio e aditivos, tais como bórax. Em altas temperaturas a degradação do bicarbonato de sódio dá-se como segue:\n\n2NaHCO → Na CO + CO + H O 3 2 3 2 2\n\nFonte: FARIAS, R.F. Introdução à química forense. 3a ed. Campinas: Átomo, 2010. p. 87.\n\nEm uma cidade litorânea, foi testada a decomposição térmica do bicarbonato de sódio, a 3000K, utilizando 20mol do sal. O volume de CO obtido foi de 2.214L. 2\n\n–1 –1 Dado: Constante de gás ideal = 0,082 atm.L.mol .K .\n\nO volume de gás obtido no experimento descrito reflete um rendimento da ordem de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "De acordo com a equação apresentada (2NaHCO → Na CO + CO + 3 2 3 2 H O), 20mols de NaHCO produzem 10mol de CO . 2 3 2 Considere-se que: PV = nRT (equação geral dos gases), V= volume, T= temperatura e P = pressão e n = número de mol da amostra gasosa. Assim, tem-se: 1V = 10 x 0,082 x 3.000 V = 2.460L Cálculo do rendimento: 2.460L   →  100% 2.214L   →  x x = 90%",
+    "image": "/edcley/revisao-2026-tres-meses-q037.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q037-res.webp"
+   },
+   {
+    "number": 38,
+    "page": 42,
+    "subject": "Química",
+    "prompt": "Os vidros vêm fazendo parte das preocupações com o ambiente, dado o fato da indústria vidreira ser intensiva, o que faz com que produza emissão de partículas sólidas e gases, além de subprodutos descartados na forma de lixo industrial.\n\nReciclar e reutilizar vidros poderá contribuir para a matriz energética nacional através da economia de enormes quantidades de energia, visto que, para produzir 1kg de vidro novo, são necessários 4.500 kilojoules, enquanto para produzir 1kg de vidro reciclado necessita-se de 500 kilojoules.\n\nFonte: Cadernos Temáticos de Química Nova na Escola, Edição especial, p. 24, maio 2001.\n\nA redução percentual na energia necessária para a produção de vidro reciclado em relação ao vidro novo foi de, aproximadamente,",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "A redução de energia foi de 4.000kJ, ou seja, de 4.500kJ, valor preciso para produzir o vidro novo, para 500kJ, valor necessário para produzir o reciclado. Cálculo da porcentagem de redução de energia: 4.500kJ ----------- 100% 4.000kJ -----------    x x = 88,89% (aproximadamente 90%)",
+    "image": "/edcley/revisao-2026-tres-meses-q038.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q038-res.webp"
+   },
+   {
+    "number": 39,
+    "page": 43,
+    "subject": "Biologia",
+    "prompt": "Leia, com atenção,  o texto a seguir:\n\nO elemento carbono é o principal constituinte de tudo o que é orgânico (...) embora o dióxido de carbono (CO ) represente apenas 0,35% dos 2 gases que compõem a atmosfera (...)\n\nFonte: Disponível em: < http://www.infoescola.com/biologia/ciclo-do-carbono/ >. Acesso em: ago.2012.\n\nObserve, cuidadosamente, a figura a seguir:\n\nDe acordo com o texto e a figura apresentados, tem-se que",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "Os vegetais apresentam fotossíntese e respiração, e os animais, apenas respiração, pois esses seres são heterotróficos.",
+    "image": "/edcley/revisao-2026-tres-meses-q039.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q039-res.webp"
+   },
+   {
+    "number": 40,
+    "page": 44,
+    "subject": "Biologia",
+    "prompt": "Leia o texto a seguir.\n\nJuntamente com cianobactérias e musgos, os liquens desempenham um grande papel de pioneiros na colonização dos substratos desprovidos de seres vivos, “preparando o terreno” para que outras plantas e animais possam se instalar e formar comunidades bem estabelecidas.\n\nFonte: SPIELMANN, A. A. Fungos liquenizados (liquens). Disponível em:\n\nhttp://www.biodiversidade.pgibt.ibot.sp.gov.br/Web/pdf/Fungos_Liquenizados_Spielmann_&_Marcelli.pdf.\n\nAcesso em: 4 jun. 2019.\n\nA relação ecológica existente nesta situação é de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "O mutualismo entre algas ou cianobactérias e fungos, permite que ambos sobrevivam em ambientes inóspitos graças à fotossíntese feita pelas algas/cianobactérias e ao produto da decomposição realizada pelos fungos.",
+    "image": "/edcley/revisao-2026-tres-meses-q040.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q040-res.webp"
+   },
+   {
+    "number": 42,
+    "page": 45,
+    "subject": "Matemática",
+    "prompt": "Nos diários de classe das escolas, é comum existir um canhoto que os professores preenchem com as notas e o total de faltas do bimestre e este é entregue na secretaria da escola. A seguir, vê-se a reprodução do canhoto do terceiro bimestre do ano de 2012 de uma das turmas da professora Carmem Cavalcante.\n\nNesse bimestre, a média das notas desta turma foi",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "A média das notas (ou média aritmética simples) é a soma de todas as notas dividida pelo total de alunos. Como há notas iguais, pode-se usar uma média ponderada na qual os pesos são as frequências de ocorrência de cada uma das notas, e o total de alunos é a soma dos pesos. Assim, tem-se: Média = (2 x 4,0 + 2 x 4,5 + 4 x 5.0 + 4 x 6,0 + 2 x 6,5 + 7,0 + 2 x 7,5 + 2 x 8,0 + 10,0)/20 = = ( 8 + 9 + 20 + 24 + 13 + 7 + 15 + 16 + 10 )/20 = 122/20 = 6,1.",
+    "image": "/edcley/revisao-2026-tres-meses-q042.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q042-res.webp"
+   },
+   {
+    "number": 43,
+    "page": 47,
+    "subject": "Matemática",
+    "prompt": "O termo \"polegadas\", utilizado para designar o tamanho de um aparelho de TV, corresponde ao comprimento da diagonal da tela da TV, como mostra a flecha dupla no desenho. Sabe-se que uma polegada é igual a 2,54 cm.\n\nO comprimento, em centímetros, da diagonal de uma tela de TV de 34 polegadas é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "Solução: se 1 polegada é igual a 2,54 cm; 34 polegadas será igual a 86,36 cm.",
+    "image": "/edcley/revisao-2026-tres-meses-q043.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q043-res.webp"
+   },
+   {
+    "number": 44,
+    "page": 48,
+    "subject": "Matemática",
+    "prompt": "Numa cidade, o litro da gasolina custa R$3,30 e o litro do álcool, R$2,40. Marcos mora lá e tem um carroflex  – um carro que funciona tanto com gasolina quanto com álcool. Para encher, completamente, o tanque de seu carro com gasolina, Marcos gasta R$132,00.\n\nPara encher, totalmente, o tanque de seu carro com álcool, ele gasta",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Se são gastos R$132,00 para encher o tanque do carro com gasolina, que custa R$2,40 o litro, o tanque tem capacidade para 132/3,30 = 40 litros. Para encher o tanque com álcool, serão gastos 40 x 2,40 = R$96,00.",
+    "image": "/edcley/revisao-2026-tres-meses-q044.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q044-res.webp"
+   },
+   {
+    "number": 45,
+    "page": 49,
+    "subject": "Matemática",
+    "prompt": "Uma pessoa tem dois aplicativos de músicas, A e B, instalados em seu telefone celular. Ela gosta de ouvir músicas somente no modo aleatório e tem as seguintes 16 músicas disponíveis no aparelho:\n\nNome do artistaNome da música\n\nMúsica A\n\nArtista A Música B\n\nMúsica C\n\nMúsica D\n\nMúsica E\n\nArtista B Música F\n\nMúsica G\n\nMúsica H\n\nMúsica I Artista C Música J\n\nMúsica K\n\nMúsica L\n\nMúsica M Artista D Música N\n\nMúsica O\n\nMúsica P\n\nOs aplicativos escolhem as músicas, aleatoriamente, da seguinte forma:\n\nAplicativo A Aplicativo B\n\nEscolhe primeiro o artista, com Escolhe uma entre todas as músicas chances iguais para cada um e, em disponíveis, independentemente do seguida, escolhe uma música desse artista, com chances iguais entre artista, com chances iguais entre elas. elas. Considere-se que a probabilidade de a música C  ser escolhida pelo aplicativo A é igual a x e a probabilidade da música C ser escolhida pelo aplicativo B é igual a y. A razão entre x e y equivale a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": ", e  pelo aplicativo B, tem-se Pelo aplicativo A, tem-se Logo:",
+    "image": "/edcley/revisao-2026-tres-meses-q045.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q045-res.webp"
+   },
+   {
+    "number": 46,
+    "page": 50,
+    "subject": "Matemática",
+    "prompt": "O comprimento dos congestionamentos de trânsito em São Paulo bate recorde a cada mês. Um caso grave ocorreu em nove de maio de 2013, quando um engarrafamento atingiu a incrível marca de 261 quilômetros de extensão numa estrada com quatro vias.\n\nConsiderando que cada veículo ocupe, em média, um espaço de 4,5 metros de comprimento,  a quantidade aproximada de veículos nesse engarrafamento foi",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "261km = 261.000 metros portanto em 261.000 metros cabem 58.000 carros, pois 261.000 ÷ 4,5 = 58,000. Como as estradas possuem 4 vias, tem-se: 58.000 x 4 = 232.000 veículos.",
+    "image": "/edcley/revisao-2026-tres-meses-q046.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q046-res.webp"
+   },
+   {
+    "number": 47,
+    "page": 51,
+    "subject": "Matemática",
+    "prompt": "João pede dinheiro ao pai, que lhe diz:\n\n“Na gaveta do armário há seis notas de R$ 10,00 e quatro notas de R$ 20,00. No escuro, sem ver nada, abra a gaveta e retire duas notas”.\n\nA probabilidade de João retirar R$ 40,00 é de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "A probabilidade da primeira nota retirada ser de R$ 20,00 é de A probabilidade da segunda nota retirada ser de R$ 20,00 é de A probabilidade das duas notas retiradas serem de R$ 20,00 é de",
+    "image": "/edcley/revisao-2026-tres-meses-q047.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q047-res.webp"
+   },
+   {
+    "number": 48,
+    "page": 52,
+    "subject": "Matemática",
+    "prompt": "Leia, atentamente, o texto a seguir:\n\nA cidade de Ipanema, em Minas Gerais, bate o próprio recorde e produz o maior queijo minas padrão do Brasil, com 1.480 quilos, 62cm de altura e 175cm de diâmetro, entrando novamente para o RankBrasil. É o terceiro ano consecutivo que o município bate a própria marca.\n\nFonte: Disponível em: < http://noticias.uol.com.br/album/album-do-dia/2012/06/23/imagens-do-dia---23-de-\n\njunho-de-2012.htm?abrefoto=31#fotoNav=31 >. Acesso em: jul. 2012.\n\nAdmita-se que o queijo produzido na cidade de Ipanema, em Minas Gerais, tenha a forma de um cilindro circular reto. Adotando-se = 3, conclui-se que, caso se quisesse embrulhar esse queijo com um plástico, seriam gastos, só para embalar a superfície lateral, pelo menos,\n\n2",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "Sabe-se que a área lateral de um cilindro é dada por 2 ·  · r · h, onde r e h  são, respectivamente, o raio e a altura desse cilindro. Como 2 · r  = diâmetro do cilindro, então,   aproximando-se = 3, tem-se que se gastará, no mínimo, 2 3.1,75 · 0,62 = 3,255m de plástico.",
+    "image": "/edcley/revisao-2026-tres-meses-q048.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q048-res.webp"
+   },
+   {
+    "number": 49,
+    "page": 53,
+    "subject": "Matemática",
+    "prompt": "O gráfico a seguir mostra uma aproximação linear do crescimento médio das unhas da mão em cm:\n\nFonte: Disponível em:\n\n< http://www.calculo.iq.unesp.br/Trabalhos/2009/Jornal_Virtual_Calculo/Jornal%20Virtual%20do%20Calculo/Calculo%2\n\nAcesso em: mar. 2013.\n\nEm cinco meses, segundo o gráfico, o crescimento da unha da mão será, em cm, igual a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "Como o gráfico é linear, pode-se considerar que o tempo necessário para crescer x centímetros pode ser expresso como T(x) = Ax + B. Segundo o gráfico, T(1,5) = 4 e T(2,5) = 6. Portanto T(2,5) – T(1,5) = A = 2 e T(1,5) = 2 · 1,5 + B = 4, ou seja, B = 1. Desse modo, pode-se escrever que T(x) = 2x + 1. Em cinco meses,  tem-se T(x) = 5, ou ainda 2x + 1 = 5, o que resulta em x = 2.",
+    "image": "/edcley/revisao-2026-tres-meses-q049.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q049-res.webp"
+   },
+   {
+    "number": 50,
+    "page": 54,
+    "subject": "Matemática",
+    "prompt": "O Real é a unidade monetária brasileira. Nesse sistema, existem moedas que representam quantidades menores do que 1 real: são as moedas de 50, 25, 10, 5 e 1 centavos de real.\n\nUtilizando-se uma moeda de 50 centavos para pagar uma bala que custa 27 centavos, o troco correto será dado com, exatamente,",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "R$ 0,50 – R$ 0,27 = R$ 0,23. Para o troco de 23 centavos, é necessário utilizar 3 moedas de 1 centavo + 2 moedas de 10 centavos. Portanto, o troco só pode ser dado com 5 moedas.",
+    "image": "/edcley/revisao-2026-tres-meses-q050.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q050-res.webp"
+   },
+   {
+    "number": 51,
+    "page": 54,
+    "subject": "Matemática",
+    "prompt": "Uma empresa tem um antigo cadastro de clientes no qual cada registro recebe um identificador único formado por duas letras e dois algarismos. As letras usadas nos identificadores são as do alfabeto em uso na língua portuguesa, com exceção de I, O, Q (que eventualmente se confundiriam com os algarismos 0 e 1) e das consoantes K, W e Y.\n\nO antigo sistema será substituído por outro, em que os identificadores únicos serão compostos sempre por cinco letras do alfabeto, sendo mantida a proibição do uso de I, O, Q, além da vedação ao emprego de K, W, Y. No novo sistema, não haverá uso de algarismos. A razão entre o número máximo de registros do novo sistema e o número máximo de registros no sistema antigo é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Inicialmente, é necessário notar que, no caso do uso de letras do alfabeto em uso na língua portuguesa, com proibição do uso de I, O, Q, além da vedação ao emprego de K, W, Y, o número de letras é 26 – 6 = 20. No sistema antigo, há o seguinte número de registros: 20 · 20 · 10 · 10 = 40.000. No sistema novo, há o seguinte número de registros: 20 · 20 · 20 · 20 · 20 = 3.200.000. A razão entre os dois números encontrados é: 3.200.000 ÷ 40.000 = 80.",
+    "image": "/edcley/revisao-2026-tres-meses-q051.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q051-res.webp"
+   },
+   {
+    "number": 52,
+    "page": 55,
+    "subject": "Matemática",
+    "prompt": "O dono de um restaurante dispunha de R$ 360,00 para comprar latas de azeite. Quando foi fazer o pagamento, a caixa do supermercado o informou que estava havendo uma promoção em que, pela quantidade comprada, ele teria direito a um desconto de R$ 3,00 no preço unitário do produto. Ele pôde, então, levar mais quatro latas.\n\nCom a promoção, o custo, em reais, de cada lata de azeite foi de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "n: número total de latas adquiridas com a promoção Tem-se, então 2 n – 4n – 480 = 0 n = 24 ou n = –20 Como n > 0, n = 24. Com isso, cada lata saiu por 360/24 = R$ 15,00.",
+    "image": "/edcley/revisao-2026-tres-meses-q052.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q052-res.webp"
+   },
+   {
+    "number": 53,
+    "page": 56,
+    "subject": "Matemática",
+    "prompt": "Clóvis fez a doação de um brinquedo por mês a um orfanato, durante um ano. A instituição recolhe os brinquedos para serem entregues no Natal e convida os doadores para os entregarem, pessoalmente, às crianças.  Clóvis descobriu que seria o primeiro a presenteá-las e que faria a entrega para duas delas. Os dois presentes que ele entregará serão escolhidos de maneira aleatória, dentre todos os demais. A instituição conseguiu exatamente um presente para cada uma das 144 crianças.\n\nA chance de Clóvis conseguir entregar algum dos presentes que doou é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "Por ser o primeiro a presentear, ele poderia pegar qualquer um dos 144 presentes para a primeira criança. Já para a segunda, sobrariam 143 presentes a serem escolhidos. Clóvis doou um presente por mês durante o ano todo, isto é, dos presentes estocados, 12 foram doados por ele. Com isso, a possibilidade de ele conseguir entregar um dos seus 12 presentes é: .",
+    "image": "/edcley/revisao-2026-tres-meses-q053.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q053-res.webp"
+   },
+   {
+    "number": 54,
+    "page": 57,
+    "subject": "Matemática",
+    "prompt": "Marcia cortou o cabelo em março e acompanhou seu crescimento durante cinco meses, montando o gráfico a seguir.\n\nSegundo o gráfico feito por Marcia, o comprimento de seu cabelo, em centímetros, no início de junho, era equivalente a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Como o gráfico montado por Marcia é uma reta, considera-se que o crescimento de seu cabelo foi igual a cada mês. Desse modo, se, em cinco meses, o cabelo cresceu 4cm, então, em três meses, ele terá . Como o comprimento inicial do cabelo era crescido de 2cm, em junho, será de 4,4cm.",
+    "image": "/edcley/revisao-2026-tres-meses-q054.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q054-res.webp"
+   },
+   {
+    "number": 55,
+    "page": 58,
+    "subject": "Matemática",
+    "prompt": "Um apresentador de TV promove um concurso para o público em geral. Nele, cada pessoa deve comprar um cartão no qual se encontra estampada um milhar, um número de 1.000 até 9.999. Durante o programa dominical, são sorteados dois dos milhares. As pessoas que possuem os cartões com os números sorteados recebem o prêmio.\n\nTambém é dado um terceiro prêmio, de consolação, a todos aqueles que possuem o cartão com um número 000 a 999 determinado da seguinte forma:\n\nMultiplicam-se os dois milhares sorteados. Do produto, desprezam-se os algarismos da dezena e da unidade, e consideram-se os algarismos da centena, da dezena e da unidade para formar o número do prêmio de consolação. Por exemplo, se os milhares sorteados forem 4.287 e 2.354, o terceiro prêmio será 915: 4.287 x 2.354 = 10.091.598.\n\nEm um dos programas, para criar expectativa, o apresentador cobriu, em um dos milhares sorteados, os dois primeiros algarismos com cartões e avisou que o prêmio de consolação era 750, da forma que está indicado abaixo.\n\nA diferença entre os algarismos encobertos pelos cartões escuro e claro é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Sejam x e y os números cobertos pelos cartões. Tem-se: Assim, 3 + 7y tem que ser um número cujo algarismo das unidades é o 0 O y só pode assumir o valor 1. 1 + 3 + 6 + 7x = 10 + 7x tem que ser um número cujo algarismo das unidades é o 5. Necessariamente x = 5. Conferindo: 1.167 x 5.120 = 5.975.04 Logo, x - y = 5 - 1 = 4",
+    "image": "/edcley/revisao-2026-tres-meses-q055.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q055-res.webp"
+   },
+   {
+    "number": 56,
+    "page": 60,
+    "subject": "Matemática",
+    "prompt": "Um caminhoneiro faz uma viagem entre duas cidades para levar uma carga e leva 12 horas, viajando a uma velocidade média de 80km/h. Na volta, com o caminhão mais leve, ele precisa levar apenas 10 horas para realizar o mesmo trajeto.\n\nA opção que apresenta a velocidade média, em km/h, que o caminhoneiro precisa fazer na viagem de volta é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Viajando com velocidade média de 80km/h durante 12 horas, o caminhoneiro percorreu uma distância total de 960km. Se, no percurso de volta, ele precisa levar apenas 10 horas, sua velocidade média será a razão entre a distância total a ser percorrida e o tempo a ser utilizado (960 ÷ 10 = 96), encontrando, assim, a velocidade média para a viagem de volta.",
+    "image": "/edcley/revisao-2026-tres-meses-q056.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q056-res.webp"
+   },
+   {
+    "number": 57,
+    "page": 60,
+    "subject": "Matemática",
+    "prompt": "Guilherme tirou 30 dias de férias e realizou um programa de condicionamento físico que previa caminhadas diárias. Ele começou caminhando 1.200m no primeiro dia, aumentando 300m a cada dia subsequente, até atingir uma distância diária d. Ele pretende manter essa distância diária d até o final das férias.\n\nSe em todo o período de férias ele caminhou 150km, a distância d, em metros, é igual a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "Distâncias diárias percorridas em metros: 1.200m1.500m1.800m...d d d ...d a a a ...a a a a 1 2 3 n n + 1 n + 2 30 (a , a , …, a ) é uma P. A. de razão 300m. 1 2 n a = a + (n – 1)r → d = 1.200 + (n – 1) · 300  (I) n 1 Soma das distâncias percorridas: (II) 2 Substituindo (I) em (II), chega-se a n  – 61n +820 = 0, cujas raízes são n = 20 ou n = 41 (não serve, pois n = 30). Logo, pela equação (I), tem-se: d = 1.200 + 19 x 300 = 6.900m.",
+    "image": "/edcley/revisao-2026-tres-meses-q057.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q057-res.webp"
+   },
+   {
+    "number": 58,
+    "page": 61,
+    "subject": "Matemática",
+    "prompt": "Um cone é dito equilátero quando a geratriz (g) tem a mesma medida do diâmetro da base do cone (2R), conforme indica a figura a seguir:\n\nA planificação da superfície lateral de um cone equilátero é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "O comprimento do arco que determina o setor que é a planificação da superfície lateral do cone deve ser igual ao comprimento da circunferência da base: . Como g = 2r, tem-se .",
+    "image": "/edcley/revisao-2026-tres-meses-q058.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q058-res.webp"
+   },
+   {
+    "number": 59,
+    "page": 63,
+    "subject": "Matemática",
+    "prompt": "Patrícia fez uma lista com as tarefas que deverão ser cumpridas no dia seguinte, não necessariamente na ordem exposta a seguir:\n\nescrever uma carta para sua avó; colocar a carta para sua avó nos Correios; pagar contas no banco; ir ao laboratório apanhar o resultado de seu primeiro ecocardiograma; ir ao salão fazer as unhas; ir ao médico e mostrar o resultado do ecocardiograma; fazer exercícios físicos.\n\nPatrícia sabe, naturalmente, que deverá escrever a carta para sua avó antes de postá-la nos Correios, assim como deverá buscar o resultado de seu exame antes de levá-lo ao médico.\n\nO número de sequências diferentes em que Patrícia pode cumprir as sete tarefas é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "O número de permutações das 7 tarefas é 7!. Mas as tarefas escrever carta  e colocar a carta nos Correios  não podem ser permutadas, o mesmo ocorrendo com as tarefas ir ao laboratório  e ir ao médico. Portanto, essas permutações devem ser desfeitas, pois foram computadas em 7!. Logo, a resposta é",
+    "image": "/edcley/revisao-2026-tres-meses-q059.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q059-res.webp"
+   },
+   {
+    "number": 60,
+    "page": 64,
+    "subject": "Matemática",
+    "prompt": "O jogo dos palitinhos é um jogo de adivinhação e blefe. Cada jogador inicia com três palitinhos. Os jogadores colocam as mãos para trás, escolhendo uma quantidade de palitos (zero, um, dois ou três), colocando a mão direita para frente. A seguir, cada um dos jogadores dá seu palpite, dizendo qual o total de palitos que está em jogo, ou seja, quantos palitos, ao todo, existem nas mãos direitas dos jogadores. Os palpites não podem ser repetidos. Ganha a rodada aquele que acertar o número exato de palitos em jogo.\n\nCrédito: Shutterstock.\n\nSuponha-se que, nesse jogo, estão participando três pessoas: Roberto, Freitas e Ricardo, e que, em uma determinada rodada, todos tenham seus três palitos para escolher. Roberto será o primeiro a dar o palpite e sua estratégia é colocar 2 palitos e palpitar o número 5.\n\nA probabilidade de Roberto ganhar essa rodada é igual a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "Para se calcular essa probabilidade, tem-se de calcular o número de elementos do espaço amostral que, pelo princípio multiplicativo, apresenta 16 possibilidades (4 x 4), já que tanto Roberto quanto Freitas podem escolher 0, 1, 2 ou 3 palitos para mostrarem. No entanto, para se calcular o número de elementos do evento, isto é, a soma ser 5, precisa- se de que a soma dos palitos apresentados por Roberto e Freitas seja igual a 3, o que fornece como resultado 4 possibilidades, a saber: (0,3), (1, 2), (2, 1) e (3, 0). Logo, a probabilidade é p = 4/16 = 1/4 = 0,25.",
+    "image": "/edcley/revisao-2026-tres-meses-q060.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q060-res.webp"
+   },
+   {
+    "number": 61,
+    "page": 65,
+    "subject": "Matemática",
+    "prompt": "João precisa calcular a capacidade total de uma garrafa de vinho, até a posição da rolha. João coloca 350ml na garrafa e não consegue completá-la, como na figura 1. Para calcular a capacidade da garrafa, é necessário calcular o volume da parte não ocupada pelo líquido. João gira a garrafa de cabeça para baixo até que a superfície livre do líquido fique na posição horizontal e calcula o volume do cilindro representado na figura 2, que representa a parte não ocupada pelo líquido.\n\nConsidere a aproximação de = 3,14.\n\nFigura 1                                                                           Figura 2\n\nA capacidade total da garrafa, em ml, é, aproximadamente,",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "O volume da parte não ocupada pelo líquido na figura 2 é igual a 2 V =  . 3 . 10 = 90 3 V 90 . 3,14 = 282,6cm . Logo, a capacidade total da garrafa é aproximadamente igual a 350 + 282,6 = 632,6ml.",
+    "image": "/edcley/revisao-2026-tres-meses-q061.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q061-res.webp"
+   },
+   {
+    "number": 62,
+    "page": 67,
+    "subject": "Matemática",
+    "prompt": "Um técnico de manutenção trabalha como autônomo e atende a diversos clientes em várias regiões de seu estado, permanecendo, em cada dia de trabalho, em um cliente. Para atender a seu cliente mais frequente, ele usa um ônibus, cuja tarifa de ida custa R$ 9,00 e a de volta custa R$ 7,00. Ele conheceu um sistema de transporte alternativo que cobra uma mensalidade de R$ 63,00, independente da utilização, acrescida de R$ 10,00 por dia de transporte efetivamente utilizado, incluídas a ida e a volta.\n\nO número mínimo de dias em um mês que o técnico deve atender a seu cliente mais frequente, de modo que a utilização do sistema de transporte alternativo seja mais vantajosa, é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "O custo do sistema tradicional, usando ônibus, é dado pela função ƒ(x) = 16x.  O custo do sistema alternativo é dado pela função g(x) = 63 + 10x. Nessas funções, x representa o número de dias em que o técnico atende a seu cliente mais frequente. É fácil observar que, quando x é pequeno, ƒ(x) é menor que g(x). O oposto ocorre quando x é grande. Para confirmar, basta testar, por exemplo, com  x = 1 e x = 20.  Se fizer  ƒ(x) = g(x), encontra-se x = 10,5. Isso significa que, a partir de 11 dias do mesmo mês, nos quais seja atendido o cliente mais frequente, a utilização do sistema de transporte alternativo é mais vantajosa.",
+    "image": "/edcley/revisao-2026-tres-meses-q062.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q062-res.webp"
+   },
+   {
+    "number": 63,
+    "page": 68,
+    "subject": "Matemática",
+    "prompt": "Marcos está sendo avaliado por diversas provas. Cada prova tem igual peso para o cálculo de seu desempenho final. Antes da última prova, Marcos percebeu que, se tirar 9,1, sua média aumentará 0,1. Mas, se tirar 6,4, sua média irá diminuir 0,2.\n\nO número total de provas que compõem a avaliação de Marcos é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "M ? média das notas das n provas anteriores à última prova. Após a realização da última prova, tem-se: 0,3n = 2,4 n = 8 Total de provas: n + 1 = 9.",
+    "image": "/edcley/revisao-2026-tres-meses-q063.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q063-res.webp"
+   },
+   {
+    "number": 64,
+    "page": 68,
+    "subject": "Matemática",
+    "prompt": "As explosões em minas de carvão, em serrarias ou ainda em moinhos de trigo, que causam a morte de tantos operários, devem-se à combustão rápida do material particulado que se encontra em suspensão no ar desses ambientes. É fato conhecido que um pedaço de madeira demora mais a ser queimado do que quando fragmentado em vários pedaços. A rapidez da queima é proporcional à superfície de contato do material a ser queimado com o ar. Observe a figura a seguir, que mostra um cubo de aresta igual a 80cm dividido em cubinhos iguais.\n\nO aumento percentual na superfície de contato no cubo depois de dividido é igual a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "Generalizando, admita que o cubo possua aresta . Desse modo, tem-se 2 que 6 é o valor da área do cubo original. Analisando a figura, o cubo , fica dividido em 4 · 4 · 4 = 64 cubinhos menores de arestas iguais a tendo, portanto, cada um deles área total igual a . Correspondendo a uma área total de . Dividindo-se , tem-se, então, que a área fica multiplicada por 23, o que significa um percentual de aumento igual a 2.200%.",
+    "image": "/edcley/revisao-2026-tres-meses-q064.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q064-res.webp"
+   },
+   {
+    "number": 65,
+    "page": 69,
+    "subject": "Matemática",
+    "prompt": "Numa maternidade, estão programados dez partos para um determinado dia. Sabe-se que a probabilidade de cada bebê ser menino é a mesma de cada bebê ser menina.\n\nA probabilidade de, nesse dia, nascer no mínimo 2 e no máximo 7 meninos é de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "O evento pedido é complementar ao evento nascer nenhum menino, ou 1 menino, ou 8 meninos, ou 9 meninos, ou 10 meninos. p ? probabilidade pedida",
+    "image": "/edcley/revisao-2026-tres-meses-q065.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q065-res.webp"
+   },
+   {
+    "number": 66,
+    "page": 70,
+    "subject": "Matemática",
+    "prompt": "Um fabricante de pêssegos em calda os comercializa em latas que correspondem a cilindros equiláteros cuja altura é 16cm. Em cada uma dessas latas, há um rótulo de papel que é colado em sua superfície lateral. O rótulo cobre, perfeitamente, toda a superfície lateral sem sobras ou faltas.\n\nConsiderando-se 3,1, a superfície de papel necessária para rotular 2 1.000 dessas latas, em m , é mais próxima de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "A superfície lateral de um cilindro é dada por A = 2 ·   · R · H lateral Um cilindro é dito equilátero quando sua altura é igual a seu diâmetro. 2 Assim,  A = 2 ·  · 8 · 16 = 256 ·     796,6cm lateral 2 Para rotular 1.000 latas, serão necessários 1.000 x 796,6 = 796.600cm 2 = 79,66m",
+    "image": "/edcley/revisao-2026-tres-meses-q066.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q066-res.webp"
+   },
+   {
+    "number": 67,
+    "page": 71,
+    "subject": "Matemática",
+    "prompt": "Considere ABCDA’B’C’D’ um cubo, conforme a figura a seguir:\n\nO número de segmentos que têm ambas as extremidades nos vértices desse cubo é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "O número de segmentos será igual ao número de maneiras de escolher 2 pontos dentre os 8 vértices do cubo. Portanto, a resposta será C = 8, 2 28.",
+    "image": "/edcley/revisao-2026-tres-meses-q067.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q067-res.webp"
+   },
+   {
+    "number": 68,
+    "page": 72,
+    "subject": "Matemática",
+    "prompt": "A grade de uma janela é formada por 11 barras verticais igualmente espaçadas entre si (dentre as quais as duas menores medem 1,60m e a maior, 2,00m), além de uma barra parabólica e uma barra horizontal cuja medida é 2,00m, conforme ilustrado a seguir:\n\nNa figura, uma das barras verticais está assinalada com uma seta.\n\nA medida do comprimento dessa barra, em metros, é aproximadamente igual a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Coloque-se um par de eixos cartesianos conforme ilustrado: Observando as dimensões da grade, os pontos A, B e C terão, nesse sistema cartesiano, as seguintes coordenadas: A(1 ; 0), B(– 1 ; 0) e C(0 ; 0,4). Uma parábola é o gráfico de uma função polinomial do 2º grau. As funções polinomiais do 2º grau podem ser escritas na forma y = a.(x – r ).(x – r ), em que r e r são os zeros da função. Logo, y = a.(x – 1).(x + 1 2 1 2 1). Para descobrir-se o valor de a, deve-se substituir o ponto C na função. 0,4 = a.(– 1).(1) ? a = – 0,4 y = – 0,4.(x – 1).(x + 1) é portanto, a função que se ajusta à barra ABC que tem a forma de parábola. Note-se, em seguida, que a grade tem 2,00m de comprimento e que as barras verticais dividem esse comprimento em 10 pedaços iguais de tamanho 0,2m. A barra indicada pela seta tem 1,60m de comprimento e mais um pedaço que corresponde ao y da função para x = 0,6. Assim, y(0,6) = – 0,4.(0,6 – 1).(0,6 + 1) = – 0,4.(– 0,4).(1,6) = 0,256m Conclusão: o comprimento da barra é 1,60 + 0,256 = 1,856m.",
+    "image": "/edcley/revisao-2026-tres-meses-q068.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q068-res.webp"
+   },
+   {
+    "number": 69,
+    "page": 73,
+    "subject": "Matemática",
+    "prompt": "A tabela a seguir mostra as taxas de conversão entre as moedas de alguns países. Cada valor na tabela indica a quantidade aproximada com duas casas decimais da moeda daquela linha que equivale a uma unidade da moeda da coluna. Por exemplo, 0,75 euros equivale a 1 (um) dólar americano.\n\nDólar americanoEuroLibra esterlina\n\nDólar americano 1 x 1,56\n\nEuro 0,75 1 y\n\nLibra esterlina 0,64 0,85 1\n\nO valor de x + y  é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Deve-se ter: 0,75x = 1 x 1,33 e 0,85y = 1 y 1,18. Logo, x + y = 2,51.",
+    "image": "/edcley/revisao-2026-tres-meses-q069.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q069-res.webp"
+   },
+   {
+    "number": 70,
+    "page": 74,
+    "subject": "Matemática",
+    "prompt": "Uma fenda triangular existente em uma janela projeta luz sobre a parede em uma área também triangular, cujas dimensões se alteram de hora em hora, de acordo com a incidência do sol. A área do triângulo projetado aumenta a cada hora, entre 13h, quando a projeção aparece, e 18h, quando não há mais imagem projetada.\n\nAs figuras 1 e 2 representam a projeção dessa fenda em dois horários distintos. A figura 1 representa a projeção quando o relógio marca 14h. A figura 2 representa a projeção em outro horário, quando a área do triângulo ABC foi acrescentada da área do triângulo BCD. FIGURA I\n\nFIGURA II\n\nSabendo que em ambas as figuras e , e\n\nque, na figura 2, , o horário representado na figura 2 é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "A área do triângulo BCD é igual a Como, a cada hora, a área projetada aumenta em , passaram-se duas horas a partir do aparecimento da projeção, ou seja, 13 horas, o que determina as 15h como o horário da projeção da figura 2.",
+    "image": "/edcley/revisao-2026-tres-meses-q070.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q070-res.webp"
+   },
+   {
+    "number": 71,
+    "page": 76,
+    "subject": "Matemática",
+    "prompt": "A figura a seguir mostra um retângulo, um polígono sombreado em seu interior e diversas medidas de comprimento:\n\nA porcentagem que a área do polígono representa da área do retângulo é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "A área do retângulo é 8 x 5 = 40. A seguir, apresenta-se o cálculo das áreas dos três triângulos retângulos: A soma das áreas vazias é 7,5 + 7,5 + 3 = 18. A área do polígono é 10 – 18 = 22. A porcentagem que o polígono representa do retângulo é .",
+    "image": "/edcley/revisao-2026-tres-meses-q071.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q071-res.webp"
+   },
+   {
+    "number": 72,
+    "page": 77,
+    "subject": "Matemática",
+    "prompt": "Os quatro músicos de uma banda podem exercer as seguintes funções, de acordo com o quadro a seguir:\n\nmúsico    toca guitarra      toca bateria      toca baixo      canta\n\nLeonardo sim sim sim sim\n\nEduardo não sim sim não\n\nCláudio sim não sim sim\n\nSandro sim não sim sim\n\nEm sua formação usual, a banda se apresenta com Leonardo cantando, Eduardo na bateria, Cláudio no baixo e Sandro na guitarra.\n\nExcluindo-se a formação usual, o número máximo de maneiras distintas com que essa banda pode-se apresentar, com cada integrante exercendo uma função diferente, é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "Se Eduardo tocar bateria, os outros 3 integrantes podem ocupar qualquer uma das 3 posições. Portanto, permutando os 3 integrantes, tem-se 3! = 6 formações possíveis. Se Eduardo tocar baixo, obrigatoriamente, a bateria ficará a cargo de Leonardo. Portanto, é possível apenas Cláudio e Sandro serem permutados nos dois instrumentos restantes. Assim, tem-se mais 2! = 2 formações possíveis. Logo, são 6 + 2 = 8 formações no total. Excluindo-se a usual, restam 7 formações diferentes.",
+    "image": "/edcley/revisao-2026-tres-meses-q072.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q072-res.webp"
+   },
+   {
+    "number": 73,
+    "page": 78,
+    "subject": "Matemática",
+    "prompt": "Cesar utiliza uma senha de 4 dígitos para fazer compras com o seu cartão de crédito. Certa vez, ao fazer uma compra, esqueceu-se da senha, mas sabia que o primeiro dígito era um número primo, os dois dígitos seguintes eram números maiores do que 6 e que o último dígito era um número par diferente de zero e diferente do primeiro dígito.\n\nNessas condições, o número máximo de tentativas que Cesar pode fazer para acertar a senha do seu cartão é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Se o primeiro dígito for o 2, o total de senhas é 1 · 3 · 3 · 3 = 27 . Se o primeiro dígito for 3, 5 ou 7, o total de senhas é 3 · 3 · 3 · 4 =  108. O total de senhas é 27 + 108 = 135.",
+    "image": "/edcley/revisao-2026-tres-meses-q073.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q073-res.webp"
+   },
+   {
+    "number": 74,
+    "page": 78,
+    "subject": "Matemática",
+    "prompt": "No ano passado, Leandro recebia, mensalmente, de seu pai R$ 250,00, sendo R$ 100,00 para lanches e R$ 150,00 para transportes. Este ano, os preços dos lanches aumentaram 5%, e os preços das passagens aumentaram 10%.\n\nEm relação ao ano passado, os gastos mensais do pai de Leandro com lanches e transportes do filho tiveram um aumento percentual total de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "O aumento absoluto foi Assim, o aumento relativo foi de",
+    "image": "/edcley/revisao-2026-tres-meses-q074.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q074-res.webp"
+   },
+   {
+    "number": 75,
+    "page": 79,
+    "subject": "Matemática",
+    "prompt": "Quando uma pessoa pula de paraquedas, a resistência do ar é proporcional à velocidade da queda. Se a constante de proporcionalidade é 0,2, é possível estimar a velocidade do paraquedista no instante t, em metros por segundo, pela expressão v(t) – 0,2t = 80(1 – 2,5 ).\n\nA velocidade, em metros por segundo, do paraquedista no instante t = 5 será",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "–1 Substituindo t na expressão, tem-se v(5) = 80(1 – 2,5 ) = 48.",
+    "image": "/edcley/revisao-2026-tres-meses-q075.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q075-res.webp"
+   },
+   {
+    "number": 76,
+    "page": 80,
+    "subject": "Matemática",
+    "prompt": "Em uma determinada cidade, existe um projeto de construção de uma ferrovia que deve ser paralela à praia (supostamente retilínea) e possuir uma estação, em uma determinada praça, representada pelo ponto E no gráfico a seguir.\n\nObserve-o, atentamente:\n\nSabendo que a abscissa do ponto E vale 3, a equação da reta que representa a linha férrea é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "A equação da reta que representa a praia é y = –2x – 2, pois o coeficiente angular é e o coeficiente linear –2. Desse modo, para calcular-se a equação da reta que representa a linha férrea, primeiramente, deve-se perceber que o coeficiente angular deve ser o mesmo, pois são retas paralelas, então, m = –2. Assim, a equação é dada por y = –2x + n, desse modo, substituindo-se as coordenadas do ponto E(3, 0) na equação, tem-se que 0 = –6 + n, ou seja, n = 6. Logo, y = –2x + 6.",
+    "image": "/edcley/revisao-2026-tres-meses-q076.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q076-res.webp"
+   },
+   {
+    "number": 77,
+    "page": 81,
+    "subject": "Matemática",
+    "prompt": "Antes de uma prova, alunos do curso de enfermagem mediram a pulsação de 10 estudantes e os resultados estão apresentados no quadro a seguir:\n\nEstudante   1 2 3   4   5 6 7   8   9   10\n\nPulsação  81  90  90  85  92  103  90  89  86  94\n\nA média obtida foi de 90 pulsações. Para medir a dispersão dos dados, o grupo usou o coeficiente de variação que é razão entre o desvio padrão e a média, dessa população:\n\nO coeficiente de variação da variável analisada foi de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "O objetivo do item é compreender um fenômeno calculando medida dispersão de um conjunto de dados  expressos em uma tabela.  A variância da população analisada é igual a (1/10) x (81 + 0 + 0 + 25 + 4 + 169 + 0 + 1 + 16 + 16) 31. Logo, o desvio padrão é igual a 5,6. Esse valor, dividido pela média, fornece o coeficiente de variação, que é igual a 5,6/90 6,2%.",
+    "image": "/edcley/revisao-2026-tres-meses-q077.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q077-res.webp"
+   },
+   {
+    "number": 78,
+    "page": 82,
+    "subject": "Matemática",
+    "prompt": "Leia o texto a seguir, que traz informações sobre as fases da Lua.\n\nÀ medida que a Lua viaja ao redor da Terra ao longo do mês, ela passa por um ciclo de fases, durante o qual sua forma parece variar gradualmente.  (...) Tradicionalmente apenas as quatro fases mais características do ciclo – Lua Nova, Quarto-Crescente, Lua Cheia e Quarto-Minguante – recebem nomes, mas a porção que vemos iluminada da Lua, que é a sua fase, varia de dia para dia. (...) O intervalo de tempo médio entre duas fases iguais consecutivas é de 29d 12h 44m 2.9s ( 29,5 dias). Esse período é chamado mês sinódico, ou lunação, ou período sinódico da Lua.\n\nFonte: OLIVEIRA FILHO, K. S.; SARAIVA, M. F. O. Fases da lua. Disponível em: http://astro.if.ufrgs.br/lua/lua.htm.\n\nAcesso em: 02 ago. 2019.\n\nSe, em 11 de março de 2013, teve início a lua nova, então, no mês de agosto de 2013, ela ocorreu no dia",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "Do dia 11 de março até o dia 31 de julho, há 142 dias. Como 29,5 · 4 = 118 e 29,5 · 5 = 147,5, no período de 143 dias, há mais do que quatro e menos do que cinco lunações. Partindo de 31 de julho – 143 dias –, serão necessários mais cinco dias e meio para completar cinco lunações – 147,5 dias. A lua nova ocorreu, portanto, no dia 06.",
+    "image": "/edcley/revisao-2026-tres-meses-q078.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q078-res.webp"
+   },
+   {
+    "number": 79,
+    "page": 83,
+    "subject": "Matemática",
+    "prompt": "O gráfico a seguir mostra a taxa de fecundidade no Brasil de 1940 a 2000.\n\nCrédito: Pesquisa FGV.\n\nCom base no gráfico, verifica-se que",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "50% menor significa que uma grandeza teve o seu valor reduzido à metade, portanto o índice de 1991 é 50% menor em relação a 1970.",
+    "image": "/edcley/revisao-2026-tres-meses-q079.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q079-res.webp"
+   },
+   {
+    "number": 80,
+    "page": 84,
+    "subject": "Matemática",
+    "prompt": "A figura a seguir está representando um terreno onde os lados adjacentes do contorno formam sempre ângulos retos e as medidas estão em centímetro na escala de 1 para 500:\n\nO número de metros de cerca que serão necessários para cercar todo o terreno é de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "O perímetro da figura é igual ao perímetro de um retângulo de comprimento 12cm e largura 10cm. Portanto, vale 44cm. Como a escala é de 1 para 500, cada cm corresponde a 5m, e o perímetro do terreno será de 44 x 5m = 220m.",
+    "image": "/edcley/revisao-2026-tres-meses-q080.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-tres-meses-q080-res.webp"
+   }
+  ]
+ },
+ {
+  "id": "revisao-2026-geral",
+  "title": "Revisão geral · Matemática e Natureza",
+  "questions": [
+   {
+    "number": 1,
+    "page": 44,
+    "subject": "Matemática",
+    "prompt": "Amazônia Legal é a área que engloba os estados que possuem vegetação amazônica — todos os da Região Norte, além de Mato Grosso e parte do Maranhão. O gráfico a seguir mostra a medição anual em km² do desmatamento da Amazônia Legal ao longo do tempo. Fonte: Sistema Prodes/Inpe.\n\nA diferença, em quilômetros quadrados, entre as áreas referentes ao maior e ao menor desmatamento, apresentados no gráfico, é de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "A diferença entre o maior e o menor valor: 29059 - 4571 = 24488km².",
+    "image": "/edcley/revisao-2026-geral-q001.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q001-res.webp",
+    "sourceNumber": 1
+   },
+   {
+    "number": 2,
+    "page": 45,
+    "subject": "Matemática",
+    "prompt": "No campeonato brasileiro do ano passado, um time de futebol ganhou 6 jogos a mais do que perdeu e empatou 2 jogos a menos do que ganhou, em 31 partidas jogadas.\n\nO número de partidas que esse time venceu foi",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "g ? partidas ganhas; p ? partidas perdidas e e ? partidas empatadas ? g + e = p + 6 + g – 2 ? e = p + 4 (p + 6) + p + (p + 4) = 31 ? 3p + 10 = 31 ? p = 7 g = 7 + 6 = 13 e = 7 + 4 = 11 O time venceu 13 partidas.",
+    "image": "/edcley/revisao-2026-geral-q002.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q002-res.webp",
+    "sourceNumber": 2
+   },
+   {
+    "number": 3,
+    "page": 46,
+    "subject": "Matemática",
+    "prompt": "Uma loja usa um tipo de caixa de presentes personalizada. O fabricante a produz a partir do corte mostrado na figura, que é formado por quatro trapézios isósceles idênticos e dois quadrados. As linhas indicam as dobras, e as partes brancas, as abas de colagem.\n\nApós montada, a caixa de presentes tem a forma de um(a)",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "Os quadrados são bases, e os trapézios são faces laterais de um tronco de pirâmide quadrangular:",
+    "image": "/edcley/revisao-2026-geral-q003.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q003-res.webp",
+    "sourceNumber": 3
+   },
+   {
+    "number": 4,
+    "page": 47,
+    "subject": "Matemática",
+    "prompt": "Observe o gráfico a seguir:\n\nFonte: Disponível em < http://www.forumdeenergia.com.br/nukleo/pub/pne_2030_cenarios_macroeconomicos.pdf >. Acesso em: ago. 2013.\n\nAdaptado.\n\nA Agência Internacional de Energia faz comparação entre a produção mundial de energia, em 2002, no início desse século, com uma projeção feita para 2030, período no qual a taxa média de crescimento indicada é de 3,2% ao ano.\n\nCom base em tal projeção, a produção mundial de energia, em 2015, será obtida multiplicando-se a produção mundial de 2002 por\n\n13",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Seja P a produção mundial de energia em 2002. De um ano para o ano seguinte, a produção aumenta 3,2%. Para obter a produção de cada ano, deve-se, então, multiplicar a produção do ano anterior por (1 + 0,032). Em 2015, 13 anos depois de 2002, essa produção será de: 13 13 p · (1 + 0,032) = p · 1,032 .",
+    "image": "/edcley/revisao-2026-geral-q004.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q004-res.webp",
+    "sourceNumber": 4
+   },
+   {
+    "number": 5,
+    "page": 48,
+    "subject": "Matemática",
+    "prompt": "A figura apresentada, a seguir, mostra um cilindro de altura 6 inscrito em uma esfera de raio 4:\n\nO volume do cilindro é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "A figura apresentada, a seguir, representa uma seção da esfera por um plano que passa por seu centro. Calculando o raio da base do cilindro, tem-se que: Agora se tem a altura e o raio da base do cilindro. Calculando o volume, tem-se que:",
+    "image": "/edcley/revisao-2026-geral-q005.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q005-res.webp",
+    "sourceNumber": 5
+   },
+   {
+    "number": 6,
+    "page": 49,
+    "subject": "Matemática",
+    "prompt": "A desigualdade é verdadeira para determinados valores da variável x e falsa para\n\noutros.\n\nA quantidade de valores inteiros positivos de x para os quais a desigualdade dada é verdadeira é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Como x é positivo, tem-se: 3x < 2x + 6 x < 6 x = 1,2,3,4,5 5 valores.",
+    "image": "/edcley/revisao-2026-geral-q006.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q006-res.webp",
+    "sourceNumber": 6
+   },
+   {
+    "number": 7,
+    "page": 49,
+    "subject": "Matemática",
+    "prompt": "João precisa calcular a capacidade total de uma garrafa de vinho, até a posição da rolha. João coloca 350ml na garrafa e não consegue completá-la, como na figura 1. Para calcular a capacidade da garrafa, é necessário calcular o volume da parte não ocupada pelo líquido. João gira a garrafa de cabeça para baixo até que a superfície livre do líquido fique na posição horizontal e calcula o volume do cilindro representado na figura 2, que representa a parte não ocupada pelo líquido.\n\nConsidere a aproximação de = 3,14. Figura 1                                                                           Figura 2\n\nA capacidade total da garrafa, em ml, é, aproximadamente,",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "O volume da parte não ocupada pelo líquido na figura 2 é igual a 2 V =  . 3 . 10 = 90 3 V 90 . 3,14 = 282,6cm . Logo, a capacidade total da garrafa é aproximadamente igual a 350 + 282,6 = 632,6ml.",
+    "image": "/edcley/revisao-2026-geral-q007.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q007-res.webp",
+    "sourceNumber": 7
+   },
+   {
+    "number": 8,
+    "page": 50,
+    "subject": "Matemática",
+    "prompt": "Uma caixa contém bolas vermelhas, verdes e azuis, todas de tamanhos diferentes. Sabendo que cada bola vermelha é maior que cada bola verde. Sabe-se também que não é verdade que todas as bolas verdes sejam maiores que todas as bolas azuis.\n\nA afirmativa necessariamente verdadeira é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Pela frase: cada bola vermelha é maior que cada bola verde, pode-se concluir que todas as bolas verdes são menores que todas as bolas vermelhas. (verdes < vermelhas). Pela frase: não é verdade que todas as bolas verdes sejam maiores que todas as bolas azuis, pode-se concluir que existe, pelo menos, uma bola azul que seja maior que todas as bolas verdes.",
+    "image": "/edcley/revisao-2026-geral-q008.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q008-res.webp",
+    "sourceNumber": 8
+   },
+   {
+    "number": 9,
+    "page": 51,
+    "subject": "Matemática",
+    "prompt": "No mapa de uma cidade, consta a inscrição “ESCALA 1:25000”. Com uma régua, um estudante mede a distância entre dois pontos localizados no mapa e encontra 15cm.\n\nA distância real entre os locais representados pelos pontos no mapa, em quilômetros, é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "A inscrição revela que cada centímetro medido no mapa corresponde a 25.000 no mundo real. Então, basta multiplicar a medida de 15cm por 25.000 para encontrar 375.000cm ou 3,75km.",
+    "image": "/edcley/revisao-2026-geral-q009.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q009-res.webp",
+    "sourceNumber": 9
+   },
+   {
+    "number": 10,
+    "page": 51,
+    "subject": "Matemática",
+    "prompt": "No Mundial de Atletismo de 2013, realizado em Moscou, a prova final dos 100m rasos foi disputada por 8 corredores, entre eles, Bolt. Sabendo-se que Bolt foi o vencedor, o número de maneiras que o pódio poderia ter sido formado é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Para completar o pódio, já que Bolt ficou em 1º lugar, precisa-se escolher um 2º e um 3º lugares. Há 7 modos de escolher o 2º lugar e 6 modos de escolher o 3º lugar. Assim, há 6 x 7 = 42 maneiras de completar o pódio.",
+    "image": "/edcley/revisao-2026-geral-q010.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q010-res.webp",
+    "sourceNumber": 10
+   },
+   {
+    "number": 11,
+    "page": 52,
+    "subject": "Matemática",
+    "prompt": "A lanchonete Natural Vibe é famosa por seus sucos e coquetéis. Nathália, grande fã de sucos e vitaminas, visita diariamente essa lanchonete, após a academia de ginástica. As frutas favoritas de Nathália são manga, laranja, limão, framboesa, morango, uva e melancia. Sempre que visita a Natural Vibe, Nathália pede um coquetel com quatro frutas diferentes entre suas favoritas, mas com uma ressalva: nunca as frutas manga e melancia podem estar juntas num mesmo coquetel.\n\nDesse modo, o número de coquetéis diferentes que Nathália pode comprar na Natural Vibe é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Há maneiras de combinar quatro entre sete frutas diferentes. Existem coquetéis com quatro frutas, em que as frutas manga e melancia estão presentes (colocando-se manga e melancia, é necessário escolher-se outras duas frutas entre as cinco restantes). O total procurado é 35 – 10 = 25.",
+    "image": "/edcley/revisao-2026-geral-q011.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q011-res.webp",
+    "sourceNumber": 11
+   },
+   {
+    "number": 12,
+    "page": 52,
+    "subject": "Matemática",
+    "prompt": "Leia atentamente o texto abaixo. Tudo começou com um decreto meio maluco do rei Eduardo I, da Inglaterra, em 1305. Ele estipulou que uma polegada equivaleria a três grãos de cevada secos e alinhados. A determinação ganhou a simpatia de alguns sapateiros ingleses, que decidiram confeccionar sapatos em tamanho padrão, de acordo com a quantidade de grãos alinhados. Trinta e oito grãos equivaleriam ao número 38 e assim por diante. Isso facilitou a vida deles e a dos fregueses que, antes da padronização, precisavam provar várias vezes um sapato até que ele ficasse pronto.\n\nFonte: DOLORES, M. Como se mede o número de sapato. Superinteressante, 31 jul. 2004. Disponível em:\n\nhttp://super.abril.com.br/cotidiano/como-se-mede-numero-sapato-444633.shtml. Acesso em: 11 jun. 2019.\n\nO número de polegadas de um sapato tamanho 39, segundo a convenção do rei Eduardo I, era de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "Um sapato tamanho 39 devia ter 39 grãos secos de cevada e, como cada 3 grãos secos correspondiam a uma polegada, o número de polegadas de um sapato tamanho 39 era 13.",
+    "image": "/edcley/revisao-2026-geral-q012.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q012-res.webp",
+    "sourceNumber": 12
+   },
+   {
+    "number": 13,
+    "page": 53,
+    "subject": "Matemática",
+    "prompt": "Sempre antes de as aulas iniciarem, o professor de Matemática Q. Gênio coloca, no quadro-negro, algumas afirmações que os alunos devem decidir se são verdadeiras (V) ou falsas (F). Para cada justificativa correta, ele premia o aluno com 0,1 ponto de bônus para ser acrescentado na média bimestral.\n\nEm um certo dia, o professor Q. Gênio escreveu, no quadro-negro, as seguintes afirmações:\n\nI. Qualquer que seja o número real x, . II. Se a e b são números reais tais que a < b, então qualquer que seja o número real não nulo c, temos que ac < bc. III. Se x e y são números irracionais, então, a expressão 2x – 3y também será um número irracional. IV. Se o produto de dois números reais é diferente de zero, então, os dois fatores são diferentes de zero.\n\nJoãozinho respondeu às afirmações I, II, III e IV, colocando, nessa ordem, a sequência V, F, V, V. Pode-se dizer que Joãozinho receberá do professor a seguinte bonificação:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "A afirmação I é falsa, pois se x = –1, = x. A afirmação II é falsa, pois se a = 1, b = 2, c = –1, ac = –1 > –2 = bc. A afirmação III é falsa, pois se e , 2x – 3y = 0, que é um número racional. A afirmação IV é verdadeira, pois decorre da contrapositiva da proposição: se ab = 0, então a = 0 ou b = 0. Assim, Joãozinho acertou duas afirmações, totalizando 0,2 pontos.",
+    "image": "/edcley/revisao-2026-geral-q013.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q013-res.webp",
+    "sourceNumber": 13
+   },
+   {
+    "number": 14,
+    "page": 54,
+    "subject": "Matemática",
+    "prompt": "Certo país consome 1.400.000 barris diários de petróleo, dos quais 1.000.000 são importados e os demais produzidos no próprio país. A partir de certo dia, as importações caem 50%. O país dispõe de 150.000.000 barris estocados para emergência.\n\nSupondo que o consumo e a produção interna permaneçam estáveis, o estoque será totalmente consumido em",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "Perda diária de 50% x 1.000.000 = 500.000 barris, o tempo em dias para consumir o estoque é dias.",
+    "image": "/edcley/revisao-2026-geral-q014.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q014-res.webp",
+    "sourceNumber": 14
+   },
+   {
+    "number": 15,
+    "page": 55,
+    "subject": "Matemática",
+    "prompt": "As figuras a seguir fazem parte do projeto paisagístico de uma praça pública. São dois canteiros que serão construídos sobre regiões quadradas da praça. A parte sombreada em cada uma das figuras é ocupada por grama, e a parte branca, por pedras decorativas.\n\nNa figura 1, agrama ocupa a interseção de dois quadrantes de círculo com centros em vértices opostos de um quadrado de lado 6m. Na figura 2, a grama é a parte do quadrado externa a quatro quadrantes de círculos com centros no vértice do quadrado. As dimensões do segundo canteiro ainda não estão determinadas: o projetista deseja escolher o lado do quadrado da figura 2 de tal forma que as áreas ocupadas pela grama nos dois canteiros sejam iguais.\n\nConsiderando  = 3, para que o desejo do projetista seja satisfeito, o lado do quadrado do segundo canteiro terá comprimento, em metros, mais próximo de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Na figura 1, se for calculada a área de uma semicircunferência de raio 6m (dois quadrantes de circunferência de raio 6m) e do resultado subtrair-se a área de um quadrado de lado 6m, tem-se a área ocupada pela grama: 2 . Substituindo  por 3, a área ocupada pela grama é de 18m . A área ocupada pela grama, na figura 2, é obtida subtraindo da área do quadrado a área de um círculo cujo raio é a metade do lado do quadrado. Chamando de L o lado do . quadrado, tem-se . Como as duas áreas devem ser iguais, Substituindo  por 3, tem-se: chega-se a",
+    "image": "/edcley/revisao-2026-geral-q015.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q015-res.webp",
+    "sourceNumber": 15
+   },
+   {
+    "number": 16,
+    "page": 72,
+    "subject": "Química",
+    "prompt": "O zinco é um metal (Z=30) suscetível de polimento, adquirindo, nesse caso, um belo brilho metálico. Ele ocorre na natureza na forma de sais de zinco. Pouco oxidável ao frio, o zinco é utilizado em grandes chapas para cobrir casas e galpões. Apesar de ser pouco oxidável ao frio, sua oxidação ocorre em outras condições, formando um cátion divalente.\n\nA estrutura eletrônica do seu cátion está corretamente representada em\n\n2 2 6 2 6 10",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "2 2 6 2 6 2 10 A distribuição correta do átomo de Zn seria 1s 2s 2p 3s 3p 4s 3d . Ao formar o íon 2 2+, ele perde dois elétrons do nível mais externo (4s ). Logo, a distribuição correta do íon 2 2 6 2 6 10 é 1s 2s 2p 3s 3p 3d .",
+    "image": "/edcley/revisao-2026-geral-q016.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q016-res.webp",
+    "sourceNumber": 1
+   },
+   {
+    "number": 17,
+    "page": 73,
+    "subject": "Química",
+    "prompt": "Leia, com atenção, o trecho a seguir:\n\nComo o íon fluoreto é muito eficiente na prevenção das cavidades, ele é adicionado na água de abastecimento público de muitos lugares, para fornecer uma concentração de 1mg/L.\n\nFonte: Brown, T. L. et al. Química: a ciência central. 9ªEd. Pearson Prentice Hall. 2005. p. 637.\n\nConsidere-se que um tanque de água, em uma estação de abastecimento, tenha um milhão de litros de água, e que o composto utilizado para fluoretação tenha sido o Na SiF . 2 6\n\n–1 –1 (Dado massas molares: Na SiF = 188g · mol e F = 19g · mol ). 2 6\n\nA massa de Na SiF , em kg, que deve ser adicionada ao tanque de modo a atingir a 2 6 concentração de íons fluoreto desejada, é aproximadamente,",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "A concentração desejada de íons fluoreto é de 1mg/L. 6 3 Como o tanque possui 10 L de água, a massa de flúor será de 10 g Em 1 mol de Na SiF (188g) há 6 mols de F (114g). Assim: 2 6 188g _______ 114g 3 m? ________ 10 g 3 m = 1,65 · 10 g = 1,65kg.",
+    "image": "/edcley/revisao-2026-geral-q017.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q017-res.webp",
+    "sourceNumber": 2
+   },
+   {
+    "number": 18,
+    "page": 74,
+    "subject": "Química",
+    "prompt": "O correto balanceamento de equações químicas permite estimar a proporção entre as quantidades de produtos e os reagentes em uma dada transformação.\n\nDessa forma, a equação química descrita que NÃO está devidamente ajustada é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "A equação corretamente balanceada seria dada por: 2KI(aq) + Pb(NO ) (aq) → PbI (s) + 3 2 2 2KNO (aq). 3",
+    "image": "/edcley/revisao-2026-geral-q018.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q018-res.webp",
+    "sourceNumber": 3
+   },
+   {
+    "number": 19,
+    "page": 74,
+    "subject": "Química",
+    "prompt": "A reação entre o NO e CO na formação de NO e CO se processa segundo o diagrama de 2 2 energia versus coordenação da reação a seguir:\n\nA energia mínima necessária para que ocorra a reação entre o NO e CO na formação de 2 NO e CO , em kcal, é 2",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "A energia mínima necessária para que ocorra uma reação é denominada energia de ativação e é calculada como a diferença entre a energia dos reagentes e o máximo da curva 185 – 72 = 113.",
+    "image": "/edcley/revisao-2026-geral-q019.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q019-res.webp",
+    "sourceNumber": 4
+   },
+   {
+    "number": 20,
+    "page": 75,
+    "subject": "Química",
+    "prompt": "Um radiofármaco é uma substância que, por sua forma farmacêutica, quantidade e qualidade de radiação, pode ser utilizada no diagnóstico e tratamento de seres vivos, qualquer que seja a via de administração utilizada. De forma mais simples, podemos dizer que radiofármacos são moléculas ligadas a elementos radioativos (radioisótopos ou radionuclídeos), constituindo dessa forma fármacos radioativos que são utilizados em uma especialidade médica denominada Medicina Nuclear. Os radiofármacos são utilizados em quantidades traços (traçadores radioativos) com a finalidade de diagnosticar patologias e disfunções do organismo.\n\nAtualmente, o radionuclídeo mais importante para a preparação de radiofármacos com 99m finalidade diagnóstica é o tecnécio-99m ( Tc). Trata-se de um emissor gama com meia- vida de 6h.\n\nFonte: Cadernos Temáticos de Química Nova na Escola, n° 6, p.31-32, jul. 2005.\n\nApós um dia do preparo do radiofármaco tecnécio-99m, a perda de sua atividade radioativa foi de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "99m Se o período de meia-vida do Tc é de 6h, no final de um dia (24h) passaram-se quatro períodos, conforme o decaimento a seguir: 100% 50% 25% 12,5% 6,25% 99m No final de um dia, ainda restam com atividade 6,25% do Tc, ou seja, houve uma perda de 93,75% de sua atividade.",
+    "image": "/edcley/revisao-2026-geral-q020.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q020-res.webp",
+    "sourceNumber": 5
+   },
+   {
+    "number": 21,
+    "page": 75,
+    "subject": "Química",
+    "prompt": "Leia o texto a seguir.\n\nO deslustre de metais é uma reação química comum. (...) Por exemplo, a prata perde o lustre ao reagir com enxofre para formar um revestimento escuro de sulfeto de prata, Ag S. (...) 2 A mancha pode ser removida raspando-a com um abrasivo (um material áspero). Mas a química fornece métodos mais brandos para tal. Um caminho é usar um metal mais ativo para reagir com o material da mancha (...). Por exemplo, na prata podem ser removidas por reação com alumínio:\n\n3Ag S(s)      +      2Al(s)    →      Al S (s)       +   Ag(s) 2 2 3 sulfeto de          alumínio         sulfeto de       prata prata                                           alumínio\n\nFonte: UCKO, D. A. Química para as ciências da saúde: uma introdução à química geral, orgânica e biológica. 2ª ed. São Paulo: Editora Manole\n\nLtda, 1992. p. 130.\n\nNo procedimento de remoção de mancha, descrito no texto apresentado, a prata sofre um processo de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "No processo apresentado no texto lido, a prata é inicialmente descrita na forma Ag S, na 2 qual seu nox vale +1. Ao final do processo, a prata é descrita somente como Ag, em que + 0 seu nox vale 0. Logo ela terá sofrido um fenômeno denominado redução (Ag →Ag ).",
+    "image": "/edcley/revisao-2026-geral-q021.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q021-res.webp",
+    "sourceNumber": 6
+   },
+   {
+    "number": 23,
+    "page": 77,
+    "subject": "Química",
+    "prompt": "A curcumina, substância encontrada no pó amarelo-alaranjado extraído da raiz da cúrcuma ou açafrão-da-índia (Cúrcuma longa), aparentemente pode ajudar a combater vários tipos de câncer, o mal de Parkinson e o de Alzheimer e até mesmo retardar o envelhecimento.  Estudos conduzidos na Universidade de São Paulo em Ribeirão Preto (USP-RP), interior do estado, indicam que em dosagem baixa a curcumina previne danos no material genético das células provocados por compostos tóxicos. Em teores elevados, porém, a curcumina pode até matá-las.\n\nDisponível em: http://revistapesquisa.fapesp.br/2010/02/03/o-veneno-do-remédio/. Acesso em: nov. 2024.\n\nAs funções orgânicas presentes na molécula de curcumina são caracterizadas pelos seguintes grupos  funcionais:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "A carbonila se configura por um carbono ligado duplamente a um oxigênio. O metoxi é um grupo substituinte composto por um oxigênio e uma metila (CH -O-). 3 A hidroxila fenólica é um grupo –OH ligado diretamente em um anel aromático.",
+    "image": "/edcley/revisao-2026-geral-q023.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q023-res.webp",
+    "sourceNumber": 8
+   },
+   {
+    "number": 24,
+    "page": 78,
+    "subject": "Química",
+    "prompt": "Alguns dos mais importantes processos químicos envolvem comportamentos de ácidos e bases em soluções aquosas. Pode-se relacionar a força ácida de determinadas substâncias por meio do valor de sua constante de ionização (Ka). Considere os valores das constantes de ionização apresentadas na tabela seguinte:\n\nácido constante de ionização (Ka)\n\n–4 HNO 5x10 2\n\n–5 H CCOOH 1,8x10 3\n\n–10 HCN 4x10\n\n–4 HF 6,7x10\n\n–3 H ClCOOH 1,4x10 2 O ácido cuja solução aquosa 1 molar apresenta + maior concentração de íons H é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "+ – Em uma ionização de um ácido HX genérico,  considere-se HX  Ï H  + X . A constante de ionização é definida como , logo, quanto maior o valor de + Ka, mais ionizado estará o ácido em solução e maior será a concentração de íons H , logo, quanto maior o valor de Ka, mais ionizado estará o ácido em solução e maior será a + concentração de íons H .",
+    "image": "/edcley/revisao-2026-geral-q024.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q024-res.webp",
+    "sourceNumber": 9
+   },
+   {
+    "number": 25,
+    "page": 78,
+    "subject": "Química",
+    "prompt": "Leia, atentamente, o texto a seguir:\n\nReduzir a queima das florestas tropicais é uma das formas mais baratas de combater o aquecimento global, principalmente para o Brasil, dono dos maiores estoques florestais da Terra. (...) As queimadas respondem por cerca de 20% do CO lançado na atmosfera. O estudo 2 estima que, se o desmatamento for reduzido em 50% até 2050, seria possível eliminar 50 bilhões de toneladas de CO , o que representaria mais de 10% dos cortes necessários para 2 manter as concentrações atmosféricas do gás em 440 partes por milhão, como recomendou o Painel Intergovernamental sobre mudanças climáticas da ONU (IPCC).\n\nFonte: AZEVEDO, A.L. O Globo - Ciência, p. 36, 11  maio  2007. (adaptado).\n\n3 Considerando-se que a densidade do ar seja de 1,25kg/m , a concentração de CO 2, recomendada pelo IPCC, em mol/L, é de\n\n–6",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "O item refere-se à mudança de unidades. A concentração recomendada pelo IPCC está expressa em ppm, mas a pergunta se refere à mol/L. Cálculo da massa de ar que corresponde a 1 litro: 3 1,25kg -----------  10 L –3 x    -----------    1L                x = 1,25.10 kg (1,25g) do ar Cálculo do número de mol de CO existente em 440g: 2 1 mol de CO -----------  44g 2 x       -----------  440g             y = 10mol Cálculo da concentração de CO , em mol/L: 2 6 10mol de CO ---------- 10 g do ar 2 x      ----------  1,25g do ar –5 x = 1,25.10 mol/L.",
+    "image": "/edcley/revisao-2026-geral-q025.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q025-res.webp",
+    "sourceNumber": 10
+   },
+   {
+    "number": 26,
+    "page": 79,
+    "subject": "Química",
+    "prompt": "A Cinética Química é uma ciência que estuda a velocidade das reações químicas e os fatores que as influenciam. Dentre os diversos fatores que interferem na velocidade de uma reação (temperatura, concentração de reagentes, superfície de contato, entre outros), podemos destacar a presença de catalisadores.\n\nCatalisadores são substâncias que aumentam a velocidade das reações químicas e não são consumidos durante o processo, sendo regenerados no final, como mostra a figura a seguir. Fonte: Química nova na escola, N° 28, p. 42, maio 2008.\n\nA análise do gráfico permite afirmar que o catalisador atua",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "Catalisadores são substâncias que atuam diminuindo a energia de ativação, que é a energia necessária para provocar a colisão eficaz entre as moléculas reagentes e com isso garantir o início da reação química. Com a análise do gráfico, pode-se observar que a reação em questão é exotérmica (Hr > Hp) e que o calor da reação ( H) não se altera pela utilização de catalisador.",
+    "image": "/edcley/revisao-2026-geral-q026.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q026-res.webp",
+    "sourceNumber": 11
+   },
+   {
+    "number": 27,
+    "page": 80,
+    "subject": "Química",
+    "prompt": "Leia o trecho a seguir.\n\nSegundo Walker, (...) os cientistas estão isolando seus componentes e sintetizando-os em laboratório para gerar a reação de quebra da água, chamada fotólise. Os produtos seriam usados para gerar, por exemplo, metanol ou etanol. Os dois grandes desafios são aumentar a eficiência da reação e definir qual a melhor forma de armazenar essa energia. “Alguns apostam numa economia de hidrogênio, outros preferem compostos químicos como os álcoois, mas estes podem gerar gás carbônico em sua queima, algo que queremos evitar”, observa o químico, laureado por esclarecer o mecanismo de síntese da adenosina- trifosfato (ATP, na sigla em inglês), a unidade de energia na célula.\n\nFonte: Revista Ciência Hoje. Ed.306, vol.51, ago. 2013. p. 39.\n\nNo texto, o químico mostra a preocupação na utilização de álcoois, pois o produto de sua queima pode causar",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "O gás carbônico é uma das principais substâncias que contribui para o efeito estufa, ou seja, para o aquecimento global.",
+    "image": "/edcley/revisao-2026-geral-q027.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q027-res.webp",
+    "sourceNumber": 12
+   },
+   {
+    "number": 28,
+    "page": 81,
+    "subject": "Química",
+    "prompt": "Por muitos anos, o bisfenol A (BPA) tem sido uma das substâncias químicas de maior produção ao redor do mundo. É empregado na fabricação de diversos plásticos, presentes em muitos itens, inclusive mamadeiras, garrafas de água mineral, selantes dentários, latas de conserva, tubos para água, CDs e DVDs, impermeabilizantes de papéis e tintas. Todos esses materiais, ao sofrer a ação de processos físicos ou químicos, liberam bisfenol A em alimentos, em bebidas e no ambiente.\n\nFonte: Disponível em: < http://cienciahoje.uol.com.br/revista-ch/2012/292/os-plasticos-podem-ser-perigosos >. Acesso: jun. 2012.\n\nO BPA, 4,4'-dihidroxi-2,2-difenilpropano é representado por",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "O texto cita que o BPA é um bisfenol, ou seja, possui dois grupamentos fenólicos, caracterizados pela presença de hidroxila (OH) ligada, diretamente, ao anel aromático. Portanto, a estrutura que representa o BPA deve ser",
+    "image": "/edcley/revisao-2026-geral-q028.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q028-res.webp",
+    "sourceNumber": 13
+   },
+   {
+    "number": 29,
+    "page": 82,
+    "subject": "Química",
+    "prompt": "Na equação  aA(g) + bB(g) cC(g) + dD(g), após atingir o equilíbrio químico, pode-\n\nse calcular a constante de equilíbrio .\n\nA opção correta a respeito da constante K de equilíbrio é:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "A constante K de equilíbrio é determinada por K = , logo, quanto maior o valor da constante,  maior quantidade de produtos.",
+    "image": "/edcley/revisao-2026-geral-q029.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q029-res.webp",
+    "sourceNumber": 14
+   },
+   {
+    "number": 30,
+    "page": 83,
+    "subject": "Química",
+    "prompt": "O processo denominado reforma catalítica consiste na reorganização de moléculas menos usadas em outras mais usadas pelo uso de catalisador. Um desses processos transforma hexano em ciclohexano, com liberação de uma molécula de gás hidrogênio.\n\nA opção que descreve esse processo, resumidamente, é:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "O hexano é composto por seis carbonos, distribuídos em uma cadeia aberta, normal e saturada. Já o ciclohexano, que também possui seis carbonos, é formado por uma cadeia fechada, normal e saturada. Logo, a reação de transformação de um hexano em um ciclohexano é mais bem representada por:",
+    "image": "/edcley/revisao-2026-geral-q030.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q030-res.webp",
+    "sourceNumber": 15
+   },
+   {
+    "number": 31,
+    "page": 84,
+    "subject": "Biologia",
+    "prompt": "Leia, com atenção, as informações a seguir:\n\nI- Um indivíduo de peso médio pode queimar até 10ml por hora de álcool (...), sem o perigo de se embriagar. Esse é o limite máximo. Qualquer quantidade acima desse limite já não é oxidada e passa a atuar diretamente sobre o Sistema Nervoso Central.\n\nALGUMAS RELAÇÕES ENTRE QUANTIDADE DE ÁLCOOL INGERIDA E EFEITOS FÍSICOS E PSÍQUICOS doses até 99 mg/dL: sensação de calor/rubor facial, comprometi mento da capacidade de julgamento, diminuição da inibição, coor denação reduzida e euforia; doses entre 100 e 199 mg/dL: aumento do comprometimento da capacidade de julgamento, humor instável, diminuição da atenção, diminuição dos reflexos e incoordenação motora; doses entre 200 e 299 mgldL: fala arrastada, visão dupla, compro metimento de memória e da capacidade de concentração, diminui ção de resposta a estímulos, vômitos; doses entre 300 e 399 mg/dL: anestesia, lapsos de memória, sono lência; doses maiores de 400 mgldL: insuficiência respiratória, coma, morte. Obs.: em 100 mL de cerveja há aproximadamente 5 mg de álcool.\n\nII- No Brasil, o álcool é responsável por mais de 90% das internações hospitalares por dependência, além de aparecer em cerca de 70% dos laudos cadavéricos das mortes violentas (...). Seguramente é a droga que mais danos traz à sociedade. (...)\n\nFonte: BIRNER, Ernesto; UZINIAN, Armênio. Drogas você faz seu caminho. São Paulo: Harbra, 2000. (Temas de biologia, v. 1)\n\nConsidere que um jovem de 22 anos ingeriu sete latas de 350ml de cerveja, no período de duas horas em uma festa.\n\nEsse jovem poderá colocar a sua própria vida e a de outros em risco se",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "O jovem ingeriu sete latas de 350ml, o que corresponde a 2.450ml de cerveja ingerida. Em duas horas de festa, o organismo do jovem apenas metabolizou 20ml de álcool, logo,  restaram no organismo do jovem 2.430ml de álcool para serem metabolizados (2.450ml consumidos – 20ml metabolizados = 2.430ml). Se em 100ml de cerveja há aproximadamente 5mg de álcool, então, em 2.430ml de cerveja, haverá 121,5mg de álcool: 100ml – 5mg 2430ml – xmg O álcool é uma droga que alivia a tensão e a ansiedade, e dá uma sensação de relaxamento, euforia e desinibição. À medida que sua concentração no sangue aumenta, os centros nervosos que controlam o raciocínio, os reflexos, a coordenação motora e a memória são inibidos. A pessoa perde a firmeza para andar e raciocinar, e fala com dificuldade. Pode ficar agressivo e com comportamento social inconveniente. Dessa forma, qualquer pessoa habilitada não deverá consumir bebida alcoólica antes de dirigir qualquer veículo, uma vez que beber e dirigir é uma mistura perigosa que pode ser fatal não só para o motorista que bebeu, como para todos que se arriscam a andar de carro com ele na direção e ainda para todos que cruzarem com ele nas ruas e estradas. Observação: droga é qualquer substância que, administrada ao organismo, produz modificação em suas funções.",
+    "image": "/edcley/revisao-2026-geral-q031.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q031-res.webp",
+    "sourceNumber": 1
+   },
+   {
+    "number": 32,
+    "page": 86,
+    "subject": "Biologia",
+    "prompt": "A Doença de Machado Joseph, DMJ, é um transtorno neurodegenerativo associado com depósitos de uma forma aberrante da proteína ataxina-3 no cérebro (...).  A DMJ, também chamada de Ataxia Espino-Cerebelar tipo 3, pertence a um grupo de transtornos ligados a uma repetição anormal de três nucleotídeos (os nucleotídeos são os “blocos de construção” do DNA) dentro de um gene.\n\nDisponível em: http://www.aappad.com.br/art19.html. Acesso em: jul. 2012.\n\nO gene responsável pela síntese da proteína ataxina-3 contém uma região que apresenta repetições do trinucleotídeo GTC.  Os indivíduos normais apresentam de 12 a 37 repetições GTC, já os afetados, que produzem a proteína ataxina-3 mutante, apresentam de 61 a 84 repetições.\n\nA tabela a seguir contém alguns códons do RNA mensageiro e seus respectivos aminoácidos:\n\ncódon aminoácido códon aminoácido GUC valina CAG glutamina GAC ácido aspártico CUG leucina AUG metionina AUC isoleucina O nome do aminoácido que aparece com repetições extras na proteína ataxina-3 mutante é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "O trinucleotídeo GTC do DNA, que aparece com repetições extras, é transcrito para CAG no RNAm. O códon CAG codifica o aminoácido glutamina.",
+    "image": "/edcley/revisao-2026-geral-q032.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q032-res.webp",
+    "sourceNumber": 2
+   },
+   {
+    "number": 33,
+    "page": 86,
+    "subject": "Biologia",
+    "prompt": "A casca de banana, quem diria, pode ajudar a despoluir a água. Esta é a conclusão de um estudo da Universidade Estadual Paulista (Unesp). O material, quando picado, é capaz de se ligar e acumular quantidades de chumbo e cobre da água do rio, tornando 20 vezes mais fácil a detecção de metais tóxicos. (...) Metais pesados como o cobre e o chumbo são contaminantes comuns nos setores industrial e agrícola. Mesmo quando encontrados em concentrações extremamente baixas na água, podem ser tóxicos para a saúde humana, provocando danos do fígado ao cérebro. (...)\n\nFonte: Banana ajuda a despoluir água. Rio de Janeiro, Jornal O Globo, 24 mar. 2011.\n\nOs metais pesados oferecem perigo à saúde humana, mesmo em concentrações muito baixas no ambiente, pois",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "Os metais pesados não são biodegradáveis, razão pela qual não são metabolizados ou excretados pelos seres vivos, e por isso se acumulam, não somente nos organismos, mas também ao longo das cadeias alimentares, atingindo as maiores concentrações no último nível trófico. Assim, mesmo se a concentração inicial de metais pesados, na água, for pequena, no último nível trófico da teia alimentar, onde se encontram os seres humanos, ela estará certamente muito alta, em níveis perigosos para a saúde humana.",
+    "image": "/edcley/revisao-2026-geral-q033.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q033-res.webp",
+    "sourceNumber": 3
+   },
+   {
+    "number": 34,
+    "page": 87,
+    "subject": "Biologia",
+    "prompt": "Mudanças drásticas no ambiente podem reduzir (...) severamente o tamanho de populações. Esta diminuição (...) da população em função (...) do acaso é denominada efeito gargalo de garrafa (bottle – neck). Após essa mudança, alguns alelos podem ser mais frequentes e outros menos frequentes pela simples obra do acaso, como mostrado na figura - bolas de cores diferentes representam diferentes genótipos: Fonte: CAMPBELL, N. A. et al. Biology. Pearson: [S.I], 2008. (Tradução do autor)\n\nUm exemplo do efeito observado na imagem e descrito no texto lido, na natureza, está",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "A redução drástica na população de guepardos diminuiu sua diversidade genética de forma aleatória. Processos como a morte dos dinossauros ou de anfíbios, pela ação ambiental, caracterizam um processo de seleção natural e não de efeito gargalo de garrafa.",
+    "image": "/edcley/revisao-2026-geral-q034.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q034-res.webp",
+    "sourceNumber": 4
+   },
+   {
+    "number": 35,
+    "page": 88,
+    "subject": "Biologia",
+    "prompt": "Antigos colhedores de frutas egípcios abriam os figos com um corte para acelerar o amadurecimento, e fazendeiros chineses colocavam peras em salas fechadas onde queimavam incenso. (...)\n\nFonte: Disponível em: < http://www2.uol.com.br/sciam/noticias/como_as_frutas_ficam_maduras. >. Acesso em: jul. 2012.\n\nAssim como os antigos egípcios, costuma-se fazer riscos na casca de frutas ainda verdes, que posteriormente são envolvidos em folhas de jornal para obter um amadurecimento mais rápido.\n\nO amadurecimento dos frutos acontece mais rápido porque as folhas do jornal",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "O etileno é um hormônio vegetal gasoso, que se distribui por difusão entre as células e tem o efeito de induzir o amadurecimento do fruto.",
+    "image": "/edcley/revisao-2026-geral-q035.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q035-res.webp",
+    "sourceNumber": 5
+   },
+   {
+    "number": 36,
+    "page": 89,
+    "subject": "Biologia",
+    "prompt": "A biofortificação de alimentos é um processo que busca, através do cruzamento entre diferentes variedades de plantas, realizar o melhoramento genético e selecionar vegetais com boas características nutricionais ou resistência a doenças. Para obtenção de mandiocas com maior teor nutricional, por exemplo, a seleção das plantas é feita visualmente. Existe uma estreita relação entre a quantidade de carotenoides totais e a coloração amarela das raízes, e a quase totalidade dessa substância é o betacaroteno. Dessa forma, as mandiocas com raízes amarelas são preferencialmente usadas, em detrimento das mandiocas de raízes brancas.\n\nMandiocas amarelas são selecionadas para o processo de biofortificação porque apresentam maior quantidade de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "O betacaroteno, presente nas raízes de mandioca de coloração amarela, depois de ingerido, converte-se em vitamina A no interior do organismo.",
+    "image": "/edcley/revisao-2026-geral-q036.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q036-res.webp",
+    "sourceNumber": 6
+   },
+   {
+    "number": 37,
+    "page": 90,
+    "subject": "Biologia",
+    "prompt": "Partindo para uma nova vítima\n\nO estágio final do ciclo infeccioso é encontrar um novo hospedeiro para que o patógeno possa infectar. (...) Os muitos agentes que usam a via respiratória para infecção tendem a produzir sintomas como descarga nasal, tosse e espirro, os quais aumentam a produção de aerossóis e consequentemente o potencial de transferência para um novo hospedeiro.\n\nFonte: SILVA, Carlos Henrique Pessôa de Menezes e; NEUFELD, Paulo Murillo. Bacteriologia e Micologia para o laboratório clínico. Rio de\n\nJaneiro: Editora Revinter, 2006. p. 13.\n\nExemplos de doenças causadas por patógenos que usam as estratégias descritas no texto para aumentar o potencial de transferência para outro hospedeiro, são",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "A tuberculose, causada pelo bacilo de Koch, a difteria, causada pelo bacilo diftérico, a pneumonia bacteriana, causada pelo pneumococo, e o resfriado, causado por vírus, têm gotículas de saliva e secreção provenientes da tosse ou do espirro como maneiras de transmissão. A febre tifóide causa diarreias e é transmitida por água e alimentos contaminados, e a sífilis é uma doença sexualmente transmitida assim como a gonorreia. Dengue, febre amarela e malária são transmitidas por mosquitos.",
+    "image": "/edcley/revisao-2026-geral-q037.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q037-res.webp",
+    "sourceNumber": 7
+   },
+   {
+    "number": 38,
+    "page": 90,
+    "subject": "Biologia",
+    "prompt": "Em uma floresta hipotética, com recursos em níveis suficientes, sem sobrar nem faltar, foram inseridas duas espécies de roedores de grande porte, que possuíam um nicho ecológico bem parecido e diferiam em poucos aspectos quanto às preferências alimentares. Uma das espécies se manteve estável e cresceu seu número populacional enquanto a outra foi ficando mais escassa. Em outro ambiente, essa tentativa de inclusão também foi realizada, mas por um período maior e apenas uma das espécies sobreviveu com sucesso. Paralelamente, cada espécie foi colocada em ambientes semelhantes, separadamente, e ambas obtiveram sucesso. A relação ecológica que ocorreu entre as duas espécies é denominada",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "A eliminação parcial ou total de uma espécie que convive com outra que tem o mesmo nicho é, na maioria das vezes, resultado de uma competição e, nesse caso, interespecífica.",
+    "image": "/edcley/revisao-2026-geral-q038.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q038-res.webp",
+    "sourceNumber": 8
+   },
+   {
+    "number": 39,
+    "page": 91,
+    "subject": "Biologia",
+    "prompt": "Observe, atentamente, a imagem a seguir, que representa o modelo de uma organela responsável pela fotossíntese encontrada nos seres autótrofos eucariontes.\n\nA absorção da energia luminosa, a fotólise da água e a construção de glicídios a partir do CO ocorrem, respectivamente, em 2",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "A estrutura marcada com o número 1 representa o tilacoide do cloroplasto, local da absorção da energia luminosa pela clorofila e da fotólise da água. A região marcada com o número 2 representa o estroma do cloroplasto onde existem as enzimas responsáveis pela síntese de glicídios.",
+    "image": "/edcley/revisao-2026-geral-q039.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q039-res.webp",
+    "sourceNumber": 9
+   },
+   {
+    "number": 40,
+    "page": 92,
+    "subject": "Biologia",
+    "prompt": "As afirmativas apresentadas a seguir se referem à origem das primeiras células e, portanto, da própria vida em nosso planeta:\n\nI. Elas sintetizavam substâncias orgânicas a partir de matéria-prima inorgânica. II. Uma de suas características era a presença de uma membrana semipermeável. III. A existência de organelas membranosas permitiu uma vida independente do meio. IV. Essas células realizavam respiração aeróbica, usando gases da atmosfera primitiva.\n\nAcerca das afirmativas apresentadas, é correto dizer que",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "As primeiras células realizavam glicólise fermentativa, degradando as substâncias orgânicas dos mares primitivos, mas sem utilizar os gases da atmosfera primitiva, pois a glicólise fermentativa não utiliza gases atmosféricos. Não possuíam organelas membranosas: eram células tipicamente procarióticas, mas apresentavam membrana semipermeável, capaz de realizar trocas, de forma seletiva, com o ambiente dos mares primitivos.",
+    "image": "/edcley/revisao-2026-geral-q040.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q040-res.webp",
+    "sourceNumber": 10
+   },
+   {
+    "number": 41,
+    "page": 92,
+    "subject": "Biologia",
+    "prompt": "Envenenamento por Monóxido de Carbono (CO)\n\nGerard J. Tortora\n\nO monóxido de carbono (CO) é um gás incolor e inodoro, liberado pelos escapamentos de gás incolor e inodoro, liberado pelos escapamentos dos automóveis e pela fumaça do cigarro. Uma de suas características interessantes é que ele se combina com a hemoglobina de modo muito semelhante ao O , exceto que a combinação do monóxido 2 de carbono e hemoglobina é 200 vezes mais forte.(...) Os níveis aumentados de monóxido de carbono levam à hipóxia, e resultam no envenenamento por monóxido de carbono. A condição pode ser tratada administrando-se O puro, que acelera a separação do 2 monóxido de carbono da hemoglobina.\n\nFonte: TORTORA, Gerard J. Corpo humano: fundamentos de anatomia e fisiologia. 4ª ed. Porto Alegre: Artmed, 2000. p.421. Outra forma de tratamento seria a de se colocar o paciente em uma câmara hiperbárica de O , a uma pressão de 3atm, pois uma pressão externa aumentada acarretaria 2",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Um aumento da pressão extracorpórea facilitaria a difusão de gás oxigênio para o plasma sanguíneo, e, assim, os tecidos receberiam um maior aporte de O para a sua respiração 2 celular. Enquanto isso, o CO seria, gradativamente, deslocado da hemoglobina, que voltaria a transportar o O . 2",
+    "image": "/edcley/revisao-2026-geral-q041.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q041-res.webp",
+    "sourceNumber": 11
+   },
+   {
+    "number": 42,
+    "page": 93,
+    "subject": "Biologia",
+    "prompt": "Em regiões de garimpo, na Amazônia, o mercúrio é muito utilizado pelos garimpeiros no processo de separar o ouro do cascalho, e depois, parte desse mercúrio é lançado nos rios locais, penetrando nas suas cadeias alimentares. Em altas concentrações, o mercúrio causa danos ao sistema nervoso central, podendo provocar tremores, problemas visuais, paralisia, demência e morte.  A tabela a seguir mostra alguns peixes da bacia amazônica e os componentes de sua dieta.\n\nPeixe Alimentação preferencial Apapá-amarelo  Insetos e peixes pequenos Cachorro Peixes Pacu-borracha Frutas, sementes, folhas e algas Piaba Frutas e insetos Piau Sementes, folhas, frutos e insetos Pirarucu Frutas, sementes e peixes Surubim-chicotePeixes Traíra Peixes, insetos e pequenos anfíbios Tucunaré-azul Peixes e insetos aquáticos Sabendo que agrotóxicos, isótopos radioativos e metais pesados tendem a se concentrar ao longo das cadeias alimentares, um especialista indicaria como mais adequados para a alimentação humana os peixes",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "De acordo com o fenômeno da magnificação trófica, ou bioacumulação, as substâncias não biodegradáveis tendem a se acumular nos organismos e nas cadeias alimentares, pois não são metabolizadas nem excretadas; como consequência, as maiores concentrações dessas substâncias serão sempre encontradas nos últimos níveis tróficos.  O mercúrio é um metal pesado, não biodegradável, e está submetido à bioacumulação.  Assim, dentre os peixes mostrados na tabela, os mais adequados para a alimentação humana seriam os menos contaminados, ou seja, aqueles que se alimentam de vegetais, posicionando-se no primeiro nível trófico de consumo.",
+    "image": "/edcley/revisao-2026-geral-q042.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q042-res.webp",
+    "sourceNumber": 12
+   },
+   {
+    "number": 43,
+    "page": 94,
+    "subject": "Biologia",
+    "prompt": "Muitas pessoas contestam as teorias de Darwin, fazendo a seguinte indagação: Se o ser humano veio do macaco, por que atualmente ainda existem macacos?\n\nA opção que responde a essa indagação é:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Charles Darwin, em momento algum, afirmou que os humanos descendem dos macacos. Na verdade, baseado em evidencias morfológicas e comportamentais, ele sustentou que os macacos atuais e os seres  humanos apresentam ancestralidade comum. A existência também de evidências fósseis, genéticas e bioquímicas reforça essa proposta.",
+    "image": "/edcley/revisao-2026-geral-q043.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q043-res.webp",
+    "sourceNumber": 13
+   },
+   {
+    "number": 44,
+    "page": 94,
+    "subject": "Biologia",
+    "prompt": "Observe, com atenção, a imagem a seguir que representa os alvéolos pulmonares dos mamíferos, envolvidos por uma rede de capilares. Essas estruturas pulmonares garantem uma grande superfície de contato e, consequentemente, uma eficiente troca gasosa. Além da grande superfície de contato, outra característica que contribui para a eficiente troca gasosa nos mamíferos é a presença de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "Os alvéolos pulmonares e os capilares que os envolvem são formados por tecido epitelial simples. A concentração de O na cavidade dos alvéolos, superior a concentração de O 2 2 no sangue, permite a difusão simples.",
+    "image": "/edcley/revisao-2026-geral-q044.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q044-res.webp",
+    "sourceNumber": 14
+   },
+   {
+    "number": 45,
+    "page": 95,
+    "subject": "Biologia",
+    "prompt": "De acordo com o quadro apresentado, de 1990 a 2020, as doenças infecciosas predominantes como causa de morte serão",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "Percebe-se um considerável aumento na porção de mortes por HIV nos anos compreendidos pela pesquisa. Em 2020, as doenças prevalecentes, como causas de morte, foram TB (tuberculose), com 51,4 % e 54,7%, e HIV, com 8,6% e 37,1%, respectivamente. Qualquer outra doença considerada na análise apresentou redução.",
+    "image": "/edcley/revisao-2026-geral-q045.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q045-res.webp",
+    "sourceNumber": 15
+   },
+   {
+    "number": 46,
+    "page": 97,
+    "subject": "Física",
+    "prompt": "Ciência de arrepiar\n\n(...) As cargas elétricas geradas se acumulam na superfície de metal do gerador, que tem formato esférico, e são transmitidas para quem o toca. “A eletricidade gosta de ir para as pontas, por isso vai para os fios de cabelos, repelindo-os e deixando-os em pé”, explicou Massaferi para uma plateia boquiaberta, que ficou ainda mais impressionada quando viu que o aparelho também podia acender uma lâmpada e produzir raios, como os que se formam em uma tempestade. (...)\n\nFonte: MOUTINHO, S. Ciência de arrepiar. Ciência Hoje On-Line. Disponível em: http://cienciahoje.org.br/ciencia-de-arrepiar/. Acesso em: 27 ago. 2019.\n\nUma aplicação do fenômeno marcado no texto lido se encontra",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "Como as cargas se concentram nas pontas, o para-raios oferece um potencial atrativo para o raio em sua ponta.",
+    "image": "/edcley/revisao-2026-geral-q046.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q046-res.webp",
+    "sourceNumber": 1
+   },
+   {
+    "number": 47,
+    "page": 98,
+    "subject": "Física",
+    "prompt": "Em mais um filme de catástrofe produzido por Hollywood – Impacto profundo –, um meteoro gigantesco está em rota de colisão com o planeta Terra e, em um esforço desesperado, uma missão que deve tentar desviá-lo é enviada ao espaço. Enquanto isso, o governo luta para esconder a informação do povo, mas quando esta  vaza, todos passam a lutar pela sua sobrevivência, incessantemente.\n\nNo filme, o meteoro não é desviado e atinge o planeta. Com o impacto dele com o planeta, é correto  afirmar que",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "Em qualquer posição, para que o momento linear permaneça constante, a Terra sofrerá uma mudança em sua posição, aproximando-se ou afastando-se do Sol.",
+    "image": "/edcley/revisao-2026-geral-q047.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q047-res.webp",
+    "sourceNumber": 2
+   },
+   {
+    "number": 48,
+    "page": 99,
+    "subject": "Física",
+    "prompt": "Em 1971, os tripulantes da espaçonave Apollo 15, ao explorarem a lua, fizeram uma experiência em homenagem ao célebre Galileu Galilei. Abandonaram uma pena e um martelo da mesma altura, simultaneamente, e ambos chegaram ao mesmo tempo no chão.\n\nEssa experiência feita na Terra não fornece o mesmo resultado, ou seja, os corpos não chegam ao mesmo tempo no chão.  Isso ocorre porque",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "A experiência dá certo na Lua porque não há resistência do ar. Na Terra, os corpos ao caírem sofrem resistência do ar, o que faz com que os mesmos cheguem em tempos diferentes quando abandonados da mesma altura.",
+    "image": "/edcley/revisao-2026-geral-q048.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q048-res.webp",
+    "sourceNumber": 3
+   },
+   {
+    "number": 49,
+    "page": 99,
+    "subject": "Física",
+    "prompt": "Um container vazio possui massa de 2.000kg. Um guindaste precisa levantar um container, que vai ser preenchido com carga de massa 22.000kg, a uma altura de 20m.\n\n2 Considere-se a aceleração da gravidade g = 10m/s .\n\nA energia necessária pelo guindaste para levantar o container cheio à altura mencionada, em MJ  – mega Joules  –, corresponde a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Calculando, tem-se: E = m.g.h = 24000.10.20 = 4800000 = 4,8 MJ. p",
+    "image": "/edcley/revisao-2026-geral-q049.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q049-res.webp",
+    "sourceNumber": 4
+   },
+   {
+    "number": 50,
+    "page": 100,
+    "subject": "Física",
+    "prompt": "APÓS SPUTNIK, LIXO POLUI ÓRBITA DA TERRA Ricardo Bonalume Neto Especial para a Folha | 4 de outubro de 1997\n\nA força de atração gravitacional exercida pela Terra sobre os outros corpos celestes - incluindo satélites artificiais- diminui com a distância do planeta. O campo gravitacional, porém, apenas diminui, nunca desaparece, por isso a expressão \"ausência de gravidade\" é falsa.\n\nO satélite fica em órbita graças a um equilíbrio entre a gravidade e a inércia do movimento circular em torno da Terra, que funciona como uma espécie de \"força centrífuga\" (que age no sentido contrário ao da atração gravitacional terrestre).\n\nPara um objeto entrar em órbita da Terra, ele deve ser lançado por um foguete em direção ao espaço a uma velocidade entre 8.000 e 11.200 metros por segundo, e ter uma velocidade horizontal equivalente a cerca de 28.500 km/h na superfície do planeta.\n\nNessa velocidade, a superfície da Terra gira se afastando da horizontal com a mesma rapidez com que a gravidade atrai o objeto para baixo, criando o equilíbrio que o mantém circulando em torno do planeta.\n\nUm satélite a 35.840 km sobre a Terra gira em um período de 24 horas, o mesmo da rotação do planeta. Se a órbita for sobre a linha do Equador, o satélite fica geoestacionário, por ficar perpendicular sobre o mesmo ponto da superfície do planeta.\n\nOs mais importantes satélites de comunicação são geoestacionários. Existem hoje 718 satélites desse tipo.\n\nFonte: BONALUME NETO, R. Após Sputnik, lixo polui órbita da Terra. Folha de S. Paulo, 4 out. 1997. Disponível em:\n\nhttps://www1.folha.uol.com.br/fsp/1997/10/04/mundo/14.html. Acesso em: 17 maio 2023.\n\nPara satélites geoestacionários, sejam quais forem suas massas, a grandeza física que tem o mesmo valor a qualquer um deles é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "Os satélites de comunicação são geoestacionários, isto é, estão em repouso em relação à Terra. E para que um corpo fique em uma órbita definida, ele deve ter a mesma velocidade orbital, independentemente de outras grandezas.",
+    "image": "/edcley/revisao-2026-geral-q050.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q050-res.webp",
+    "sourceNumber": 5
+   },
+   {
+    "number": 51,
+    "page": 101,
+    "subject": "Física",
+    "prompt": "Em setembro de 2013, o queniano Wilson Kipsang quebrou, em Berlim, o recorde mundial da maratona percorrendo seus 42.195 metros de extensão em 2h03min23seg. Naquele momento, o recorde mundial dos 100m rasos pertencia ao jamaicano Usain Bolt, que estabeleceu a marca de 9,58 segundos no campeonato mundial de atletismo de 2009 também em Berlim.\n\nProvas de curta e longa distância exigem dos atletas capacidades muito diferentes. É certo que o recordista mundial dos 100 metros não poderia manter o mesmo ritmo ao longo de 42 quilômetros, assim como o recordista da maratona poderia imprimir um ritmo mais forte se sua prova tivesse apenas 100 metros de extensão. Ainda assim, uma comparação entre as velocidades médias desses dois excepcionais atletas em suas provas pode servir como forma de compreender as diferenças entre as duas modalidades.\n\nConsiderando as provas em que estabeleceram os recordes citados, a velocidade média de Usain Bolt, com relação à de Wilson Kipsang, é maior cerca de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "O queniano percorreu os 42.195m de extensão da maratona em 7.403 segundos, o que resulta numa velocidade média de 5,7m/s ou, aproximadamente, 20,5km/h. O jamaicano percorreu os 100m em 9,58 segundos, o que resulta numa velocidade média de 10,4m/s ou, aproximadamente, 37,6km/h. Assim, a razão entre as velocidades médias do jamaicano e do queniano é aproximadamente 1,8, ou seja, cerca de 80% maior.",
+    "image": "/edcley/revisao-2026-geral-q051.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q051-res.webp",
+    "sourceNumber": 6
+   },
+   {
+    "number": 52,
+    "page": 101,
+    "subject": "Física",
+    "prompt": "Subir escadas é uma atividade cansativa que requer um determinado esforço físico. Um homem de 70kg de massa, ao subir as escadas de um prédio comercial que possui 20 degraus por andar, consegue desenvolver uma potência média de 100W. 2 Cada degrau mede 18cm de altura. Considerando a aceleração igual a 10 m/s , o tempo gasto pelo homem para subir  os 5 andares  deste  prédio comercial será igual a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "A altura total das escadas será: A potência é calculada por:",
+    "image": "/edcley/revisao-2026-geral-q052.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q052-res.webp",
+    "sourceNumber": 7
+   },
+   {
+    "number": 53,
+    "page": 102,
+    "subject": "Física",
+    "prompt": "Um macaco de massa M assusta-se ao ver sua imagem refletida em um espelho de massa M como mostra a figura a seguir:\n\nDas atitudes a seguir, a que o macaco deve tomar para deixar de ver sua imagem é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "Como o peso do macaco é igual ao do espelho, qualquer atitude tomada pelo macaco acontecerá, igualmente, com o espelho.",
+    "image": "/edcley/revisao-2026-geral-q053.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q053-res.webp",
+    "sourceNumber": 8
+   },
+   {
+    "number": 54,
+    "page": 103,
+    "subject": "Física",
+    "prompt": "Dois elementos diferentes são misturados dentro de um recipiente de paredes isolantes e com capacidade térmica desprezível. As temperaturas iniciais dos elementos são diferentes. No equilíbrio, as temperaturas irão igualar-se.\n\nSobre a situação apresentada, é correto afirmar que",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "A temperatura de equilíbrio pode ser obtida pela expressão: C (? – ? ) + C (? – ? ) = 0 1 F 01 2 F 02 Onde: C  e C  são as capacidades térmicas dos elementos e ?  suas temperaturas iniciais. 1 2 0",
+    "image": "/edcley/revisao-2026-geral-q054.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q054-res.webp",
+    "sourceNumber": 9
+   },
+   {
+    "number": 55,
+    "page": 103,
+    "subject": "Física",
+    "prompt": "URÂNIO X PETRÓLEO X CARVÃO\n\nUm elemento combustível com 530 quilos de urânio tem capacidade para o suprimento de energia elétrica para 42.000 residências médias durante um mês. Para fornecimento a um mesmo número de residências, em igual período, seriam necessárias cerca de 5.200 toneladas de petróleo ou 13.000 toneladas de carvão.\n\nFonte: INDÚSTRIAS NUCLEARES DO BRASIL (INB).\n\nDo ponto de vista energético, a utilização de urânio é interessante, já que",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "A energia obtida a partir de 530kg de urânio equivale à energia obtida a partir de 5.200.000kg de petróleo e 13.000.000kg de carvão. Assim, com 1kg de urânio, obtém-se a energia equivalente à obtida com aproximadamente 24.528kg de carvão.",
+    "image": "/edcley/revisao-2026-geral-q055.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q055-res.webp",
+    "sourceNumber": 10
+   },
+   {
+    "number": 56,
+    "page": 104,
+    "subject": "Física",
+    "prompt": "A figura mostra algumas pessoas assistindo um filme 3D utilizando óculos especiais.\n\nCrédito: Shutterstock.\n\nCada lente desses óculos permite a passagem da luz apenas em uma direção, o que faz com que cada olho enxergue uma imagem diferente, dando a sensação 3D. Esse processo ocorre devido ao caráter ondulatório da luz.\n\nSendo assim, ao passar pela lente dos óculos especiais, a luz sofre o fenômeno da",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "Quando as direções de vibração das ondas eletromagnéticas (no caso, a luz) são reduzidas a apenas uma direção, dizemos que essas ondas estão polarizadas.  É o que acontece com as lentes polarizadoras dos óculos 3D. Uma lente permite a passagem do componente horizontal da luz e a outra do componente vertical da luz.",
+    "image": "/edcley/revisao-2026-geral-q056.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q056-res.webp",
+    "sourceNumber": 11
+   },
+   {
+    "number": 57,
+    "page": 105,
+    "subject": "Física",
+    "prompt": "As viagens à Lua foram muito comuns na década de 1970. Houve uma grande corrida para a exploração de nosso satélite natural. O primeiro homem a pisar no solo lunar foi, em 1969, o americano Neil Armstrong. Esse feito fora propagado pela imprensa internacional como o grande feito do século XX. As imagens mostraram o astronauta saltando na superfície lunar com muita facilidade, pois a aceleração da gravidade na Lua equivale a 1/6 da aceleração da gravidade na Terra.\n\nFonte: HEWITT, Paul. G. Física Conceitual. 9 ed. Tradução: Trieste Freire Ricci; Maria Helena Gravina. Porto Alegre: Bookman,\n\n2002, p. 76.\n\nSupondo que o recordista mundial de salto em altura, o cubano Javier Sotomayor – que saltou 2,45m – pudesse saltar na Lua com as mesmas condições que na Terra, seu salto alcançaria a altura de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Sendo a aceleração da gravidade na Lua 1/6 da Terra, a altura alcançada pelo atleta seria seis vezes maior, logo, h = 14,70m.",
+    "image": "/edcley/revisao-2026-geral-q057.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q057-res.webp",
+    "sourceNumber": 12
+   },
+   {
+    "number": 58,
+    "page": 105,
+    "subject": "Física",
+    "prompt": "Como funciona o bungeejumping?\n\nO princípio é muito simples: basta prender uma ponta de um cabo elástico nos pés ou na cintura, fixar a outra ponta em um lugar bem alto e saltar. O mais difícil é ter coragem para encarar essa descarga de adrenalina. Se todos os procedimentos de segurança forem seguidos à risca, a possibilidade de acidentes no bungeejumping é praticamente nula. O problema é que muita gente ainda pratica o esporte sem respeitar normas de segurança. (...)\n\nTranco Todo mundo imagina que o tranco seja violento, mas, na verdade, a pessoa sente apenas uma pequena parte dele. Uma pessoa de 50 quilos produz um impacto de 1,4 mil quilos no final da queda, mas essa força é quase totalmente amortecida pelo cabo elástico, que tem 200% de elasticidade, ou seja, um cabo de 10 metros fica com 30m.\n\nFonte: Disponível em: < http://mundoestranho.abril.com.br/materia/como-funciona-o-bungee-jumping >. Acesso em: jul. 2012.\n\nA prática de esportes radicais é muito difundida, principalmente, entre os jovens. O bungeejump é um exemplo desse tipo de esporte. A opção que apresenta uma explicação real do funcionamento desse esporte é a seguinte:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "Como se tem I = F · ?t, quanto maior o tempo, menor a força para provocar uma variação na quantidade de movimento do indivíduo que fez o salto.",
+    "image": "/edcley/revisao-2026-geral-q058.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q058-res.webp",
+    "sourceNumber": 13
+   },
+   {
+    "number": 59,
+    "page": 106,
+    "subject": "Física",
+    "prompt": "Nos estados de nosso país há uma limitação de velocidade imposta aos veículos. Normalmente as indicações de velocidade são diferenciadas para veículos de passeio e de passageiros/cargas. Essa limitação visa, além da preservação do piso, a segurança dos usuários.\n\nO gráfico a seguir representa o deslocamento de um caminhão de cinco toneladas em uma estrada horizontal e retilínea que ao se deparar com um obstáculo, é freado até parar. Nessa situação, a distância necessária para que a parada do caminhão seja feita com segurança, sem atingir o obstáculo, é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Por análise do gráfico temos que o caminhão trafegava com velocidade de 20m/s e para após 5s. Utilizando a propriedade de correspondência da área sob o gráfico e o deslocamento sofrido pelo móvel, temos, pela área do triângulo: Área =",
+    "image": "/edcley/revisao-2026-geral-q059.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q059-res.webp",
+    "sourceNumber": 14
+   },
+   {
+    "number": 62,
+    "page": 110,
+    "subject": "Física",
+    "prompt": "Grupo mata jacaré de 336 quilos e bate novo recorde em campeonato nos EUA. Animal gigante foi capturado em rio durante a temporada de caça na região de Mississippi.\n\nFonte: Globo Rural On-Line. Disponível em: https://revistagloborural.globo.com/Colunas/planeta-bicho/noticia/2013/12/grupo-\n\nmata-jacare-de-336-quilos-e-bate-novo-recorde-em-campeonato-nos-eua.html. Acesso em: 01 ago. 2019. A figura mostra o jacaré capturado e suspenso em equilíbrio por duas cordas inextensíveis. Considere que as duas cordas presas ao jacaré exercem a mesma força sobre ele e que estão inclinadas 30° com a horizontal; o centro de gravidade do jacaré está no ponto médio entre as cordas. A intensidade da força que cada corda exerce sobre o jacaré é de\n\nDados: sen 30° = 0,5 e cos 60° = 0,86; g = 10m/s².",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "Se decompusermos as trações nas suas componentes vertical (TY) e horizontal (TX), temos: Aplicando a condição de equilíbrio, temos que a soma das componentes verticais das cordas é igual ao peso do jacaré. Sendo assim: Calculando a tração, temos",
+    "image": "/edcley/revisao-2026-geral-q062.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q062-res.webp",
+    "sourceNumber": 2
+   },
+   {
+    "number": 63,
+    "page": 111,
+    "subject": "Física",
+    "prompt": "Quando a luz incide em uma lâmina de vidro transparente, nem toda a radiação é transmitida. Devido às reflexões, cerca de\n\n96% da luz passam por meio de uma lâmina de vidro. Para uma única vidraça, a perda de 4% não chega a ser notada, no\n\nentanto, superpondo várias lâminas, a perda já é considerável.\n\nSuperpondo duas lâminas das descritas anteriormente, o percentual da luz incidente que é transmitido por meio delas é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Luz incidente: 100% Luz transmitida por meio das duas lâminas:  100 · 0,96 · 0,96 = 92,16%.",
+    "image": "/edcley/revisao-2026-geral-q063.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q063-res.webp",
+    "sourceNumber": 3
+   },
+   {
+    "number": 65,
+    "page": 113,
+    "subject": "Física",
+    "prompt": "Leia a tabela a seguir.\n\nTaxa de conversão de energia por watt para algumas fontes de luz branca Vapor Incandescentefluerescente LEDs Metálico Energia Radiada    Luz visível 8% 21% 27% 15-25%\n\n73% 37% 17% 0% Infravermelho 0% ~0% 19% ~0% Ultravioleta 81% 58% 63% 15-25% Total de energia radiada 75- Emissão de calor 19% 42% 37% 85% Total 100% 100% 100% 100%\n\nFonte: PINTO, R. A. Projeto e implementação de lâmpadas para iluminação de interiores empregando diodos emissores de luz (LEDS).\n\nUniversidade Federal de Santa Catarina. 2008. Disponível em:\n\nhttps://repositorio.ufsm.br/bitstream/handle/1/8458/RAFAELADAIMEPINTO.pdf. Acesso em: 13 ago. 2019. (Adaptado)\n\nObservando a tabela, os tipos de lâmpada com maior e com menor irradiação de calor são, respectivamente,",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 0,
+    "explanation": "O calor é irradiado por um corpo na forma de infravermelho. Dessa forma, a lâmpada com maior irradiação desse tipo de onda é a incandescente, enquanto a LED é aquela com a menor irradiação.",
+    "image": "/edcley/revisao-2026-geral-q065.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q065-res.webp",
+    "sourceNumber": 5
+   },
+   {
+    "number": 66,
+    "page": 113,
+    "subject": "Física",
+    "prompt": "Uma pessoa mergulhando ouve o som de um barco, mas não o enxerga. O som é muito intenso e fica mais agudo a cada instante.\n\nQuando o mergulhador levanta a cabeça,  colocando-a para fora d´água, ele vê o barco",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 2,
+    "explanation": "Como o som se propaga mais rápido dentro da água que no ar, o mergulhador verá o barco mais longe que o esperado ao sair da água. O som, ficando mais agudo, significa que, devido ao efeito Doppler, o barco está se aproximando.",
+    "image": "/edcley/revisao-2026-geral-q066.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q066-res.webp",
+    "sourceNumber": 6
+   },
+   {
+    "number": 67,
+    "page": 114,
+    "subject": "Física",
+    "prompt": "Uma nave está viajando a 1.000km/h em uma região do espaço isenta de forças gravitacionais. A nave é composta de duas partes: a cápsula de massa M e a unidade propulsora de massa 9M.\n\nA cápsula é ejetada a uma velocidade de 28.00km/h. A velocidade da unidade propulsora após a ejeção da cápsula é",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "As figuras a seguir mostram as situações antes e depois da ejeção da cápsula: ? Mx28000 + 9Mv = 10Mx1000 ? 9Mv = 7200M ? v = 800km/h.",
+    "image": "/edcley/revisao-2026-geral-q067.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q067-res.webp",
+    "sourceNumber": 7
+   },
+   {
+    "number": 69,
+    "page": 116,
+    "subject": "Física",
+    "prompt": "Cena ocorrida em reserva na África do Sul foi presenciada por funcionários. Depois de um salto de 2 m, gnu consegue escapar das garras da leoa faminta.\n\nFonte: G1. Disponível em:  http://g1.globo.com/natureza/noticia/2013/09/gnu-salta-uma-altura-de-2-metros-para-escapar-de-\n\nataque-de-leoa.html. Acesso em: 01 ago. 2019.\n\nConsidere que o gnu da figura tenha 280 kg e que toda a energia despendida por ele para chegar a 2 metros tenha se transformado em energia potencial gravitacional.  A energia despendida pelo gnu para chegar à altura de 2m, em KJ, é de Dados: aceleração da gravidade = 10 m/s².",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "Calculando a energia potencial gravitacional do gnu em relação ao chão numa altura de 2m, temos:",
+    "image": "/edcley/revisao-2026-geral-q069.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q069-res.webp",
+    "sourceNumber": 9
+   },
+   {
+    "number": 70,
+    "page": 117,
+    "subject": "Física",
+    "prompt": "As leis de Kepler são cinemáticas: descrevem os movimentos dos planetas em torno do Sol. A dinâmica do movimento planetário deve-se a Newton, que descobriu a Lei da gravitação universal e mostrou que a força que rege os movimentos dos planetas em torno do Sol é atração gravitacional exercida pelo Sol sobre eles.\n\nDe acordo com as leis citadas no texto, a opção correta é a seguinte:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "W > 0 ? E < E = 0 8?próximo Pprox P8",
+    "image": "/edcley/revisao-2026-geral-q070.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q070-res.webp",
+    "sourceNumber": 10
+   },
+   {
+    "number": 71,
+    "page": 117,
+    "subject": "Física",
+    "prompt": "O projeto revolucionário MAGLEV, trem que utiliza o fenômeno de levitação magnética em lugar de rodas, poderá ser utilizado no trajeto Rio – São Paulo, facilitando a conexão entre estas duas cidades.\n\nSuponha que um protótipo desse trem que está sendo montado no Rio de Janeiro possui 1200 kg, tem a capacidade de transportar 8 passageiros de 80 kg e atinge a velocidade máxima de 72 km/h. Além disso, considere que o trecho percorrido na aceleração seja de 200 m e que após esse período o MAGLEV permanece com velocidade constante, praticamente sem atrito, graças à levitação.\n\nPara o funcionamento do MAGLEV nas condições acima, o módulo da força aplicada para se atingir a velocidade esperada é de",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "A força magnética é a propulsora do trem, logo ela é a responsável pela aceleração, o que =  DE Sendo assim, F.d.cosq = resulta em variação da energia cinética do veículo. Logo, W c. FM - 0 → F.200m.1 = 1840 kg. 2022 → F = 1.840 N.",
+    "image": "/edcley/revisao-2026-geral-q071.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q071-res.webp",
+    "sourceNumber": 11
+   },
+   {
+    "number": 72,
+    "page": 118,
+    "subject": "Física",
+    "prompt": "Como funciona o bungeejumping?\n\nO princípio é muito simples: basta prender uma ponta de um cabo elástico nos pés ou na cintura, fixar a outra ponta em um lugar bem alto e saltar. O mais difícil é ter coragem para encarar essa descarga de adrenalina. Se todos os procedimentos de segurança forem seguidos à risca, a possibilidade de acidentes no bungeejumping é praticamente nula. O problema é que muita gente ainda pratica o esporte sem respeitar normas de segurança. (...)\n\nTranco Todo mundo imagina que o tranco seja violento, mas, na verdade, a pessoa sente apenas uma pequena parte dele. Uma pessoa de 50 quilos produz um impacto de 1,4 mil quilos no final da queda, mas essa força é quase totalmente amortecida pelo cabo elástico, que tem 200% de elasticidade, ou seja, um cabo de 10 metros fica com 30m.\n\nFonte: Disponível em: < http://mundoestranho.abril.com.br/materia/como-funciona-o-bungee-jumping >. Acesso em: jul. 2012.\n\nA prática de esportes radicais é muito difundida, principalmente, entre os jovens. O bungeejump é um exemplo desse tipo de esporte. A opção que apresenta uma explicação real do funcionamento desse esporte é a seguinte:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "Como se tem I = F · ?t, quanto maior o tempo, menor a força para provocar uma variação na quantidade de movimento do indivíduo que fez o salto.",
+    "image": "/edcley/revisao-2026-geral-q072.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q072-res.webp",
+    "sourceNumber": 12
+   },
+   {
+    "number": 73,
+    "page": 119,
+    "subject": "Física",
+    "prompt": "Um navio petroleiro cuja massa total é de 565.000 toneladas, quando carregado, pode transportar o equivalente a quatro milhões de barris de petróleo. Partindo de um porto situado nos Emirados Árabes Unidos, totalmente carregado de petróleo, em um dia em que a temperatura ambiente é de 46°C, o navio petroleiro viaja para seu destino no Canadá, onde descarrega seus tanques, sob a temperatura ambiente, na hora do desembarque, de 6°C.\n\nFonte: PRANDI, J. O maior navio petroleiro do mundo. Disponível em: http://gigantesdomundo.blogspot.com.br/2012/12/o-\n\nmaior-navio-petroleiro-do-mundo.html. Acesso em: 02 ago. 2019.\n\nA massa e o volume do petróleo que é descarregado no porto do Canadá, são, respectivamente,\n\n–4 Dados: coeficiente de dilatação volumétrico do petróleo = 10,0.10 /°C; . 3 densidade do petróleo = 0,85 g/cm .",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 3,
+    "explanation": "Com a diferença de temperatura entre o porto de partida 46°C (114,8°F) e o porto de destino 6°C, haverá uma contração (dilatação negativa) na carga de petróleo, o que acarretará uma diminuição do volume. Porém a massa de petróleo não sofrerá alteração, pois não há perda de massa. -4 Logo: ∆V = V ∆T → ∆V = 4.10.10 .40 → ∆V = 160.000 barris; logo: V = 3,84 milhões de 0 barris.",
+    "image": "/edcley/revisao-2026-geral-q073.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q073-res.webp",
+    "sourceNumber": 13
+   },
+   {
+    "number": 74,
+    "page": 120,
+    "subject": "Física",
+    "prompt": "Um espelho esférico E, de distância focal f , e uma lente delgada convergente, de distância E focal f = 12cm, estão dispostos coaxialmente, com seus eixos ópticos coincidentes, L conforme a Figura 1, a seguir:\n\nFigura 1\n\nUm feixe luminoso paralelo ao eixo óptico incide sobre a lente, refratando-se e atingindo o espelho. Após a reflexão no espelho, eles retornam sobre si mesmos atravessando, novamente, a lente e emergindo, paralelamente, ao eixo óptico.\n\nAgora observe a Figura 2, a seguir.\n\nFigura 2 Retirando-se a lente da frente do espelho e mantendo os raios incidentes paralelos ao eixo óptico, como na figura 2,  os raios refletidos se cruzarão em um ponto localizado a",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 1,
+    "explanation": "O ponto P na figura é ao mesmo tempo, o foco da lente f e o centro de curvatura do L espelho. A distância do ponto P ao vértice do espelho será de 68cm. Consequentemente, o raio de curvatura do espelho será 68cm e a sua distância focal de 34cm. Ao retirar o espelho, os raios incidentes paralelos, após a reflexão no espelho, irão convergir no foco do espelho f , que está a 34cm do vértice do espelho. E",
+    "image": "/edcley/revisao-2026-geral-q074.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q074-res.webp",
+    "sourceNumber": 14
+   },
+   {
+    "number": 75,
+    "page": 121,
+    "subject": "Física",
+    "prompt": "Na comunicação entre você e um amigo por meio de celulares, há transformações energéticas importantes. O som produzido por sua voz é transformado em impulsos elétricos que são levados à antena de seu celular. Os impulsos elétricos, por sua vez, produzem ondas eletromagnéticas que são transmitidas à antena da operadora e esta, imediatamente, as retransmite. A antena do celular de seu amigo capta essas ondas e transforma-a em impulsos elétricos capazes de produzir som.\n\nAs transformações envolvidas nesse processo obedecem à seguinte sequência:",
+    "options": [
+     "Alternativa A",
+     "Alternativa B",
+     "Alternativa C",
+     "Alternativa D",
+     "Alternativa E"
+    ],
+    "answer": 4,
+    "explanation": "A energia sonora é transformada em elétrica no microfone, que, por sua vez, é transformada em eletromagnética na antena. Na antena do receptor, há transformação de energia eletromagnética em elétrica e, finalmente, no alto-falante, elétrica em sonora.",
+    "image": "/edcley/revisao-2026-geral-q075.webp",
+    "imageOptions": true,
+    "explanationImage": "/edcley/revisao-2026-geral-q075-res.webp",
+    "sourceNumber": 15
+   }
+  ]
+ }
+]
