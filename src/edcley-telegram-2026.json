@@ -4583,7 +4583,8 @@
     ],
     "answer": 1,
     "explanation": "O equilíbrio mostra o AAS doando um próton à água e formando o ânion AAS⁻ e o íon H₃O⁺. Em meio alcalino, os íons OH⁻ reagem com o H₃O⁺ (H₃O⁺ + OH⁻ → 2 H₂O), o que reduz a concentração de um dos produtos. Pelo princípio de Le Chatelier, o sistema responde deslocando o equilíbrio para a direita, isto é, no sentido da formação de AAS⁻: a ionização aumenta. Por isso, a ingestão com alimentos alcalinos favorece a forma ionizada — que, por ser carregada, atravessa as membranas com mais dificuldade do que a forma neutra.\n\nAs alternativas A e E exploram a estrutura. No AAS, o anel benzênico traz um grupo carboxila (– COOH) e, no carbono vizinho, um grupo –O–CO–CH₃, que é um éster (o oxigênio está ligado a uma carbonila), e não um éter. Quem enxerga só o oxigênio entre dois carbonos marca A; quem reconhece o éster, mas não observa que os grupos estão em carbonos adjacentes (posição orto, 1,2), marca E, que fala em posição para (1,4). C é impossível: o hidrogênio faz uma única ligação, e as ligações múltiplas da molécula estão na carbonila (C=O) e no anel. D contraria o próprio caráter da substância: o AAS é um ácido, e, em doses usuais, o pH do sangue é mantido praticamente constante pelos sistemas-tampão, como o do bicarbonato.\n\nPortanto, a alternativa correta é a letra B.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/apostas-2026-parte-10-q035.webp"
    },
    {
     "number": 36,
@@ -4628,7 +4629,8 @@
     ],
     "answer": 3,
     "explanation": "Um carbono é quiral quando está ligado a quatro grupos diferentes. No colesterol, há oito deles: o carbono que traz o grupo –OH no primeiro anel (C3); os carbonos de junção entre os anéis (C8, C9, C10, C13 e C14); o carbono do anel de cinco membros que sustenta a cadeia lateral (C17); e, nessa cadeia, o carbono ramificado com um grupo metil (C20). Não são quirais os carbonos da ligação dupla C5=C6 (cada um ligado a apenas três átomos), os grupos CH₂ e o carbono do fim da cadeia que traz dois grupos metil iguais (C25). Como a molécula não apresenta simetria interna, não há compostos meso, e o número de estereoisômeros opticamente ativos é 2ⁿ = 2⁸ = 256 — dos quais apenas um é o colesterol natural.\n\nB (8) é o número de carbonos quirais, e não o de estereoisômeros: quem esquece de aplicar 2ⁿ marca essa opção. A (128 = 2⁷) resulta de deixar de contar um centro, geralmente o C20 da cadeia lateral ou o C3 do grupo –OH. E (512 = 2⁹) conta um carbono a mais, como o C25, que tem dois grupos metil iguais, ou um carbono da ligação dupla. C (32 = 2⁵) considera apenas os cinco carbonos de junção dos anéis.\n\nPortanto, a alternativa correta é a letra D.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/apostas-2026-parte-10-q038.webp"
    },
    {
     "number": 39,
@@ -4719,7 +4721,8 @@
     ],
     "answer": 2,
     "explanation": "Na equação, cada molécula de etanol perde o grupo OH de um carbono e um átomo de hidrogênio do carbono vizinho, que saem juntos como H₂O; os dois carbonos, antes unidos por ligação simples, passam a compartilhar dois pares de elétrons. Trata-se de uma desidratação intramolecular, reação de eliminação, e o composto formado, com ligação dupla C=C e fórmula geral CₙH₂ₙ, é um alceno — o eteno, nome oficial do etileno.\n\nA alternativa A erra o papel do ácido sulfúrico: ele aparece sobre a seta, como condição da reação, porque atua como catalisador (protona o grupo OH e facilita sua saída) e é regenerado ao final. B inverte o processo: há saída de água, não adição; a hidratação é o caminho contrário, usado na indústria para obter etanol a partir do eteno. D descreve outra reação: a desidratação intermolecular, em que duas moléculas de etanol se unem com saída de água, ocorre em temperatura mais baixa (cerca de 140 °C) e forma éter dietílico, não etileno. E classifica mal a transformação: numa substituição, um átomo ou grupo é trocado por outro; aqui dois grupos saem da molécula e surge uma nova ligação entre os carbonos, o que caracteriza eliminação.\n\nPortanto, a alternativa correta é a letra C.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/apostas-2026-parte-10-q044.webp"
    },
    {
     "number": 45,
@@ -4795,7 +4798,8 @@
     ],
     "answer": 2,
     "explanation": "No ibuprofeno, o carbono da extremidade da cadeia lateral está ligado a um oxigênio por ligação dupla e a um grupo OH: é a carboxila (–COOH), característica dos ácidos carboxílicos. No paracetamol, há duas funções. O grupo OH está ligado diretamente a um carbono do anel benzênico, o que define o fenol; e o nitrogênio está ligado a um carbono de carbonila (–NH–CO–), o que define a amida.\n\nAs alternativas A, D e E chamam de amina o grupo nitrogenado do paracetamol: a armadilha é enxergar o N–H e ignorar a carbonila vizinha — sem o C=O ligado ao nitrogênio, haveria amina. As alternativas B e E chamam o fenol de álcool, mas o álcool exige o OH em carbono saturado, fora do anel aromático. B ainda classifica o ibuprofeno como aldeído, que teria um hidrogênio, e não um OH, no carbono da carbonila; e D fala em éster, que exigiria um oxigênio entre a carbonila e outro carbono (–COO–C), e não um grupo OH.\n\nPortanto, a alternativa correta é a letra C.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/apostas-2026-parte-10-q049.webp"
    },
    {
     "number": 50,
@@ -6086,7 +6090,8 @@
     ],
     "answer": 0,
     "explanation": "Compare as duas estruturas: os átomos e as ligações são os mesmos, na mesma ordem — fórmula molecular, função (aldeído), posição das ligações e cadeia são idênticas. O que muda é a disposição espacial em torno de uma única ligação dupla da cadeia lateral: antes da luz, os dois trechos da cadeia ficam do mesmo lado dessa ligação, e a molécula se dobra; depois, ficam em lados opostos, e a molécula se estende.\n\nEsse é o caso típico da isomeria geométrica: a ligação dupla impede a rotação, e os grupos ligados aos seus carbonos podem ficar do mesmo lado (cis) ou em lados opostos (trans). No olho, a luz converte o 11-cis-retinal em todo-trans-retinal, e a mudança de forma ativa a opsina.\n\nA isomeria óptica (B) exigiria um carbono quiral e imagens especulares; as isomerias de função, posição e cadeia (C, D e E) são planas e alterariam a fórmula estrutural. O tipo de isomeria é a geométrica, alternativa A.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/apostas-2026-parte-11-q089.webp"
    },
    {
     "number": 90,
@@ -7371,7 +7376,8 @@
     ],
     "answer": 3,
     "explanation": "Nas estruturas, identificam-se: hidroxilas ligadas a anel aromático (fenol — uma no THC, duas no CBD), um éter cíclico no THC (o oxigênio do anel central) e longas porções de hidrocarboneto, com ligações duplas no anel ciclo-hexênico (e no grupo isopropenila do CBD), além da cadeia pentila. Predomina a parte apolar: são moléculas muito lipossolúveis, que atravessam membranas e a barreira hematoencefálica e se ligam aos receptores CB1, abundantes no sistema nervoso.\n\nA e E citam grupos (amina, ácido carboxílico, ligações peptídicas) ausentes nas estruturas. B fala em ésteres e ácidos graxos, também ausentes. C contradiz a estrutura: os canabinoides são pouco solúveis em água — tanto que se acumulam no tecido adiposo e são eliminados lentamente.\n\nAo analisar estruturas, conte primeiro os grupos funcionais e depois pese a proporção entre partes polares e apolares. Resposta: D.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/apostas-2026-parte-12-q086.webp"
    },
    {
     "number": 87,
@@ -13679,7 +13685,8 @@
     ],
     "answer": 2,
     "explanation": "Lógica\n Há três grupos com heteroátomo: duas OH presas diretamente ao anel benzênico, um N–H no anel de cinco membros e, na ponta, um carbono com =O e –OH. OH ligada a carbono de anel aromático é fenol; álcool exige OH em carbono saturado. Caem B, D e E. O carbono com =O e –OH ao mesmo tempo forma a carboxila (–COOH), de ácido carboxílico; aldeído teria –CHO, com H no lugar do OH. Cai A, que ainda cita imina (C=N), ligação ausente: o N faz só ligações simples, com dois carbonos e um H — por isso é classificado como amina. \n\nRazão e proporção\n Contabilidade de oxigênios: a estrutura desenhada é C9H7NO4, com 4 O. 2 OH fenólicas usam 2 O; a carboxila usa 2 O (1 no C=O e 1 no OH). Total 2 + 2 = 4: não sobra nenhum oxigênio para um aldeído. Massa molar de conferência: 9 · 12 + 7 · 1 + 14 + 4 · 16 = 193 g/mol. \n\nSacada matemática\n Cada alternativa é um trio; decida só a 1ª e a 3ª posição. Fenol × álcool → sobram A e C. Aldeído × ácido carboxílico → sobra C. Duas decisões binárias resolvem cinco opções. Resposta: C\n\nAtenção: O N–H do anel indólico é aromático e quase não tem caráter básico; chamá-lo de amina é a classificação escolar (N ligado a dois carbonos e a um H). Além disso, a molécula desenhada é uma das unidades que se encadeiam na melanina (o ácido 5,6-di-hidroxi-indol-2-carboxílico), não o pigmento inteiro — o enunciado foi ajustado para dizer isso.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q002.webp"
    },
    {
     "number": 3,
@@ -13711,7 +13718,8 @@
     ],
     "answer": 1,
     "explanation": "Lógica\n Seguindo as setas: H2/Pt satura o alceno → A = butano. O HCl adiciona-se à dupla e o Cl entra no carbono 2 → B = 2-clorobutano: alternativa B correta. KOH(aq) troca Cl por OH → C = butan-2-ol; dicromato em meio ácido oxida álcool secundário a cetona → D = butanona. A cai: D é cetona (C=O no meio da cadeia), não aldeído. D cai: o butano, apolar e sem ligações de hidrogênio, tem o MENOR ponto de ebulição; o maior é o do álcool C. \n\nAnálise dimensional\n M(C4H10O) = 4 · 12 g/mol + 10 · 1 g/mol + 16 g/mol = 74 g/mol (C). M(C4H8O) = 4 · 12 + 8 · 1 + 16 = 72 g/mol (D). Só D tem 72: E cai. \n\nRazão e proporção\n Oxidar o álcool secundário a cetona retira 2 H: C4H10O → C4H8O. A fórmula C4H8O é de D, não de C: a alternativa C cai. Diferença de massa: 74 − 72 = 2 g/mol = 2 × 1 g/mol de H. \n\nSacada matemática\n Álcool saturado acíclico segue CnH2n+2O: com n = 4, 2 · 4 + 2 = 10 H. Qualquer alternativa que dê 8 H ao álcool cai na hora. Resposta: B\n\nAtenção: A grafia atual recomendada é “2-clorobutano”, junto; a alternativa conserva a grafia do original. No esquema de origem, o reagente aparecia como “HC1” (com o algarismo 1), corrigido para HCl.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q004.webp"
    },
    {
     "number": 5,
@@ -13726,7 +13734,8 @@
     ],
     "answer": 4,
     "explanation": "Lógica\n Quatro filtros, um de cada vez. Acíclica (aberta): cai I, que tem anel. Saturada (só ligações simples entre os átomos da cadeia): cai III, com C=C. II, IV e V são abertas e normais (sem ramificação). Heterogênea exige heteroátomo ENTRE dois carbonos. Em II, o O da OH está na ponta, ligado a um só carbono; em IV, o O está fora da cadeia (C=O, que também não torna a cadeia insaturada). Ambas são homogêneas. Em V, o N está entre dois carbonos (C–NH–C): única heterogênea. \n\nRazão e proporção\n Contagem de H confirma a saturação: V = C4H11N; para amina acíclica saturada, H = 2n + 3 = 2 · 4 + 3 = 11. Bate: nenhuma ligação dupla. III = C5H10, mas um alcano de 5 C teria 2 · 5 + 2 = 12 H: faltam 2 H, ou seja, 1 insaturação. \n\nSacada matemática\n Teste da “ponta solta”: heteroátomo no fim do traço (como o OH de II) não torna a cadeia heterogênea. Só o N de V tem carbono dos dois lados — razão de 2 vizinhos carbono para 1 heteroátomo. Resposta: E",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q005.webp"
    },
    {
     "number": 6,
@@ -13741,7 +13750,8 @@
     ],
     "answer": 0,
     "explanation": "Lógica\n Comparando peça por peça: o N–H com C=O e CH3 (grupo amida) é idêntico nas duas moléculas; logo, D e E, que falam em troca por amida, caem. A mudança está na posição oposta do anel: no paracetamol, OH; na fenacetina, O–CH2–CH3. OH em anel aromático é fenol (não álcool): cai B. Oxigênio ligado a dois carbonos (anel e etila), sem C=O vizinho, é éter (não éster): cai C. \n\nAnálise dimensional\n M(paracetamol, C8H9NO2) = 8 · 12 + 9 · 1 + 14 + 2 · 16 = 151 g/mol. M(fenacetina, C10H13NO2) = 10 · 12 + 13 · 1 + 14 + 2 · 16 = 179 g/mol. \n\nRazão e proporção\n Δ = 179 − 151 = 28 g/mol = C2H4 = 2 × CH2 (14 g/mol cada): um H trocado por –CH2CH3 (29 − 1 = 28). O número de O não muda (2 e 2): o oxigênio só trocou de vizinho, de H para carbono — fenol vira éter. \n\nSacada matemática\n Massa que cresce em múltiplo de 14, sem oxigênio novo, é cadeia de CH2 entrando; um éster exigiria mais um O (C=O). Resposta: A\n\nAtenção: O material de origem chamava o composto de “fenacetida” e desenhava um metoxi (–OCH₃); a fenacetina real tem etoxi (–OCH₂CH₃). Nome e estrutura foram corrigidos; a função (éter) e a letra não mudam.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q006.webp"
    },
    {
     "number": 7,
@@ -13756,7 +13766,8 @@
     ],
     "answer": 2,
     "explanation": "Lógica\n Na polimerização por adição, a dupla C=C do monômero se abre e todos os átomos são conservados: a unidade –CH2–CH(C6H5)– vem de CH2=CH–C6H5, o estireno. C2H2 não tem anel; C6H6 não tem os dois carbonos da cadeia; C16H16 corresponde a duas unidades. Caem A, B e E. \n\nRazão e proporção\n Contagem dentro dos colchetes: C = 1 (CH2) + 1 (CH) + 6 (anel) = 8; H = 2 + 1 + 5 = 8 → C8H8, razão C : H = 1 : 1. C8H10 (D) tem razão 4 : 5 — seria o etilbenzeno, sem a dupla na cadeia lateral, incapaz de polimerizar por adição: cai. \n\nRegra de três\n M(C8H8) = 8 · 12 + 8 · 1 = 104 g/mol. 1 mol de unidades —— 104 g 1 000 mol de unidades —— x → x = 104 000 g: a massa do polímero é só múltiplo da do monômero. \n\nSacada matemática\n Em polímero de adição, monômero e unidade de repetição têm a mesma fórmula: basta contar os átomos entre os colchetes. Resposta: C",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q007.webp"
    },
    {
     "number": 8,
@@ -13805,7 +13816,8 @@
     ],
     "answer": 1,
     "explanation": "Lógica\n A cai: a valina é mais leve que o ácido glutâmico, então a massa diminui. C cai: temperatura de fusão não descreve uma proteína dissolvida dentro da hemácia. D cai pelo sinal: sai um –COOH polar e entra um grupo apolar (isopropila); os grupos polares diminuem. E cai por igualdade: cada aminoácido tem um único carbono quiral, o carbono α. Resta B: trocar uma cadeia lateral polar por uma apolar muda as interações e, com elas, a forma tridimensional da proteína. \n\nRazão e proporção\n Glu = C5H9NO4 = 60 + 9 + 14 + 64 = 147 g/mol; Val = C5H11NO2 = 60 + 11 + 14 + 32 = 117 g/mol. Grupos polares: Glu tem 2 –COOH + 1 –NH2 = 3; Val tem 1 + 1 = 2. A proporção passa de 3 para 2: diminui. \n\nSacada matemática\n Subtraia as fórmulas em vez de calcular as duas massas: C5H9NO4 − C5H11NO2 = O2 − H2 → 32 − 2 = 30 g/mol a menos na valina. Massa e polaridade caem (A e D erram o sinal) e os carbonos quirais ficam 1 = 1 (E erra a igualdade). Resposta: B\n\nAtenção: O comentário do material de origem atribui o efeito a uma mudança de geometria nos grupos heme. A explicação aceita hoje é outra: a valina, apolar, cria uma região hidrofóbica na superfície da hemoglobina desoxigenada, que se agrega em fibras e deforma a hemácia. A letra B continua sendo a melhor, lida como alteração da forma espacial da proteína e de seus agregados.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q010.webp"
    },
    {
     "number": 11,
@@ -13837,7 +13849,8 @@
     ],
     "answer": 1,
     "explanation": "Lógica\n A triestearina é um triéster: 1 glicerol + 3 ácidos esteáricos − 3 H2O. Então a fórmula do ácido não pode ser a da própria gordura (E) nem um múltiplo da fórmula do ácido (C é 2×, D é 3×). A também cai: uma molécula neutra só com C, H e O tem número PAR de hidrogênios; H35 é impossível (seria o grupo RCOO– sem o H do ácido). \n\nRazão e proporção\n Hidrólise: C57H110O6 + 3 H2O → C3H8O3 + 3 ácido. 3 ácidos = C(57 − 3) H(110 + 6 − 8) O(6 + 3 − 3) = C54H108O6. Dividindo por 3 (proporção 1 gordura : 3 ácidos): C18H36O2. \n\nSacada matemática\n Contagem direta na figura: cada cadeia tem 17 C no ziguezague + 1 C da carbonila = 18 C. Ácido graxo saturado segue CnH2nO2: n = 18 → H = 36. Prova real: 3 × C18H36O2 + C3H8O3 − 3 H2O = C57H110O6. Resposta: B",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q012.webp"
    },
    {
     "number": 13,
@@ -13852,7 +13865,8 @@
     ],
     "answer": 2,
     "explanation": "Lógica\n Não há –COOH na figura: cada C=O está entre dois carbonos, ou seja, é carbonila de cetona. A e E caem. B cai: não existe “aldoxila”, e o éter é O–CH3 (um carbono, metoxi), não propoxi. Entre C e D: o –OH está preso diretamente ao anel aromático → hidroxila fenólica, não alcoólica. D cai. \n\nRazão e proporção\n Curcumina = C21H20O6 (368 g/mol). Os 6 oxigênios se repartem em 2 (C=O) + 2 (OCH3) + 2 (OH) = 6. A conta fecha sem sobra: duas carboxilas exigiriam 4 O só para elas, e não haveria oxigênio para os dois metoxi e as duas hidroxilas. \n\nSacada matemática\n A molécula é simétrica: analise só a metade (1 C=O, 1 OCH3, 1 OH no anel) e multiplique por 2. Resposta: C\n\nAtenção: Em solução, boa parte da curcumina existe na forma ceto-enólica, com uma hidroxila enólica entre as duas metades. A questão cobra a leitura da estrutura dada (forma dicetona), na qual a resposta é C; a alternativa A continua errada por citar carboxila.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q013.webp"
    },
    {
     "number": 14,
@@ -13867,7 +13881,8 @@
     ],
     "answer": 4,
     "explanation": "Lógica\n O texto diz que os neurotransmissores são básicos e se ligam a um receptor ácido. Base de Lewis é espécie que doa par de elétrons. A e B caem: duplas ligações e anéis aromáticos não tornam uma molécula básica (o benzeno não é base). C cai: a paridade do número de carbonos não tem efeito químico; dopamina (8 C) e serotonina (10 C) serem pares é coincidência. D cai: contar heteroátomos não explica nada (são 3 em cada); o que importa é o par livre do nitrogênio do –NH2. \n\nRazão e proporção\n Dopamina C8H11NO2 (153 g/mol): 1 N, 2 O. Serotonina C10H12N2O (176 g/mol): 2 N, 1 O. Cada amina terminal tem 1 par de elétrons livre e capta 1 H+: proporção 1 : 1 entre grupo amino e próton recebido. \n\nSacada matemática\n Teste da consequência: se a basicidade viesse de duplas ou de anéis, o benzeno seria base; se viesse do número de carbonos, o etano seria. Nenhum é. O único traço que explica “receber H+” é ter par eletrônico disponível. Resposta: E",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q014.webp"
    },
    {
     "number": 15,
@@ -13882,7 +13897,8 @@
     ],
     "answer": 4,
     "explanation": "Lógica\n Os dois –OH estão presos diretamente a anéis benzênicos → fenol. Assim, A (enol) e B (álcool) caem. O C=O está ligado a um O que faz parte do anel de cinco membros → éster cíclico (lactona). D (cetona) e C (aldeído) caem. Não há éter isolado: o O do anel é vizinho da carbonila e pertence ao éster. \n\nRazão e proporção\n Fenolftaleína = C20H14O4 (318 g/mol). Os 4 oxigênios se repartem em 2 (fenóis) + 2 (–COO– do éster) = 4, sem sobra. Uma cetona usaria só 1 O no grupo e deixaria outro O sobrando como éter, o que a estrutura não mostra. \n\nSacada matemática\n Regra do vizinho da carbonila: vizinho O → éster (ou ácido); C dos dois lados → cetona; H → aldeído. Aqui o vizinho é O, e os –OH estão no anel. Resposta: E",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q015.webp"
    },
    {
     "number": 16,
@@ -13931,7 +13947,8 @@
     ],
     "answer": 4,
     "explanation": "Lógica\n Carbono secundário é o ligado a exatamente dois outros carbonos; oxigênio não entra na conta. No anel: o carbono que carrega a COOH liga-se a três carbonos (terciário); o que carrega o O do éster liga-se a dois (secundário); os outros quatro, também a dois (secundários). Fora do anel: o C da COOH, o C da carbonila do éster e a metila ligam-se a um carbono só (primários). \n\nRazão e proporção\n Feche o balanço com a fórmula C9H8O4: 3 primários + 5 secundários + 1 terciário = 9 carbonos. Se a soma não desse 9, algum carbono teria sido esquecido ou contado duas vezes. \n\nSacada matemática\n Atalho: num anel benzênico, todo carbono já tem dois vizinhos de anel; só vira terciário quem ganha um terceiro carbono fora do anel. Aqui só o carbono que segura a COOH ganha esse terceiro vizinho: 6 − 1 = 5. Quem conta o oxigênio como vizinho chega a 4 (D). Resposta: E",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q018.webp"
    },
    {
     "number": 19,
@@ -13946,7 +13963,8 @@
     ],
     "answer": 0,
     "explanation": "Lógica\n O monômero, metacrilato de metila (CH2=C(CH3)COOCH3), tem uma ligação dupla C=C. Na polimerização, essa dupla se abre e os monômeros se encadeiam sem perder nenhum átomo: é a polimerização por adição. E cai: condensação libera molécula pequena (água, por exemplo), o que não ocorre aqui. B, C e D não descrevem formação de polímero. \n\nAnálise dimensional\n Monômero C5H8O2: 5 · 12 + 8 · 1 + 2 · 16 = 100 g/mol. Unidade de repetição –[CH2–C(CH3) (COOCH3)]– também C5H8O2 = 100 g/mol. \n\nRegra de três\n 1 mol de monômero —— 100 g 1 000 mol de monômero —— x → x = 100 000 g = 100 kg de polímero (nada sai no processo) \n\nSacada matemática\n Compare fórmulas: unidade de repetição = monômero → adição; unidade = monômeros − H2O → condensação. Aqui, 100 g/mol = 100 g/mol. Resposta: A",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q019.webp"
    },
    {
     "number": 20,
@@ -13961,7 +13979,8 @@
     ],
     "answer": 2,
     "explanation": "Lógica\n O único heteroátomo do euphol é um oxigênio, na forma –OH. Éster (B) exige dois oxigênios; cetona (D) e aldeído (E) exigem C=O, que não aparece. Fenol (A) exige OH em anel aromático, e o euphol não tem anel benzênico. A OH está presa a um carbono saturado: álcool. \n\nRazão e proporção\n Terpenos são múltiplos da unidade de isopreno (C5): o euphol, C30H50O, tem 30 ÷ 5 = 6 unidades (triterpeno). Insaturações = (2C + 2 − H) ÷ 2 = (2 · 30 + 2 − 50) ÷ 2 = 6. Na estrutura: 4 anéis + 2 duplas C=C = 6. A conta fecha sem sobrar insaturação para carbonila. \n\nSacada matemática\n Um oxigênio só, sem anel aromático e sem C=O sobrando: a única função possível com um O e um H ligados a carbono sp3 é álcool. Resposta: C",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q020.webp"
    },
    {
     "number": 21,
@@ -13976,7 +13995,8 @@
     ],
     "answer": 1,
     "explanation": "Lógica\n Bixina: em uma ponta, –COOCH3 (éster); na outra, –COOH (ácido carboxílico). Não há éter, álcool nem cetona. Genipina: duas OH em carbonos saturados (álcool), oxigênio no anel entre dois carbonos (éter) e – COOCH3 (éster). A cai: o oxigênio do éster não é éter. C e E aparecem em só uma das moléculas; D em nenhuma. Cuidado com E: o ácido carboxílico (–COOH) está só na bixina; na genipina o grupo é –COOCH3, um éster. \n\nRazão e proporção\n Contabilize os oxigênios: bixina, C25H30O4 → 4 O = 2 (éster) + 2 (ácido); genipina, C11H14O5 → 5 O = 2 (éster) + 1 (éter) + 2 (álcool). O par “2 O do éster” é o único que aparece nas duas contas. \n\nSacada matemática\n Pense em conjuntos: {éster, ácido} ∩ {álcool, éter, éster} = {éster}. Resposta: B\n\nAtenção: O comando original dizia “substâncias extraídas do urucu”, mas a genipina vem do jenipapo; o comando foi ajustado para “do urucu e do jenipapo”, como pressupõe a resolução. Rigor: a OH ligada ao carbono vizinho ao oxigênio do anel da genipina é, a rigor, de hemiacetal; isso não altera a resposta.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q021.webp"
    },
    {
     "number": 22,
@@ -14024,7 +14044,8 @@
     ],
     "answer": 1,
     "explanation": "Lógica\n O –OH está ligado diretamente a um carbono do anel aromático, o que caracteriza o fenol. Nenhum O fica entre dois carbonos (cai A, éter) e não há C=O (cai E, cetona). O nitrogênio aparece apenas nos grupos –NO2. Não há N ligado a H ou a carbono de cadeia (amina) nem o arranjo N–C=O (amida), e caem C e D. \n\nRazão e proporção\n Fórmula C6H3N3O7: são 7 O = 3 × 2 (três NO2) + 1. O único O restante é o do –OH. 3 N correspondem a 3 grupos nitro, sem N disponível para amina ou amida. \n\nAnálise dimensional\n M = 6·12 + 3·1 + 3·14 + 7·16 = 229 g/mol. Os três NO2 somam 3·46 = 138 g/mol, cerca de 60% da massa. \n\nSacada matemática\n Conta de cabeça: 2 O por nitro e 1 O por OH dão 3·2 + 1 = 7, o que confere. O O que sobra tem H e está preso ao anel, portanto é fenol. Resposta: B\n\nAtenção: O ácido pícrico (2,4,6-trinitrofenol) também é nitrocomposto, mas essa função não aparece entre as alternativas, e o comando pede apenas “uma” função presente.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q024.webp"
    },
    {
     "number": 25,
@@ -14039,7 +14060,8 @@
     ],
     "answer": 1,
     "explanation": "Lógica\n Nas quatro estruturas aparece o mesmo grupo: um carbono ligado a um O por ligação dupla e a outro O por ligação simples, e esse segundo O está preso a mais um carbono (–COO–C). É o éster. Um éter (A) teria só C–O–C, sem C=O. Cetona (C) e aldeído (E) teriam C=O sem o segundo O. O álcool (D) teria –OH, que não aparece em nenhuma das estruturas. \n\nRazão e proporção\n Fórmulas: banana C6H12O2, kiwi C8H8O2, maçã C5H10O2 e morango C9H18O2. O número de C varia de 5 a 9, mas há sempre 2 O por molécula. Éter, cetona, aldeído e álcool simples usam 1 O por grupo; dois O no mesmo carbono são a marca do grupo –COO–. \n\nSacada matemática\n Truque visual: procure o carbono com dois oxigênios, um “em cima” (=O) e outro “ao lado” (–O–), ligado a outra cadeia. Se ele aparece nas quatro estruturas, a função comum é a mesma, e os quatro aromas pertencem a ela. Resposta: B\n\nAtenção: A estrutura associada à banana corresponde ao etanoato de isobutila (2-metilpropila). O componente mais citado do aroma de banana é o etanoato de isopentila, com um carbono a mais na cadeia. A diferença vem do original e não altera a função.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q025.webp"
    },
    {
     "number": 26,
@@ -14054,7 +14076,8 @@
     ],
     "answer": 4,
     "explanation": "matemática \n\nLógica\n Conte só os carbonos: os dois anéis benzênicos, a cadeia entre o O e o N, a metila presa ao N e o carbono do CF3. Quem esquece o carbono “escondido” no rótulo CF3 chega a 16 (D). Quem esquece também a metila do N chega a 15 (C). Os distratores reproduzem essas omissões. \n\nRazão e proporção\n Contagem por blocos: 6 (anel com CF3) + 1 (CF3) + 1 (CH ligado ao O) + 2 (CH2–CH2) + 1 (CH3 no N) + 6 (anel de baixo) = 17. \n\nAnálise dimensional\n Fórmula C17H18F3NO: M = 17·12 + 18·1 + 3·19 + 14 + 16 = 309 g/mol. Só o carbono responde por 17 mol × 12 g/mol = 204 g por mol de fluoxetina. \n\nRegra de três\n 309 g —— 100% 204 g —— x → x ≈ 66% da massa da molécula é carbono \n\nSacada matemática\n Some primeiro os blocos grandes: 6 + 6 = 12 dos anéis. Depois os avulsos: 1 + 2 + 1 = 4 da cadeia, mais 1 do CF3. Total: 12 + 4 + 1 = 17. Resposta: E",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q026.webp"
    },
    {
     "number": 27,
@@ -14275,7 +14298,8 @@
     ],
     "answer": 1,
     "explanation": "Lógica\n Dissolver-se em água exige grupos capazes de interagir com ela, sobretudo O–H, que formam ligações de hidrogênio. As vitaminas A, D, E e K são dominadas por longas cadeias de carbono e hidrogênio, com apenas um ou dois oxigênios: caráter apolar, típico de lipossolúveis. Caem A, C, D e E. A vitamina C é pequena e repleta de oxigênios: quatro hidroxilas e um anel de lactona. É a única com “cara” de molécula que gosta de água. \n\nRazão e proporção\n Compare a fração O/C (átomos de oxigênio por átomo de carbono): vitamina C: C6H8O6 → 6/6 = 1; vitamina A: C20H30O → 1/20 = 0,05; vitamina D: C28H44O → 1/28 ≈ 0,04; vitamina E: C29H50O2 → 2/29 ≈ 0,07; vitamina K: C31H46O2 → 2/31 ≈ 0,06. A vitamina C tem, proporcionalmente, cerca de 14 a 28 vezes mais oxigênio que as demais. \n\nSacada matemática\n Nem precisa da fórmula completa: conte as OH. A vitamina C tem 4 OH para 6 carbonos (uma OH a cada 1,5 C); a vitamina A tem 1 OH para 20 carbonos. Quanto mais “pontos de contato” com a água por carbono, mais hidrossolúvel. Resposta: B\n\nAtenção: A estrutura da vitamina K foi redesenhada com a dupla C2=C3 do anel quinônico, ausente na figura original; a correção não altera a resposta.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q040.webp"
    },
    {
     "number": 41,
@@ -14306,7 +14330,8 @@
     ],
     "answer": 2,
     "explanation": "Lógica\n As cinco essências pertencem à mesma função (éster). Por isso interagem pelo mesmo tipo de força intermolecular (dipolo-dipolo e dispersão de London), sem ligação de hidrogênio entre as moléculas. Com o tipo de interação empatado, o desempate é o tamanho. Molécula menor tem forças de London mais fracas, é mais volátil e tem cheiro mais intenso. A, B, D e E são maiores que o metanoato de etila. \n\nAnálise dimensional\n Massas molares (g/mol): I C7H14O2 = 130; II C6H12O2 = 116; III C5H10O2 = 102; IV C3H6O2 = 74; V C6H12O2 = 116. \n\nRazão e proporção\n Todas seguem CnH2nO2: cada carbono a mais acrescenta um CH2, isto é, 14 g/mol. M = 14n + 32, o que dá n = 3 → 74; n = 5 → 102; n = 6 → 116; n = 7 → 130. \n\nSacada matemática\n Nem é preciso calcular massa: basta somar os carbonos indicados no nome. Metanoato (1) + etila (2) = 3; propila = 5; butila = 6; butanoato de etila = 6; pentila = 7. O menor total corresponde à substância mais volátil. Resposta: C\n\nAtenção: A intensidade de um odor depende também do limiar de percepção de cada substância. A questão adota a simplificação “mais volátil, cheiro mais forte”, que o próprio texto apresenta.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q042.webp"
    },
    {
     "number": 43,
@@ -14337,7 +14362,8 @@
     ],
     "answer": 3,
     "explanation": "Lógica\n I tem C=O na ponta da cadeia (aldeído: propanal); II tem —OH (álcool: propan-1-ol). E inverte as funções e cai. A cai: a carbonila é polar. B cai: álcool de cadeia curta com OH se mistura bem com água. C cai: em I não há H ligado a O, então suas moléculas não fazem ligação de hidrogênio entre si. Sobra D: II faz ligação de hidrogênio, e I, só dipolo-dipolo. Com forças mais intensas, a ebulição de II ocorre em temperatura maior. \n\nAnálise dimensional\n M(C₃H₆O) = 3 · 12 + 6 · 1 + 16 = 58 g/mol; M(C₃H₈O) = 3 · 12 + 8 · 1 + 16 = 60 g/mol. O 2 [H] soma 2 · 1 g/mol = 2 g/mol. \n\nRazão e proporção\n 60 ÷ 58 ≈ 1,03: as massas diferem só 3%. Já as temperaturas de ebulição, em kelvin, vão de ≈ 321 K (propanal) para ≈ 370 K (propan-1-ol): 370 ÷ 321 ≈ 1,15, isto é, +15%. Se a massa quase não muda e a ebulição sobe tanto, o fator decisivo é a interação entre as moléculas. \n\nSacada matemática\n Conte os H: de C₃H₆O para C₃H₈O entram exatamente 2 H, a assinatura da redução de aldeído a álcool. Regra de bolso: mesmo número de carbonos e massas parecidas, ferve mais alto quem tem OH. Resposta: D",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q044.webp"
    },
    {
     "number": 45,
@@ -14415,7 +14441,8 @@
     ],
     "answer": 3,
     "explanation": "Lógica\n 1 mol de ácido (138 g) gera 1 mol de aspirina (180 g): a massa de produto é cerca de 1,3 vez a de ácido puro. Com pouco mais de 55 g de ácido puro, saem entre 55 g e 80 g de aspirina; em comprimidos de 0,5 g, isso dá entre 110 e 160 unidades. Só D cabe nessa faixa. \n\nAnálise dimensional\n Massas molares: C7H6O3 = 84 + 6 + 48 = 138 g/mol; C9H8O4 = 108 + 8 + 64 = 180 g/mol. 69 g × 0,80 = 55,2 g de ácido puro; 55,2 g ÷ 138 g/mol = 0,40 mol (g ÷ g/mol = mol). 0,40 mol × 180 g/mol = 72 g de aspirina; 72 g ÷ 0,5 g/comprimido = 144 comprimidos. \n\nRegra de três\n 138 g de ácido —— 180 g de aspirina 55,2 g —— m → m = 72 g 1 comprimido —— 0,5 g x —— 72 g → x = 144 comprimidos \n\nSacada matemática\n 69 é a metade de 138: sem impurezas seriam 0,5 mol; com 80%, 0,4 mol. Depois, 0,4 × 180 = 72 e 72 ÷ 0,5 = 72 × 2 = 144. Os distratores denunciam atalhos: 180 esquece a pureza (90 g → 180 comprimidos), 90 é a massa sem pureza, 72 é a massa em gramas e 36 divide por 2 em vez de multiplicar. Resposta: D\n\nAtenção: O original não traz massas molares nem diz se a reação é completa; foram acrescentados H = 1, C = 12, O = 16 e “reação completa”, premissas da própria resolução de origem.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q049.webp"
    },
    {
     "number": 50,
@@ -14990,7 +15017,8 @@
     ],
     "answer": 1,
     "explanation": "Lógica\n Comece pelas afirmativas mais fáceis de derrubar. I: II (coluna 18 do 1º período) e VII (coluna 18 do 4º período) são gases nobres; halogênio é a coluna 17, onde está o III → I falsa: caem C e D. II: o elemento I está na coluna 1, mas é o hidrogênio, que não é metal alcalino — e a regra da oficina diz que a casa isolada do alto da 1ª coluna não conta como membro de família. Ele não forma família com IV e IX → II falsa: caem também A e E. Só resta B (III e IV); vale confirmar as duas. \n\nRazão e proporção\n No bloco d, coluna e número de elétrons d andam juntos, um a um: coluna 3 → d1, coluna 4 → d2, …, coluna 8 → d6 (elétrons d = coluna − 2). X está no 6º período e na coluna 8: subnível (6 − 1)d = 5d, com 6 elétrons → termina em 5d6 (III correta). IV, V, VI e VII estão todos na 4ª linha, isto é, no 4º período (IV correta). \n\nSacada matemática\n Prova pelo número atômico: gás nobre anterior (Z = 54) + 6s2 (2) + 4f14 (14) + 5d6 (6) = 76, o ósmio, que fica de fato na coluna 8. Resposta: B\n\nAtenção: Sem convenção, quem conta o hidrogênio no grupo 1 acharia II verdadeira (e marcaria E). Por isso o contexto fixa a regra da oficina — a casa isolada no alto da 1ª coluna não integra nenhuma família —, o mesmo critério do gabarito original.",
-    "subject": "Química"
+    "subject": "Química",
+    "image": "/edcley/revisao-2026-quimica-q086.webp"
    },
    {
     "number": 87,

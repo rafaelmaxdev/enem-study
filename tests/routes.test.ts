@@ -5,9 +5,16 @@ import {lessons,nextLesson,syncJourneyCompletion} from '../src/journey';
 import {initialState} from '../src/seed';
 import {splitMath} from '../src/math-text';
 test('endereços abrem páginas, assuntos e abas diretamente',()=>{
- for(const page of ['contents','study','library','performance','settings','sas','sasPractice','sasExams','edcleyExams'] as const){const r={page,topic:null,tab:'learn' as const};assert.deepEqual(readRoute(routePath(r)),r);}
+ for(const page of ['contents','study','library','performance','settings','sas','sasPractice','sasExams','edcleyExams','officialExams'] as const){const r={page,topic:null,tab:'learn' as const};assert.deepEqual(readRoute(routePath(r)),r);}
  for(const lesson of lessons)for(const tab of ['learn','summary','practice'] as const){const r={page:'contents' as const,topic:lesson.topic,tab};assert.deepEqual(readRoute(routePath(r)),r);}
  assert.equal(readRoute('/jornada/inexistente').topic,null);
+});
+test('link compartilhado do Edcley identifica o caderno e a questão',()=>{
+ const route={page:'edcleyExams',topic:null,tab:'learn',edcleyQuestion:{examId:'apostas-2026-parte-1',number:4}} as const;
+ const address=routePath(route);
+ assert.equal(address,'/simulados-edcley/apostas-2026-parte-1/4');
+ assert.deepEqual(readRoute(address),route);
+ assert.equal(readRoute('/simulados-edcley/apostas-2026-parte-1/0').edcleyQuestion,undefined);
 });
 test('preços em reais permanecem texto e fórmulas continuam separadas',()=>{
  const prices='A simples custa R$ 12 e a estampada R$ 18. Total R$ 222.';

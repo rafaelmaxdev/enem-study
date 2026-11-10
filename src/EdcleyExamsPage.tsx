@@ -1,12 +1,13 @@
 import {useRef,useState} from 'react';
-import {ArrowLeft,ArrowRight,Check,ChevronDown,CircleHelp,ExternalLink} from 'lucide-react';
+import {ArrowLeft,ArrowRight,Check,ChevronDown,CircleHelp,ExternalLink,Share2} from 'lucide-react';
 import {subjectIcons} from './components/subject-icons';
 import {Button,Card} from './components/ui';
 import {letters,type State} from './domain';
 import {edcleyChannel,edcleyExams} from './edcley-exams';
 import {assetURL} from './hosting';
+import {routePath,type EdcleyQuestionRoute} from './routes';
 
-type Props = {state:State; update:(change:(state:State)=>State)=>void; onZoom:(src:string)=>void};
+type Props = {state:State; update:(change:(state:State)=>State)=>void; onZoom:(src:string)=>void; sharedQuestion?:EdcleyQuestionRoute; onLeaveSharedQuestion:()=>void};
 
 const resolutionSubheadings=new Set([
  'Lógica','Análise dimensional','Razão e proporção','Regra de três',
@@ -35,13 +36,14 @@ function ExamStatus({result,total}:{result:ReturnType<typeof resultFor>;total:nu
  return null;
 }
 
-export default function EdcleyExamsPage({state,update,onZoom}:Props){
+export default function EdcleyExamsPage({state,update,onZoom,sharedQuestion,onLeaveSharedQuestion}:Props){
  const picker=useRef<HTMLDetailsElement>(null);
  const pickerTrigger=useRef<HTMLElement>(null);
  const reader=state.edcleyExamReader;
- const exam=edcleyExams.find(item=>item.id===reader?.currentExam)??edcleyExams[0];
+ const sharedExam=edcleyExams.find(item=>item.id===sharedQuestion?.examId&&item.questions.some(q=>q.number===sharedQuestion.number));
+ const exam=sharedExam??edcleyExams.find(item=>item.id===reader?.currentExam)??edcleyExams[0];
  const progress=reader?.exams[exam.id];
- const current=exam.questions.findIndex(question=>question.number===progress?.current);
+ const current=exam.questions.findIndex(question=>question.number===(sharedExam?sharedQuestion?.number:progress?.current));
  const index=Math.max(0,current);
  const question=exam.questions[index];
  const response=progress?.responses[question.number];
@@ -54,6 +56,7 @@ export default function EdcleyExamsPage({state,update,onZoom}:Props){
  }
 
  function go(id:string,number:number){
+  if(sharedQuestion)onLeaveSharedQuestion();
   update(s=>{
    const exams=s.edcleyExamReader?.exams;
    return {...s,edcleyExamReader:{currentExam:id,exams:{...exams,[id]:{current:number,responses:exams?.[id]?.responses??{}}}}};
@@ -121,7 +124,7 @@ export default function EdcleyExamsPage({state,update,onZoom}:Props){
    </div>
   </Card>
 
-  <EdcleyQuestion key={exam.id+':'+question.number} question={question} response={response} onSubmit={submit} onZoom={onZoom} original={!question.adapted}/>
+  <EdcleyQuestion key={exam.id+':'+question.number} exam={exam} question={question} response={response} onSubmit={submit} onZoom={onZoom} original={!question.adapted}/>
 
   <div className="section-title">
    <Button variant="outline" disabled={index===0} onClick={()=>go(exam.id,exam.questions[index-1].number)}><ArrowLeft/>Anterior</Button>
@@ -131,7 +134,8 @@ export default function EdcleyExamsPage({state,update,onZoom}:Props){
  </>;
 }
 
-function EdcleyQuestion({question,response:savedResponse,onSubmit,onZoom,original}:{
+function EdcleyQuestion({exam,question,response:savedResponse,onSubmit,onZoom,original}:{
+ exam:(typeof edcleyExams)[number];
  question:(typeof edcleyExams)[number]['questions'][number];
  response:number|undefined;
  onSubmit:(choice:number)=>void;
@@ -140,13 +144,54 @@ function EdcleyQuestion({question,response:savedResponse,onSubmit,onZoom,origina
 }){
  const [choice,setChoice]=useState<number|null>(null);
  const [editing,setEditing]=useState(false);
+ const [shareMessage,setShareMessage]=useState('');
+ const [manualShare,setManualShare]=useState('');
  const response=editing?undefined:savedResponse;
  const {image,explanationImage}=question;
+
+ async function share(includeAnswer:boolean){
+  const title=`Questão ${question.number} · ${exam.title}`;
+  const address=routePath({page:'edcleyExams',topic:null,tab:'learn',edcleyQuestion:{examId:exam.id,number:question.number}});
+  const lines=[title,question.prompt];
+  if(image)lines.push('Imagem do enunciado: '+new URL(assetURL(image),window.location.origin).href);
+  if(!question.imageOptions)lines.push(question.options.map((option,index)=>`${letters[index]}) ${option}`).join('\n'));
+  if(includeAnswer&&savedResponse!==undefined)lines.push(`Minha resposta: ${letters[savedResponse]}\nGabarito: ${letters[question.answer]}`);
+  lines.push('Abrir no ENEM Study: '+new URL(address,window.location.origin).href);
+  const text=lines.join('\n\n');
+  setShareMessage('');
+  setManualShare('');
+  try{
+   if(navigator.share){
+    await navigator.share({title,text});
+    return;
+   }
+  }catch(error){
+   if(error instanceof DOMException&&error.name==='AbortError')return;
+  }
+  try{
+   await navigator.clipboard.writeText(text);
+   setShareMessage('Questão copiada.');
+  }catch{
+   setManualShare(text);
+   setShareMessage('Selecione e copie o texto abaixo.');
+  }
+ }
+
  return <Card className="question-card edcley-question">
   <div className="section-title">
    <h2>Questão {question.number}</h2>
    <span className="tag">{question.subject}</span>
   </div>
+  <details>
+   <summary className="inline-flex items-center gap-2 text-sm font-medium"><Share2 size={16} aria-hidden="true"/>Compartilhar questão</summary>
+   <div className="inline-row mt-2">
+    <Button type="button" variant="outline" size="sm" onClick={()=>void share(false)}>Só a questão</Button>
+    <Button type="button" variant="outline" size="sm" disabled={savedResponse===undefined} onClick={()=>void share(true)}>Com minha resposta e gabarito</Button>
+   </div>
+   {savedResponse===undefined&&<p className="small muted">Confirme sua resposta para compartilhar com gabarito.</p>}
+   <p role="status" className="small muted">{shareMessage}</p>
+   {manualShare&&<textarea className="text-input" rows={5} aria-label="Texto para compartilhar" value={manualShare} readOnly onFocus={event=>event.currentTarget.select()}/>}
+  </details>
   <p className="small muted">{original?'Questão':'Questão adaptada'}{question.sourceNumber&&' '+question.sourceNumber} da página {question.page} do PDF.</p>
   {image
    ? <><p className="sr-only">{question.prompt}</p><button type="button" className="question-picture-button" onClick={()=>onZoom(image)} aria-label="Ampliar enunciado">
