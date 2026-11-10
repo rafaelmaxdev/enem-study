@@ -38,7 +38,10 @@ test('as postagens do recorte têm um caderno por material e não duplicam a Par
  const catalog=edcleyExams;
  assert.equal(catalog.length,19);
  assert.equal(catalog.reduce((total,exam)=>total+exam.questions.length,0),1364);
- assert.equal(catalog.find(exam=>exam.id==='apostas-2026-parte-15')?.title.includes('Partes 3 e 15'),true);
+ assert.deepEqual(catalog.slice(0,4).map(exam=>exam.id),[
+  'apostas-2026-parte-1','apostas-2026-parte-2','apostas-2026-parte-15','apostas-2026-parte-4',
+ ]);
+ assert.equal(catalog[2].title,'Apostas ENEM 2026 · Parte 3 · Matemática e Natureza');
  const review=catalog.find(exam=>exam.id==='revisao-2026-geral')!;
  assert.equal(review.questions.find(q=>q.number===75)?.sourceNumber,15);
  assert.equal(review.questions.find(q=>q.number===75)?.answer,4);

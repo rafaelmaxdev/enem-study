@@ -21,5 +21,8 @@ type Question = {
 };
 type Exam = {id:string; title:string; questions:Question[]};
 
+// Keep the original ID for saved progress, but order the duplicate as Parte 3.
+const sortKey=(id:string)=>id==='apostas-2026-parte-15'?'apostas-2026-parte-3':id;
+
 export const edcleyExams:Exam[]=([...apostas2026,...telegram2026,...revisoes2026] as Exam[])
- .sort((a,b)=>a.id.localeCompare(b.id,'pt-BR',{numeric:true}));
+ .sort((a,b)=>sortKey(a.id).localeCompare(sortKey(b.id),'pt-BR',{numeric:true}));
