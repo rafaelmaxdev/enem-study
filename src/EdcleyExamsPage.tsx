@@ -1,5 +1,6 @@
 import {useState} from 'react';
-import {ArrowLeft,ArrowRight,Check,ExternalLink} from 'lucide-react';
+import {ArrowLeft,ArrowRight,Check,CircleHelp,ExternalLink} from 'lucide-react';
+import {subjectIcons} from './components/subject-icons';
 import {Button,Card,Select} from './components/ui';
 import {letters,type State} from './domain';
 import {edcleyChannel,edcleyExams} from './edcley-exams';
@@ -49,7 +50,7 @@ export default function EdcleyExamsPage({state,update,onZoom}:Props){
   update(s=>{
    const exams=s.edcleyExamReader?.exams;
    const responses=exams?.[exam.id]?.responses??{};
-   if(responses[question.number]!==undefined)return s;
+   if(responses[question.number]===selected)return s;
    const progress={current:question.number,responses:{...responses,[question.number]:selected}};
    return {...s,edcleyExamReader:{currentExam:exam.id,exams:{...exams,[exam.id]:progress}}};
   });
@@ -81,9 +82,12 @@ export default function EdcleyExamsPage({state,update,onZoom}:Props){
     {exam.questions.map(item=>{
      const selected=progress?.responses[item.number];
      const result=selected===undefined?'':selected===item.answer?'correct':'wrong';
+     const SubjectIcon=subjectIcons[item.subject]??CircleHelp;
      return <button key={item.number} type="button" className={'exam-number '+result+(item.number===question.number?' current':'')}
       aria-label={'Questão '+item.number+(result==='correct'?', correta':result==='wrong'?', incorreta':'')}
+      title={SubjectIcon===CircleHelp?'Matéria não identificada':item.subject}
       aria-current={item.number===question.number?'step':undefined} onClick={()=>go(exam.id,item.number)}>
+      <SubjectIcon className="exam-subject-icon" aria-hidden="true"/>
       {item.number}{result&&<span aria-hidden="true">{result==='correct'?'✓':'!'}</span>}
      </button>;
     })}
@@ -100,7 +104,7 @@ export default function EdcleyExamsPage({state,update,onZoom}:Props){
  </>;
 }
 
-function EdcleyQuestion({question,response,onSubmit,onZoom,original}:{
+function EdcleyQuestion({question,response:savedResponse,onSubmit,onZoom,original}:{
  question:(typeof edcleyExams)[number]['questions'][number];
  response:number|undefined;
  onSubmit:(choice:number)=>void;
@@ -108,6 +112,8 @@ function EdcleyQuestion({question,response,onSubmit,onZoom,original}:{
  original:boolean;
 }){
  const [choice,setChoice]=useState<number|null>(null);
+ const [editing,setEditing]=useState(false);
+ const response=editing?undefined:savedResponse;
  const {image,explanationImage}=question;
  return <Card className="question-card edcley-question">
   <div className="section-title">
@@ -131,11 +137,24 @@ function EdcleyQuestion({question,response,onSubmit,onZoom,original}:{
    })}
   </fieldset>
   {response===undefined
-   ? <Button disabled={choice===null} onClick={()=>{if(choice!==null)onSubmit(choice);}}>Confirmar resposta<Check/></Button>
+   ? <div className={editing?'inline-row':'grid'}>
+     <Button disabled={choice===null||choice===savedResponse} onClick={()=>{
+      if(choice===null)return;
+      onSubmit(choice);
+      setEditing(false);
+     }}>{editing?'Salvar alteração':'Confirmar resposta'}<Check/></Button>
+     {editing&&<Button variant="outline" onClick={()=>setEditing(false)}>Cancelar</Button>}
+    </div>
    : <>
      <div className={'feedback '+(response===question.answer?'':'wrong')} role="status">
       <h3>{response===question.answer?'Resposta correta':'Você marcou '+letters[response]}</h3>
       <p><strong>Alternativa {letters[question.answer]}</strong>{!question.imageOptions&&' · '+question.options[question.answer]}</p>
+     </div>
+     <div>
+      <Button variant="outline" onClick={()=>{
+       setChoice(response);
+       setEditing(true);
+      }}>Alterar resposta</Button>
      </div>
      <section className="grid gap-3 border-t border-border pt-5" aria-labelledby="edcley-resolution">
       <h3 id="edcley-resolution">Resolução comentada</h3>

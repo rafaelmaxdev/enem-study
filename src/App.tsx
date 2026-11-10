@@ -1,6 +1,7 @@
 import {browserOnly,assetURL,currentPath} from './hosting';
 import {lazy,Suspense,useEffect,useMemo,useRef,useState,type ReactNode} from 'react';
-import {BookOpen,Library,ChartNoAxesCombined,ListChecks,Settings,Sun,Moon,ArrowRight,ArrowLeft,Calculator,Atom,FlaskConical,Dna,Check,Lightbulb,RotateCcw,LoaderCircle,ChevronRight,ShieldCheck,Download,Upload,ExternalLink,Flag,X,Bookmark} from 'lucide-react';
+import {BookOpen,Library,ChartNoAxesCombined,ListChecks,Settings,Sun,Moon,ArrowRight,ArrowLeft,Check,Lightbulb,RotateCcw,LoaderCircle,ChevronRight,ShieldCheck,Download,Upload,ExternalLink,Flag,X,Bookmark} from 'lucide-react';
+import {subjectIcons as icons} from './components/subject-icons';
 import katex from 'katex';
 import {Button,Card,Select} from './components/ui';
 import {subjects,topics,letters,availableQuestion,selectQuestions,scoredAttempts,recordAnswer,annulQuestion,type State,type Question,type Step,type Subject,type Session} from './domain';
@@ -28,7 +29,6 @@ function Modal({children,onClose,wide}:{children:ReactNode;onClose:()=>void;wide
   {children}
  </dialog>;
 }
-const icons={Matemática:Calculator,Física:Atom,Química:FlaskConical,Biologia:Dna};
 const EdcleyExamsPage=lazy(()=>import('./EdcleyExamsPage'));
 const nav=[['contents','Jornada',ListChecks],['study','Questões',BookOpen],['sasExams','Simulados SAS',BookOpen],['edcleyExams','Simulados do Edcley',BookOpen],['library','Biblioteca',Library],['performance','Desempenho',ChartNoAxesCombined]] as const;
 export default function App(){

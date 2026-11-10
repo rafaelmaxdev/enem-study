@@ -23,6 +23,7 @@
 .exam-number-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(48px,1fr));gap:7px}
 .exam-number{position:relative;min-height:40px;border:1px solid var(--border);border-radius:9px;background:var(--card);color:inherit;font-size:12px}
 .exam-number span{position:absolute;right:4px;top:1px;font-size:10px}
+.exam-number .exam-subject-icon{position:absolute;left:4px;bottom:3px;width:11px;height:11px}
 .exam-number.correct{background:var(--soft-green);color:var(--green)}
 .exam-number.wrong{background:var(--soft-red);color:var(--red)}
 .exam-number.reviewed,.exam-number.answered{background:var(--muted)}
