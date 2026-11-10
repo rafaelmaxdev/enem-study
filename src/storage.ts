@@ -1,6 +1,7 @@
 import {browserOnly,assetBase} from './hosting';
 import {readBrowserProfile,commitBrowserProfile} from './browser-store';
 import {assertBackup,type State} from './domain';
+import {mergeEdcleyProgress} from './edcley-progress';
 import {initialState} from './seed';
 const dbPromise=new Promise<IDBDatabase>((resolve,reject)=>{const r=indexedDB.open(browserOnly?'enem-study-pages:'+assetBase:'enem-study',1);r.onupgradeneeded=()=>{r.result.createObjectStore('state');r.result.createObjectStore('pdfs');};r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});
 async function read<T>(store:string,key:string):Promise<T|undefined>{const db=await dbPromise;return new Promise((resolve,reject)=>{const r=db.transaction(store).objectStore(store).get(key);r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});}
@@ -17,14 +18,14 @@ async function profileRequest(data?:unknown){
 function acceptProfile(p:Profile){revision=p.revision;documents=p.documents;return p.state;}
 async function legacyPDFs(){const db=await dbPromise;return new Promise<{id:string;file:File}[]>((resolve,reject)=>{const tx=db.transaction('pdfs');const store=tx.objectStore('pdfs');const keys=store.getAllKeys(),values=store.getAll();tx.oncomplete=()=>resolve(keys.result.map((key,i)=>({id:String(key),file:values.result[i]})));tx.onerror=()=>reject(tx.error);});}
 export async function loadState(){
- if(browserOnly){const p=await readBrowserProfile(await dbPromise,initialState);revision=p.revision;return p.state;}
+ if(browserOnly){const p=await readBrowserProfile(await dbPromise,initialState);revision=p.revision;return mergeEdcleyProgress(p.state);}
  let p=(await profileRequest()).profile as Profile|null;
  if(!p||!p.migratedClients.includes(clientId)){
   const legacy=await read<State>('state','current'),docs:Record<string,DocumentData>={};
   for(const {id,file}of await legacyPDFs())docs[id]={name:file.name||'documento.pdf',dataURL:await blobToBase64(new Blob([file],{type:'application/pdf'}))};
   p=(await profileRequest({mode:'migrate',clientId,state:legacy||initialState(),documents:docs})).profile;
  }
- const state=acceptProfile(p!);await write('state','current',state).catch(()=>{});return state;
+ const state=mergeEdcleyProgress(acceptProfile(p!));await write('state','current',state).catch(()=>{});return state;
 }
 function enqueue(fn:()=>Promise<void>){const next=pending.catch(()=>{}).then(fn);pending=next;return next;}
 async function persist(state?:State,docs?:Record<string,DocumentData>,replace=false){
@@ -45,6 +46,7 @@ export async function exportBackup(state:State){const docs:Record<string,{name:s
 export async function importBackup(file:File){
  if(file.size>200*1024*1024)throw new Error('O backup excede 200 MB.');
  const data=JSON.parse(await file.text());if(data.format!=='enem-study')throw new Error('Selecione um backup do ENEM Study.');assertBackup(data.state);
+ const state=mergeEdcleyProgress(data.state);
  const documents:{id:string;file:File}[]=[];
  for(const [id,raw]of Object.entries(data.documents||{})){
   if(!/^[a-zA-Z0-9_-]{1,100}$/.test(id))throw new Error('Identificador de PDF inválido no backup.');
@@ -56,8 +58,8 @@ export async function importBackup(file:File){
  }
  // The single local file commits state and PDFs together before updating the browser cache.
  const docs=Object.fromEntries(await Promise.all(documents.map(async d=>[d.id,{name:d.file.name,dataURL:await blobToBase64(d.file)}] as const)));
- await enqueue(()=>persist(data.state,docs,true));
- if(browserOnly)return data.state as State;
- const db=await dbPromise;await new Promise<void>((resolve,reject)=>{const tx=db.transaction(['state','pdfs'],'readwrite');tx.objectStore('pdfs').clear();for(const d of documents)tx.objectStore('pdfs').put(d.file,d.id);tx.objectStore('state').put(data.state,'current');tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error);}).catch(()=>{});
- return data.state as State;
+ await enqueue(()=>persist(state,docs,true));
+ if(browserOnly)return state;
+ const db=await dbPromise;await new Promise<void>((resolve,reject)=>{const tx=db.transaction(['state','pdfs'],'readwrite');tx.objectStore('pdfs').clear();for(const d of documents)tx.objectStore('pdfs').put(d.file,d.id);tx.objectStore('state').put(state,'current');tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error);}).catch(()=>{});
+ return state;
 }

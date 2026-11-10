@@ -21,6 +21,18 @@
 /* Original exam reader */
 .exam-progress{width:100%;height:7px;accent-color:var(--primary)}
 .exam-number-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(48px,1fr));gap:7px}
+.edcley-exam-picker{border:1px solid var(--border);border-radius:10px;color:var(--foreground)}
+.edcley-exam-picker summary{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:44px;padding:10px 13px;list-style:none;font-size:13px;border-radius:9px}
+.edcley-exam-picker summary::-webkit-details-marker{display:none}
+.edcley-exam-picker summary svg{flex-shrink:0}
+.edcley-exam-picker[open] summary svg{transform:rotate(180deg)}
+.edcley-exam-options{display:grid;max-height:min(45vh,390px);overflow:auto;border-top:1px solid var(--border);padding:4px}
+.edcley-exam-options button{border:0;border-radius:7px;padding:8px 9px;background:transparent;color:inherit;text-align:left;font-size:13px}
+.edcley-exam-options button:hover,.edcley-exam-options button[aria-current]{background:var(--muted)}
+.edcley-exam-options button:focus-visible,.edcley-exam-picker summary:focus-visible{outline:2px solid var(--primary);outline-offset:-2px}
+.edcley-exam-status{display:table;margin-top:4px;padding:2px 6px;border-radius:5px;font-size:11px;font-weight:600}
+.edcley-exam-status.complete{background:var(--soft-green);color:var(--green)}
+.edcley-exam-status.ongoing{background:color-mix(in srgb,var(--gold) 18%,var(--card));color:color-mix(in srgb,var(--gold) 65%,var(--foreground))}
 .exam-number{position:relative;min-height:40px;border:1px solid var(--border);border-radius:9px;background:var(--card);color:inherit;font-size:12px}
 .exam-number span{position:absolute;right:4px;top:1px;font-size:10px}
 .exam-number .exam-subject-icon{position:absolute;left:4px;bottom:3px;width:11px;height:11px}
