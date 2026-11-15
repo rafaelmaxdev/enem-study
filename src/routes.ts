@@ -1,10 +1,10 @@
 import {pageURL} from './hosting';
 import {lessons} from './journey';
-export type Page='study'|'library'|'performance'|'contents'|'settings'|'sas'|'sasPractice'|'sasExams'|'edcleyExams'|'officialExams';
+export type Page='study'|'library'|'performance'|'contents'|'settings'|'sas'|'sasPractice'|'sasExams'|'edcleyExams'|'officialExams'|'mathEbook';
 export type LessonTab='learn'|'summary'|'practice';
 export type EdcleyQuestionRoute={examId:string;number:number};
 export type Route={page:Page;topic:string|null;tab:LessonTab;edcleyQuestion?:EdcleyQuestionRoute};
-const paths:Record<Page,string>={contents:'/jornada',study:'/questoes',library:'/biblioteca',performance:'/desempenho',settings:'/preferencias',sas:'/sas',sasPractice:'/sas/praticar',sasExams:'/simulados-sas',edcleyExams:'/simulados-edcley',officialExams:'/provas-enem'};
+const paths:Record<Page,string>={contents:'/jornada',study:'/questoes',library:'/biblioteca',performance:'/desempenho',settings:'/preferencias',sas:'/sas',sasPractice:'/sas/praticar',sasExams:'/simulados-sas',edcleyExams:'/simulados-edcley',officialExams:'/provas-enem',mathEbook:'/ebook-matematica'};
 const tabs:Record<LessonTab,string>={learn:'aprender',summary:'resumo',practice:'praticar'};
 export const slug=(text:string)=>text.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 export function routePath(route:Route){

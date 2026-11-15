@@ -1,6 +1,7 @@
 import {useEffect,useRef,useState} from 'react';
-import {ArrowLeft,ArrowRight,Check,ExternalLink} from 'lucide-react';
+import {ArrowLeft,ArrowRight,ExternalLink} from 'lucide-react';
 import {Steps} from './App';
+import ExamAnswer from './components/ExamAnswer';
 import {Button,Card,Select} from './components/ui';
 import {letters,type State,type Step} from './domain';
 import {assetURL} from './hosting';
@@ -132,7 +133,7 @@ export default function OfficialExamsPage({state,update,onZoom}:{
    <button type="button" className="question-picture-button" onClick={()=>onZoom(image)} aria-label="Ampliar página da prova">
     <img className="exam-pdf-image" src={assetURL(image)} alt={`Página ${question.page} do caderno azul com a questão ${question.number}. O PDF original permite selecionar o texto.`}/>
    </button>
-   <OfficialAnswer key={id+':'+question.number} answer={question.answer} response={response}
+   <ExamAnswer key={id+':'+question.number} answer={question.answer} response={response}
     onSubmit={choice=>save(id,question.number,choice)}/>
    {(question.answer==='-'?Boolean(solution):response!==undefined)&&<OfficialExplanation key={'explanation:'+id+':'+question.number}
     year={exam.year} number={question.number} answer={question.answer} explanation={explanation} solution={solution}/>}
@@ -195,20 +196,4 @@ function OfficialExplanation({year,number,answer,explanation,solution}:{
   </a>}
   {year===2025&&<p className="small muted">A resolução usa o caderno amarelo, em que a mesma questão pode ter outro número.</p>}
  </section>;
-}
-
-function OfficialAnswer({answer,response,onSubmit}:{answer:string;response?:number;onSubmit:(choice:number)=>void}){
- const [choice,setChoice]=useState<number|null>(null);
- if(answer==='-')return <p className="notice">Questão anulada pelo Inep. Ela fica fora da contagem de respostas e acertos.</p>;
- return <>
-  <fieldset className="exam-answers" disabled={response!==undefined}>
-   <legend className="sr-only">Sua resposta</legend>
-   {letters.map((letter,i)=><label key={letter} className={`exam-answer ${(response??choice)===i?'selected':''}`}>
-    <input type="radio" name="official-exam-answer" checked={(response??choice)===i} onChange={()=>setChoice(i)}/>{letter}
-   </label>)}
-  </fieldset>
-  {response===undefined
-   ? <Button disabled={choice===null} onClick={()=>{if(choice!==null)onSubmit(choice);}}>Confirmar resposta<Check/></Button>
-   : <p className={'feedback '+(letters[response]===answer?'':'wrong')} role="status">Você marcou {letters[response]}. Gabarito: {answer}.</p>}
- </>;
 }

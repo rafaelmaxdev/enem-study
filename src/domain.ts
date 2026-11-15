@@ -21,7 +21,7 @@ export type JourneyProgress={read?:boolean;summary?:boolean;reviewedAt?:string;c
 export type ExamResponse={selected:number;answeredAt:string;reviewed?:boolean};
 export type ExamProgress={current:number;proofPage:number;updatedAt:string;responses:Record<string,ExamResponse>};
 export type EdcleyExamProgress={current:number;responses:Record<string,number>};
-export type State = {version:1;questions:Question[];attempts:Attempt[];checklist:Record<string,string>;sources:Source[];session:Session|null;sasSession?:Session|null;sasReviews?:Record<string,{attemptId:string;reviewedAt:string;resolved:boolean}>;sasExamReader?:{currentExam:string;exams:Record<string,ExamProgress>};edcleyExamReader?:{currentExam:string;exams:Record<string,EdcleyExamProgress>};officialExamReader?:{currentExam:string;exams:Record<string,EdcleyExamProgress>};historicalNote:string;journey?:{currentTopic:string;progress:Record<string,JourneyProgress>}};
+export type State = {version:1;questions:Question[];attempts:Attempt[];checklist:Record<string,string>;sources:Source[];session:Session|null;sasSession?:Session|null;sasReviews?:Record<string,{attemptId:string;reviewedAt:string;resolved:boolean}>;sasExamReader?:{currentExam:string;exams:Record<string,ExamProgress>};edcleyExamReader?:{currentExam:string;exams:Record<string,EdcleyExamProgress>};officialExamReader?:{currentExam:string;exams:Record<string,EdcleyExamProgress>};mathEbookReader?:{currentExam:string;exams:Record<string,EdcleyExamProgress>};historicalNote:string;journey?:{currentTopic:string;progress:Record<string,JourneyProgress>}};
 export type Session = {id:string;questionIds:string[];answers:Record<string,number>;submitted:Record<string,boolean>;help:Record<string,Attempt['help']>;index:number;finished:boolean;scope?:Subject|'Todas'};
 export const letters=['A','B','C','D','E'];
 const safeURL=(value:unknown)=>{if(typeof value!=='string')return false;try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password;}catch{return false;}};
@@ -105,7 +105,7 @@ export function assertBackup(value:unknown):asserts value is State{
    for(const [n,a] of Object.entries(p.responses))if(!/^(9[1-9]|1[0-7][0-9]|180)$/.test(n)||!a||!Number.isInteger(a.selected)||a.selected<0||a.selected>4||!date(a.answeredAt)||a.reviewed!==undefined&&typeof a.reviewed!=='boolean')throw new Error('O acompanhamento contém uma resposta inválida.');
   }
  }
- for(const [r,label] of [[s.edcleyExamReader,"dos simulados do Edcley"],[s.officialExamReader,"das provas do ENEM"]] as const){
+ for(const [r,label] of [[s.edcleyExamReader,"dos simulados do Edcley"],[s.officialExamReader,"das provas do ENEM"],[s.mathEbookReader,"do e-book de Matemática"]] as const){
   if(r===undefined)continue;
   const isExamId=(id:unknown)=>typeof id==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)&&id.length<=80;
   const isRecord=(value:unknown)=>!!value&&typeof value==='object'&&!Array.isArray(value);
